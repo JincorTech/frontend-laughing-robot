@@ -69,14 +69,7 @@ export default {
       },
       {
         test: isomorphicPlugin.regular_expression('images'),
-        use: [
-          {
-            loader: 'url-loader',
-            options: {
-              limit: 10240
-            }
-          }
-        ]
+        loader: 'file-loader'
       },
       {
         // Load fonts using file-loader

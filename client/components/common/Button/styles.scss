@@ -1,0 +1,24 @@
+.button {
+  width: 225px;
+  height: 50px;
+  cursor: pointer;
+  margin: 0;
+  outline: none;
+  background-color: #ccc;
+  color: #444;
+  font: normal 20px Roboto;
+  border: solid 2px #ccc;
+  border-radius: 100px;
+
+  &.primary {
+    background-color: #0070e0;
+    color: #fff;
+    border: solid 2px #0070e0;
+  }
+
+  &.secondary {
+    background-color: #fff;
+    color: #0070e0;
+    border: solid 2px #0070e0;
+  }
+}

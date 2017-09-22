@@ -1,0 +1,83 @@
+@use postcss-clearfix;
+@use postcss-inline-svg;
+
+.about {
+  width: 100%;
+  padding: 80px 0;
+  background-color: #fafafa;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  clear: fix;
+}
+
+.what {
+  width: 700px;
+  float: left;
+  margin-right: 120px;
+}
+
+.resourses {
+  width: 320px;
+  float: right;
+}
+
+.title {
+  font: bold 35px Roboto;
+  color: #444;
+  margin: 0 0 5px 0;
+  letter-spacing: -0.1px;
+}
+
+.subtitle {
+  font: normal 20px Roboto;
+  color: #adadad;
+  margin: 0;
+  letter-spacing: -0.1px;
+}
+
+.content {
+  margin-top: 50px;
+}
+
+.text {
+  font: normal 16px/24px Roboto;
+  color: #444;
+}
+
+.links {
+  margin: -9px 0;
+
+  & a {
+    cursor: pointer;
+    position: relative;
+    font: normal 18px Roboto;
+    letter-spacing: -0.1px;
+    color: #0070e0;
+    display: inline-block;
+    margin: 9px 0;
+    padding: 0 25px 0 0;
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 5px;
+      right: 10px;
+      display: block;
+      height: 11px;
+      width: 16px;
+      background-image: svg-load('./svg/linkArrow.svg');
+      opacity: 0;
+      transition: 0.1s linear all;
+    }
+
+    &:hover {
+      &::after {
+        opacity: 1;
+        right: 0;
+      }
+    }
+  }
+}

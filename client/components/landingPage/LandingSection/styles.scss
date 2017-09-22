@@ -1,0 +1,65 @@
+.landing {
+  min-height: 100vh;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.inner {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font: bold 50px Roboto;
+  letter-spacing: -0.2px;
+  text-align: center;
+  color: #444;
+}
+
+.description {
+  max-width: 560px;
+  margin: 0 auto;
+  font: normal 20px Roboto;
+  letter-spacing: -0.1px;
+  text-align: center;
+  color: #444;
+}
+
+.buttons {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.socials {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.social {
+  width: 30px;
+  height: 31px;
+  margin: 0 15px;
+  display: inline-block;
+  opacity: 0.15;
+  transition: .1s linear opacity;
+
+  & > img {
+    width: 100%;
+    height: 100%;
+  }
+
+  &:hover {
+    opacity: 0.3;
+  }
+}
