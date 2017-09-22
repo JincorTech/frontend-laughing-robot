@@ -14,7 +14,7 @@ import render from './render';
 import routes from 'routes';
 import configureStore from 'redux/configureStore';
 
-import App from 'containers/RootContainer';
+import App from 'containers/app/RootContainer';
 
 const i18nextMiddleware = require('i18next-express-middleware');
 

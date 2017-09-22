@@ -1,0 +1,47 @@
+@use postcss-short;
+@use postcss-inline-svg;
+
+.popup {
+  width: 100%;
+  min-height: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #fbfbfb;
+  z-index: 999;
+  overflow: scroll;
+  padding: 150px 0 0;
+}
+
+.head {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #fbfbfb;
+  width: 100%;
+  z-index: 1;
+}
+
+.title {
+  font: black 50px Roboto;
+  color: #333;
+  margin: 50px 0 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.close {
+  position: absolute;
+  top: 54px;
+  right: 125px;
+  background-image: svg-load('./svg/close.svg');
+  size: 48px;
+  background-size: contain;
+  cursor: pointer;
+  z-index: 150;
+}

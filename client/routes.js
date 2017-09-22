@@ -1,7 +1,7 @@
 'use strict';
 
-import About from './containers/About';
-import Home from './containers/Home';
+import About from './containers/app/About';
+import LandingPage from './containers/app/LandingPage';
 
 const dupeRoutes = (routes) => {
   return routes.reduce((acc, route) => {
@@ -16,7 +16,7 @@ const routes = [
   {
     path: '',
     exact: true,
-    component: Home
+    component: LandingPage
   },
   {
     path: 'about',

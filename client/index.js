@@ -7,10 +7,9 @@ import { I18nextProvider } from 'react-i18next';
 import { AppContainer } from 'react-hot-loader';
 import createHistory from 'history/createBrowserHistory';
 
-import App from './containers/RootContainer';
+import App from './containers/app/RootContainer';
 import configureStore from './redux/configureStore';
 import i18next from './utils/i18next/client';
-// import routes from './routes';
 
 const history = createHistory();
 
@@ -49,7 +48,7 @@ render(App);
 
 if (module.hot) {
   // We need to re-require the app.
-  module.hot.accept('./containers/RootContainer', () => {
-    render(require('./containers/RootContainer').default);
+  module.hot.accept('./containers/app/RootContainer', () => {
+    render(require('./containers/app/RootContainer').default);
   });
 }
