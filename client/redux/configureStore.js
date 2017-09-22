@@ -1,10 +1,11 @@
 import { createStore, applyMiddleware } from 'redux';
-import createSagaMiddleware from 'redux-saga';
 import { createLogger } from 'redux-logger';
+import createSagaMiddleware from 'redux-saga';
+import { routerMiddleware } from 'react-router-redux';
 import { stateTransformer } from 'redux-seamless-immutable';
 
 import rootReducer from './rootReducer';
-// import rootSaga from '../sagas/rootSaga';
+import rootSaga from '../sagas/rootSaga';
 
 const sagaMiddleware = createSagaMiddleware();
 const loggerMiddleware = createLogger({
@@ -12,8 +13,10 @@ const loggerMiddleware = createLogger({
   collapsed: true
 });
 
-const configureStoreProduction = (initialState) => {
+const configureStoreProduction = (initialState, history = null) => {
   const middlewares = [sagaMiddleware];
+
+  if (history) middlewares.push(routerMiddleware(history));
 
   const store = createStore(
     rootReducer,
@@ -21,13 +24,15 @@ const configureStoreProduction = (initialState) => {
     applyMiddleware(...middlewares)
   );
 
-  // sagaMiddleware.run(rootSaga);
+  sagaMiddleware.run(rootSaga);
 
   return store;
 };
 
-const configureStoreDev = (initialState) => {
+const configureStoreDev = (initialState, history = null) => {
   const middlewares = [sagaMiddleware, loggerMiddleware];
+
+  if (history) middlewares.push(routerMiddleware(history));
 
   const store = createStore(
     rootReducer,
@@ -42,7 +47,7 @@ const configureStoreDev = (initialState) => {
     });
   }
 
-  // sagaMiddleware.run(rootSaga);
+  sagaMiddleware.run(rootSaga);
 
   return store;
 };
