@@ -1,0 +1,106 @@
+@use postcss-short;
+@use postcss-clearfix;
+
+.crowdsale {
+  width: 100%;
+  padding: 80px 0;
+  background-color: #fff;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  clear: fix;
+}
+
+.head {
+  margin-bottom: 80px;
+}
+
+.title {
+  font: bold 35px Roboto;
+  color: #444;
+  margin: 0 0 5px 0;
+  letter-spacing: -0.1px;
+}
+
+.subtitle {
+  font: normal 20px Roboto;
+  color: #adadad;
+  margin: 0;
+  letter-spacing: -0.1px;
+}
+
+.content {
+  clear: fix;
+}
+
+.text {
+  width: 600px;
+  float: left;
+  margin-right: 170px;
+  font: normal 16px/24px Roboto;
+  color: #444;
+}
+
+.table {
+  & .row {
+    & > td {
+      font: normal 18px Roboto;
+      color: #0070e0;
+      letter-spacing: -0.1px;
+      padding: 5px 10px;
+      opacity: 0.75;
+      border-bottom: 1px solid #dadada;
+
+      &:first-child {
+        color: #444;
+        text-align: right;
+      }
+    }
+
+    &:last-child {
+      & > td {
+        border-bottom: none;
+      }
+    }
+  }
+}
+
+.distribution {
+  margin: 65px 0 0 0;
+}
+
+.distTitle {
+  font: bold 25px Roboto;
+  color: #444;
+  letter-spacing: -0.1px;
+  margin: 0 0 30px 0;
+}
+
+.distArea {
+  margin: 0 -30px;
+}
+
+.item {
+  display: inline-block;
+  text-align: center;
+  padding: 0 30px;
+  border-right: 1px solid #dadada;
+
+  &:last-child {
+    border-right: none;
+  }
+}
+
+.number {
+  font: light 30px Roboto;
+  letter-spacing: -0.1px;
+  color: #444;
+}
+
+.description {
+  font: normal 16px Roboto;
+  letter-spacing: -0.1px;
+  color: #a2a2a2;
+}
