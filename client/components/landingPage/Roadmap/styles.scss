@@ -1,0 +1,85 @@
+.roadmap {
+  width: 100%;
+  padding: 80px 0;
+  background-color: #fafafa;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  clear: fix;
+}
+
+.head {
+  margin-bottom: 80px;
+}
+
+.title {
+  font: bold 35px Roboto;
+  color: #444;
+  margin: 0 0 5px 0;
+  letter-spacing: -0.1px;
+}
+
+.subtitle {
+  font: normal 20px Roboto;
+  color: #adadad;
+  margin: 0;
+  letter-spacing: -0.1px;
+}
+
+.content {
+  margin: -50px 0;
+}
+
+.block {
+  margin: 50px 0;
+  display: inline-block;
+  width: 228px;
+  vertical-align: top;
+}
+
+.date {
+  font: normal 20px Roboto;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.what {
+  font: normal 14px/24px Roboto;
+  color: #444;
+  opacity: 0.6;
+  max-width: 190px;
+}
+
+.line {
+  height: 2px;
+  width: 100%;
+  background-color: #0070e0;
+  margin-bottom: 30px;
+}
+
+.point {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #0080c0;
+  border-radius: 50%;
+  background-color: #fff;
+  position: relative;
+  top: -9px;
+}
+
+.active {
+  composes: point;
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #0080c0;
+  }
+}

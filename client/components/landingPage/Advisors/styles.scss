@@ -1,0 +1,104 @@
+.advisors {
+  width: 100%;
+  padding: 80px 0;
+  background-color: #fff;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.head {
+  margin-bottom: 80px;
+}
+
+.title {
+  font: bold 35px Roboto;
+  color: #444;
+  margin: 0 0 5px 0;
+  letter-spacing: -0.1px;
+}
+
+.subtitle {
+  font: normal 20px Roboto;
+  color: #adadad;
+  margin: 0;
+  letter-spacing: -0.1px;
+}
+
+.slick {
+  margin: 0 -15px;
+  padding-bottom: 70px;
+}
+
+.slickItem {
+  display: inline-block;
+  margin: 0 16px;
+}
+
+:global(.slick-dots) {
+  bottom: -70px;
+
+  & > li {
+    width: auto;
+    height: auto;
+    margin: 0 5px;
+
+    & > button {
+      padding: 5px 0;
+      width: 40px;
+      height: 5px;
+
+      &:before {
+        content: '';
+        width: 40px;
+        height: 5px;
+        border-radius: 3px;
+        background-color: #444;
+        opacity: 0.1;
+        transition: 0.1s linear all;
+      }
+
+      &:hover,
+      &:active {
+        &:before {
+          opacity: 0.2;
+        }
+      }
+    }
+  }
+
+  & > :global(.slick-active) {
+    & > button {
+      &:before {
+        background-color: #0070e0;
+        opacity: 1;
+      }
+
+      &:hover,
+      &:active {
+        &:before {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+:global(.slick-prev),
+:global(.slick-next) {
+  height: 33px;
+
+  &:before {
+    display: none;
+  }
+}
+
+:global(.slick-prev) {
+  left: -50px;
+}
+
+:global(.slick-next) {
+  right: -50px;
+}

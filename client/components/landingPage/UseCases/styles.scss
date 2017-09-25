@@ -51,10 +51,13 @@
   &:hover {
     background-color: #fafafa;
   }
+}
 
-  &.active {
-    background-color: #fafafa;
-  }
+.active {
+  composes: tab;
+  background-color: #fafafa;
+  cursor: default;
+  pointer-events: none;
 }
 
 .content {

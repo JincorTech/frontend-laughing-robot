@@ -1,7 +1,14 @@
 import React from 'react';
+import { connect } from 'react-redux';
 import s from './styles.scss';
 
-const Footer = () => {
+import { openFaq } from '../../../redux/modules/common/faq';
+
+const Footer = (props) => {
+  const {
+    openFaq
+  } = props;
+
   return (
     <div className={s.footer}>
       <div className={s.container}>
@@ -9,7 +16,7 @@ const Footer = () => {
           <div className={s.head}>Product</div>
           <div className={s.content}>
             <div className={s.links}>
-              <div className={s.link}><a>FAQ</a></div>
+              <div className={s.link}><a onClick={() => openFaq()}>FAQ</a></div>
               <div className={s.link}><a>Use Cases</a></div>
               <div className={s.link}><a>Crowdsale</a></div>
               <div className={s.link}><a>Executive Team</a></div>
@@ -70,4 +77,9 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default connect(
+  () => ({}),
+  {
+    openFaq
+  }
+)(Footer);
