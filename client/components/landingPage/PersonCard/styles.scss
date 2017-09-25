@@ -1,0 +1,57 @@
+.card {
+  width: 260px;
+}
+
+.photo {
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(62deg, rgba(238, 238, 238, 0.0), rgba(105, 105, 105, 0.0) 56%, rgba(0, 0, 0, 0.25));
+}
+
+.socialNetworks {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  margin: -8px 0;
+
+  & > a {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    display: block;
+    margin: 8px 0;
+
+    & > img {
+      width: 100%;
+      opacity: 0.9;
+    }
+  }
+}
+
+.name {
+  font: normal 24px Roboto;
+  color: #444;
+  margin-top: 20px;
+}
+
+.role {
+  font: normal 14px Roboto;
+  color: #0070e0;
+  margin-top: 5px;
+}
+
+.about {
+  font: normal 14px Roboto;
+  color: #444;
+  margin-top: 15px;
+}

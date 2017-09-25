@@ -1,0 +1,53 @@
+@use postcss-clearfix;
+@use postcss-inline-svg;
+
+.community {
+  width: 100%;
+  padding: 60px 0 80px;
+  background-color: #fafafa;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  clear: fix;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 40px;
+
+  & > img {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+.title {
+  font: bold 34px Roboto;
+  color: #444;
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
+.subtitle {
+  font: normal 20px Roboto;
+  color: #7c7c7c;
+  margin: 0 0 50px 0;
+  text-align: center;
+}
+
+.form {
+  text-align: center;
+}
+
+.input {
+  display: inline-block;
+  width: 280px;
+  margin-right: 20px;
+}
+
+.button {
+  width: 225px;
+  display: inline-block;
+}

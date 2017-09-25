@@ -1,0 +1,71 @@
+@use postcss-short;
+@use postcss-clearfix;
+
+.cases {
+  width: 100%;
+  padding: 80px 0;
+  background-color: #fff;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  clear: fix;
+}
+
+.head {
+  margin-bottom: 80px;
+}
+
+.title {
+  font: bold 35px Roboto;
+  color: #444;
+  margin: 0 0 5px 0;
+  letter-spacing: -0.1px;
+}
+
+.subtitle {
+  font: normal 20px Roboto;
+  color: #adadad;
+  margin: 0;
+  letter-spacing: -0.1px;
+}
+
+.tabs {
+  width: 340px;
+  float: left;
+  margin: -5px 50px -5px -15px;
+}
+
+.tab {
+  display: block;
+  cursor: pointer;
+  font: normal 20px Roboto;
+  letter-spacing: -0.1px;
+  color: #0070e0;
+  padding: 15px;
+  background-color: #fff;
+  margin: 5px 0;
+  transition: 0.1s linear background-color;
+
+  &:hover {
+    background-color: #fafafa;
+  }
+}
+
+.active {
+  composes: tab;
+  background-color: #fafafa;
+  cursor: default;
+  pointer-events: none;
+}
+
+.content {
+  width: 700px;
+  float: right;
+}
+
+.text {
+  font: normal 16px/24px Roboto;
+  color: #444;
+}

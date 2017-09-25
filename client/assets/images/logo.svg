@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150">
+    <defs>
+        <linearGradient id="a" x1="0%" x2="87.626%" y1="0%" y2="62.835%">
+            <stop offset="0%" stop-color="#C8EFFE"/>
+            <stop offset="100%" stop-color="#57CCFE"/>
+        </linearGradient>
+        <filter id="b" height="138.5%" y="-19.3%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="3"/>
+        </filter>
+        <linearGradient id="c" x1="7.073%" x2="78.63%" y1="3.665%" y2="16.513%">
+            <stop offset="0%" stop-color="#028EFF"/>
+            <stop offset="100%" stop-color="#004FFF"/>
+        </linearGradient>
+        <filter id="d" width="121.8%" height="144.1%" x="-10.9%" y="-22%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="3"/>
+        </filter>
+        <linearGradient id="e" x1="50%" x2="0%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#23C6FF"/>
+            <stop offset="100%" stop-color="#1397FF"/>
+        </linearGradient>
+        <filter id="f" width="130.8%" height="117.1%" x="-15.4%" y="-8.5%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="3"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g opacity=".75">
+            <path fill="url(#a)" d="M122.74 24.641L32.586.007l37.292 46.726z" filter="url(#b)" transform="translate(14 10)"/>
+            <path fill="url(#c)" d="M82.55 89.091H0l64.207 40.857z" filter="url(#d)" transform="translate(14 10)"/>
+            <path fill="url(#e)" d="M122.74 24.627L69.878 46.718l-5.671 83.23z" filter="url(#f)" transform="translate(14 10)"/>
+        </g>
+        <path fill="url(#a)" d="M122.74 24.641L32.586.007l37.292 46.726z" transform="translate(14 10)"/>
+        <path fill="url(#c)" d="M82.55 89.091H0l64.207 40.857z" transform="translate(14 10)"/>
+        <path fill="url(#e)" d="M122.74 24.627L69.878 46.718l-5.671 83.23z" transform="translate(14 10)"/>
+    </g>
+</svg>

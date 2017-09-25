@@ -3,9 +3,9 @@ import React from 'react';
 import s from './styles.scss';
 
 const Popup = (props) => {
-  const { children, title, close } = props;
+  const { children, title, open, close } = props;
 
-  return (
+  const renderPopup = () => (
     <div className={s.popup}>
       <div className={s.head}>
         <div className={s.close} onClick={() => close()}/>
@@ -14,6 +14,8 @@ const Popup = (props) => {
       <div className={s.body}>{children}</div>
     </div>
   );
+
+  return open ? renderPopup() : null;
 };
 
 export default Popup;
