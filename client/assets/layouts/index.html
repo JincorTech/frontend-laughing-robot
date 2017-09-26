@@ -13,6 +13,7 @@
   <script>
     window.__INITIAL_STATE__ = <%= JSON.stringify(initialState) %>;
     window.__i18n = <%= JSON.stringify(i18next) %>;
+    window.__UA__ = <%= JSON.stringify(ua) %>;
   </script>
   <script src="<%= vendorJs %>"></script>
   <script src="<%= appJs %>"></script>

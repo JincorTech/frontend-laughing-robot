@@ -7,7 +7,7 @@ const { NODE_ENV } = process.env;
 const compile = template(require('../client/assets/layouts/index.html'));
 const env = NODE_ENV || 'development';
 
-export default function render(component, initialState = {}, i18next) {
+export default function render(component, initialState = {}, i18next, ua = null) {
   if (env === 'development') {
     global.ISOTools.refresh();
   }
@@ -22,6 +22,6 @@ export default function render(component, initialState = {}, i18next) {
   const appCss = assets.styles.app;
 
   return compile(
-    { html, helmet, favicon, vendorCss, appCss, vendorJs, appJs, initialState, i18next }
+    { html, helmet, favicon, vendorCss, appCss, vendorJs, appJs, initialState, i18next, ua }
   );
 }

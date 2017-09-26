@@ -2,16 +2,32 @@
   width: 100%;
   padding: 80px 0;
   background-color: #fafafa;
+
+  @media only screen and (max-width: 480px) {
+    padding: 40px 0;
+  }
 }
 
 .container {
   width: 1140px;
   margin: 0 auto;
   clear: fix;
+
+  @media only screen and (max-width: 1024px) {
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+  }
 }
 
 .head {
   margin-bottom: 80px;
+
+  @media only screen and (max-width: 480px) {
+    margin-bottom: 40px;
+  }
 }
 
 .title {
@@ -19,6 +35,15 @@
   color: #444;
   margin: 0 0 5px 0;
   letter-spacing: -0.1px;
+
+  @media only screen and (max-width: 1024px) {
+    padding: 0 20px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    font: bold 30px Roboto;
+    padding: 0 20px;
+  }
 }
 
 .subtitle {
@@ -26,10 +51,27 @@
   color: #adadad;
   margin: 0;
   letter-spacing: -0.1px;
+
+  @media only screen and (max-width: 1024px) {
+    padding: 0 20px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    padding: 0 20px;
+  }
 }
 
 .content {
   margin: -50px 0;
+
+  @media only screen and (max-width: 1024px) {
+    padding: 0 20px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    padding: 0 20px;
+    margin: 0;
+  }
 }
 
 .block {
@@ -37,12 +79,36 @@
   display: inline-block;
   width: 228px;
   vertical-align: top;
+
+  @media only screen and (max-width: 1024px) {
+    width: 25%;
+  }
+
+  @media only screen and (max-width: 768px) {
+    width: 33.33333333%;
+  }
+
+  @media only screen and (max-width: 480px) {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0;
+    min-height: 160px;
+
+    &:last-child {
+      min-height: auto;
+    }
+  }
 }
 
 .date {
   font: normal 20px Roboto;
   color: #444;
   margin-bottom: 15px;
+
+  @media only screen and (max-width: 480px) {
+    padding-left: 40px;
+  }
 }
 
 .what {
@@ -50,6 +116,11 @@
   color: #444;
   opacity: 0.6;
   max-width: 190px;
+
+  @media only screen and (max-width: 480px) {
+    padding-left: 40px;
+    max-width: none;
+  }
 }
 
 .line {
@@ -57,6 +128,13 @@
   width: 100%;
   background-color: #0070e0;
   margin-bottom: 30px;
+
+  @media only screen and (max-width: 480px) {
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    left: 9px;
+  }
 }
 
 .point {
@@ -67,6 +145,11 @@
   background-color: #fff;
   position: relative;
   top: -9px;
+
+  @media only screen and (max-width: 480px) {
+    top: 0;
+    left: -9px;
+  }
 }
 
 .active {

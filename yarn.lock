@@ -2,6 +2,12 @@
 # yarn lockfile v1
 
 
+"@quentin-sommer/react-useragent@^1.1.9":
+  version "1.1.9"
+  resolved "https://registry.yarnpkg.com/@quentin-sommer/react-useragent/-/react-useragent-1.1.9.tgz#da544ec4297454fea57f71c1372b902c21414cd4"
+  dependencies:
+    ua-parser-js "^0.7.13"
+
 abbrev@1:
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.0.9.tgz#91b4792588a7738c25f35dd6f63752a2f8776135"
@@ -6767,6 +6773,10 @@ type-is@~1.6.14, type-is@~1.6.15:
 typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
+
+ua-parser-js@^0.7.13:
+  version "0.7.14"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.14.tgz#110d53fa4c3f326c121292bbeac904d2e03387ca"
 
 ua-parser-js@^0.7.9:
   version "0.7.10"

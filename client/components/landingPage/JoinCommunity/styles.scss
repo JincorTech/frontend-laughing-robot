@@ -5,12 +5,24 @@
   width: 100%;
   padding: 60px 0 80px;
   background-color: #fafafa;
+
+  @media only screen and (max-width: 480px) {
+    padding: 40px 0;
+  }
 }
 
 .container {
   width: 1140px;
   margin: 0 auto;
   clear: fix;
+
+  @media only screen and (max-width: 1024px) {
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+  }
 }
 
 .logo {
@@ -28,6 +40,11 @@
   color: #444;
   margin: 0 0 20px 0;
   text-align: center;
+
+  @media only screen and (max-width: 480px) {
+    font: bold 25px Roboto;
+    padding: 0 20px;
+  }
 }
 
 .subtitle {
@@ -35,6 +52,11 @@
   color: #7c7c7c;
   margin: 0 0 50px 0;
   text-align: center;
+
+  @media only screen and (max-width: 480px) {
+    font: normal 16px/30px Roboto;
+    padding: 0 20px;
+  }
 }
 
 .form {
@@ -45,9 +67,23 @@
   display: inline-block;
   width: 280px;
   margin-right: 20px;
+
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+    padding: 0 20px;
+    margin: 0;
+    box-sizing: border-box;
+  }
 }
 
 .button {
   width: 225px;
   display: inline-block;
+
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+  }
 }

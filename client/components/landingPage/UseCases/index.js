@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import { UserAgent } from '@quentin-sommer/react-useragent';
 import s from './styles.scss';
 
 import { changeTab } from '../../../redux/modules/landingPage/useCases';
@@ -18,6 +19,44 @@ const UseCases = (props) => {
     }
   };
 
+  const renderDesktop = () => (
+    <div>
+      <div className={s.tabs}>
+        <div className={activeTab === 1 ? s.active : s.tab} onClick={() => changeTab(1)}>
+          Regulatory compliant crypto-asset<br/>transactions for business
+        </div>
+        <div className={activeTab === 2 ? s.active : s.tab} onClick={() => changeTab(2)}>
+          Easy-to-use and legally<br/>binding smart contracts
+        </div>
+        <div className={activeTab === 3 ? s.active : s.tab} onClick={() => changeTab(3)}>
+          Decentralised<br/>Arbitration system
+        </div>
+      </div>
+      <div className={s.content}>
+        <div className={s.text}>
+          {renderTabContent(activeTab)}
+        </div>
+      </div>
+    </div>
+  );
+
+  const renderMobile = () => (
+    <div className={s.sections}>
+      <div className={s.section}>
+        <div className={s.sectionTitle}>Regulatory compliant crypto-asset transactions for business</div>
+        <div className={s.text}>{renderTabContent(1)}</div>
+      </div>
+      <div className={s.section}>
+        <div className={s.sectionTitle}>Easy-to-use and legally binding smart contracts</div>
+        <div className={s.text}>{renderTabContent(2)}</div>
+      </div>
+      <div className={s.section}>
+        <div className={s.sectionTitle}>Decentralised Arbitration system</div>
+        <div className={s.text}>{renderTabContent(3)}</div>
+      </div>
+    </div>
+  );
+
   return (
     <div className={s.cases}>
       <div className={s.container}>
@@ -25,22 +64,8 @@ const UseCases = (props) => {
           <h2 className={s.title}>Use Cases</h2>
           <h4 className={s.subtitle}>What does Jincor offer?</h4>
         </div>
-        <div className={s.tabs}>
-          <div className={activeTab === 1 ? s.active : s.tab} onClick={() => changeTab(1)}>
-            Regulatory compliant crypto-asset<br/>transactions for business
-          </div>
-          <div className={activeTab === 2 ? s.active : s.tab} onClick={() => changeTab(2)}>
-            Easy-to-use and legally<br/>binding smart contracts
-          </div>
-          <div className={activeTab === 3 ? s.active : s.tab} onClick={() => changeTab(3)}>
-            Decentralised<br/>Arbitration system
-          </div>
-        </div>
-        <div className={s.content}>
-          <div className={s.text}>
-            {renderTabContent(activeTab)}
-          </div>
-        </div>
+        <UserAgent computer>{renderDesktop()}</UserAgent>
+        <UserAgent mobile>{renderMobile()}</UserAgent>
       </div>
     </div>
   );

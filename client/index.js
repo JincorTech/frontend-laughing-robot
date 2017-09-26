@@ -5,6 +5,7 @@ import { Provider } from 'react-redux';
 import { ConnectedRouter } from 'react-router-redux';
 import { I18nextProvider } from 'react-i18next';
 import { AppContainer } from 'react-hot-loader';
+import { UserAgentProvider } from '@quentin-sommer/react-useragent';
 import createHistory from 'history/createBrowserHistory';
 
 import App from './containers/app/RootContainer';
@@ -22,21 +23,26 @@ require('./assets/favicon.png');
 // The root element of your app
 const rootElement = document.getElementById('app');
 
-// Creates the Redux store based on the initial state passed down by the server
-// rendering.
+// Get consts from express
 const initialState = window.__INITIAL_STATE__;
+const i18nextLocale = window.__i18n.locale;
+const i18nextRes = window.__i18n.resources;
+const ua = window.__UA__;
+
 const store = configureStore(initialState, history);
-i18next.changeLanguage(window.__i18n.locale);
-i18next.addResourceBundle(window.__i18n.locale, 'common', window.__i18n.resources, true);
+i18next.changeLanguage(i18nextLocale);
+i18next.addResourceBundle(i18nextLocale, 'common', i18nextRes, true);
 
 const render = (Component) => {
   ReactDOM.render(
     <I18nextProvider i18n={i18next}>
       <Provider store={store}>
         <AppContainer>
-          <ConnectedRouter history={history}>
-            <Component />
-          </ConnectedRouter>
+          <UserAgentProvider ua={ua}>
+            <ConnectedRouter history={history}>
+              <Component />
+            </ConnectedRouter>
+          </UserAgentProvider>
         </AppContainer>
       </Provider>
     </I18nextProvider>,

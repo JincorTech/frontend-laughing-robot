@@ -2,22 +2,61 @@
   width: 100%;
   background-color: #fff;
   padding: 40px 0 200px;
+
+  @media only screen and (max-width: 1024px) {
+    padding: 40px 0 100px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    padding: 40px 0;
+  }
 }
 
 .container {
   width: 930px;
   margin: 0 auto;
+
+  @media only screen and (max-width: 1024px) {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin: -15px 0;
+  }
 }
 
 .col {
   display: inline-block;
   width: 210px;
   vertical-align: top;
+
+  @media only screen and (max-width: 1024px) {
+    width: 22%;
+  }
+
+  @media only screen and (max-width: 480px) {
+    width: 45%;
+    margin: 15px 0;
+  }
 }
 
 .largeCol {
   composes: col;
   width: 300px;
+
+  @media only screen and (max-width: 1024px) {
+    width: 34%;
+  }
+
+  @media only screen and (max-width: 480px) {
+    display: block;
+    width: 100%;
+  }
 }
 
 .head {

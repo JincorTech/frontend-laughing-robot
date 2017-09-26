@@ -3,6 +3,12 @@
   width: 100%;
   height: auto;
   position: relative;
+
+  @media only screen and (max-width: 480px) {
+    min-height: auto;
+    height: auto;
+    padding: 120px 0 40px;
+  }
 }
 
 .inner {
@@ -11,6 +17,12 @@
   top: 50%;
   transform: translateY(-50%);
   margin: 0 auto;
+
+  @media only screen and (max-width: 480px) {
+    position: static;
+    top: auto;
+    transform: none;
+  }
 }
 
 .title {
@@ -20,6 +32,13 @@
   letter-spacing: -0.2px;
   text-align: center;
   color: #444;
+
+  @media only screen and (max-width: 480px) {
+    font: bold 30px/35px Roboto;
+    letter-spacing: -0.1px;
+    text-align: left;
+    padding: 0 20px;
+  }
 }
 
 .description {
@@ -28,7 +47,13 @@
   font: normal 20px Roboto;
   letter-spacing: -0.1px;
   text-align: center;
-  color: #444;
+  color: #7c7c7c;
+
+  @media only screen and (max-width: 480px) {
+    font: normal 20px/30px Roboto;
+    text-align: left;
+    padding: 0 20px;
+  }
 }
 
 .buttons {
@@ -40,11 +65,22 @@
   display: inline-block;
   margin: 0 15px;
   width: 225px;
+
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+    margin: 10px 0;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
 }
 
 .socials {
   margin-top: 60px;
   text-align: center;
+
+  @media only screen and (max-width: 480px) {
+    margin: 50px 0 0 0;
+  }
 }
 
 .social {
@@ -62,5 +98,11 @@
 
   &:hover {
     opacity: 0.3;
+  }
+
+  @media only screen and (max-width: 480px) {
+    width: 22px;
+    height: 22px;
+    margin: 0 10px;
   }
 }

@@ -104,6 +104,7 @@
     "webpack-sources": "^1.0.1"
   },
   "dependencies": {
+    "@quentin-sommer/react-useragent": "^1.1.9",
     "app-module-path": "^2.2.0",
     "autoprefixer": "^7.1.2",
     "babel": "^6.23.0",
