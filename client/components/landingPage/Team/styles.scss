@@ -77,15 +77,12 @@
 
 .slickItem {
   display: inline-block;
-  margin: 0 16px;
 
   @media only screen and (max-width: 1024px) {
-    margin: 0;
     width: 100%;
   }
 
   @media only screen and (max-width: 480px) {
-    margin: 0;
     width: auto;
   }
 }

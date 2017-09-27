@@ -43,12 +43,8 @@ i18next
     debug: false,
     interpolation: { escapeValue: false },
     detection: {
-      order: ['path', 'session', 'querystring', 'cookie', 'header'],
-      lookupQuerystring: 'lng',
-      lookupCookie: 'i18next',
-      lookupSession: 'lng',
-      lookupPath: 'lng',
-      lookupFromPathIndex: 0
+      order: ['path'],
+      lookupCookie: 'i18next'
     },
     backend: {
       loadPath: path.join(__dirname, '../locales/{{lng}}/{{ns}}.json'),

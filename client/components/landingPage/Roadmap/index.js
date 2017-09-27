@@ -1,13 +1,16 @@
 import React from 'react';
+import { translate } from 'react-i18next';
 import s from './styles.scss';
 
-const Roadmap = () => {
+const Roadmap = (props) => {
+  const { t } = props;
+
   return (
     <div className={s.roadmap}>
       <div className={s.container}>
         <div className={s.head}>
-          <h2 className={s.title}>Roadmap</h2>
-          <h4 className={s.subtitle}>So what’s ahead of us?</h4>
+          <h2 className={s.title}>{t('roadmap.title')}</h2>
+          <h4 className={s.subtitle}>{t('roadmap.subtitle')}</h4>
         </div>
 
         <div className={s.content}>
@@ -15,92 +18,72 @@ const Roadmap = () => {
             <div className={s.line}>
               <div className={s.active}/>
             </div>
-            <div className={s.date}>July 2017</div>
-            <div className={s.what}>
-              Performing closed beta testing, launching an ICO campaign
-            </div>
+            <div className={s.date}>{t('roadmap.blocks.july2017.date')}</div>
+            <div className={s.what}>{t('roadmap.blocks.july2017.what')}</div>
           </div>
           <div className={s.block}>
             <div className={s.line}>
               <div className={s.active}/>
             </div>
-            <div className={s.date}>August 2017</div>
-            <div className={s.what}>
-              Issuing JCR tokens on the Ethereum blockchain
-            </div>
+            <div className={s.date}>{t('roadmap.blocks.august2017.date')}</div>
+            <div className={s.what}>{t('roadmap.blocks.august2017.what')}</div>
           </div>
           <div className={s.block}>
             <div className={s.line}>
               <div className={s.point}/>
             </div>
-            <div className={s.date}>September 2017</div>
-            <div className={s.what}>
-              Final touches on the product, public beta launch
-            </div>
+            <div className={s.date}>{t('roadmap.blocks.october2017.date')}</div>
+            <div className={s.what}>{t('roadmap.blocks.october2017.what')}</div>
           </div>
           <div className={s.block}>
             <div className={s.line}>
               <div className={s.point}/>
             </div>
-            <div className={s.date}>November 2017</div>
-            <div className={s.what}>
-              Invoicing & billing system implementation. Channel partner program launch
-            </div>
+            <div className={s.date}>{t('roadmap.blocks.november2017.date')}</div>
+            <div className={s.what}>{t('roadmap.blocks.november2017.what')}</div>
           </div>
           <div className={s.block}>
             <div className={s.line}>
               <div className={s.point}/>
             </div>
-            <div className={s.date}>December 2017</div>
-            <div className={s.what}>
-              Finishing up the crowdfunding campaign and distributing JCR tokens among supporters. Listing on exchange platforms
-            </div>
+            <div className={s.date}>{t('roadmap.blocks.december2017.date')}</div>
+            <div className={s.what}>{t('roadmap.blocks.december2017.what')}</div>
           </div>
 
           <div className={s.block}>
             <div className={s.line}>
               <div className={s.point}/>
             </div>
-            <div className={s.date}>January 2017</div>
-            <div className={s.what}>
-              Performing closed beta testing, launching an ICO campaign
-            </div>
+            <div className={s.date}>{t('roadmap.blocks.january2018.date')}</div>
+            <div className={s.what}>{t('roadmap.blocks.january2018.what')}</div>
           </div>
           <div className={s.block}>
             <div className={s.line}>
               <div className={s.point}/>
             </div>
-            <div className={s.date}>April 2017</div>
-            <div className={s.what}>
-              Issuing JCR tokens on the Ethereum blockchain
-            </div>
+            <div className={s.date}>{t('roadmap.blocks.april2018.date')}</div>
+            <div className={s.what}>{t('roadmap.blocks.april2018.what')}</div>
           </div>
           <div className={s.block}>
             <div className={s.line}>
               <div className={s.point}/>
             </div>
-            <div className={s.date}>June 2017</div>
-            <div className={s.what}>
-              Final touches on the product, public beta launch
-            </div>
+            <div className={s.date}>{t('roadmap.blocks.june2018.date')}</div>
+            <div className={s.what}>{t('roadmap.blocks.june2018.what')}</div>
           </div>
           <div className={s.block}>
             <div className={s.line}>
               <div className={s.point}/>
             </div>
-            <div className={s.date}>Q3 2017</div>
-            <div className={s.what}>
-              Invoicing & billing system implementation. Channel partner program launch
-            </div>
+            <div className={s.date}>{t('roadmap.blocks.q32018.date')}</div>
+            <div className={s.what}>{t('roadmap.blocks.q32018.what')}</div>
           </div>
           <div className={s.block}>
             <div className={s.line}>
               <div className={s.point}/>
             </div>
-            <div className={s.date}>Q4 2017</div>
-            <div className={s.what}>
-              Finishing up the crowdfunding campaign and distributing JCR tokens among supporters. Listing on exchange platforms
-            </div>
+            <div className={s.date}>{t('roadmap.blocks.q42018.date')}</div>
+            <div className={s.what}>{t('roadmap.blocks.q42018.what')}</div>
           </div>
         </div>
       </div>
@@ -108,4 +91,5 @@ const Roadmap = () => {
   );
 };
 
-export default Roadmap;
+const TranslatedComponent = translate()(Roadmap);
+export default TranslatedComponent;

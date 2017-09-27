@@ -1,51 +1,52 @@
 import React from 'react';
+import { translate } from 'react-i18next';
 import s from './styles.scss';
 
-const CrowdsaleSection = () => {
+const CrowdsaleSection = (props) => {
+  const { t } = props;
+
   return (
     <div className={s.crowdsale}>
       <div className={s.container}>
         <div className={s.head}>
-          <h2 className={s.title}>Crowdsale</h2>
-          <h4 className={s.subtitle}>Jincor’s ICO at a glance</h4>
+          <h2 className={s.title}>{t('crowdsale.title')}</h2>
+          <h4 className={s.subtitle}>{t('crowdsale.subtitle')}</h4>
         </div>
 
         <div className={s.content}>
-          <div className={s.text}>
-            In order to fully exploit the potential of Jincor ecosystem, reach a critical mass of industry players participating and get to the global market as soon as possible, we are going to raise extra funding by running an ICO campaign. Jincor will issue 35 000 000 JCR tokens, 76% of which will be put on sale in November during the ICO at a starting price of $0,5, and another 4% — during the pre-ICO in August with a discount of 50%. Thus, the total amount of money we are planning to raise comes to $27M. JCR tokens will play an integral role in Jincor’s business model and act as a native currency for all the services provided by the platform.
-          </div>
+          <div className={s.text}>{t('crowdsale.text')}</div>
           <div className={s.table}>
             <table cellPadding="0" cellSpacing="0">
               <tbody>
-                <tr className={s.row}><td>Token</td><td>JCR (ERC20)</td></tr>
-                <tr className={s.row}><td>Platform</td><td>Ethereum</td></tr>
-                <tr className={s.row}><td>Total supply</td><td>35 000 000 JCR</td></tr>
-                <tr className={s.row}><td>Hard cap</td><td>26 600 000 USD</td></tr>
-                <tr className={s.row}><td>Soft cap</td><td>2 500 000 USD</td></tr>
-                <tr className={s.row}><td>ICO timeframe</td><td>01.11.-15.12.2017</td></tr>
+                <tr className={s.row}><td>{t('crowdsale.table.1row.1ceil')}</td><td>{t('crowdsale.table.1row.2ceil')}</td></tr>
+                <tr className={s.row}><td>{t('crowdsale.table.2row.1ceil')}</td><td>{t('crowdsale.table.2row.2ceil')}</td></tr>
+                <tr className={s.row}><td>{t('crowdsale.table.3row.1ceil')}</td><td>{t('crowdsale.table.3row.2ceil')}</td></tr>
+                <tr className={s.row}><td>{t('crowdsale.table.4row.1ceil')}</td><td>{t('crowdsale.table.4row.2ceil')}</td></tr>
+                <tr className={s.row}><td>{t('crowdsale.table.5row.1ceil')}</td><td>{t('crowdsale.table.5row.2ceil')}</td></tr>
+                <tr className={s.row}><td>{t('crowdsale.table.6row.1ceil')}</td><td>{t('crowdsale.table.6row.2ceil')}</td></tr>
               </tbody>
             </table>
           </div>
         </div>
 
         <div className={s.distribution}>
-          <h4 className={s.distTitle}>Token distribution</h4>
+          <h4 className={s.distTitle}>{t('crowdsale.distribution.title')}</h4>
           <div className={s.distArea}>
             <div className={s.item}>
-              <div className={s.number}>4%</div>
-              <div className={s.description}>Presale</div>
+              <div className={s.number}>{t('crowdsale.distribution.1col.num')}</div>
+              <div className={s.description}>{t('crowdsale.distribution.1col.desc')}</div>
             </div>
             <div className={s.item}>
-              <div className={s.number}>8%</div>
-              <div className={s.description}>Incentives</div>
+              <div className={s.number}>{t('crowdsale.distribution.2col.num')}</div>
+              <div className={s.description}>{t('crowdsale.distribution.2col.desc')}</div>
             </div>
             <div className={s.item}>
-              <div className={s.number}>12%</div>
-              <div className={s.description}>Jincor team</div>
+              <div className={s.number}>{t('crowdsale.distribution.3col.num')}</div>
+              <div className={s.description}>{t('crowdsale.distribution.3col.desc')}</div>
             </div>
             <div className={s.item}>
-              <div className={s.number}>76%</div>
-              <div className={s.description}>Crowdsale</div>
+              <div className={s.number}>{t('crowdsale.distribution.4col.num')}</div>
+              <div className={s.description}>{t('crowdsale.distribution.4col.desc')}</div>
             </div>
           </div>
         </div>
@@ -54,4 +55,5 @@ const CrowdsaleSection = () => {
   );
 };
 
-export default CrowdsaleSection;
+const TranslatedComponent = translate()(CrowdsaleSection);
+export default TranslatedComponent;

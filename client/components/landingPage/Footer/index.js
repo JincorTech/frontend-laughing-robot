@@ -1,31 +1,30 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import { translate } from 'react-i18next';
 import s from './styles.scss';
 
 import { openFaq } from '../../../redux/modules/common/faq';
 
 const Footer = (props) => {
-  const {
-    openFaq
-  } = props;
+  const { openFaq, t } = props;
 
   return (
     <div className={s.footer}>
       <div className={s.container}>
         <div className={s.col}>
-          <div className={s.head}>Product</div>
+          <div className={s.head}>{t('footer.product.title')}</div>
           <div className={s.content}>
             <div className={s.links}>
-              <div className={s.link}><a onClick={() => openFaq()}>FAQ</a></div>
-              <div className={s.link}><a>Use Cases</a></div>
-              <div className={s.link}><a>Crowdsale</a></div>
-              <div className={s.link}><a>Executive Team</a></div>
-              <div className={s.link}><a>Advisory Board</a></div>
+              <div className={s.link}><a onClick={() => openFaq()}>{t('footer.product.faq')}</a></div>
+              <div className={s.link}><a>{t('footer.product.cases')}</a></div>
+              <div className={s.link}><a>{t('footer.product.crowdsale')}</a></div>
+              <div className={s.link}><a>{t('footer.product.team')}</a></div>
+              <div className={s.link}><a>{t('footer.product.advisors')}</a></div>
             </div>
           </div>
         </div>
         <div className={s.col}>
-          <div className={s.head}>Resourses</div>
+          <div className={s.head}>{t('footer.resourses.title')}</div>
           <div className={s.content}>
             <div className={s.links}>
               <div className={s.link}><a>Whitepaper</a></div>
@@ -35,7 +34,7 @@ const Footer = (props) => {
           </div>
         </div>
         <div className={s.col}>
-          <div className={s.head}>Legal</div>
+          <div className={s.head}>{t('footer.legal.title')}</div>
           <div className={s.content}>
             <div className={s.links}>
               <div className={s.link}><a>Privacy policy</a></div>
@@ -45,28 +44,26 @@ const Footer = (props) => {
           </div>
         </div>
         <div className={s.largeCol}>
-          <div className={s.head}>Jincor</div>
+          <div className={s.head}>{t('footer.jincor.title')}</div>
           <div className={s.content}>
-            <div className={s.text}>
-              Jincor is an enterprise platform that aims to simplify the adoption of smart contracts and cryptocurrencies for any company
-            </div>
+            <div className={s.text}>{t('footer.jincor.text')}</div>
             <div className={s.socials}>
-              <a className={s.social} href="https://github.com" target="_blank">
+              <a className={s.social} href={t('links.socials.telegram.href')} target="_blank">
                 <img src={require('../../../assets/images/socials/telegram.svg')}/>
               </a>
-              <a className={s.social} href="https://github.com" target="_blank">
+              <a className={s.social} href={t('links.socials.reddit.href')} target="_blank">
                 <img src={require('../../../assets/images/socials/reddit.svg')}/>
               </a>
-              <a className={s.social} href="https://github.com" target="_blank">
+              <a className={s.social} href={t('links.socials.medium.href')} target="_blank">
                 <img src={require('../../../assets/images/socials/medium.svg')}/>
               </a>
-              <a className={s.social} href="https://github.com" target="_blank">
+              <a className={s.social} href={t('links.socials.twitter.href')} target="_blank">
                 <img src={require('../../../assets/images/socials/twitter.svg')}/>
               </a>
-              <a className={s.social} href="https://github.com" target="_blank">
+              <a className={s.social} href={t('links.socials.facebook.href')} target="_blank">
                 <img src={require('../../../assets/images/socials/facebook.svg')}/>
               </a>
-              <a className={s.social} href="https://github.com" target="_blank">
+              <a className={s.social} href={t('links.socials.github.href')} target="_blank">
                 <img src={require('../../../assets/images/socials/github.svg')}/>
               </a>
             </div>
@@ -77,9 +74,10 @@ const Footer = (props) => {
   );
 };
 
+const TranslatedComponent = translate()(Footer);
 export default connect(
   () => ({}),
   {
     openFaq
   }
-)(Footer);
+)(TranslatedComponent);

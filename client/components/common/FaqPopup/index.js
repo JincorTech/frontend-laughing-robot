@@ -158,7 +158,7 @@ const FaqPopup = (props) => {
   );
 };
 
-const TranslatedComponent = translate('common')(FaqPopup);
+const TranslatedComponent = translate()(FaqPopup);
 export default connect(
   (state) => ({
     open: state.common.faq.open

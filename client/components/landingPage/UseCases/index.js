@@ -1,21 +1,22 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import { translate, Interpolate } from 'react-i18next';
 import { UserAgent } from '@quentin-sommer/react-useragent';
 import s from './styles.scss';
 
 import { changeTab } from '../../../redux/modules/landingPage/useCases';
 
 const UseCases = (props) => {
-  const { changeTab, activeTab } = props;
+  const { changeTab, activeTab, t } = props;
 
   const renderTabContent = (tabIndex) => {
     switch (tabIndex) {
       case 1:
-        return '1 tab. Lack of proper legislative base in the field seems to be the most significant challenge preventing smart contracts and cryptocurrencies from wider adoption. According to the data from Bitlegal, which tracks evolving regulatory landscape of blockchain technologies around the world, at the moment there are only 62 countries explicitly allowing their usage, but even there smart contracts are not regulated by clear, widely-adopted and well-known rules. In practice, it means that if you have signed a smart contract with your business partner, and you are dissatisfied with some of his actions, there are virtually no means for you to uphold your rights, as the contract is performed automatically and there are no courts or some regulatory bodies at all. Jincor solves this problem by providing a decentralized arbitration system, where organizations will be able to file a claim related to smart contract performance and get an unbiased judgment of several arbitrators, randomly picked from the list of companies which have gained a good reputation while using the platform and dealing with other participants on similar matters.';
+        return <Interpolate i18nKey="cases.1.text" useDangerouslySetInnerHTML={true}/>;
       case 2:
-        return '2 tab. Lack of proper legislative base in the field seems to be the most significant challenge preventing smart contracts and cryptocurrencies from wider adoption. According to the data from Bitlegal, which tracks evolving regulatory landscape of blockchain technologies around the world, at the moment there are only 62 countries explicitly allowing their usage, but even there smart contracts are not regulated by clear, widely-adopted and well-known rules. In practice, it means that if you have signed a smart contract with your business partner, and you are dissatisfied with some of his actions, there are virtually no means for you to uphold your rights, as the contract is performed automatically and there are no courts or some regulatory bodies at all. Jincor solves this problem by providing a decentralized arbitration system, where organizations will be able to file a claim related to smart contract performance and get an unbiased judgment of several arbitrators, randomly picked from the list of companies which have gained a good reputation while using the platform and dealing with other participants on similar matters.';
+        return <Interpolate i18nKey="cases.2.text" useDangerouslySetInnerHTML={true}/>;
       case 3:
-        return '3 tab. Lack of proper legislative base in the field seems to be the most significant challenge preventing smart contracts and cryptocurrencies from wider adoption. According to the data from Bitlegal, which tracks evolving regulatory landscape of blockchain technologies around the world, at the moment there are only 62 countries explicitly allowing their usage, but even there smart contracts are not regulated by clear, widely-adopted and well-known rules. In practice, it means that if you have signed a smart contract with your business partner, and you are dissatisfied with some of his actions, there are virtually no means for you to uphold your rights, as the contract is performed automatically and there are no courts or some regulatory bodies at all. Jincor solves this problem by providing a decentralized arbitration system, where organizations will be able to file a claim related to smart contract performance and get an unbiased judgment of several arbitrators, randomly picked from the list of companies which have gained a good reputation while using the platform and dealing with other participants on similar matters.';
+        return <Interpolate i18nKey="cases.3.text" useDangerouslySetInnerHTML={true}/>;
     }
   };
 
@@ -23,13 +24,13 @@ const UseCases = (props) => {
     <div>
       <div className={s.tabs}>
         <div className={activeTab === 1 ? s.active : s.tab} onClick={() => changeTab(1)}>
-          Regulatory compliant crypto-asset<br/>transactions for business
+          {t('cases.1.title')}
         </div>
         <div className={activeTab === 2 ? s.active : s.tab} onClick={() => changeTab(2)}>
-          Easy-to-use and legally<br/>binding smart contracts
+          {t('cases.2.title')}
         </div>
         <div className={activeTab === 3 ? s.active : s.tab} onClick={() => changeTab(3)}>
-          Decentralised<br/>Arbitration system
+          {t('cases.3.title')}
         </div>
       </div>
       <div className={s.content}>
@@ -43,15 +44,15 @@ const UseCases = (props) => {
   const renderMobile = () => (
     <div className={s.sections}>
       <div className={s.section}>
-        <div className={s.sectionTitle}>Regulatory compliant crypto-asset transactions for business</div>
+        <div className={s.sectionTitle}>{t('cases.1.title')}</div>
         <div className={s.text}>{renderTabContent(1)}</div>
       </div>
       <div className={s.section}>
-        <div className={s.sectionTitle}>Easy-to-use and legally binding smart contracts</div>
+        <div className={s.sectionTitle}>{t('cases.2.title')}</div>
         <div className={s.text}>{renderTabContent(2)}</div>
       </div>
       <div className={s.section}>
-        <div className={s.sectionTitle}>Decentralised Arbitration system</div>
+        <div className={s.sectionTitle}>{t('cases.3.title')}</div>
         <div className={s.text}>{renderTabContent(3)}</div>
       </div>
     </div>
@@ -61,8 +62,8 @@ const UseCases = (props) => {
     <div className={s.cases}>
       <div className={s.container}>
         <div className={s.head}>
-          <h2 className={s.title}>Use Cases</h2>
-          <h4 className={s.subtitle}>What does Jincor offer?</h4>
+          <h2 className={s.title}>{t('cases.title')}</h2>
+          <h4 className={s.subtitle}>{t('cases.subtitle')}</h4>
         </div>
         <UserAgent computer>{renderDesktop()}</UserAgent>
         <UserAgent mobile>{renderMobile()}</UserAgent>
@@ -71,6 +72,7 @@ const UseCases = (props) => {
   );
 };
 
+const TranslatedComponent = translate()(UseCases);
 export default connect(
   (state) => ({
     activeTab: state.landingPage.useCases.activeTab
@@ -78,4 +80,4 @@ export default connect(
   {
     changeTab
   }
-)(UseCases);
+)(TranslatedComponent);

@@ -1,5 +1,7 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { connect } from 'react-redux';
+import { translate } from 'react-i18next';
 
 import BodyClassName from 'react-body-classname';
 import LandingSection from '../../../components/landingPage/LandingSection';
@@ -18,7 +20,7 @@ import SubscribeWindow from '../../../components/common/SubscribeWindow';
 import BetaWindow from '../../../components/common/BetaWindow';
 
 const LandingPage = (props) => {
-  const { isFaqOpen, isBetaOpen, isSubscribeOpen } = props;
+  const { t, isFaqOpen, isBetaOpen, isSubscribeOpen } = props;
 
   const isAnyPopupOpen = () => isFaqOpen || isBetaOpen || isSubscribeOpen;
 
@@ -26,6 +28,10 @@ const LandingPage = (props) => {
     // if any popup is open set popupOpened class to body
     <BodyClassName className={ isAnyPopupOpen() ? 'popupOpened' : '' }>
       <div>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>{t('head.title')}</title>
+        </Helmet>
         <LandingSection/>
         <AboutSection/>
         <UseCases/>
@@ -45,10 +51,11 @@ const LandingPage = (props) => {
   );
 };
 
+const TranslatedComponent = translate()(LandingPage);
 export default connect(
   (state) => ({
     isFaqOpen: state.common.faq.open,
     isBetaOpen: state.common.beta.open,
     isSubscribeOpen: state.common.subscribe.open
   })
-)(LandingPage);
+)(TranslatedComponent);

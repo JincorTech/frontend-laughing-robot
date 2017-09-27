@@ -18,7 +18,11 @@ const history = createHistory();
  * This space is reserved for images that are required by server rendering,
  * e.g. the favicon and any other images that need to be in the base HTML file.
  */
-require('./assets/favicon.png');
+require('./assets/favicons/apple-touch-icon.png');
+require('./assets/favicons/favicon-32x32.png');
+require('./assets/favicons/favicon-16x16.png');
+require('./assets/favicons/manifest.json');
+require('./assets/favicons/safari-pinned-tab.svg');
 
 // The root element of your app
 const rootElement = document.getElementById('app');

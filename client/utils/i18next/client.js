@@ -4,6 +4,7 @@ import XHR from 'i18next-xhr-backend';
 // export const supportedLanguages = ['en', 'ru'];
 
 export const config = {
+  wait: true,
   whitelist: ['en', 'ru'],
   fallbackLng: 'en',
   ns: ['common'],
