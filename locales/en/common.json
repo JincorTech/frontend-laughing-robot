@@ -49,6 +49,21 @@
       "github": {
         "href": "https://github.com/jincortech"
       }
+    },
+    "nav": {
+      "blog": {
+        "label": "Blog",
+        "href": ""
+      },
+      "faq": {
+        "label": "FAQ"
+      },
+      "downloads": {
+        "label": "Downloads"
+      },
+      "team": {
+        "label": "Team"
+      }
     }
   },
   "landing": {

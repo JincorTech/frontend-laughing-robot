@@ -10,13 +10,12 @@
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: #fbfbfb;
+  background-color: #fff;
   z-index: 999;
   overflow-y: scroll;
 }
 
 .head {
-  background-color: #fbfbfb;
   width: 100%;
   z-index: 1;
 }
@@ -27,10 +26,16 @@
   margin: 50px 0 20px;
   text-align: center;
   width: 100%;
+
+  @media only screen and (max-width: 480px) {
+    font: bold 36px Roboto;
+    text-align: left;
+    margin: 20px 20px 0;
+  }
 }
 
 .close {
-  position: absolute;
+  position: fixed;
   top: 54px;
   right: 125px;
   background-image: svg-load('./svg/close.svg');
@@ -38,4 +43,16 @@
   background-size: contain;
   cursor: pointer;
   z-index: 150;
+
+  @media only screen and (max-width: 1024px) {
+    top: 50px;
+    right: 50px;
+    position: absolute;
+  }
+
+  @media only screen and (max-width: 480px) {
+    top: 15px;
+    right: 20px;
+    position: absolute;
+  }
 }

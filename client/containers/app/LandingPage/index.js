@@ -2,8 +2,11 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import { connect } from 'react-redux';
 import { translate } from 'react-i18next';
+import { UserAgent } from '@quentin-sommer/react-useragent';
 
 import BodyClassName from 'react-body-classname';
+import Header from '../../../components/landingPage/Header';
+import MobileHeader from '../../../components/landingPage/MobileHeader';
 import LandingSection from '../../../components/landingPage/LandingSection';
 import AboutSection from '../../../components/landingPage/AboutSection/';
 import UseCases from '../../../components/landingPage/UseCases';
@@ -19,6 +22,7 @@ import FaqPopup from '../../../components/common/FaqPopup';
 import SubscribeWindow from '../../../components/common/SubscribeWindow';
 import BetaWindow from '../../../components/common/BetaWindow';
 import Notifications from '../../../components/landingPage/Notifications';
+import MobileNavigation from '../../../components/common/MobileNavigation';
 
 const LandingPage = (props) => {
   const { t, isFaqOpen, isBetaOpen, isSubscribeOpen } = props;
@@ -34,6 +38,8 @@ const LandingPage = (props) => {
           <title>{t('head.title')}</title>
           <meta name="description" content={t('head.description')} />
         </Helmet>
+        <UserAgent computer><Header/></UserAgent>
+        <UserAgent mobile><MobileHeader/></UserAgent>
         <LandingSection/>
         <AboutSection/>
         <UseCases/>
@@ -49,6 +55,7 @@ const LandingPage = (props) => {
         <SubscribeWindow/>
         <BetaWindow/>
         <Notifications/>
+        <UserAgent mobile><MobileNavigation/></UserAgent>
       </div>
     </BodyClassName>
   );

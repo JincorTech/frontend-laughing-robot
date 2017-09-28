@@ -64,6 +64,10 @@
     color: #648cdc;
     text-decoration: none;
     cursor: pointer;
+
+    @media only screen and (max-width: 480px) {
+      font: normal 12px/18px Roboto;
+    }
   }
 
   @media only screen and (max-width: 480px) {
