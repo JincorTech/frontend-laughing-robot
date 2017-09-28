@@ -15,7 +15,7 @@ const PersonCard = (props) => {
       <div className={s.photo}>
         <div className={s.shadow}/>
         {socialNetworks && <div className={s.socialNetworks}>
-          {socialNetworks.map(({ href, icon }) => <a href={href} key={href} target="_blank">{icon}</a>)}
+          {socialNetworks.map(({ href, icon }) => <a href={href} key={href} rel="nofollow" target="_blank">{icon}</a>)}
         </div>}
         {photoElement}
       </div>

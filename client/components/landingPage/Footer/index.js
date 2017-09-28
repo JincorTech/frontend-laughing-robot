@@ -48,22 +48,22 @@ const Footer = (props) => {
           <div className={s.content}>
             <div className={s.text}>{t('footer.jincor.text')}</div>
             <div className={s.socials}>
-              <a className={s.social} href={t('links.socials.telegram.href')} target="_blank">
+              <a className={s.social} href={t('links.socials.telegram.href')} rel="nofollow" target="_blank">
                 <img src={require('../../../assets/images/socials/telegram.svg')}/>
               </a>
-              <a className={s.social} href={t('links.socials.reddit.href')} target="_blank">
+              <a className={s.social} href={t('links.socials.reddit.href')} rel="nofollow" target="_blank">
                 <img src={require('../../../assets/images/socials/reddit.svg')}/>
               </a>
-              <a className={s.social} href={t('links.socials.medium.href')} target="_blank">
+              <a className={s.social} href={t('links.socials.medium.href')} rel="nofollow" target="_blank">
                 <img src={require('../../../assets/images/socials/medium.svg')}/>
               </a>
-              <a className={s.social} href={t('links.socials.twitter.href')} target="_blank">
+              <a className={s.social} href={t('links.socials.twitter.href')} rel="nofollow" target="_blank">
                 <img src={require('../../../assets/images/socials/twitter.svg')}/>
               </a>
-              <a className={s.social} href={t('links.socials.facebook.href')} target="_blank">
+              <a className={s.social} href={t('links.socials.facebook.href')} rel="nofollow" target="_blank">
                 <img src={require('../../../assets/images/socials/facebook.svg')}/>
               </a>
-              <a className={s.social} href={t('links.socials.github.href')} target="_blank">
+              <a className={s.social} href={t('links.socials.github.href')} rel="nofollow" target="_blank">
                 <img src={require('../../../assets/images/socials/github.svg')}/>
               </a>
             </div>

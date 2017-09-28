@@ -1,10 +1,10 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
 import { connect } from 'react-redux';
 import { translate } from 'react-i18next';
 import { UserAgent } from '@quentin-sommer/react-useragent';
 
 import BodyClassName from 'react-body-classname';
+import HelmetBase from '../../../components/common/HelmetBase';
 import Header from '../../../components/landingPage/Header';
 import MobileHeader from '../../../components/landingPage/MobileHeader';
 import LandingSection from '../../../components/landingPage/LandingSection';
@@ -25,19 +25,18 @@ import Notifications from '../../../components/landingPage/Notifications';
 import MobileNavigation from '../../../components/common/MobileNavigation';
 
 const LandingPage = (props) => {
-  const { t, isFaqOpen, isBetaOpen, isSubscribeOpen } = props;
+  const { t, isFaqOpen, isBetaOpen, isSubscribeOpen, isMobileNavOpen } = props;
 
-  const isAnyPopupOpen = () => isFaqOpen || isBetaOpen || isSubscribeOpen;
+  const isAnyPopupOpen = () => isFaqOpen || isBetaOpen || isSubscribeOpen || isMobileNavOpen;
 
   return (
     // if any popup is open set popupOpened class to body
     <BodyClassName className={ isAnyPopupOpen() ? 'popupOpened' : '' }>
       <div>
-        <Helmet>
-          <meta charSet="utf-8" />
+        <HelmetBase>
           <title>{t('head.title')}</title>
           <meta name="description" content={t('head.description')} />
-        </Helmet>
+        </HelmetBase>
         <UserAgent computer><Header/></UserAgent>
         <UserAgent mobile><MobileHeader/></UserAgent>
         <LandingSection/>
@@ -66,6 +65,7 @@ export default connect(
   (state) => ({
     isFaqOpen: state.common.faq.open,
     isBetaOpen: state.common.beta.open,
-    isSubscribeOpen: state.common.subscribe.open
+    isSubscribeOpen: state.common.subscribe.open,
+    isMobileNavOpen: state.common.mobileNavigation.open
   })
 )(TranslatedComponent);

@@ -75,6 +75,7 @@
 }
 
 .block {
+  position: relative;
   margin: 50px 0;
   display: inline-block;
   width: 228px;
@@ -99,6 +100,28 @@
       min-height: auto;
     }
   }
+}
+
+.label {
+  font: normal 16px/24px Roboto;
+  position: absolute;
+  top: -40px;
+  left: -30px;
+  width: 80px;
+  color: #fff;
+  border-radius: 100px;
+  background-color: #0080e0;
+  text-align: center;
+
+  @media only screen and (max-width: 480px) {
+    display: none;
+  }
+}
+
+.shortLabel {
+  composes: label;
+  width: 50px;
+  left: -15px;
 }
 
 .date {
@@ -126,7 +149,7 @@
 .line {
   height: 2px;
   width: 100%;
-  background-color: #0070e0;
+  background-color: #0080e0;
   margin-bottom: 30px;
 
   @media only screen and (max-width: 480px) {

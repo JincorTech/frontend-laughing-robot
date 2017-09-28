@@ -1,5 +1,6 @@
 .card {
   width: 260px;
+  padding: 0 15px;
 
   @media only screen and (max-width: 1024px) {
     padding: 0 10px;
@@ -12,7 +13,7 @@
   @media only screen and (max-width: 480px) {
     width: 240px;
     padding: 0 10px;
-    margin: 0;
+    margin: 0 auto;
   }
 }
 

@@ -10,7 +10,7 @@ export const closeNavigation = createAction(CLOSE_NAVIGATION);
 export const changeView = createAction(CHANGE_VIEW);
 
 const initialState = from({
-  open: true,
+  open: false,
   view: 'nav'
 });
 

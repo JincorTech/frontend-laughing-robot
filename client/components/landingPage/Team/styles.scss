@@ -63,6 +63,7 @@
 .slick {
   margin: 0 -15px;
   padding-bottom: 70px;
+  position: relative;
 
   @media only screen and (max-width: 1024px) {
     margin: 0;
@@ -72,18 +73,43 @@
   @media only screen and (max-width: 480px) {
     margin: 0;
     padding: 0 0 70px 0;
+
+    &:before {
+      content: '';
+      position: absolute;
+      height: calc(100% - 70px);
+      width: calc((100% - 260px) / 2);
+      top: 0;
+      left: 0;
+      background: linear-gradient(to right, rgba(255, 255, 255, 0.7) 0%,rgba(255, 255, 255, 0) 100%);
+      z-index: 1;
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      height: calc(100% - 70px);
+      width: calc((100% - 260px) / 2);
+      top: 0;
+      right: 0;
+      background: linear-gradient(to left, rgba(255, 255, 255, 0.7) 0%,rgba(255, 255, 255, 0) 100%);
+      z-index: 1;
+    }
   }
 }
 
 .slickItem {
   display: inline-block;
+  margin: 0;
 
   @media only screen and (max-width: 1024px) {
+    margin: 0;
     width: 100%;
   }
 
   @media only screen and (max-width: 480px) {
-    width: auto;
+    margin: 0;
+    width: 100%;
   }
 }
 
@@ -105,7 +131,8 @@
         width: 40px;
         height: 5px;
         border-radius: 3px;
-        background-color: rgba(208, 208, 208, 0.5);
+        opacity: 1;
+        background-color: #e7e7e7;
         transition: 0.1s linear all;
       }
 

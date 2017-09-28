@@ -1,10 +1,13 @@
 import React from 'react';
+import { translate } from 'react-i18next';
 import s from './styles.scss';
 
 import Slick from 'react-slick';
 import PersonCard from '../PersonCard';
 
-const Advisors = () => {
+const Advisors = (props) => {
+  const { t } = props;
+
   const settings = {
     dots: true,
     infinite: false,
@@ -16,9 +19,35 @@ const Advisors = () => {
     swipeToSlide: false,
     responsive: [
       {
-        breakpoint: 480,
+        breakpoint: 375,
         settings: {
           centerPadding: '30px',
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          swipe: true,
+          swipeToSlide: true,
+          centerMode: true,
+          arrows: false
+        }
+      },
+      {
+        breakpoint: 414,
+        settings: {
+          centerPadding: '50px',
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          swipe: true,
+          swipeToSlide: true,
+          centerMode: true,
+          arrows: false
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          centerPadding: '70px',
           infinite: true,
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -58,39 +87,33 @@ const Advisors = () => {
             <div>
               <div className={s.slickItem}>
                 <PersonCard
-                  name="El Chito Drito"
-                  role="Head of drinking"
-                  about="Invoicing and billing system implementation. Channel partner program launchTesting the waters of international markets, localization. Adding enterprise app integrations, external corporate identity verification."
-                  photoElement={<img src={require('../Team/images/photo.jpg')}/>}/>
+                  name={t('advisors.members.tomas.name')}
+                  role={t('advisors.members.tomas.position')}
+                  about={t('advisors.members.tomas.bio')}
+                  photoElement={<img src={require('../../../assets/images/photos/tomas.jpg')}/>}/>
               </div>
             </div>
+
             <div>
               <div className={s.slickItem}>
                 <PersonCard
-                  name="El Chito Drito"
-                  role="Head of drinking"
-                  about="Invoicing and billing system implementation. Channel partner program launchTesting the waters of international markets, localization. Adding enterprise app integrations, external corporate identity verification."
-                  photoElement={<img src={require('../Team/images/photo.jpg')}/>}/>
+                  name={t('advisors.members.stas.name')}
+                  role={t('advisors.members.stas.position')}
+                  about={t('advisors.members.stas.bio')}
+                  photoElement={<img src={require('../../../assets/images/photos/stas.jpg')}/>}/>
               </div>
             </div>
+
             <div>
               <div className={s.slickItem}>
                 <PersonCard
-                  name="El Chito Drito"
-                  role="Head of drinking"
-                  about="Invoicing and billing system implementation. Channel partner program launchTesting the waters of international markets, localization. Adding enterprise app integrations, external corporate identity verification."
-                  photoElement={<img src={require('../Team/images/photo.jpg')}/>}/>
+                  name={t('advisors.members.simon.name')}
+                  role={t('advisors.members.simon.position')}
+                  about={t('advisors.members.simon.bio')}
+                  photoElement={<img src={require('../../../assets/images/photos/simon.jpg')}/>}/>
               </div>
             </div>
-            <div>
-              <div className={s.slickItem}>
-                <PersonCard
-                  name="El Chito Drito"
-                  role="Head of drinking"
-                  about="Invoicing and billing system implementation. Channel partner program launchTesting the waters of international markets, localization. Adding enterprise app integrations, external corporate identity verification."
-                  photoElement={<img src={require('../Team/images/photo.jpg')}/>}/>
-              </div>
-            </div>
+
           </Slick>
         </div>
       </div>
@@ -98,4 +121,5 @@ const Advisors = () => {
   );
 };
 
-export default Advisors;
+const TranslatedComponent = translate()(Advisors);
+export default TranslatedComponent;

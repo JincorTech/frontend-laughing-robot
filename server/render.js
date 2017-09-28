@@ -13,7 +13,6 @@ export default function render(component, initialState = {}, i18next, ua = null)
   }
 
   const assets = global.ISOTools.assets();
-  // const favicon = assets.assets['./client/assets/favicon.png'];
   const favicons = {
     apple: assets.assets['./client/assets/favicons/apple-touch-icon.png'],
     f32: assets.assets['./client/assets/favicons/favicon-32x32.png'],

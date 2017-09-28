@@ -21,7 +21,7 @@ class FaqBlock extends Component {
     const { children } = this.props;
 
     return (
-      <div className={s.body}>{children}</div>
+      <div className={s.blockBody}>{children}</div>
     );
   }
 
