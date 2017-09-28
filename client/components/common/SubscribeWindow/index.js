@@ -39,7 +39,10 @@ class SubscribeWindow extends Component {
       <FormWindow
         open={open}
         close={() => closeSubscribe()}>
-        <form className={s.form} onSubmit={this._handleFormSubmit}>
+        <form
+          id="mk_subscribePopup"
+          className={s.form}
+          onSubmit={this._handleFormSubmit}>
           <div className={s.input}>
             <TextInput
               placeholder={t('subscribe.email')}

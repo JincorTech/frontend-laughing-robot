@@ -43,9 +43,16 @@ class JoinCommunity extends Component {
           <h2 className={s.title}>{t('community.title')}</h2>
           <h4 className={s.subtitle}>{t('community.subtitle')}</h4>
 
-          <form className={s.form} onSubmit={this._handleFormSubmit}>
+          <form
+            id="mk_subscribe"
+            className={s.form}
+            onSubmit={this._handleFormSubmit}>
             <div className={s.input}>
-              <TextInput placeholder="e-mail" name="email" value={email} onChange={this._handleEmailChange}/>
+              <TextInput
+                placeholder="e-mail"
+                name="email"
+                value={email}
+                onChange={this._handleEmailChange}/>
             </div>
             <div className={s.button}>
               <Button type="submit" style="primary">{t('community.button')}</Button>

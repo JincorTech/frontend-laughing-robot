@@ -32,6 +32,7 @@ const LandingPage = (props) => {
         <Helmet>
           <meta charSet="utf-8" />
           <title>{t('head.title')}</title>
+          <meta name="description" content={t('head.description')} />
         </Helmet>
         <LandingSection/>
         <AboutSection/>

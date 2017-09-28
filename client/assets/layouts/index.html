@@ -12,11 +12,34 @@
   <link rel="mask-icon" href="<%= favicons.tb %>" color="#0070e0">
   <meta name="theme-color" content="#ffffff">
 
+  <!-- Yandex -->
+  <meta name="yandex-verification" content="3df98fb2ff94c626" />
+  <!-- End Yandex -->
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-N4H63DW');</script>
+  <!-- End Google Tag Manager -->
+
   <link type="text/css" rel="stylesheet" href="<%= vendorCss %>" />
   <link type="text/css" rel="stylesheet" href="<%= appCss %>" />
+
+  <!-- SendPulse -->
+  <!-- Also have two files into assets/copy -->
+  <script charset="UTF-8" src="//cdn.sendpulse.com/28edd3380a1c17cf65b137fe96516659/js/push/e259d92e6c07b250dbd2b532e1e32227_1.js" async></script>
+  <!-- End SendPulse -->
 </head>
 <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N4H63DW"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
   <div id="app"><%= html %></div>
+
   <noindex>
     <script>
       window.__INITIAL_STATE__ = <%= JSON.stringify(initialState) %>;

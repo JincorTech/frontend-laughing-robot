@@ -1,6 +1,7 @@
 {
   "head": {
-    "title": "Jincor"
+    "title": "Jincor — smart contracts and cryptocurrency payments for business",
+    "description": "Make the first major step towards unleashing the real power of smart contracts and cryptocurrency transactions for any business"
   },
   "links": {
     "resourses": {
@@ -203,7 +204,7 @@
     },
     "jincor": {
       "title": "Jincor",
-      "text": "Jincor is an enterprise platform that aims to simplify the adoption of smart contracts and cryptocurrencies for any company"
+      "text": "Jincor, the platform for genuinely simple smart contracts and cryptocurrency transactions for any business"
     }
   },
   "subscribe": {

@@ -57,7 +57,10 @@ class BetaWindow extends Component {
       <FormWindow
         open={open}
         close={() => closeBeta()}>
-        <form className={s.form} onSubmit={this._handleFormSubmit}>
+        <form
+          id="mk_betaPopup"
+          className={s.form}
+          onSubmit={this._handleFormSubmit}>
           <div className={s.input}>
             <TextInput
               placeholder={t('beta.name')}
