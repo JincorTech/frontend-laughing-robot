@@ -18,6 +18,7 @@ import Footer from '../../../components/landingPage/Footer';
 import FaqPopup from '../../../components/common/FaqPopup';
 import SubscribeWindow from '../../../components/common/SubscribeWindow';
 import BetaWindow from '../../../components/common/BetaWindow';
+import Notifications from '../../../components/landingPage/Notifications';
 
 const LandingPage = (props) => {
   const { t, isFaqOpen, isBetaOpen, isSubscribeOpen } = props;
@@ -46,6 +47,7 @@ const LandingPage = (props) => {
         <FaqPopup/>
         <SubscribeWindow/>
         <BetaWindow/>
+        <Notifications/>
       </div>
     </BodyClassName>
   );

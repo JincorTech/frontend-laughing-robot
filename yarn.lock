@@ -5595,6 +5595,12 @@ react-i18next@^5.4.0:
     react "^15.6.1"
     react-dom "^15.6.1"
 
+react-notification@^6.8.0:
+  version "6.8.0"
+  resolved "https://registry.yarnpkg.com/react-notification/-/react-notification-6.8.0.tgz#9cb7aa06c8e5085b4c0dc2e8d9aa1da1fbc61d93"
+  dependencies:
+    prop-types "^15.5.10"
+
 react-proxy@^3.0.0-alpha.0:
   version "3.0.0-alpha.1"
   resolved "https://registry.yarnpkg.com/react-proxy/-/react-proxy-3.0.0-alpha.1.tgz#4400426bcfa80caa6724c7755695315209fa4b07"

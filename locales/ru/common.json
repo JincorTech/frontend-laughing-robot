@@ -220,6 +220,16 @@
   "window": {
     "cancel": "Отмена"
   },
+  "notifications": {
+    "emailEmpty": "Поле e-mail обязательно",
+    "nameEmpty": "Поле имя обязательно",
+    "companyEmpty": "Поле компания обязательно",
+    "positionEmpty": "Поле должность обязательно",
+    "emailIncorrect": "E-mail не валиден",
+    "emailTaken": "E-mail уже зарегестрирован",
+    "success": "Спасибо за регистрацию!",
+    "failure": "Что-то пошло не так"
+  },
   "faq": {
     "title": "FAQ",
     "titles": {

@@ -208,7 +208,7 @@
   },
   "subscribe": {
     "email": "e-mail",
-    "accept": "Получать новости"
+    "accept": "Get updates"
   },
   "beta": {
     "name": "Your name",
@@ -219,6 +219,16 @@
   },
   "window": {
     "cancel": "Cancel"
+  },
+  "notifications": {
+    "emailEmpty": "Fill in your e-mail, please",
+    "nameEmpty": "Tell us your name, please",
+    "companyEmpty": "What is your company?",
+    "positionEmpty": "What is your position?",
+    "emailIncorrect": "E-mail is incorrect",
+    "emailTaken": "E-mail is already signed up",
+    "success": "Thank you for signing up!",
+    "failure": "Something went wrong"
   },
   "faq": {
     "title": "FAQ",

@@ -6,6 +6,7 @@ import faq from './modules/common/faq';
 import beta from './modules/common/beta';
 import subscribe from './modules/common/subscribe';
 import useCases from './modules/landingPage/useCases';
+import notifications from './modules/common/notifications';
 
 export default combineReducers({
   app: combineReducers({
@@ -15,7 +16,8 @@ export default combineReducers({
   common: combineReducers({
     faq,
     beta,
-    subscribe
+    subscribe,
+    notifications
   }),
 
   landingPage: combineReducers({
