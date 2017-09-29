@@ -1,16 +1,18 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { withRouter } from 'react-router';
+import { withRouter } from 'react-router-dom';
 import { translate } from 'react-i18next';
 import s from './styles.scss';
 import i18next from '../../../utils/i18next/client';
 
+import { openFaq } from '../../../redux/modules/common/faq';
 import { changeLanguage } from '../../../redux/modules/app/i18next';
 
+import SLink from '../../common/SLink';
 import Dropdown from '../../common/Dropdown';
 
 const Header = (props) => {
-  const { changeLanguage, location, t } = props;
+  const { changeLanguage, openFaq, location, t } = props;
   const { pathname } = location;
   const selectRu = () => changeLanguage({ lang: 'ru', pathname });
   const selectEn = () => changeLanguage({ lang: 'en', pathname });
@@ -39,22 +41,22 @@ const Header = (props) => {
             <a className={s.linkInner}>{t('links.nav.blog.label')}</a>
           </div>
           <div className={s.link}>
-            <a className={s.linkInner}>{t('links.nav.faq.label')}</a>
+            <a className={s.linkInner} onClick={() => openFaq()}>{t('links.nav.faq.label')}</a>
           </div>
           <div className={s.link}>
             <Dropdown
               button={<a className={s.linkInner}>{t('links.nav.downloads.label')}</a>}
               dropdown={[
-                <a className={s.ddLink}>{t('links.resourses.whitepaper.label')}</a>,
-                <a className={s.ddLink}>{t('links.resourses.yellowpaper.label')}</a>,
-                <a className={s.ddLink}>{t('links.resourses.bsummary.label')}</a>,
-                <a className={s.ddLink}>{t('links.resourses.t&c.label')}</a>,
-                <a className={s.ddLink}>{t('links.resourses.disclaimer.label')}</a>,
-                <a className={s.ddLink}>{t('links.resourses.privacy.label')}</a>
+                <SLink href='/whitepaper' className={s.ddLink}>{t('links.resourses.whitepaper.label')}</SLink>,
+                <SLink href='/yellowpaper' className={s.ddLink}>{t('links.resourses.yellowpaper.label')}</SLink>,
+                <SLink href='/business-summary' className={s.ddLink}>{t('links.resourses.bsummary.label')}</SLink>,
+                <SLink href='/terms-and-conditions' className={s.ddLink}>{t('links.resourses.t&c.label')}</SLink>,
+                <SLink href='/disclaimer' className={s.ddLink}>{t('links.resourses.disclaimer.label')}</SLink>,
+                <SLink href='/privacy-policy' className={s.ddLink}>{t('links.resourses.privacy.label')}</SLink>
               ]}/>
           </div>
           <div className={s.link}>
-            <a className={s.linkInner}>{t('links.resourses.whitepaper.label')}</a>
+            <SLink href='/whitepaper' className={s.linkInner}>{t('links.resourses.whitepaper.label')}</SLink>
           </div>
           <div className={s.link}>
             <a className={s.linkInner}>{t('links.nav.team.label')}</a>
@@ -78,6 +80,7 @@ const TranslatedComponent = translate()(WithRouterComponent);
 export default connect(
   () => ({}),
   {
-    changeLanguage
+    changeLanguage,
+    openFaq
   }
 )(TranslatedComponent);

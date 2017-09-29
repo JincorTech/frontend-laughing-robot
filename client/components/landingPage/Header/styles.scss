@@ -54,6 +54,7 @@
     font: normal 18px Roboto;
     color: #707070;
     cursor: pointer;
+    text-decoration: none;
   }
 }
 
@@ -64,6 +65,8 @@
   height: 100%;
   padding: 10px 15px;
   white-space: nowrap;
+  color: #707070;
+  text-decoration: none;
 
   & > img {
     margin-right: 5px;
