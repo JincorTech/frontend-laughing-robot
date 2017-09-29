@@ -8,6 +8,8 @@ import { EMAIL_REGEXP } from '../../utils/validators';
 import { post } from '../../utils/fetch';
 import i18next, { config } from '../../utils/i18next/client';
 
+const { API_HOST, API_PREFIX } = process.env;
+
 i18next.cloneInstance(config);
 
 function* subscribeRequestIterator({ payload }) {
@@ -30,14 +32,14 @@ function* subscribeRequestIterator({ payload }) {
     } else if (!EMAIL_REGEXP.test(email)) {
       yield put(notify(i18next.t('notifications.emailIncorrect'), 'error'));
     } else {
-      yield call(post, 'http://139.162.132.212:8080/api/v1/mailingList/subscribev2', body);
+      yield call(post, `${API_HOST}${API_PREFIX}/mailingList/subscribev2`, body);
       yield put(notify(i18next.t('notifications.success')));
     }
   } catch (e) {
     if (e.status === 422) {
       yield put(notify(i18next.t('notifications.emailTaken'), 'error'));
     } else {
-      yield put(notify(i18next.t('notifications.failure')));
+      yield put(notify(i18next.t('notifications.failure'), 'error'));
       yield call(console.error, e, body);
     }
   }

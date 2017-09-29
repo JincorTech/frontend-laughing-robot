@@ -1,7 +1,9 @@
 'use strict';
 
-import About from './containers/app/About';
 import LandingPage from './containers/app/LandingPage';
+import WhitePaper from './containers/app/WhitePaper';
+import BusinessSummary from './containers/app/BusinessSummary';
+import TermsAndConditions from './containers/app/TermsAndConditions';
 
 const dupeRoutes = (routes) => {
   return routes.reduce((acc, route) => {
@@ -19,10 +21,20 @@ const routes = [
     component: LandingPage
   },
   {
-    path: 'about',
+    path: 'whitepaper',
     exact: true,
-    component: About
-  }
+    component: WhitePaper
+  },
+  {
+    path: 'terms-and-conditions',
+    exact: true,
+    component: TermsAndConditions
+  },
+  {
+    path: 'business-summary',
+    exact: true,
+    component: BusinessSummary
+  },
 ];
 
 export default dupeRoutes(routes);

@@ -56,6 +56,7 @@ class BetaWindow extends Component {
     return (
       <FormWindow
         open={open}
+        title={t('beta.title')}
         close={() => closeBeta()}>
         <form
           id="mk_betaPopup"

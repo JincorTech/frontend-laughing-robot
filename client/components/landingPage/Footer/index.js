@@ -5,6 +5,8 @@ import s from './styles.scss';
 
 import { openFaq } from '../../../redux/modules/common/faq';
 
+import SLink from '../../common/SLink';
+
 const Footer = (props) => {
   const { openFaq, t } = props;
 
@@ -27,9 +29,9 @@ const Footer = (props) => {
           <div className={s.head}>{t('footer.resourses.title')}</div>
           <div className={s.content}>
             <div className={s.links}>
-              <div className={s.link}><a>Whitepaper</a></div>
-              <div className={s.link}><a>Yellowpaper</a></div>
-              <div className={s.link}><a>Bussiness summary</a></div>
+              <div className={s.link}><SLink href='/whitepaper' className={s.ddLink}>{t('links.resourses.whitepaper.label')}</SLink></div>
+              <div className={s.link}><SLink href='/yellowpaper' className={s.ddLink}>{t('links.resourses.yellowpaper.label')}</SLink></div>
+              <div className={s.link}><SLink href='/business-summary' className={s.ddLink}>{t('links.resourses.bsummary.label')}</SLink></div>
             </div>
           </div>
         </div>
@@ -37,9 +39,9 @@ const Footer = (props) => {
           <div className={s.head}>{t('footer.legal.title')}</div>
           <div className={s.content}>
             <div className={s.links}>
-              <div className={s.link}><a>Privacy policy</a></div>
-              <div className={s.link}><a>Terms & Conditions</a></div>
-              <div className={s.link}><a>Disclaimer</a></div>
+              <div className={s.link}><SLink href='/terms-and-conditions' className={s.ddLink}>{t('links.resourses.t&c.label')}</SLink></div>
+              <div className={s.link}><SLink href='/disclaimer' className={s.ddLink}>{t('links.resourses.disclaimer.label')}</SLink></div>
+              <div className={s.link}><SLink href='/privacy-policy' className={s.ddLink}>{t('links.resourses.privacy.label')}</SLink></div>
             </div>
           </div>
         </div>

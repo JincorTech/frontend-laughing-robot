@@ -326,15 +326,17 @@
     }
   },
   "subscribe": {
+    "title": "Get updates",
     "email": "e-mail",
-    "accept": "Get updates"
+    "accept": "Subscribe"
   },
   "beta": {
+    "title": "Request beta",
     "name": "Your name",
     "company": "Company name",
     "position": "Position",
     "email": "e-mail",
-    "accept": "Apply for beta!"
+    "accept": "Apply"
   },
   "window": {
     "cancel": "Cancel"

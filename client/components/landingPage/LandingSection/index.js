@@ -19,10 +19,10 @@ const LandingSection = (props) => {
 
         <div className={s.buttons}>
           <div className={s.button}>
-            <Button style="primary" onClick={() => openSubscribe()}>{t('landing.subscribeButton')}</Button>
+            <Button style="primary" rounded={true} onClick={() => openSubscribe()}>{t('landing.subscribeButton')}</Button>
           </div>
           <div className={s.button}>
-            <Button style="secondary" onClick={() => openBeta()}>{t('landing.betaButton')}</Button>
+            <Button style="secondary" rounded={true} onClick={() => openBeta()}>{t('landing.betaButton')}</Button>
           </div>
         </div>
 

@@ -1,4 +1,3 @@
-import 'whatwg-fetch';
 import { takeEvery, all, fork, call, put } from 'redux-saga/effects';
 import { BETA_REQUEST } from '../../redux/modules/common/beta';
 import { removeAllNotifications } from '../../redux/modules/common/notifications';
@@ -7,6 +6,8 @@ import { notify } from '../../utils/notifications';
 import { EMAIL_REGEXP } from '../../utils/validators';
 import { post } from '../../utils/fetch';
 import i18next, { config } from '../../utils/i18next/client';
+
+const { API_HOST, API_PREFIX } = process.env;
 
 i18next.cloneInstance(config);
 
@@ -39,7 +40,7 @@ function* betaRequestIterator({ payload }) {
     } else if (!position) {
       yield put(notify(i18next.t('notifications.positionEmpty'), 'error'));
     } else {
-      yield call(post, 'http://139.162.132.212:8080/api/v1/mailingList/subscribev2', body);
+      yield call(post, `${API_HOST}${API_PREFIX}/mailingList/subscribev2`, body);
       yield put(notify(i18next.t('notifications.success')));
     }
   } catch (e) {

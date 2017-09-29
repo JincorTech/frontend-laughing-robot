@@ -8,7 +8,7 @@
   color: #444;
   font: normal 20px Roboto;
   border: solid 2px #ccc;
-  border-radius: 100px;
+  border-radius: 4px;
 
   &.primary {
     background-color: #0070e0;
@@ -20,5 +20,9 @@
     background-color: #fff;
     color: #0070e0;
     border: solid 2px #0070e0;
+  }
+
+  &.rounded {
+    border-radius: 100px;
   }
 }
