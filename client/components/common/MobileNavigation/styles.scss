@@ -1,0 +1,17 @@
+.menu {
+  padding: 80px 30px;
+}
+
+.link {
+  padding: 10px 0;
+
+  & > a {
+    font: bold 30px Roboto;
+    color: #444;
+
+    & > img {
+      width: 35px;
+      margin-right: 10px;
+    }
+  }
+}

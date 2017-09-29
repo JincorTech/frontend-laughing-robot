@@ -73,9 +73,6 @@ const FaqPopup = (props) => {
           <FaqBlock title={t('faq.questions.15.q')}>
             <Interpolate i18nKey="faq.questions.15.a" useDangerouslySetInnerHTML={true}/>
           </FaqBlock>
-        </div>
-        <div className={s.section}>
-          <h3 className={s.sectionTitle}>{t('faq.titles.3')}</h3>
           <FaqBlock title={t('faq.questions.16.q')}>
             <Interpolate i18nKey="faq.questions.16.a" useDangerouslySetInnerHTML={true}/>
           </FaqBlock>
@@ -90,7 +87,7 @@ const FaqPopup = (props) => {
           </FaqBlock>
         </div>
         <div className={s.section}>
-          <h3 className={s.sectionTitle}>{t('faq.titles.4')}</h3>
+          <h3 className={s.sectionTitle}>{t('faq.titles.3')}</h3>
           <FaqBlock title={t('faq.questions.20.q')}>
             <Interpolate i18nKey="faq.questions.20.a" useDangerouslySetInnerHTML={true}/>
           </FaqBlock>
@@ -103,12 +100,12 @@ const FaqPopup = (props) => {
           <FaqBlock title={t('faq.questions.23.q')}>
             <Interpolate i18nKey="faq.questions.23.a" useDangerouslySetInnerHTML={true}/>
           </FaqBlock>
-        </div>
-        <div className={s.section}>
-          <h3 className={s.sectionTitle}>{t('faq.titles.5')}</h3>
           <FaqBlock title={t('faq.questions.24.q')}>
             <Interpolate i18nKey="faq.questions.24.a" useDangerouslySetInnerHTML={true}/>
           </FaqBlock>
+        </div>
+        <div className={s.section}>
+          <h3 className={s.sectionTitle}>{t('faq.titles.4')}</h3>
           <FaqBlock title={t('faq.questions.25.q')}>
             <Interpolate i18nKey="faq.questions.25.a" useDangerouslySetInnerHTML={true}/>
           </FaqBlock>
@@ -121,6 +118,9 @@ const FaqPopup = (props) => {
           <FaqBlock title={t('faq.questions.28.q')}>
             <Interpolate i18nKey="faq.questions.28.a" useDangerouslySetInnerHTML={true}/>
           </FaqBlock>
+        </div>
+        <div className={s.section}>
+          <h3 className={s.sectionTitle}>{t('faq.titles.5')}</h3>
           <FaqBlock title={t('faq.questions.29.q')}>
             <Interpolate i18nKey="faq.questions.29.a" useDangerouslySetInnerHTML={true}/>
           </FaqBlock>
@@ -133,23 +133,14 @@ const FaqPopup = (props) => {
           <FaqBlock title={t('faq.questions.32.q')}>
             <Interpolate i18nKey="faq.questions.32.a" useDangerouslySetInnerHTML={true}/>
           </FaqBlock>
+        </div>
+        <div className={s.section}>
+          <h3 className={s.sectionTitle}>{t('faq.titles.6')}</h3>
           <FaqBlock title={t('faq.questions.33.q')}>
             <Interpolate i18nKey="faq.questions.33.a" useDangerouslySetInnerHTML={true}/>
           </FaqBlock>
           <FaqBlock title={t('faq.questions.34.q')}>
             <Interpolate i18nKey="faq.questions.34.a" useDangerouslySetInnerHTML={true}/>
-          </FaqBlock>
-        </div>
-        <div className={s.section}>
-          <h3 className={s.sectionTitle}>{t('faq.titles.6')}</h3>
-          <FaqBlock title={t('faq.questions.35.q')}>
-            <Interpolate i18nKey="faq.questions.35.a" useDangerouslySetInnerHTML={true}/>
-          </FaqBlock>
-          <FaqBlock title={t('faq.questions.36.q')}>
-            <Interpolate i18nKey="faq.questions.36.a" useDangerouslySetInnerHTML={true}/>
-          </FaqBlock>
-          <FaqBlock title={t('faq.questions.37.q')}>
-            <Interpolate i18nKey="faq.questions.37.a" useDangerouslySetInnerHTML={true}/>
           </FaqBlock>
         </div>
       </div>
@@ -158,7 +149,7 @@ const FaqPopup = (props) => {
   );
 };
 
-const TranslatedComponent = translate('common')(FaqPopup);
+const TranslatedComponent = translate()(FaqPopup);
 export default connect(
   (state) => ({
     open: state.common.faq.open

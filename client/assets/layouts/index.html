@@ -2,18 +2,45 @@
 <html>
 <head>
   <%= helmet.title %>
+  <%= helmet.meta %>
+  <%= helmet.link %>
   <meta charset="utf-8" />
   <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width height=device-height" />
-  <link rel="shortcut icon" type="image/x-icon" href="<%= favicon %>">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="<%= favicons.apple %>">
+  <link rel="icon" type="image/png" sizes="32x32" href="<%= favicons.f32 %>">
+  <link rel="icon" type="image/png" sizes="16x16" href="<%= favicons.f16 %>">
+  <link rel="manifest" href="<%= favicons.manifest %>">
+  <link rel="mask-icon" href="<%= favicons.tb %>" color="#0070e0">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Yandex -->
+  <meta name="yandex-verification" content="3df98fb2ff94c626" />
+  <!-- End Yandex -->
+
   <link type="text/css" rel="stylesheet" href="<%= vendorCss %>" />
   <link type="text/css" rel="stylesheet" href="<%= appCss %>" />
+
+  <!-- SendPulse -->
+  <!-- Also have two files into assets/copy -->
+  <script charset="UTF-8" src="//cdn.sendpulse.com/28edd3380a1c17cf65b137fe96516659/js/push/e259d92e6c07b250dbd2b532e1e32227_1.js" async></script>
+  <!-- End SendPulse -->
 </head>
 <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N4H63DW"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
   <div id="app"><%= html %></div>
-  <script>
-    window.__INITIAL_STATE__ = <%= JSON.stringify(initialState) %>;
-    window.__i18n = <%= JSON.stringify(i18next) %>;
-  </script>
+
+  <noindex>
+    <script>
+      window.__INITIAL_STATE__ = <%= JSON.stringify(initialState) %>;
+      window.__i18n = <%= JSON.stringify(i18next) %>;
+      window.__UA__ = <%= JSON.stringify(ua) %>;
+    </script>
+  </noindex>
   <script src="<%= vendorJs %>"></script>
   <script src="<%= appJs %>"></script>
 </body>

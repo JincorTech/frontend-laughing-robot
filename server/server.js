@@ -9,6 +9,7 @@ import React from 'react';
 import { Provider } from 'react-redux';
 import { StaticRouter, matchPath } from 'react-router';
 import { I18nextProvider } from 'react-i18next';
+import { UserAgentProvider } from '@quentin-sommer/react-useragent';
 import render from './render';
 
 import routes from 'routes';
@@ -27,7 +28,6 @@ app.use(compression());
 
 // Use this middleware to serve up static files built into dist
 app.use('/dist', serveStatic(path.join(__dirname, '../dist')));
-app.use('/:lng/dist', serveStatic(path.join(__dirname, '../dist')));
 app.use('/locales', serveStatic(path.join(__dirname, '../locales')));
 
 // i18next middleware
@@ -43,12 +43,8 @@ i18next
     debug: false,
     interpolation: { escapeValue: false },
     detection: {
-      order: ['path', 'session', 'querystring', 'cookie', 'header'],
-      lookupQuerystring: 'lng',
-      lookupCookie: 'i18next',
-      lookupSession: 'lng',
-      lookupPath: 'lng',
-      lookupFromPathIndex: 0
+      order: ['path'],
+      lookupCookie: 'i18next'
     },
     backend: {
       loadPath: path.join(__dirname, '../locales/{{lng}}/{{ns}}.json'),
@@ -72,6 +68,9 @@ function handleRender(req, res) {
   const i18nextClient = { locale, resources };
   const i18nServer = i18next.cloneInstance();
   i18nServer.changeLanguage(locale);
+
+  // Get user agent
+  const ua = req.headers['user-agent'];
 
   // Create a new Redux store instance
   const store = configureStore(initialState);
@@ -108,9 +107,11 @@ function handleRender(req, res) {
   const component = (
     <I18nextProvider i18n={i18nServer}>
       <Provider store={store}>
-        <StaticRouter context={{}} location={req.url}>
-          <App />
-        </StaticRouter>
+        <UserAgentProvider ua={ua}>
+          <StaticRouter context={{}} location={req.url}>
+            <App />
+          </StaticRouter>
+        </UserAgentProvider>
       </Provider>
     </I18nextProvider>
   );
@@ -128,12 +129,12 @@ function handleRender(req, res) {
     .all(fetchData)
     .then(() => {
       const state = store.getState();
-      res.status(200).send(render(component, state, i18nextClient));
+      res.status(200).send(render(component, state, i18nextClient, ua));
     });
 
 }
 
-app.listen(port, (error) => {
+app.listen(port, '0.0.0.0', (error) => {
   if (error) {
     console.error(error);
   } else {

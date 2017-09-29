@@ -3,6 +3,7 @@ import baseConfig from './base';
 import { SCSS_LOADERS } from './constants';
 import CompressionPlugin from 'compression-webpack-plugin';
 import ExtractTextPlugin from 'extract-text-webpack-plugin';
+import CopyPlugin from 'copy-webpack-plugin';
 
 const plugins = [
   new ExtractTextPlugin('[name].[hash].css'),
@@ -26,7 +27,10 @@ const plugins = [
     test: /\.css$|\.js$|\.html$/,
     threshold: 10240,
     minRatio: 0.8
-  })
+  }),
+  new CopyPlugin([{
+    from: 'client/assets/copy'
+  }])
 ];
 
 const loaders = [

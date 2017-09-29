@@ -1,5 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
+import { translate } from 'react-i18next';
 import s from './styles.scss';
 
 import { openBeta } from '../../../redux/modules/common/beta';
@@ -8,40 +9,40 @@ import { openSubscribe } from '../../../redux/modules/common/subscribe';
 import Button from '../../common/Button';
 
 const LandingSection = (props) => {
-  const { openBeta, openSubscribe } = props;
+  const { openBeta, openSubscribe, t } = props;
 
   return (
     <div className={s.landing}>
       <div className={s.inner}>
-        <h1 className={s.title}>Jincor ICO starts soon!</h1>
-        <h3 className={s.description}>Join to build the platform for genuinely simple smart contracts and cryptocurrency transactions for any business. Stay tuned!</h3>
+        <h1 className={s.title}>{t('landing.title')}</h1>
+        <h3 className={s.description}>{t('landing.subtitle')}</h3>
 
         <div className={s.buttons}>
           <div className={s.button}>
-            <Button style="primary" onClick={() => openSubscribe()}>Subscribe</Button>
+            <Button style="primary" onClick={() => openSubscribe()}>{t('landing.subscribeButton')}</Button>
           </div>
           <div className={s.button}>
-            <Button style="secondary" onClick={() => openBeta()}>Request beta</Button>
+            <Button style="secondary" onClick={() => openBeta()}>{t('landing.betaButton')}</Button>
           </div>
         </div>
 
         <div className={s.socials}>
-          <a className={s.social} href="https://github.com" target="_blank">
+          <a className={s.social} href={t('links.socials.telegram.href')} rel="nofollow" target="_blank">
             <img src={require('../../../assets/images/socials/telegram.svg')}/>
           </a>
-          <a className={s.social} href="https://github.com" target="_blank">
+          <a className={s.social} href={t('links.socials.reddit.href')} rel="nofollow" target="_blank">
             <img src={require('../../../assets/images/socials/reddit.svg')}/>
           </a>
-          <a className={s.social} href="https://github.com" target="_blank">
+          <a className={s.social} href={t('links.socials.medium.href')} rel="nofollow" target="_blank">
             <img src={require('../../../assets/images/socials/medium.svg')}/>
           </a>
-          <a className={s.social} href="https://github.com" target="_blank">
+          <a className={s.social} href={t('links.socials.twitter.href')} rel="nofollow" target="_blank">
             <img src={require('../../../assets/images/socials/twitter.svg')}/>
           </a>
-          <a className={s.social} href="https://github.com" target="_blank">
+          <a className={s.social} href={t('links.socials.facebook.href')} rel="nofollow" target="_blank">
             <img src={require('../../../assets/images/socials/facebook.svg')}/>
           </a>
-          <a className={s.social} href="https://github.com" target="_blank">
+          <a className={s.social} href={t('links.socials.github.href')} rel="nofollow" target="_blank">
             <img src={require('../../../assets/images/socials/github.svg')}/>
           </a>
         </div>
@@ -50,10 +51,11 @@ const LandingSection = (props) => {
   );
 };
 
+const TranslatedComponent = translate()(LandingSection);
 export default connect(
   () => ({}),
   {
     openBeta,
     openSubscribe
   }
-)(LandingSection);
+)(TranslatedComponent);

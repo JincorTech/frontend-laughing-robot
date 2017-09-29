@@ -5,16 +5,32 @@
   width: 100%;
   padding: 80px 0;
   background-color: #fff;
+
+  @media only screen and (max-width: 480px) {
+    padding: 40px 0;
+  }
 }
 
 .container {
   width: 1140px;
   margin: 0 auto;
   clear: fix;
+
+  @media only screen and (max-width: 1024px) {
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+  }
 }
 
 .head {
   margin-bottom: 80px;
+
+  @media only screen and (max-width: 480px) {
+    margin-bottom: 40px;
+  }
 }
 
 .title {
@@ -22,6 +38,15 @@
   color: #444;
   margin: 0 0 5px 0;
   letter-spacing: -0.1px;
+
+  @media only screen and (max-width: 1024px) {
+    padding: 0 20px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    font: bold 30px Roboto;
+    padding: 0 20px;
+  }
 }
 
 .subtitle {
@@ -29,6 +54,15 @@
   color: #adadad;
   margin: 0;
   letter-spacing: -0.1px;
+
+  @media only screen and (max-width: 1024px) {
+    padding: 0 20px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    font: normal 20px Roboto;
+    padding: 0 20px;
+  }
 }
 
 .tabs {
@@ -68,4 +102,40 @@
 .text {
   font: normal 16px/24px Roboto;
   color: #444;
+
+  & a {
+    color: #0080c0;
+    text-decoration: none;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    font: normal 14px/24px Roboto;
+    padding: 0 20px;
+  }
+}
+
+.sections {
+  @media only screen and (max-width: 1024px) {
+    margin-bottom: -40px;
+  }
+}
+
+.section {
+  @media only screen and (max-width: 1024px) {
+    margin: 40px 0;
+  }
+
+  & a {
+    color: #0080c0;
+    text-decoration: none;
+  }
+}
+
+.sectionTitle {
+  @media only screen and (max-width: 1024px) {
+    font: normal 18px/24px Roboto;
+    color: #0070E0;
+    margin-bottom: 15px;
+    padding: 0 20px;
+  }
 }

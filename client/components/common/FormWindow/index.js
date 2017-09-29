@@ -1,8 +1,9 @@
 import React from 'react';
+import { translate } from 'react-i18next';
 import s from './styles.scss';
 
 const FormWindow = (props) => {
-  const { children, open, close } = props;
+  const { children, open, close, t } = props;
 
   const renderWindow = () => (
     <div className={s.background}>
@@ -13,7 +14,7 @@ const FormWindow = (props) => {
         <div className={s.footer}>
           <button className={s.close} type="button" onClick={() => close()}>
             <img src={require('./svg/close.svg')}/>
-            <span>Cancel</span>
+            <span>{t('window.cancel')}</span>
           </button>
         </div>
       </div>
@@ -23,4 +24,5 @@ const FormWindow = (props) => {
   return open ? renderWindow() : null;
 };
 
-export default FormWindow;
+const TranslatedComponent = translate()(FormWindow);
+export default TranslatedComponent;

@@ -3,6 +3,10 @@
   width: 100%;
   overflow: hidden;
   padding-top: 30px;
+
+  @media only screen and (max-width: 480px) {
+    padding-top: 0;
+  }
 }
 
 .images {
@@ -10,6 +14,16 @@
   position: relative;
   left: 50%;
   margin-left: -1170px;
+
+  @media only screen and (max-width: 1024px) {
+    width: 1610px;
+    margin-left: -805px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    width: 680px;
+    margin-left: -340px;
+  }
 }
 
 .image {
@@ -19,6 +33,16 @@
   & > img {
     width: 100%;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+  }
+
+  @media only screen and (max-width: 1024px) {
+    width: 550px;
+    height: 344px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    width: 260px;
+    height: 162px;
   }
 }
 
@@ -36,6 +60,16 @@
   position: absolute;
   bottom: 0;
   left: 0;
+
+  @media only screen and (max-width: 1024px) {
+    width: 480px;
+    height: 300px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    width: 200px;
+    height: 125px;
+  }
 }
 
 .right {
@@ -46,4 +80,14 @@
   position: absolute;
   bottom: 0;
   right: 0;
+
+  @media only screen and (max-width: 1024px) {
+    width: 480px;
+    height: 300px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    width: 200px;
+    height: 125px;
+  }
 }
