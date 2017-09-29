@@ -6,11 +6,16 @@ const Button = (props) => {
   const {
     style,
     children,
+    rounded,
     ...restProps
   } = props;
 
   const cx = classnames.bind(s);
-  const className = cx('button', style);
+  const className = cx(
+    'button',
+    style,
+    rounded ? 'rounded' : null
+  );
 
   return (
     <button className={className} {...restProps}>{children}</button>

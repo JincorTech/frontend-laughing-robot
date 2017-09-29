@@ -38,6 +38,7 @@ class SubscribeWindow extends Component {
     return (
       <FormWindow
         open={open}
+        title={t('subscribe.title')}
         close={() => closeSubscribe()}>
         <form
           id="mk_subscribePopup"

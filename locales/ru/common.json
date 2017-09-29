@@ -326,15 +326,17 @@
     }
   },
   "subscribe": {
+    "title": "Получать новости",
     "email": "e-mail",
-    "accept": "Получать новости"
+    "accept": "Подписаться"
   },
   "beta": {
+    "title": "Запрос на бету",
     "name": "Ваше имя",
     "company": "Компания",
     "position": "Должность",
     "email": "e-mail",
-    "accept": "Запрос на бету"
+    "accept": "Отправить"
   },
   "window": {
     "cancel": "Отмена"
