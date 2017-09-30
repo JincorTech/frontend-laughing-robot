@@ -1,14 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import i18next from '../../../utils/i18next/client';
+import { translate } from 'react-i18next';
 
 const SLink = (props) => {
-  const { href, children, ...restProps } = props;
-  const { language } = i18next;
+  const { t, i18n, i18nLoadedAt, href, children, ...restProps } = props; // eslint-disable-line no-unused-vars
 
   return (
-    <Link to={`/${language}${href}`} {...restProps}>{children}</Link>
+    <Link to={`/${t('lang')}${href}`} {...restProps}>{children}</Link>
   );
 };
 
-export default SLink;
+const TranslatedComponent = translate()(SLink);
+export default TranslatedComponent;

@@ -78,8 +78,8 @@ const Advisors = (props) => {
     <div className={s.advisors}>
       <div className={s.container}>
         <div className={s.head}>
-          <h2 className={s.title}>Advisory Board</h2>
-          <h4 className={s.subtitle}>Our magnificent supporters</h4>
+          <h2 className={s.title}>{t('advisors.title')}</h2>
+          <h4 className={s.subtitle}>{t('advisors.subtitle')}</h4>
         </div>
 
         <div className={s.slick}>
@@ -87,10 +87,10 @@ const Advisors = (props) => {
             <div>
               <div className={s.slickItem}>
                 <PersonCard
-                  name={t('advisors.members.tomas.name')}
-                  role={t('advisors.members.tomas.position')}
-                  about={t('advisors.members.tomas.bio')}
-                  photoElement={<img src={require('../../../assets/images/photos/tomas.jpg')}/>}/>
+                  name={t('advisors.members.simon.name')}
+                  role={t('advisors.members.simon.position')}
+                  about={t('advisors.members.simon.bio')}
+                  photoElement={<img src={require('../../../assets/images/photos/simon.jpg')}/>}/>
               </div>
             </div>
 
@@ -107,10 +107,10 @@ const Advisors = (props) => {
             <div>
               <div className={s.slickItem}>
                 <PersonCard
-                  name={t('advisors.members.simon.name')}
-                  role={t('advisors.members.simon.position')}
-                  about={t('advisors.members.simon.bio')}
-                  photoElement={<img src={require('../../../assets/images/photos/simon.jpg')}/>}/>
+                  name={t('advisors.members.tomas.name')}
+                  role={t('advisors.members.tomas.position')}
+                  about={t('advisors.members.tomas.bio')}
+                  photoElement={<img src={require('../../../assets/images/photos/tomas.jpg')}/>}/>
               </div>
             </div>
 

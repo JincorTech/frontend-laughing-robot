@@ -29,7 +29,7 @@ class Dropdown extends Component {
 
     return (
       <div className={s.dropdown}>
-        {dropdown.map((item) => <div key={item.props.children} className={s.item}>{item}</div>)}
+        {dropdown.map((item) => <div key={item.key} className={s.item}>{item}</div>)}
       </div>
     );
   }

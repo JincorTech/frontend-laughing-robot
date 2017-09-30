@@ -5,7 +5,13 @@ import s from './styles.scss';
 
 import { openFaq } from '../../../redux/modules/common/faq';
 
-import SLink from '../../common/SLink';
+import Scroll from 'react-scroll';
+import WhitePaperLink from '../../resourses/Links/WhitePaperLink';
+import YellowPaperLink from '../../resourses/Links/YellowPaperLink';
+import TermsAndConditionsLink from '../../resourses/Links/TermsAndConditionsLink';
+import PrivacyPolicyLink from '../../resourses/Links/PrivacyPolicyLink';
+import BusinessSummaryLink from '../../resourses/Links/BusinessSummaryLink';
+import DisclaimerLink from '../../resourses/Links/DisclaimerLink';
 
 const Footer = (props) => {
   const { openFaq, t } = props;
@@ -18,10 +24,10 @@ const Footer = (props) => {
           <div className={s.content}>
             <div className={s.links}>
               <div className={s.link}><a onClick={() => openFaq()}>{t('footer.product.faq')}</a></div>
-              <div className={s.link}><a>{t('footer.product.cases')}</a></div>
-              <div className={s.link}><a>{t('footer.product.crowdsale')}</a></div>
-              <div className={s.link}><a>{t('footer.product.team')}</a></div>
-              <div className={s.link}><a>{t('footer.product.advisors')}</a></div>
+              <div className={s.link}><Scroll.Link smooth={true} to="casesSection">{t('footer.product.cases')}</Scroll.Link></div>
+              <div className={s.link}><Scroll.Link smooth={true} to="crowdsaleSection">{t('footer.product.crowdsale')}</Scroll.Link></div>
+              <div className={s.link}><Scroll.Link smooth={true} to="teamSection">{t('footer.product.team')}</Scroll.Link></div>
+              <div className={s.link}><Scroll.Link smooth={true} to="advisorsSection">{t('footer.product.advisors')}</Scroll.Link></div>
             </div>
           </div>
         </div>
@@ -29,9 +35,9 @@ const Footer = (props) => {
           <div className={s.head}>{t('footer.resourses.title')}</div>
           <div className={s.content}>
             <div className={s.links}>
-              <div className={s.link}><SLink href='/whitepaper' className={s.ddLink}>{t('links.resourses.whitepaper.label')}</SLink></div>
-              <div className={s.link}><SLink href='/yellowpaper' className={s.ddLink}>{t('links.resourses.yellowpaper.label')}</SLink></div>
-              <div className={s.link}><SLink href='/business-summary' className={s.ddLink}>{t('links.resourses.bsummary.label')}</SLink></div>
+              <div className={s.link}><WhitePaperLink/></div>
+              <div className={s.link}><YellowPaperLink className={s.disabled}/></div>
+              <div className={s.link}><BusinessSummaryLink/></div>
             </div>
           </div>
         </div>
@@ -39,9 +45,9 @@ const Footer = (props) => {
           <div className={s.head}>{t('footer.legal.title')}</div>
           <div className={s.content}>
             <div className={s.links}>
-              <div className={s.link}><SLink href='/terms-and-conditions' className={s.ddLink}>{t('links.resourses.t&c.label')}</SLink></div>
-              <div className={s.link}><SLink href='/disclaimer' className={s.ddLink}>{t('links.resourses.disclaimer.label')}</SLink></div>
-              <div className={s.link}><SLink href='/privacy-policy' className={s.ddLink}>{t('links.resourses.privacy.label')}</SLink></div>
+              <div className={s.link}><TermsAndConditionsLink className={s.disabled}/></div>
+              <div className={s.link}><DisclaimerLink className={s.disabled}/></div>
+              <div className={s.link}><PrivacyPolicyLink className={s.disabled}/></div>
             </div>
           </div>
         </div>

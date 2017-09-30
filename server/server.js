@@ -1,6 +1,7 @@
 import 'babel-polyfill';
 import path from 'path';
 import Express from 'express';
+import sm from 'sitemap';
 import i18next from 'i18next';
 import Backend from 'i18next-node-fs-backend';
 import serveStatic from 'serve-static';
@@ -16,12 +17,22 @@ import routes from 'routes';
 import configureStore from 'redux/configureStore';
 
 import App from 'containers/app/RootContainer';
+import ErrorPage from 'components/common/ErrorPage';
 
 const i18nextMiddleware = require('i18next-express-middleware');
 
 const { PORT, APPLICATION_PORT } = process.env;
 const app = new Express();
 const port = PORT || APPLICATION_PORT || 3000;
+const sitemap = sm.createSitemap({
+  hostname: 'https://jincor.com',
+  cacheTime: 600000,
+  urls: [
+    { url: '/', changefreq: 'daily', priority: 1 },
+    { url: '/whitepaper', changefreq: 'daily', priority: 0.5 },
+    { url: '/business-summary', changefreq: 'daily', priority: 0.5 },
+  ]
+});
 
 // gzip
 app.use(compression());
@@ -29,6 +40,12 @@ app.use(compression());
 // Use this middleware to serve up static files built into dist
 app.use('/dist', serveStatic(path.join(__dirname, '../dist')));
 app.use('/locales', serveStatic(path.join(__dirname, '../locales')));
+
+// Sitemap
+app.get('/sitemap.xml', (req, res) => {
+  res.header('Content-Type', 'application/xml');
+  res.send(sitemap.toString());
+});
 
 // i18next middleware
 i18next
@@ -99,7 +116,7 @@ function handleRender(req, res) {
 
   // No matched route, render a 404 page.
   if (!matches.length) {
-    res.status(404).send(render(<div>No matched route :(</div>, finalState));
+    res.status(404).send(render(<I18nextProvider i18n={i18nServer}><ErrorPage/></I18nextProvider>, finalState));
     return;
   }
 

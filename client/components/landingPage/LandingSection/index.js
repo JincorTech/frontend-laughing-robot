@@ -6,6 +6,7 @@ import s from './styles.scss';
 import { openBeta } from '../../../redux/modules/common/beta';
 import { openSubscribe } from '../../../redux/modules/common/subscribe';
 
+import Scroll from 'react-scroll';
 import Button from '../../common/Button';
 
 const LandingSection = (props) => {
@@ -19,10 +20,10 @@ const LandingSection = (props) => {
 
         <div className={s.buttons}>
           <div className={s.button}>
-            <Button style="primary" rounded={true} onClick={() => openSubscribe()}>{t('landing.subscribeButton')}</Button>
+            <Button style="primary" onClick={() => openSubscribe()}>{t('landing.subscribeButton')}</Button>
           </div>
           <div className={s.button}>
-            <Button style="secondary" rounded={true} onClick={() => openBeta()}>{t('landing.betaButton')}</Button>
+            <Button style="secondary" onClick={() => openBeta()}>{t('landing.betaButton')}</Button>
           </div>
         </div>
 
@@ -47,6 +48,11 @@ const LandingSection = (props) => {
           </a>
         </div>
       </div>
+
+      <Scroll.Link smooth={true} to="aboutSection" className={s.godown}>
+        <div>{t('landing.godown')}</div>
+        <img src={require('./images/godownarr.svg')}/>
+      </Scroll.Link>
     </div>
   );
 };

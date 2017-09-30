@@ -8,7 +8,13 @@ import i18next from '../../../utils/i18next/client';
 import { openFaq } from '../../../redux/modules/common/faq';
 import { changeLanguage } from '../../../redux/modules/app/i18next';
 
-import SLink from '../../common/SLink';
+import Scroll from 'react-scroll';
+import WhitePaperLink from '../../resourses/Links/WhitePaperLink';
+import YellowPaperLink from '../../resourses/Links/YellowPaperLink';
+import TermsAndConditionsLink from '../../resourses/Links/TermsAndConditionsLink';
+import PrivacyPolicyLink from '../../resourses/Links/PrivacyPolicyLink';
+import BusinessSummaryLink from '../../resourses/Links/BusinessSummaryLink';
+import DisclaimerLink from '../../resourses/Links/DisclaimerLink';
 import Dropdown from '../../common/Dropdown';
 
 const Header = (props) => {
@@ -38,7 +44,7 @@ const Header = (props) => {
 
         <div className={s.nav}>
           <div className={s.link}>
-            <a className={s.linkInner}>{t('links.nav.blog.label')}</a>
+            <a href="https://medium.com/jincor" target="_blank" rel="nofollow" className={s.linkInner}>{t('links.nav.blog.label')}</a>
           </div>
           <div className={s.link}>
             <a className={s.linkInner} onClick={() => openFaq()}>{t('links.nav.faq.label')}</a>
@@ -47,26 +53,26 @@ const Header = (props) => {
             <Dropdown
               button={<a className={s.linkInner}>{t('links.nav.downloads.label')}</a>}
               dropdown={[
-                <SLink href='/whitepaper' className={s.ddLink}>{t('links.resourses.whitepaper.label')}</SLink>,
-                <SLink href='/yellowpaper' className={s.ddLink}>{t('links.resourses.yellowpaper.label')}</SLink>,
-                <SLink href='/business-summary' className={s.ddLink}>{t('links.resourses.bsummary.label')}</SLink>,
-                <SLink href='/terms-and-conditions' className={s.ddLink}>{t('links.resourses.t&c.label')}</SLink>,
-                <SLink href='/disclaimer' className={s.ddLink}>{t('links.resourses.disclaimer.label')}</SLink>,
-                <SLink href='/privacy-policy' className={s.ddLink}>{t('links.resourses.privacy.label')}</SLink>
+                <WhitePaperLink key="whitepaper"/>,
+                <YellowPaperLink key="yellowpaper" className={s.disabled}/>,
+                <BusinessSummaryLink key="bsummary"/>,
+                <TermsAndConditionsLink key="tnc" className={s.disabled}/>,
+                <PrivacyPolicyLink key="pp" className={s.disabled}/>,
+                <DisclaimerLink key="disclaimer" className={s.disabled}/>
               ]}/>
           </div>
           <div className={s.link}>
-            <SLink href='/whitepaper' className={s.linkInner}>{t('links.resourses.whitepaper.label')}</SLink>
+            <WhitePaperLink/>
           </div>
           <div className={s.link}>
-            <a className={s.linkInner}>{t('links.nav.team.label')}</a>
+            <Scroll.Link to="teamSection" smooth={true} className={s.linkInner}>{t('links.nav.team.label')}</Scroll.Link>
           </div>
           <div className={s.link}>
             <Dropdown
               button={getCurrentLang()}
               dropdown={[
-                <a className={s.ddLink} onClick={() => selectEn()}><img src={require('../../../assets/images/flags/en.svg')}/>English</a>,
-                <a className={s.ddLink} onClick={() => selectRu()}><img src={require('../../../assets/images/flags/ru.svg')}/>Русский</a>
+                <a className={s.ddLink} key="lang.header.en" onClick={() => selectEn()}><img src={require('../../../assets/images/flags/en.svg')}/>English</a>,
+                <a className={s.ddLink} key="lang.header.ru" onClick={() => selectRu()}><img src={require('../../../assets/images/flags/ru.svg')}/>Русский</a>
               ]}/>
           </div>
         </div>

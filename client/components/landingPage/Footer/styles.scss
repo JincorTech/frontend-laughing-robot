@@ -57,7 +57,7 @@
 
 .head {
   font: normal 18px Roboto;
-  color: #0070e0;
+  color: #0080e0;
   margin-bottom: 15px;
 }
 
@@ -77,7 +77,12 @@
     text-decoration: none;
 
     &:hover {
-      color: #0070e0;
+      color: #0080e0;
+    }
+
+    &.disabled {
+      opacity: 0.4;
+      pointer-events: none;
     }
   }
 }

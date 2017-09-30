@@ -2,6 +2,13 @@ import React from 'react';
 import { translate } from 'react-i18next';
 import s from './styles.scss';
 
+import WhitePaperLink from '../../resourses/Links/WhitePaperLink';
+import YellowPaperLink from '../../resourses/Links/YellowPaperLink';
+import TermsAndConditionsLink from '../../resourses/Links/TermsAndConditionsLink';
+import PrivacyPolicyLink from '../../resourses/Links/PrivacyPolicyLink';
+import BusinessSummaryLink from '../../resourses/Links/BusinessSummaryLink';
+import DisclaimerLink from '../../resourses/Links/DisclaimerLink';
+
 const AboutSection = ({ t }) => {
   return (
     <div className={s.about}>
@@ -18,11 +25,12 @@ const AboutSection = ({ t }) => {
           <h4 className={s.subtitle}>{t('about.resourses.subtitle')}</h4>
           <div className={s.content}>
             <div className={s.links}>
-              <div><a>Whitepaper</a></div>
-              <div><a>Yellowpaper</a></div>
-              <div><a>Business Summary</a></div>
-              <div><a>Terms & Conditions</a></div>
-              <div><a>Disclaimer</a></div>
+              <div><WhitePaperLink/></div>
+              <div><YellowPaperLink className={s.disabled}/></div>
+              <div><BusinessSummaryLink/></div>
+              <div><TermsAndConditionsLink className={s.disabled}/></div>
+              <div><PrivacyPolicyLink className={s.disabled}/></div>
+              <div><DisclaimerLink className={s.disabled}/></div>
             </div>
           </div>
         </div>

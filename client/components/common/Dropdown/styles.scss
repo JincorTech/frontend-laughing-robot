@@ -21,6 +21,26 @@
   &:hover {
     background-color: #f9f9f9;
   }
+
+  & a {
+    font: normal 18px Roboto;
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    padding: 10px 15px;
+    white-space: nowrap;
+    color: #707070;
+    text-decoration: none;
+
+    & > img {
+      margin-right: 5px;
+    }
+
+    &.disabled {
+      opacity: 0.4;
+      pointer-events: none;
+    }
+  }
 }
 
 .link {

@@ -208,6 +208,10 @@ const Team = (props) => {
             photoElement={<img src={require('../../../assets/images/photos/artem.jpg')}/>}
             socialNetworks={[
               {
+                href: 'https://www.linkedin.com/in/artem-pikulin-473753138/',
+                icon: <img src={require('../../../assets/images/teamSocials/linkedin.svg')}/>
+              },
+              {
                 href: 'https://github.com/artemii235/',
                 icon: <img src={require('../../../assets/images/teamSocials/github.svg')}/>
               }
@@ -221,7 +225,7 @@ const Team = (props) => {
             name={t('team.members.alexandr_s.name')}
             role={t('team.members.alexandr_s.position')}
             about={t('team.members.alexandr_s.bio')}
-            photoElement={<img src={require('../../../assets/images/photos/alexandr_sh.jpg')}/>}
+            photoElement={<img src={require('../../../assets/images/photos/alexandr_s.jpg')}/>}
             socialNetworks={[
               {
                 href: 'https://www.linkedin.com/in/alexandersedelnikov/',

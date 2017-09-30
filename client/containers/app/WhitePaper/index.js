@@ -1,25 +1,16 @@
 import React from 'react';
+import { translate } from 'react-i18next';
 import PDFViewer from '../../../components/resourses/PDFViewer';
 
-import i18next from '../../../utils/i18next/client';
-
-const WhitePaper = () => {
-  const getPDF = () => {
-    switch (i18next.language) {
-      case 'en':
-        return 'https://s3.eu-west-2.amazonaws.com/jincor-ico/whitepaper.pdf';
-      case 'ru':
-        return 'https://s3.eu-west-2.amazonaws.com/jincor-ico/whitepaper_ru.pdf';
-      default:
-        return 'https://s3.eu-west-2.amazonaws.com/jincor-ico/whitepaper.pdf';
-    }
-  };
+const WhitePaper = (props) => {
+  const { t } = props;
 
   return (
-    <PDFViewer>
-      <embed src={getPDF()} type="application/pdf" width="100%"/>
+    <PDFViewer download={t('links.resourses.whitepaper.href')} name={t('links.resourses.whitepaper.label')}>
+      <iframe src={`https://drive.google.com/viewerng/viewer?url=${t('links.resourses.whitepaper.href')}?pid=explorer&efh=false&a=v&chrome=false&embedded=true`} type="application/pdf" width="100%"/>
     </PDFViewer>
   );
 };
 
-export default WhitePaper;
+const TranslatedComponent = translate()(WhitePaper);
+export default TranslatedComponent;
