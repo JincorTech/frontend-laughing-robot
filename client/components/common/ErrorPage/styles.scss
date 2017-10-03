@@ -1,0 +1,40 @@
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.error {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.msg {
+  font: 200 72px Roboto;
+  color: #444;
+
+  @media only screen and (max-width: 450px) {
+    font: 200 30px Roboto;
+  }
+}
+
+.link {
+  margin-top: 50px;
+
+  & > a {
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0;
+    outline: none;
+    font: 200 20px Roboto;
+    border-radius: 4px;
+    background-color: #0080FF;
+    color: #fff;
+    border: solid 2px #0080FF;
+  }
+}

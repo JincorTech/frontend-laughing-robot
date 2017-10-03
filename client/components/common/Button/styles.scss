@@ -1,0 +1,28 @@
+.button {
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
+  margin: 0;
+  outline: none;
+  background-color: #ccc;
+  color: #444;
+  font: normal 20px Roboto;
+  border: solid 2px #ccc;
+  border-radius: 4px;
+
+  &.primary {
+    background-color: #0080FF;
+    color: #fff;
+    border: solid 2px #0080FF;
+  }
+
+  &.secondary {
+    background-color: #fff;
+    color: #0080FF;
+    border: solid 2px #0080FF;
+  }
+
+  &.rounded {
+    border-radius: 100px;
+  }
+}

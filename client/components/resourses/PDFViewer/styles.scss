@@ -1,0 +1,87 @@
+.viewer {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.header {
+  height: 60px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.back {
+  display: inline-block;
+  vertical-align: middle;
+  width: 20%;
+
+  & > a {
+    cursor: pointer;
+    color: #0080FF;
+    text-decoration: none;
+
+    & > img {
+      width: 15px;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+
+    & > span {
+      font: normal 18px Roboto;
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+}
+
+.name {
+  width: 60%;
+  display: inline-block;
+  vertical-align: middle;
+  font: bold 25px Roboto;
+  color: #444;
+}
+
+.download {
+  text-align: right;
+  display: inline-block;
+  vertical-align: middle;
+  width: 20%;
+  padding: 10px 0;
+
+  & > a {
+    display: inline-block;
+    font: normal 18px Roboto;
+    border: 2px solid #0080FF;
+    color: #0080FF;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 6px 35px 7px;
+
+    & > span {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    & > img {
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+  }
+}
+
+.body {
+  height: calc(100% - 60px);
+
+  & > iframe {
+    height: 100%;
+    border: none;
+  }
+}

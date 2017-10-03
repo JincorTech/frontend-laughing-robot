@@ -1,0 +1,132 @@
+.landing {
+  min-height: calc(100vh - 94px);
+  width: 100%;
+  height: auto;
+  position: relative;
+
+  @media only screen and (max-width: 1024px) {
+    min-height: calc(100vh - 74px);
+  }
+
+  @media only screen and (max-width: 480px) {
+    min-height: auto;
+    height: auto;
+    padding: 50px 0 40px;
+  }
+}
+
+.inner {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+
+  @media only screen and (max-width: 480px) {
+    position: static;
+    top: auto;
+    transform: none;
+  }
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font: bold 50px Roboto;
+  letter-spacing: -0.2px;
+  text-align: center;
+  color: #444;
+
+  @media only screen and (max-width: 480px) {
+    font: bold 30px/35px Roboto;
+    letter-spacing: -0.1px;
+    text-align: left;
+    padding: 0 20px;
+  }
+}
+
+.description {
+  max-width: 560px;
+  margin: 0 auto;
+  font: normal 20px Roboto;
+  letter-spacing: -0.1px;
+  text-align: center;
+  color: #7c7c7c;
+
+  @media only screen and (max-width: 480px) {
+    font: normal 20px/30px Roboto;
+    text-align: left;
+    padding: 0 20px;
+  }
+}
+
+.buttons {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  margin: 0 15px;
+  width: 225px;
+
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+    margin: 10px 0;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+}
+
+.socials {
+  margin-top: 60px;
+  text-align: center;
+
+  @media only screen and (max-width: 480px) {
+    margin: 50px 0 0 0;
+  }
+}
+
+.social {
+  width: 30px;
+  height: 31px;
+  margin: 0 15px;
+  display: inline-block;
+  opacity: 0.15;
+  transition: .1s linear opacity;
+
+  & > img {
+    width: 100%;
+    height: 100%;
+  }
+
+  &:hover {
+    opacity: 0.3;
+  }
+
+  @media only screen and (max-width: 480px) {
+    width: 22px;
+    height: 22px;
+    margin: 0 10px;
+  }
+}
+
+.godown {
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 30px;
+  text-align: center;
+  font: normal 16px Roboto;
+  color: #0080FF;
+
+  & > img {
+    margin-top: 10px;
+    display: inline-block;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    display: none;
+  }
+}

@@ -1,0 +1,77 @@
+.body {
+  width: 800px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+
+  @media only screen and (max-width: 800px) {
+    width: 100%;
+    padding: 0 15px;
+  }
+}
+
+.section {
+  margin: 30px 0;
+}
+
+.sectionTitle {
+  font: bold 25px Roboto;
+  color: #0080FF;
+  padding: 5px 15px;
+  margin: 0;
+
+  @media only screen and (max-width: 480px) {
+    font: bold 14px/30px Roboto;
+  }
+}
+
+.block {
+  margin: 10px 0;
+  padding: 8px 15px;
+  background-color: transparent;
+  transition: 0.1s linear background-color;
+
+  &:hover {
+    background-color: #F8F8F8;
+  }
+
+  &:last-child {
+    border: none;
+  }
+}
+
+.open {
+  composes: block;
+  background-color: #F8F8F8;
+}
+
+.title {
+  font: 500 20px/40px Roboto;
+  color: #444;
+  cursor: pointer;
+
+  @media only screen and (max-width: 480px) {
+    font: normal 18px/24px Roboto;
+  }
+}
+
+.blockBody {
+  font: normal 16px/24px Roboto;
+  color: #444;
+  padding: 5px 0;
+
+  & a {
+    font: bold 16px/30px Roboto;
+    color: #648cdc;
+    text-decoration: none;
+    cursor: pointer;
+
+    @media only screen and (max-width: 480px) {
+      font: normal 12px/18px Roboto;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    font: normal 12px/18px Roboto;
+  }
+}

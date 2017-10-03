@@ -1,17 +1,45 @@
 'use strict';
 
-import About from './containers/About';
-import Home from './containers/Home';
+import LandingPage from './containers/app/LandingPage';
+import WhitePaper from './containers/app/WhitePaper';
+import BusinessSummary from './containers/app/BusinessSummary';
+import TermsAndConditions from './containers/app/TermsAndConditions';
+import ErrorPage from './components/common/ErrorPage';
 
-export default [
+const dupeRoutes = (routes) => {
+  return routes.reduce((acc, route) => {
+    const empty = { ...route, path: `/${route.path}` };
+    const ru = { ...route, path: `/ru/${route.path}` };
+    const en = { ...route, path: `/en/${route.path}` };
+    return acc.concat(empty, en, ru);
+  }, []);
+};
+
+const routes = [
   {
-    path: '/',
+    path: '',
     exact: true,
-    component: Home
+    component: LandingPage
   },
   {
-    path: '/about',
+    path: 'whitepaper',
     exact: true,
-    component: About
+    component: WhitePaper
+  },
+  {
+    path: 'terms-and-conditions',
+    exact: true,
+    component: TermsAndConditions
+  },
+  {
+    path: 'business-summary',
+    exact: true,
+    component: BusinessSummary
+  },
+  {
+    path: '*',
+    component: ErrorPage
   }
 ];
+
+export default dupeRoutes(routes);
