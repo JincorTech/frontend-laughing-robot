@@ -1,25 +1,16 @@
 import React from 'react';
+import { translate } from 'react-i18next';
 import PDFViewer from '../../../components/resourses/PDFViewer';
 
-import i18next from '../../../utils/i18next/client';
-
-const BusinessSummary = () => {
-  const getPDF = () => {
-    switch (i18next.language) {
-      case 'en':
-        return 'https://s3.eu-west-2.amazonaws.com/jincor-ico/summary_eng.pdf';
-      case 'ru':
-        return 'https://s3.eu-west-2.amazonaws.com/jincor-ico/summary_ru.pdf';
-      default:
-        return 'https://s3.eu-west-2.amazonaws.com/jincor-ico/summary_eng.pdf';
-    }
-  };
+const BusinessSummary = (props) => {
+  const { t } = props;
 
   return (
-    <PDFViewer>
-      <embed src={getPDF()} type="application/pdf" width="100%"/>
+    <PDFViewer download={t('links.resourses.bsummary.href')} name={t('links.resourses.bsummary.label')}>
+      <iframe src={`https://drive.google.com/viewerng/viewer?url=${t('links.resourses.bsummary.href')}?pid=explorer&efh=false&a=v&chrome=false&embedded=true`} type="application/pdf" width="100%"/>
     </PDFViewer>
   );
 };
 
-export default BusinessSummary;
+const TranslatedComponent = translate()(BusinessSummary);
+export default TranslatedComponent;

@@ -110,3 +110,23 @@
     margin: 0 10px;
   }
 }
+
+.godown {
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 30px;
+  text-align: center;
+  font: normal 16px Roboto;
+  color: #0080E0;
+
+  & > img {
+    margin-top: 10px;
+    display: inline-block;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    display: none;
+  }
+}

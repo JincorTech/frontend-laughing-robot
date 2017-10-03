@@ -50,7 +50,7 @@
   display: inline-block;
   margin: 0 20px;
 
-  & .linkInner {
+  & a {
     font: normal 18px Roboto;
     color: #707070;
     cursor: pointer;
@@ -58,17 +58,7 @@
   }
 }
 
-.ddLink {
-  font: normal 18px Roboto;
-  cursor: pointer;
-  display: block;
-  height: 100%;
-  padding: 10px 15px;
-  white-space: nowrap;
-  color: #707070;
-  text-decoration: none;
-
-  & > img {
-    margin-right: 5px;
-  }
+.disabled {
+  opacity: 0.4;
+  pointer-events: none;
 }

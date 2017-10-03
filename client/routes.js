@@ -4,6 +4,7 @@ import LandingPage from './containers/app/LandingPage';
 import WhitePaper from './containers/app/WhitePaper';
 import BusinessSummary from './containers/app/BusinessSummary';
 import TermsAndConditions from './containers/app/TermsAndConditions';
+import ErrorPage from './components/common/ErrorPage';
 
 const dupeRoutes = (routes) => {
   return routes.reduce((acc, route) => {
@@ -35,6 +36,10 @@ const routes = [
     exact: true,
     component: BusinessSummary
   },
+  {
+    path: '*',
+    component: ErrorPage
+  }
 ];
 
 export default dupeRoutes(routes);

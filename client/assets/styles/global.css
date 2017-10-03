@@ -1,3 +1,14 @@
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+.popupCloses {
+  position: static;
+  overflow-y: auto;
+}
+
 .popupOpened {
-  overflow: hidden;
+  width: 100%;
+  position: fixed;
+  overflow-y: scroll
 }

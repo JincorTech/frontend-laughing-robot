@@ -8,15 +8,15 @@
     "resourses": {
       "whitepaper": {
         "label": "Whitepaper",
-        "href": ""
+        "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/whitepaper.pdf"
       },
       "yellowpaper": {
         "label": "Yellowpaper",
         "href": ""
       },
       "bsummary": {
-        "label": "Bussiness Summary",
-        "href": ""
+        "label": "Business Summary",
+        "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/summary_eng.pdf"
       },
       "t&c": {
         "label": "Terms & Conditions",
@@ -71,7 +71,8 @@
     "title": "Jincor ICO starts on November 1",
     "subtitle": "Join to build the platform for genuinely simple smart contracts and cryptocurrency transactions for any business. Stay tuned!",
     "subscribeButton": "Subscribe",
-    "betaButton": "Request beta"
+    "betaButton": "Request beta",
+    "godown": "Explore the project"
   },
   "about": {
     "whatIs": {
@@ -115,7 +116,7 @@
       },
       "october2017": {
         "date": "October 2017",
-        "what": "Final touches on the product, public beta launch"
+        "what": "Public beta launch"
       },
       "november2017": {
         "date": "November 2017",
@@ -205,27 +206,27 @@
       "vlad": {
         "name": "Vlad Kirichenko",
         "position": "CEO and Co-Founder",
-        "bio": "Co-founder and tech evangelist. Vlad has graduated from Financial University under the Government of the Russian Federation with a bachelor’s degree in finance and has almost five years of successful entrepreneurial experience. In Jincor he focuses primarily on strategic planning and business development."
+        "bio": "Vlad is a co-founder and tech evangelist. Vlad has graduated from Financial University under the Government of the Russian Federation with a bachelor’s degree in finance and has almost five years of successful entrepreneurial experience. In Jincor he focuses on strategic planning, business development and also manages the product development."
       },
       "vagan": {
         "name": "Vagan Abelyan",
         "position": "COO and Co-Founder",
-        "bio": "Vagan is a co-founder of the project. He is responsible for the project management, stretegic and operational issues, and negotiating with investors and business partners. Vagan has been doing business since his university years (Financial University under the Government of the Russian Federation) and has expertise in finance and corporate management."
+        "bio": "Vagan is a co-founder of the project. He is responsible for the strategic questions, including team management, driving the partnerships and negotiating with investors. Vagan has been an entrepreneur since the graduation from Financial University under the Government of Russia. He has a deep expertise in finance and corporate management."
       },
       "andrey": {
         "name": "Andrey Degtyaruk",
         "position": "CTO & Blockchain Expert",
-        "bio": "An enthusiastic developer and an excellent leader of the tech team. Andrey has eight years of commercial development experience and has worked with many startups in Russia and globally, including Lifeboat Network, BrainySoft (Skolkovo), and an international business incubator Rocket Internet. Has an expertise in blockchain technologies."
+        "bio": "Andrey is an enthusiastic developer and an excellent leader of the tech team. Andrey has eight years of commercial development experience and worked with many startups in Russia and globally, including Lifeboat Network, BrainySoft (Skolkovo), and an international business incubator Rocket Internet. Has an expertise in blockchain technologies."
       },
       "nastya": {
         "name": "Anastasia Balashova",
         "position": "Head of Marketing",
-        "bio": "Anastasia is responsible for the marketing strategy in the company. She perfectly deals with technically complicated terms and ideas of Jincor’s software engineers and translates them into the common language. Anastasia has over ten years of experience in communications and marketing: in her portfolio there are both traditional brands — Avon, SAP, DuPont, Evernote — and blockchain startups, like KICKICO."
+        "bio": "Anastasia is responsible for the marketing strategy in the company. She transforms complicated ideas of Jincor’s engineers into easy to comprehend stories. Anastasia has over 10 years of experience in communications and marketing: in her portfolio are both traditional brands — Avon, SAP, DuPont, Evernote — and blockchain startups, like KICKICO."
       },
       "gega": {
         "name": "George Paliani",
         "position": "International Ambassador",
-        "bio": "George is a key representantive of Jincor in the international scene. He has excellent negotiation skills and extensive experience in government structures and consulting agencies. George speaks six languages — Russian, English, Spanish, German, Swedish and Georgian — and has a Ph.D. in history. Author of academic studies and politologist."
+        "bio": "George is a key representative of Jincor in the international scene. He has excellent negotiation skills and extensive experience in government structures and consulting agencies. George speaks six languages — Russian, English, Spanish, German, Swedish and Georgian — and has a Ph.D. in history. Author of academic studies and politologist."
       },
       "aidar": {
         "name": "Aidar Ibatullin",
@@ -270,7 +271,7 @@
       "anton_l": {
         "name": "Anton Lysakov",
         "position": "Community Manager",
-        "bio": ""
+        "bio": "Anton – crypto enthusiast, investor and evangelist. Has an experience of managing B2B support team, serving several hundreds of companies from around the world. Has a bachelor’s degree on Nuclear Physics and Technologies from Tomsk Polytechnic Institute. In Jincor he is responsible for community management and spreading the project’s mission."
       },
       "vlad_b": {
         "name": "Vlad Belousov",
@@ -283,20 +284,20 @@
     "title": "Advisory Board",
     "subtitle": "Our magnificent supporters",
     "members": {
-      "tomas": {
-        "name": "Thomas Kärner",
-        "position": "CBDO & Legal Advisor",
-        "bio": "Thomas is a world-class expert and established professional with more than 20 years of work experience at top executive positions in commercial and government bodies, including IKEA, Swedish Trade and Investment Council in Russia, and a large consulting agency MLB Advisory. He has strong skills and extensive expertise in law, strategic development and GR."
+      "simon": {
+        "name": "Simon Cocking",
+        "position": "Media & Global Partnerships Advisor",
+        "bio": "Simon is a Senior Editor at Irish Tech News and also freelances for Sunday Business Post, Irish Times and other publications. He is an accomplished public speaker at events including TEDx, Web Summit, Dublin Tech Summit and much more. He is also a business mentor and fintech influencer with over 110,000 followers on Twitter and 11000 LinkedIn connections, and has been named on 8 global Twitter influencer lists in the last 12 months."
       },
       "stas": {
         "name": "Stas Kolesnichenko",
         "position": "Legal Advisor",
-        "bio": "Stas is an expert in strategic development and corporate finance. He has started his career at KPMG, held executive positions in venture capital funds Fast Lane Ventures and Viamedix and has been also responsible for business development in Dentsu Aegis Network in Russia. Has an MBA degree from Tel Aviv University, Master of Strategic Management and Corporate Governance (HSE)."
+        "bio": "Stas is an expert in strategic development and finance. He has started his career at KPMG, held executive positions in funds Fast Lane Ventures and Viamedix and has been responsible for business development in Dentsu Aegis Network in Russia. Has an MBA degree from Tel Aviv University, Master of Strategic Management and Corporate Governance (HSE)."
       },
-      "simon": {
-        "name": "Simon Cocking",
-        "position": "",
-        "bio": ""
+      "tomas": {
+        "name": "Thomas Kärner",
+        "position": "Legal Advisor",
+        "bio": "Thomas is a world-class expert and established professional with more than 20 years of experience at executive positions in commercial and government sectors, including IKEA, Swedish Trade and Investment Council in Russia and a consulting agency MLB Advisory. He has strong skills and extensive expertise in law, strategic development and GR."
       }
     }
   },
@@ -499,5 +500,13 @@
         "a": "Product development is a constant activity. If we talk about the implementation of basic technologies for cryptocurrency settlements, smart contracts, and arbitration system, then, according to our road map, this functionality will be available as early as in 2018. The functional available is already described in Question #7"
       }
     }
+  },
+  "pdf": {
+    "download": "Download",
+    "gotomain": "Main page"
+  },
+  "404": {
+    "error": "Sorry, we can’t seem to find the page you are looking for :(",
+    "action": "Main Page"
   }
 }

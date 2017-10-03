@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import { translate } from 'react-i18next';
 import { UserAgent } from '@quentin-sommer/react-useragent';
 
+import Scroll from 'react-scroll';
 import BodyClassName from 'react-body-classname';
 import HelmetBase from '../../../components/common/HelmetBase';
 import Header from '../../../components/landingPage/Header';
@@ -31,7 +32,7 @@ const LandingPage = (props) => {
 
   return (
     // if any popup is open set popupOpened class to body
-    <BodyClassName className={ isAnyPopupOpen() ? 'popupOpened' : '' }>
+    <BodyClassName className={ isAnyPopupOpen() ? 'popupOpened' : 'popupClosed' }>
       <div>
         <HelmetBase>
           <title>{t('head.title')}</title>
@@ -40,13 +41,13 @@ const LandingPage = (props) => {
         <UserAgent computer><Header/></UserAgent>
         <UserAgent mobile><MobileHeader/></UserAgent>
         <LandingSection/>
-        <AboutSection/>
-        <UseCases/>
+        <Scroll.Element name="aboutSection"><AboutSection/></Scroll.Element>
+        <Scroll.Element name="casesSection"><UseCases/></Scroll.Element>
         <ProductCarousel/>
         <Roadmap/>
-        <CrowdsaleSection/>
-        <Team/>
-        <Advisors/>
+        <Scroll.Element name="crowdsaleSection"><CrowdsaleSection/></Scroll.Element>
+        <Scroll.Element name="teamSection"><Team/></Scroll.Element>
+        <Scroll.Element name="advisorsSection"><Advisors/></Scroll.Element>
         <JoinCommunity/>
         <Footer/>
 

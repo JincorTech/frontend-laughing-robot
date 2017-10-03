@@ -26,6 +26,18 @@
 
 @font-face {
 	font-family: 'Roboto';
+	src: url('Roboto-Medium.eot');
+	src: url('Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+		url('Roboto-Medium.woff2') format('woff2'),
+		url('Roboto-Medium.woff') format('woff'),
+		url('Roboto-Medium.ttf') format('truetype'),
+		url('Roboto-Medium.svg#Roboto-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
 	src: url('Roboto-Bold.eot');
 	src: url('Roboto-Bold.eot?#iefix') format('embedded-opentype'),
 		url('Roboto-Bold.woff2') format('woff2'),

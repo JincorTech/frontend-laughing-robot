@@ -9,7 +9,12 @@ import { openFaq } from '../../../redux/modules/common/faq';
 import { closeNavigation, changeView } from '../../../redux/modules/common/mobileNavigation';
 import { changeLanguage } from '../../../redux/modules/app/i18next';
 
-import SLink from '../SLink';
+import WhitePaperLink from '../../resourses/Links/WhitePaperLink';
+import YellowPaperLink from '../../resourses/Links/YellowPaperLink';
+import TermsAndConditionsLink from '../../resourses/Links/TermsAndConditionsLink';
+import PrivacyPolicyLink from '../../resourses/Links/PrivacyPolicyLink';
+import BusinessSummaryLink from '../../resourses/Links/BusinessSummaryLink';
+import DisclaimerLink from '../../resourses/Links/DisclaimerLink';
 import Popup from '../Popup';
 
 const MobileNavigation = (props) => {
@@ -42,7 +47,7 @@ const MobileNavigation = (props) => {
       <div className={s.link}><a>{t('links.nav.blog.label')}</a></div>
       <div className={s.link}><a onClick={() => openFaqAndCloseNav()}>{t('links.nav.faq.label')}</a></div>
       <div className={s.link} onClick={() => openResourses()}><a>{t('links.nav.downloads.label')}</a></div>
-      <div className={s.link}><SLink href="/whitepaper">{t('links.resourses.whitepaper.label')}</SLink></div>
+      <div className={s.link}><WhitePaperLink/></div>
       <div className={s.link} onClick={() => openLangs()}>{getCurrentLang()}</div>
     </div>
   );
@@ -56,12 +61,12 @@ const MobileNavigation = (props) => {
 
   const renderResourses = () => (
     <div className={s.menu}>
-      <div className={s.link}><SLink href="/whitepaper">{t('links.resourses.whitepaper.label')}</SLink></div>
-      <div className={s.link}><SLink href="/yellowpaper">{t('links.resourses.yellowpaper.label')}</SLink></div>
-      <div className={s.link}><SLink href="/business-summary">{t('links.resourses.bsummary.label')}</SLink></div>
-      <div className={s.link}><SLink href="/terms-and-conditions">{t('links.resourses.t&c.label')}</SLink></div>
-      <div className={s.link}><SLink href="/disclaimer">{t('links.resourses.disclaimer.label')}</SLink></div>
-      <div className={s.link}><SLink href="/privacy-policy">{t('links.resourses.privacy.label')}</SLink></div>
+      <div className={s.link}><WhitePaperLink/></div>
+      <div className={s.link}><YellowPaperLink className={s.disabled}/></div>
+      <div className={s.link}><BusinessSummaryLink/></div>
+      <div className={s.link}><TermsAndConditionsLink className={s.disabled}/></div>
+      <div className={s.link}><PrivacyPolicyLink className={s.disabled}/></div>
+      <div className={s.link}><DisclaimerLink className={s.disabled}/></div>
     </div>
   );
 
