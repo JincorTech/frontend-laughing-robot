@@ -1,5 +1,5 @@
 import { takeEvery, all, fork, call, put } from 'redux-saga/effects';
-import { BETA_REQUEST } from '../../redux/modules/common/beta';
+import { BETA_REQUEST, closeBeta } from '../../redux/modules/common/beta';
 import { removeAllNotifications } from '../../redux/modules/common/notifications';
 
 import { notify } from '../../utils/notifications';
@@ -42,6 +42,7 @@ function* betaRequestIterator({ payload }) {
     } else {
       yield call(post, `${API_HOST}${API_PREFIX}/mailingList/subscribev2`, body);
       yield put(notify(i18next.t('notifications.success')));
+      yield put(closeBeta());
     }
   } catch (e) {
     if (e.status === 422) {

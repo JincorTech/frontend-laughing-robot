@@ -1,6 +1,6 @@
 import 'whatwg-fetch';
 import { takeEvery, all, fork, call, put } from 'redux-saga/effects';
-import { SUBSCRIBE_REQUEST } from '../../redux/modules/common/subscribe';
+import { SUBSCRIBE_REQUEST, closeSubscribe } from '../../redux/modules/common/subscribe';
 import { removeAllNotifications } from '../../redux/modules/common/notifications';
 
 import { notify } from '../../utils/notifications';
@@ -34,6 +34,7 @@ function* subscribeRequestIterator({ payload }) {
     } else {
       yield call(post, `${API_HOST}${API_PREFIX}/mailingList/subscribev2`, body);
       yield put(notify(i18next.t('notifications.success')));
+      yield put(closeSubscribe());
     }
   } catch (e) {
     if (e.status === 422) {

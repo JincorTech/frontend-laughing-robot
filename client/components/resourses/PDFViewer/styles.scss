@@ -45,6 +45,7 @@
   display: inline-block;
   vertical-align: middle;
   font: bold 25px Roboto;
+  color: #444;
 }
 
 .download {
@@ -52,7 +53,7 @@
   display: inline-block;
   vertical-align: middle;
   width: 20%;
-  padding: 7px 0;
+  padding: 10px 0;
 
   & > a {
     display: inline-block;
@@ -61,7 +62,7 @@
     color: #0080FF;
     border-radius: 4px;
     text-decoration: none;
-    padding: 8px 35px;
+    padding: 6px 35px 7px;
 
     & > span {
       display: inline-block;
