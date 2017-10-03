@@ -26,8 +26,6 @@ require('./assets/favicons/favicon-32x32.png');
 require('./assets/favicons/favicon-16x16.png');
 require('./assets/favicons/manifest.json');
 require('./assets/favicons/safari-pinned-tab.svg');
-require('./assets/images/crawler/ru.png');
-require('./assets/images/crawler/en.png');
 
 // The root element of your app
 const rootElement = document.getElementById('app');
