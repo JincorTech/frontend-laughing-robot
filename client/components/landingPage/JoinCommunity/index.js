@@ -51,12 +51,11 @@ class JoinCommunity extends Component {
               <TextInput
                 placeholder="e-mail"
                 name="email"
-                rounded={true}
                 value={email}
                 onChange={this._handleEmailChange}/>
             </div>
             <div className={s.button}>
-              <Button type="submit" rounded={true} style="primary">{t('community.button')}</Button>
+              <Button type="submit" style="primary">{t('community.button')}</Button>
             </div>
           </form>
         </div>
