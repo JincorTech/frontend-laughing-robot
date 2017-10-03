@@ -65,6 +65,7 @@
 
 .input {
   display: inline-block;
+  vertical-align: top;
   width: 280px;
   margin-right: 20px;
 
@@ -79,6 +80,7 @@
 .button {
   width: 225px;
   display: inline-block;
+  vertical-align: top;
 
   @media only screen and (max-width: 480px) {
     width: 100%;
