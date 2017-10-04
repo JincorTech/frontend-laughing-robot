@@ -2,13 +2,6 @@
   -webkit-font-smoothing: antialiased;
 }
 
-.popupCloses {
-  position: static;
-  overflow-y: auto;
-}
-
 .popupOpened {
-  width: 100%;
-  position: fixed;
-  overflow-y: scroll
+  overflow: hidden;
 }
