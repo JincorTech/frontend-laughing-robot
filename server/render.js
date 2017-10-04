@@ -2,6 +2,7 @@
 import { template } from 'lodash';
 import { renderToString } from 'react-dom/server';
 import { Helmet } from 'react-helmet';
+import ReactBodyClassName from 'react-body-classname';
 
 const { NODE_ENV } = process.env;
 const compile = template(require('../client/assets/layouts/index.html'));
@@ -12,6 +13,7 @@ export default function render(component, initialState = {}, i18next, ua = null)
     global.ISOTools.refresh();
   }
 
+  const bodyClassNames = ReactBodyClassName.rewind();
   const assets = global.ISOTools.assets();
   const favicons = {
     apple: assets.assets['./client/assets/favicons/apple-touch-icon.png'],
@@ -28,6 +30,6 @@ export default function render(component, initialState = {}, i18next, ua = null)
   const appCss = assets.styles.app;
 
   return compile(
-    { html, helmet, favicons, vendorCss, appCss, vendorJs, appJs, initialState, i18next, ua }
+    { html, helmet, favicons, vendorCss, appCss, vendorJs, appJs, initialState, i18next, ua, bodyClassNames }
   );
 }

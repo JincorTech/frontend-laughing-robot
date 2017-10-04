@@ -1,0 +1,10 @@
+version: '2'
+services:
+
+  landing:
+    image: registry.jincor.com/frontend/laughing-robot-production:latest
+    build:
+      context: ./
+      dockerfile: production.Dockerfile
+    ports:
+      - 3000

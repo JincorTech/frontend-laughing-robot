@@ -20,6 +20,7 @@
     "dev:build": "better-npm-run dev:build",
     "prod:build": "better-npm-run prod:build",
     "prod:start": "better-npm-run prod:build && better-npm-run prod:start ",
+    "prod:start:docker": "better-npm-run prod:start:docker",
     "test": "better-npm-run test",
     "test:all": "better-npm-run test:all",
     "test:watch": "better-npm-run test:watch",
@@ -55,6 +56,12 @@
     },
     "prod:start": {
       "command": "pm2 start server --name='universal-react-redux'",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    },
+    "prod:start:docker": {
+      "command": "pm2-docker start server 'universal-react-redux'",
       "env": {
         "NODE_ENV": "production"
       }
