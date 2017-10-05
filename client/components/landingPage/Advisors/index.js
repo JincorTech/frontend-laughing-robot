@@ -90,7 +90,17 @@ const Advisors = (props) => {
                   name={t('advisors.members.simon.name')}
                   role={t('advisors.members.simon.position')}
                   about={t('advisors.members.simon.bio')}
-                  photoElement={<img src={require('../../../assets/images/photos/simon.jpg')}/>}/>
+                  photoElement={<img src={require('../../../assets/images/photos/simon.jpg')}/>}
+                  socialNetworks={[
+                    {
+                      href: 'https://www.linkedin.com/in/simon-cocking-20540135/',
+                      icon: <img src={require('../../../assets/images/teamSocials/linkedin.svg')}/>
+                    },
+                    {
+                      href: 'https://twitter.com/SimonCocking',
+                      icon: <img src={require('../../../assets/images/teamSocials/twitter.svg')}/>
+                    }
+                  ]}/>
               </div>
             </div>
 
@@ -100,7 +110,13 @@ const Advisors = (props) => {
                   name={t('advisors.members.stas.name')}
                   role={t('advisors.members.stas.position')}
                   about={t('advisors.members.stas.bio')}
-                  photoElement={<img src={require('../../../assets/images/photos/stas.jpg')}/>}/>
+                  photoElement={<img src={require('../../../assets/images/photos/stas.jpg')}/>}
+                  socialNetworks={[
+                    {
+                      href: 'https://www.linkedin.com/in/skoleso/',
+                      icon: <img src={require('../../../assets/images/teamSocials/linkedin.svg')}/>
+                    }
+                  ]}/>
               </div>
             </div>
 
@@ -110,7 +126,13 @@ const Advisors = (props) => {
                   name={t('advisors.members.tomas.name')}
                   role={t('advisors.members.tomas.position')}
                   about={t('advisors.members.tomas.bio')}
-                  photoElement={<img src={require('../../../assets/images/photos/tomas.jpg')}/>}/>
+                  photoElement={<img src={require('../../../assets/images/photos/tomas.jpg')}/>}
+                  socialNetworks={[
+                    {
+                      href: 'https://www.linkedin.com/in/tomaskarner/',
+                      icon: <img src={require('../../../assets/images/teamSocials/linkedin.svg')}/>
+                    }
+                  ]}/>
               </div>
             </div>
 

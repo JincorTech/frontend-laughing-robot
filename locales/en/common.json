@@ -3,6 +3,7 @@
   "head": {
     "title": "Jincor — smart contracts and cryptocurrency payments for business",
     "description": "Make the first major step towards unleashing the real power of smart contracts and cryptocurrency transactions for any business",
+    "keywords": "blockchain, cryptocurrency, smart contracts, smart contracts blockchain, blockchain ico",
     "ogimage": "https://s3.eu-west-2.amazonaws.com/jincor-ico/landing_en.png"
   },
   "links": {
@@ -206,12 +207,12 @@
     "members": {
       "vlad": {
         "name": "Vlad Kirichenko",
-        "position": "CEO and Co-Founder",
+        "position": "CEO & Co-Founder",
         "bio": "Vlad is a co-founder and tech evangelist. Vlad has graduated from Financial University under the Government of the Russian Federation with a bachelor’s degree in finance and has almost five years of successful entrepreneurial experience. In Jincor he focuses on strategic planning, business development and also manages the product development."
       },
       "vagan": {
         "name": "Vagan Abelyan",
-        "position": "COO and Co-Founder",
+        "position": "COO & Co-Founder",
         "bio": "Vagan is a co-founder of the project. He is responsible for the strategic questions, including team management, driving the partnerships and negotiating with investors. Vagan has been an entrepreneur since the graduation from Financial University under the Government of Russia. He has a deep expertise in finance and corporate management."
       },
       "andrey": {
@@ -232,52 +233,52 @@
       "aidar": {
         "name": "Aidar Ibatullin",
         "position": "Frontend Engineer",
-        "bio": ""
+        "bio": "Aidar is an experienced developer of client service applications. Previously he was working on the projects for Volkswagen, Bentley, IMAX and many more. In Jincor Aidar is responsible for the client interface and informational pages about the product. He is very passionate about his job and follows all the new trends in frontend-development."
       },
       "artem": {
         "name": "Artem Pikulin",
         "position": "Backend Engineer",
-        "bio": ""
+        "bio": "Artem is a talented developer with various IT experience. His forte — code testing. In Jincor Artem is in charge of developing several microservices in different languages and also participates in ICO’s smart contracts coding. He loves what he is doing and actively participates in the discussion of new trends in IT and Blockchain communities."
       },
       "alexandr_s": {
         "name": "Alexandr Sedelnikov",
         "position": "Backend Engineer",
-        "bio": ""
+        "bio": "Alexander is a backend developer with 8+ years of experience, with a strong technical and science background, which includes working for Intel and Parallels. Considerable knowledge of popular languages, frameworks, and blockchain technologies helps him easily build well structured and documented applications, using different architecture approaches."
       },
       "alexandr_i": {
         "name": "Alexandr Isaev",
         "position": "Frontend Engineer",
-        "bio": ""
+        "bio": "Alexandr is a software developer with a 5+ years of experience in enterprise sector. He graduated from PSUTI from Povolzhie with a bachelor’s degree in “Software of Computing and Automated Systems”. Previously worked as a lead developer in many large-scale commercial projects in Russian and foreign teams, including a position in Microsoft. "
       },
       "alexandr_sh": {
         "name": "Alexandr Shaikhanov",
         "position": "Backend Engineer",
-        "bio": ""
+        "bio": "Alexandr is a developer with 4+ years of experience in enterprise software. Graduated from Chelyabinskiy State University with a degree in Computer Science. Alexandr participated in many projects developing anything from games to financial solutions. He devotes time studying upcoming technologies and experimenting to use knowledge in practice."
       },
       "khasan": {
         "name": "Khasan Erkenov",
-        "position": "UI/UX Designer",
-        "bio": ""
+        "position": "Design Director",
+        "bio": "Khasan is an experienced design director for digital products and conceptual & product designer. Author of projects for McKinsey, Bauer and some other world-wide famous companies. Passionate about blockchain technologies and mobile products. In Jincor he is responsible for conceptual and product design. Directs the graphic design department."
       },
       "alexandra_s": {
         "name": "Alexandra Samuilkina",
-        "position": "Content Manager",
-        "bio": ""
+        "position": "PR Manager",
+        "bio": "Alexandra is a talented journalist with many years of professional experience in major Russian business media and specialization in cryptocurrencies and blockchain technologies. Has a bachelor’s degree in journalism from Lomonosov Moscow State University. In Jincor she is responsible for media coverage and the content management."
       },
       "anton_a": {
         "name": "Anton Atsekhovskyy",
         "position": "Digital Marketing",
-        "bio": ""
+        "bio": "Anton — digital-marketer with 7+ years of experience. He believes that marketing is his calling and invests time to improve qualification and acquire new skills. Anton’s portfolio includes projects in IT, transportation, education and etc. His role in Jincor is to promote the platform in social media, search engines and industry media."
       },
       "anton_l": {
         "name": "Anton Lysakov",
         "position": "Community Manager",
-        "bio": "Anton – crypto enthusiast, investor and evangelist. Has an experience of managing B2B support team, serving several hundreds of companies from around the world. Has a bachelor’s degree on Nuclear Physics and Technologies from Tomsk Polytechnic Institute. In Jincor he is responsible for community management and spreading the project’s mission."
+        "bio": "Anton — crypto enthusiast, investor, and evangelist. Has an experience of managing B2B support team, serving several hundreds of companies from around the world. Has a bachelor’s degree in Nuclear Physics and Technologies from Tomsk Polytechnic University. In Jincor he is responsible for community management and spreading the project’s mission. "
       },
       "vlad_b": {
         "name": "Vlad Belousov",
         "position": "Community Manager",
-        "bio": ""
+        "bio": "Vladislav is a great specialist in the field of B2B support. He has an experience of successful implementation and maintenance of more than 30 commercial projects. He graduated from Tomsk State University of Control Systems and Radio-electronics. Along with Anton Lysakov, he is in charge of community management and spreading the Jincor’s mission."
       }
     }
   },
@@ -288,7 +289,7 @@
       "simon": {
         "name": "Simon Cocking",
         "position": "Media & Global Partnerships Advisor",
-        "bio": "Simon is a Senior Editor at Irish Tech News and also freelances for Sunday Business Post, Irish Times and other publications. He is an accomplished public speaker at events including TEDx, Web Summit, Dublin Tech Summit and much more. He is also a business mentor and fintech influencer with over 110,000 followers on Twitter and 11000 LinkedIn connections, and has been named on 8 global Twitter influencer lists in the last 12 months."
+        "bio": "Simon is a senior editor at Irish Tech News and also freelances for Sunday Business Post, Irish Times and other publications. He is an accomplished public speaker at events including TEDx, Web Summit, Dublin Tech Summit and much more. He is also a business mentor and fintech influencer with over 110,000 followers on Twitter and 11,000 LinkedIn connections, and has been named on 8 global Twitter influencer lists in the last 12 months."
       },
       "stas": {
         "name": "Stas Kolesnichenko",
