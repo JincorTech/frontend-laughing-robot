@@ -13,6 +13,7 @@ const HelmetBase = (props) => {
       <meta itemProp="name" content={t('head.title')}/>
       <meta itemProp="description" content={t('head.description')}/>
       <meta itemProp="image" content={t('head.ogimage')}/>
+      <meta name="keywords" content={t('head.keywords')}/>
 
       <meta name="twitter:card" content={t('head.ogimage')}/>
       <meta name="twitter:site" content="https://jincor.com"/>
