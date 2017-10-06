@@ -286,6 +286,11 @@
     "title": "Advisory Board",
     "subtitle": "Our magnificent supporters",
     "members": {
+      "marcus": {
+        "name": "Marcus Killick OBE",
+        "position": "Jurisdiction Adviser",
+        "bio": "Marcus Killick (LLb Mphil) is the Non Executive Chairman of the Gibraltar Stock Exchange (GSX).  He is also Chief Executive Officer of ISOLAS LLP law firm and a non executive director of a number of other companies including the Gibraltar International Bank as well as a  Chairperson of the Commission of the Office of Fair Trading."
+      },
       "simon": {
         "name": "Simon Cocking",
         "position": "Media & Global Partnerships Advisor",
