@@ -73,28 +73,6 @@
   @media only screen and (max-width: 480px) {
     margin: 0;
     padding: 0 0 70px 0;
-
-    &:before {
-      content: '';
-      position: absolute;
-      height: calc(100% - 70px);
-      width: calc((100% - 260px) / 2);
-      top: 0;
-      left: 0;
-      background: linear-gradient(to right, rgba(255, 255, 255, 0.7) 0%,rgba(255, 255, 255, 0) 100%);
-      z-index: 1;
-    }
-
-    &:after {
-      content: '';
-      position: absolute;
-      height: calc(100% - 70px);
-      width: calc((100% - 260px) / 2);
-      top: 0;
-      right: 0;
-      background: linear-gradient(to left, rgba(255, 255, 255, 0.7) 0%,rgba(255, 255, 255, 0) 100%);
-      z-index: 1;
-    }
   }
 }
 
@@ -110,6 +88,19 @@
   @media only screen and (max-width: 480px) {
     margin: 0;
     width: 100%;
+  }
+}
+
+:global(.slick-slide) {
+  @media only screen and (max-width: 480px) {
+    opacity: 0.4;
+    transition: 0.3s linear all;
+  }
+}
+
+:global(.slick-center) {
+  @media only screen and (max-width: 480px) {
+    opacity: 1;
   }
 }
 
