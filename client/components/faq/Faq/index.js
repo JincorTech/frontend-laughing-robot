@@ -1,27 +1,25 @@
 import React from 'react';
-import { connect } from 'react-redux';
+import { withRouter } from 'react-router-dom';
 import { translate, Interpolate } from 'react-i18next';
 
-import { closeFaq } from '../../../redux/modules/common/faq';
-
-import Popup from '../Popup';
-import FaqBlock from './components/Block';
+import FaqBlock from '../FaqBlock';
+import SLink from '../../common/SLink';
 
 import s from './styles.scss';
 
-const FaqPopup = (props) => {
-  const {
-    t,
-    open,
-    closeFaq
-  } = props;
+const Faq = (props) => {
+  const { t } = props;
 
   return (
-    <Popup
-      open={open}
-      close={() => closeFaq()}
-      title={t('faq.title')}>
-
+    <div className={s.faq}>
+      <div className={s.head}>
+        <div className={s.title}>{t('faq.title')}</div>
+        <div className={s.close}>
+          <SLink href="/">
+            <img src={require('./images/close.svg')}/>
+          </SLink>
+        </div>
+      </div>
       <div className={s.body}>
         <div className={s.section}>
           <h3 className={s.sectionTitle}>{t('faq.titles.1')}</h3>
@@ -144,17 +142,9 @@ const FaqPopup = (props) => {
           </FaqBlock>
         </div>
       </div>
-
-    </Popup>
+    </div>
   );
 };
 
-const TranslatedComponent = translate()(FaqPopup);
-export default connect(
-  (state) => ({
-    open: state.common.faq.open
-  }),
-  {
-    closeFaq
-  }
-)(TranslatedComponent);
+const WithRouterComponent = withRouter(Faq);
+export default translate()(WithRouterComponent);

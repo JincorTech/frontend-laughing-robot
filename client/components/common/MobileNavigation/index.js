@@ -5,10 +5,10 @@ import { translate } from 'react-i18next';
 import s from './styles.scss';
 import i18next from '../../../utils/i18next/client';
 
-import { openFaq } from '../../../redux/modules/common/faq';
 import { closeNavigation, changeView } from '../../../redux/modules/common/mobileNavigation';
 import { changeLanguage } from '../../../redux/modules/app/i18next';
 
+import SLink from '../SLink';
 import WhitePaperLink from '../../resourses/Links/WhitePaperLink';
 import YellowPaperLink from '../../resourses/Links/YellowPaperLink';
 import TermsAndConditionsLink from '../../resourses/Links/TermsAndConditionsLink';
@@ -18,7 +18,15 @@ import DisclaimerLink from '../../resourses/Links/DisclaimerLink';
 import Popup from '../Popup';
 
 const MobileNavigation = (props) => {
-  const { view, open, closeNavigation, changeView, changeLanguage, openFaq, location, t } = props;
+  const {
+    view,
+    open,
+    closeNavigation,
+    changeView,
+    changeLanguage,
+    location,
+    t
+  } = props;
   const { pathname } = location;
 
   const selectRu = () => changeLanguage({ lang: 'ru', pathname });
@@ -26,10 +34,6 @@ const MobileNavigation = (props) => {
   const openMenu = () => changeView('nav');
   const openLangs = () => changeView('langs');
   const openResourses = () => changeView('resourses');
-  const openFaqAndCloseNav = () => {
-    closeNavigation();
-    openFaq();
-  };
 
   const getCurrentLang = () => {
     switch (i18next.language) {
@@ -44,8 +48,8 @@ const MobileNavigation = (props) => {
 
   const renderMenu = () => (
     <div className={s.menu}>
-      <div className={s.link}><a>{t('links.nav.blog.label')}</a></div>
-      <div className={s.link}><a onClick={() => openFaqAndCloseNav()}>{t('links.nav.faq.label')}</a></div>
+      <div className={s.link}><a href={t('links.nav.blog.href')}>{t('links.nav.blog.label')}</a></div>
+      <div className={s.link}><SLink href='/faq'>{t('links.nav.faq.label')}</SLink></div>
       <div className={s.link} onClick={() => openResourses()}><a>{t('links.nav.downloads.label')}</a></div>
       <div className={s.link}><WhitePaperLink/></div>
       <div className={s.link} onClick={() => openLangs()}>{getCurrentLang()}</div>
@@ -102,7 +106,6 @@ export default connect(
   {
     closeNavigation,
     changeView,
-    changeLanguage,
-    openFaq
+    changeLanguage
   }
 )(TranslatedComponent);

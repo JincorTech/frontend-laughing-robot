@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import s from '../../styles.scss';
+import s from './styles.scss';
 
 class FaqBlock extends Component {
   constructor(props) {
@@ -21,7 +21,7 @@ class FaqBlock extends Component {
     const { children } = this.props;
 
     return (
-      <div className={s.blockBody}>{children}</div>
+      <div className={s.body}>{children}</div>
     );
   }
 

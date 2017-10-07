@@ -19,16 +19,15 @@ import Advisors from '../../../components/landingPage/Advisors';
 import JoinCommunity from '../../../components/landingPage/JoinCommunity';
 import Footer from '../../../components/landingPage/Footer';
 
-import FaqPopup from '../../../components/common/FaqPopup';
 import SubscribeWindow from '../../../components/common/SubscribeWindow';
 import BetaWindow from '../../../components/common/BetaWindow';
 import Notifications from '../../../components/landingPage/Notifications';
 import MobileNavigation from '../../../components/common/MobileNavigation';
 
 const LandingPage = (props) => {
-  const { t, isFaqOpen, isBetaOpen, isSubscribeOpen, isMobileNavOpen } = props;
+  const { t, isBetaOpen, isSubscribeOpen, isMobileNavOpen } = props;
 
-  const isAnyPopupOpen = () => isFaqOpen || isBetaOpen || isSubscribeOpen || isMobileNavOpen;
+  const isAnyPopupOpen = () => isBetaOpen || isSubscribeOpen || isMobileNavOpen;
 
   return (
     // if any popup is open set popupOpened class to body
@@ -51,7 +50,6 @@ const LandingPage = (props) => {
         <JoinCommunity/>
         <Footer/>
 
-        <FaqPopup/>
         <SubscribeWindow/>
         <BetaWindow/>
         <Notifications/>
@@ -64,7 +62,6 @@ const LandingPage = (props) => {
 const TranslatedComponent = translate()(LandingPage);
 export default connect(
   (state) => ({
-    isFaqOpen: state.common.faq.open,
     isBetaOpen: state.common.beta.open,
     isSubscribeOpen: state.common.subscribe.open,
     isMobileNavOpen: state.common.mobileNavigation.open

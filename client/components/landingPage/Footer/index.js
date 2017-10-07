@@ -1,11 +1,9 @@
 import React from 'react';
-import { connect } from 'react-redux';
 import { translate } from 'react-i18next';
 import s from './styles.scss';
 
-import { openFaq } from '../../../redux/modules/common/faq';
-
 import Scroll from 'react-scroll';
+import SLink from '../../common/SLink';
 import WhitePaperLink from '../../resourses/Links/WhitePaperLink';
 import YellowPaperLink from '../../resourses/Links/YellowPaperLink';
 import TermsAndConditionsLink from '../../resourses/Links/TermsAndConditionsLink';
@@ -14,7 +12,7 @@ import BusinessSummaryLink from '../../resourses/Links/BusinessSummaryLink';
 import DisclaimerLink from '../../resourses/Links/DisclaimerLink';
 
 const Footer = (props) => {
-  const { openFaq, t } = props;
+  const { t } = props;
 
   return (
     <div className={s.footer}>
@@ -23,7 +21,7 @@ const Footer = (props) => {
           <div className={s.head}>{t('footer.product.title')}</div>
           <div className={s.content}>
             <div className={s.links}>
-              <div className={s.link}><a onClick={() => openFaq()}>{t('footer.product.faq')}</a></div>
+              <div className={s.link}><SLink href="/faq">{t('footer.product.faq')}</SLink></div>
               <div className={s.link}><Scroll.Link smooth={true} to="casesSection">{t('footer.product.cases')}</Scroll.Link></div>
               <div className={s.link}><Scroll.Link smooth={true} to="crowdsaleSection">{t('footer.product.crowdsale')}</Scroll.Link></div>
               <div className={s.link}><Scroll.Link smooth={true} to="teamSection">{t('footer.product.team')}</Scroll.Link></div>
@@ -82,10 +80,4 @@ const Footer = (props) => {
   );
 };
 
-const TranslatedComponent = translate()(Footer);
-export default connect(
-  () => ({}),
-  {
-    openFaq
-  }
-)(TranslatedComponent);
+export default translate()(Footer);
