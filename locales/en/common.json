@@ -12,8 +12,8 @@
         "label": "Whitepaper",
         "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/whitepaper.pdf"
       },
-      "yellowpaper": {
-        "label": "Yellowpaper",
+      "techpaper": {
+        "label": "Technical Paper",
         "href": ""
       },
       "bsummary": {

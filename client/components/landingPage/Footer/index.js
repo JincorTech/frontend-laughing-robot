@@ -5,7 +5,7 @@ import s from './styles.scss';
 import Scroll from 'react-scroll';
 import SLink from '../../common/SLink';
 import WhitePaperLink from '../../resourses/Links/WhitePaperLink';
-import YellowPaperLink from '../../resourses/Links/YellowPaperLink';
+import TechPaperLink from '../../resourses/Links/TechPaperLink';
 import TermsAndConditionsLink from '../../resourses/Links/TermsAndConditionsLink';
 import PrivacyPolicyLink from '../../resourses/Links/PrivacyPolicyLink';
 import BusinessSummaryLink from '../../resourses/Links/BusinessSummaryLink';
@@ -34,7 +34,7 @@ const Footer = (props) => {
           <div className={s.content}>
             <div className={s.links}>
               <div className={s.link}><WhitePaperLink/></div>
-              <div className={s.link}><YellowPaperLink className={s.disabled}/></div>
+              <div className={s.link}><TechPaperLink className={s.disabled}/></div>
               <div className={s.link}><BusinessSummaryLink/></div>
             </div>
           </div>
@@ -59,9 +59,6 @@ const Footer = (props) => {
               </a>
               <a className={s.social} href={t('links.socials.reddit.href')} rel="nofollow" target="_blank">
                 <img src={require('../../../assets/images/socials/reddit.svg')}/>
-              </a>
-              <a className={s.social} href={t('links.socials.medium.href')} rel="nofollow" target="_blank">
-                <img src={require('../../../assets/images/socials/medium.svg')}/>
               </a>
               <a className={s.social} href={t('links.socials.twitter.href')} rel="nofollow" target="_blank">
                 <img src={require('../../../assets/images/socials/twitter.svg')}/>

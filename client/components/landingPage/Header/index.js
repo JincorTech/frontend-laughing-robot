@@ -10,7 +10,7 @@ import { changeLanguage } from '../../../redux/modules/app/i18next';
 import Scroll from 'react-scroll';
 import SLink from '../../common/SLink';
 import WhitePaperLink from '../../resourses/Links/WhitePaperLink';
-import YellowPaperLink from '../../resourses/Links/YellowPaperLink';
+import TechPaperLink from '../../resourses/Links/TechPaperLink';
 import TermsAndConditionsLink from '../../resourses/Links/TermsAndConditionsLink';
 import PrivacyPolicyLink from '../../resourses/Links/PrivacyPolicyLink';
 import BusinessSummaryLink from '../../resourses/Links/BusinessSummaryLink';
@@ -54,7 +54,7 @@ const Header = (props) => {
               button={<a className={s.linkInner}>{t('links.nav.downloads.label')}</a>}
               dropdown={[
                 <WhitePaperLink key="whitepaper"/>,
-                <YellowPaperLink key="yellowpaper" className={s.disabled}/>,
+                <TechPaperLink key="techpaper" className={s.disabled}/>,
                 <BusinessSummaryLink key="bsummary"/>,
                 <TermsAndConditionsLink key="tnc" className={s.disabled}/>,
                 <PrivacyPolicyLink key="pp" className={s.disabled}/>,

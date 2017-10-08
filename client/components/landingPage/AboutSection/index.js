@@ -3,7 +3,7 @@ import { translate } from 'react-i18next';
 import s from './styles.scss';
 
 import WhitePaperLink from '../../resourses/Links/WhitePaperLink';
-import YellowPaperLink from '../../resourses/Links/YellowPaperLink';
+import TechPaperLink from '../../resourses/Links/TechPaperLink';
 import TermsAndConditionsLink from '../../resourses/Links/TermsAndConditionsLink';
 import PrivacyPolicyLink from '../../resourses/Links/PrivacyPolicyLink';
 import BusinessSummaryLink from '../../resourses/Links/BusinessSummaryLink';
@@ -26,7 +26,7 @@ const AboutSection = ({ t }) => {
           <div className={s.content}>
             <div className={s.links}>
               <div><WhitePaperLink/></div>
-              <div><YellowPaperLink className={s.disabled}/></div>
+              <div><TechPaperLink className={s.disabled}/></div>
               <div><BusinessSummaryLink/></div>
               <div><TermsAndConditionsLink className={s.disabled}/></div>
               <div><PrivacyPolicyLink className={s.disabled}/></div>

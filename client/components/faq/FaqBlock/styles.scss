@@ -19,7 +19,7 @@
 }
 
 .title {
-  font: 500 20px/40px Roboto;
+  font: 500 18px/40px Roboto;
   color: #444;
   cursor: pointer;
 
@@ -29,22 +29,22 @@
 }
 
 .body {
-  font: normal 16px/24px Roboto;
+  font: normal 18px/24px Roboto;
   color: #444;
   padding: 5px 0;
 
   & a {
     font: bold 16px/30px Roboto;
-    color: #648cdc;
+    color: #0080FF;
     text-decoration: none;
     cursor: pointer;
 
     @media only screen and (max-width: 480px) {
-      font: normal 12px/18px Roboto;
+      font: normal 14px/18px Roboto;
     }
   }
 
   @media only screen and (max-width: 480px) {
-    font: normal 12px/18px Roboto;
+    font: normal 14px/18px Roboto;
   }
 }
