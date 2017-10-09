@@ -34,9 +34,6 @@ const LandingSection = (props) => {
           <a className={s.social} href={t('links.socials.reddit.href')} rel="nofollow" target="_blank">
             <img src={require('../../../assets/images/socials/reddit.svg')}/>
           </a>
-          <a className={s.social} href={t('links.socials.medium.href')} rel="nofollow" target="_blank">
-            <img src={require('../../../assets/images/socials/medium.svg')}/>
-          </a>
           <a className={s.social} href={t('links.socials.twitter.href')} rel="nofollow" target="_blank">
             <img src={require('../../../assets/images/socials/twitter.svg')}/>
           </a>

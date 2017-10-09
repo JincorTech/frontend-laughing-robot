@@ -12,8 +12,8 @@
         "label": "Whitepaper",
         "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/whitepaper.pdf"
       },
-      "yellowpaper": {
-        "label": "Yellowpaper",
+      "techpaper": {
+        "label": "Technical Paper",
         "href": ""
       },
       "bsummary": {
@@ -284,7 +284,7 @@
   },
   "advisors": {
     "title": "Advisory Board",
-    "subtitle": "Our magnificent supporters",
+    "subtitle": "Our knowledgeable supporters",
     "members": {
       "marcus": {
         "name": "Marcus Killick OBE",

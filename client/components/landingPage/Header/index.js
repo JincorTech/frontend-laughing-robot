@@ -5,12 +5,12 @@ import { translate } from 'react-i18next';
 import s from './styles.scss';
 import i18next from '../../../utils/i18next/client';
 
-import { openFaq } from '../../../redux/modules/common/faq';
 import { changeLanguage } from '../../../redux/modules/app/i18next';
 
 import Scroll from 'react-scroll';
+import SLink from '../../common/SLink';
 import WhitePaperLink from '../../resourses/Links/WhitePaperLink';
-import YellowPaperLink from '../../resourses/Links/YellowPaperLink';
+import TechPaperLink from '../../resourses/Links/TechPaperLink';
 import TermsAndConditionsLink from '../../resourses/Links/TermsAndConditionsLink';
 import PrivacyPolicyLink from '../../resourses/Links/PrivacyPolicyLink';
 import BusinessSummaryLink from '../../resourses/Links/BusinessSummaryLink';
@@ -18,7 +18,7 @@ import DisclaimerLink from '../../resourses/Links/DisclaimerLink';
 import Dropdown from '../../common/Dropdown';
 
 const Header = (props) => {
-  const { changeLanguage, openFaq, location, t } = props;
+  const { changeLanguage, location, t } = props;
   const { pathname } = location;
   const selectRu = () => changeLanguage({ lang: 'ru', pathname });
   const selectEn = () => changeLanguage({ lang: 'en', pathname });
@@ -47,14 +47,14 @@ const Header = (props) => {
             <a href="https://medium.com/jincor" target="_blank" rel="nofollow" className={s.linkInner}>{t('links.nav.blog.label')}</a>
           </div>
           <div className={s.link}>
-            <a className={s.linkInner} onClick={() => openFaq()}>{t('links.nav.faq.label')}</a>
+            <SLink href="/faq">{t('links.nav.faq.label')}</SLink>
           </div>
           <div className={s.link}>
             <Dropdown
               button={<a className={s.linkInner}>{t('links.nav.downloads.label')}</a>}
               dropdown={[
                 <WhitePaperLink key="whitepaper"/>,
-                <YellowPaperLink key="yellowpaper" className={s.disabled}/>,
+                <TechPaperLink key="techpaper" className={s.disabled}/>,
                 <BusinessSummaryLink key="bsummary"/>,
                 <TermsAndConditionsLink key="tnc" className={s.disabled}/>,
                 <PrivacyPolicyLink key="pp" className={s.disabled}/>,
@@ -86,7 +86,6 @@ const TranslatedComponent = translate()(WithRouterComponent);
 export default connect(
   () => ({}),
   {
-    changeLanguage,
-    openFaq
+    changeLanguage
   }
 )(TranslatedComponent);

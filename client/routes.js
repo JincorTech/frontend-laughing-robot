@@ -5,6 +5,7 @@ import WhitePaper from './containers/app/WhitePaper';
 import BusinessSummary from './containers/app/BusinessSummary';
 import TermsAndConditions from './containers/app/TermsAndConditions';
 import ErrorPage from './components/common/ErrorPage';
+import Faq from './components/faq/Faq';
 
 const dupeRoutes = (routes) => {
   return routes.reduce((acc, route) => {
@@ -20,6 +21,11 @@ const routes = [
     path: '',
     exact: true,
     component: LandingPage
+  },
+  {
+    path: 'faq',
+    exact: true,
+    component: Faq
   },
   {
     path: 'whitepaper',
