@@ -23,7 +23,7 @@
 }
 
 .close {
-  position: absolute;
+  position: fixed;
   top: 54px;
   right: 125px;
 
@@ -33,6 +33,7 @@
   }
 
   @media only screen and (max-width: 1024px) {
+    position: absolute;
     right: 54px;
   }
 
@@ -70,6 +71,6 @@
   margin: 0;
 
   @media only screen and (max-width: 480px) {
-    font: bold 14px/30px Roboto;
+    font: bold 18px/30px Roboto;
   }
 }
