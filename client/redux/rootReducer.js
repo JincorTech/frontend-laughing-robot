@@ -2,7 +2,6 @@ import { combineReducers } from 'redux-seamless-immutable';
 
 import i18next from './modules/app/i18next';
 
-import faq from './modules/common/faq';
 import beta from './modules/common/beta';
 import subscribe from './modules/common/subscribe';
 import mobileNavigation from './modules/common/mobileNavigation';
@@ -15,7 +14,6 @@ export default combineReducers({
   }),
 
   common: combineReducers({
-    faq,
     beta,
     subscribe,
     notifications,

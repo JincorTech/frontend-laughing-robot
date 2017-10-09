@@ -29,6 +29,7 @@ const sitemap = sm.createSitemap({
   cacheTime: 600000,
   urls: [
     { url: '/', changefreq: 'daily', priority: 1 },
+    { url: '/faq', changefreq: 'daily', priority: 0.7 },
     { url: '/whitepaper', changefreq: 'daily', priority: 0.5 },
     { url: '/business-summary', changefreq: 'daily', priority: 0.5 },
   ]
