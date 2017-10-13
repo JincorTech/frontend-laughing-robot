@@ -32,6 +32,8 @@ const sitemap = sm.createSitemap({
     { url: '/faq', changefreq: 'daily', priority: 0.7 },
     { url: '/whitepaper', changefreq: 'daily', priority: 0.5 },
     { url: '/business-summary', changefreq: 'daily', priority: 0.5 },
+    { url: '/privacy-policy', changefreq: 'daily', priority: 0.5 },
+    { url: '/terms-and-conditions', changefreq: 'daily', priority: 0.5 }
   ]
 });
 

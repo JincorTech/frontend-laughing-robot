@@ -11,10 +11,9 @@ import Scroll from 'react-scroll';
 import SLink from '../../common/SLink';
 import WhitePaperLink from '../../resourses/Links/WhitePaperLink';
 import TechPaperLink from '../../resourses/Links/TechPaperLink';
-import TermsAndConditionsLink from '../../resourses/Links/TermsAndConditionsLink';
+import TermsOfUseLink from '../../resourses/Links/TermsOfUseLink';
 import PrivacyPolicyLink from '../../resourses/Links/PrivacyPolicyLink';
 import BusinessSummaryLink from '../../resourses/Links/BusinessSummaryLink';
-import DisclaimerLink from '../../resourses/Links/DisclaimerLink';
 import Dropdown from '../../common/Dropdown';
 
 const Header = (props) => {
@@ -44,7 +43,7 @@ const Header = (props) => {
 
         <div className={s.nav}>
           <div className={s.link}>
-            <a href="https://medium.com/jincor" target="_blank" rel="nofollow" className={s.linkInner}>{t('links.nav.blog.label')}</a>
+            <a href={t('links.nav.blog.href')} target="_blank" rel="nofollow" className={s.linkInner}>{t('links.nav.blog.label')}</a>
           </div>
           <div className={s.link}>
             <SLink href="/faq">{t('links.nav.faq.label')}</SLink>
@@ -56,9 +55,8 @@ const Header = (props) => {
                 <WhitePaperLink key="whitepaper"/>,
                 <TechPaperLink key="techpaper" className={s.disabled}/>,
                 <BusinessSummaryLink key="bsummary"/>,
-                <TermsAndConditionsLink key="tnc" className={s.disabled}/>,
-                <PrivacyPolicyLink key="pp" className={s.disabled}/>,
-                <DisclaimerLink key="disclaimer" className={s.disabled}/>
+                <TermsOfUseLink key="tou"/>,
+                <PrivacyPolicyLink key="pp"/>
               ]}/>
           </div>
           <div className={s.link}>

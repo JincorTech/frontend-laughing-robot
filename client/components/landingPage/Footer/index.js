@@ -6,10 +6,9 @@ import Scroll from 'react-scroll';
 import SLink from '../../common/SLink';
 import WhitePaperLink from '../../resourses/Links/WhitePaperLink';
 import TechPaperLink from '../../resourses/Links/TechPaperLink';
-import TermsAndConditionsLink from '../../resourses/Links/TermsAndConditionsLink';
+import TermsOfUseLink from '../../resourses/Links/TermsOfUseLink';
 import PrivacyPolicyLink from '../../resourses/Links/PrivacyPolicyLink';
 import BusinessSummaryLink from '../../resourses/Links/BusinessSummaryLink';
-import DisclaimerLink from '../../resourses/Links/DisclaimerLink';
 
 const Footer = (props) => {
   const { t } = props;
@@ -43,9 +42,8 @@ const Footer = (props) => {
           <div className={s.head}>{t('footer.legal.title')}</div>
           <div className={s.content}>
             <div className={s.links}>
-              <div className={s.link}><TermsAndConditionsLink className={s.disabled}/></div>
-              <div className={s.link}><DisclaimerLink className={s.disabled}/></div>
-              <div className={s.link}><PrivacyPolicyLink className={s.disabled}/></div>
+              <div className={s.link}><TermsOfUseLink/></div>
+              <div className={s.link}><PrivacyPolicyLink/></div>
             </div>
           </div>
         </div>
