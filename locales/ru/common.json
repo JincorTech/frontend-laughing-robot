@@ -20,9 +20,9 @@
         "label": "Business Summary",
         "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/summary_ru.pdf"
       },
-      "t&c": {
-        "label": "Terms & Conditions",
-        "href": ""
+      "tou": {
+        "label": "Terms of Use",
+        "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/agreement.pdf"
       },
       "disclaimer": {
         "label": "Disclaimer",
@@ -30,7 +30,7 @@
       },
       "privacy": {
         "label": "Privacy Policy",
-        "href": ""
+        "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/privacy.pdf"
       }
     },
     "socials": {
@@ -41,7 +41,7 @@
         "href": "https://www.reddit.com/r/Jincor/"
       },
       "medium": {
-        "href": "https://medium.com/jincor"
+        "href": "https://blog.jincor.com/"
       },
       "twitter": {
         "href": "https://twitter.com/jincor_ico"
@@ -56,7 +56,7 @@
     "nav": {
       "blog": {
         "label": "Блог",
-        "href": ""
+        "href": "https://blog.jincor.com/"
       },
       "faq": {
         "label": "FAQ"

@@ -4,10 +4,9 @@ import s from './styles.scss';
 
 import WhitePaperLink from '../../resourses/Links/WhitePaperLink';
 import TechPaperLink from '../../resourses/Links/TechPaperLink';
-import TermsAndConditionsLink from '../../resourses/Links/TermsAndConditionsLink';
+import TermsOfUseLink from '../../resourses/Links/TermsOfUseLink';
 import PrivacyPolicyLink from '../../resourses/Links/PrivacyPolicyLink';
 import BusinessSummaryLink from '../../resourses/Links/BusinessSummaryLink';
-import DisclaimerLink from '../../resourses/Links/DisclaimerLink';
 
 const AboutSection = ({ t }) => {
   return (
@@ -28,9 +27,8 @@ const AboutSection = ({ t }) => {
               <div><WhitePaperLink/></div>
               <div><TechPaperLink className={s.disabled}/></div>
               <div><BusinessSummaryLink/></div>
-              <div><TermsAndConditionsLink className={s.disabled}/></div>
-              <div><PrivacyPolicyLink className={s.disabled}/></div>
-              <div><DisclaimerLink className={s.disabled}/></div>
+              <div><TermsOfUseLink/></div>
+              <div><PrivacyPolicyLink/></div>
             </div>
           </div>
         </div>
