@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { translate } from 'react-i18next';
+import { translate, Interpolate } from 'react-i18next';
 import s from './styles.scss';
 
 import { subscribeRequest } from '../../../redux/modules/common/subscribe';
 
 import TextInput from '../../common/TextInput';
 import Button from '../../common/Button';
+import PrivacyPolicyLink from '../../resourses/Links/PrivacyPolicyLink';
+import TermsOfUseLink from '../../resourses/Links/TermsOfUseLink';
 
 class JoinCommunity extends Component {
   constructor(props) {
@@ -56,6 +58,13 @@ class JoinCommunity extends Component {
             </div>
             <div className={s.button}>
               <Button type="submit" style="primary">{t('community.button')}</Button>
+            </div>
+            <div className={s.tip}>
+              <Interpolate 
+                i18nKey="tips.form"
+                useDangerouslySetInnerHTML={true}
+                tou={<TermsOfUseLink propLabel={t('tips.touPropLabel')}/>}
+                pp={<PrivacyPolicyLink propLabel={t('tips.ppPropLabel')}/>}/>
             </div>
           </form>
         </div>

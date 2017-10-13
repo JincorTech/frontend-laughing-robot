@@ -16,7 +16,7 @@ const Footer = (props) => {
   return (
     <div className={s.footer}>
       <div className={s.container}>
-        <div className={s.col}>
+        <div className={s.smallCol}>
           <div className={s.head}>{t('footer.product.title')}</div>
           <div className={s.content}>
             <div className={s.links}>
@@ -28,7 +28,7 @@ const Footer = (props) => {
             </div>
           </div>
         </div>
-        <div className={s.col}>
+        <div className={s.smallCol}>
           <div className={s.head}>{t('footer.resourses.title')}</div>
           <div className={s.content}>
             <div className={s.links}>
