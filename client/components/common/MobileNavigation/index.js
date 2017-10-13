@@ -11,10 +11,9 @@ import { changeLanguage } from '../../../redux/modules/app/i18next';
 import SLink from '../SLink';
 import WhitePaperLink from '../../resourses/Links/WhitePaperLink';
 import TechPaperLink from '../../resourses/Links/TechPaperLink';
-import TermsAndConditionsLink from '../../resourses/Links/TermsAndConditionsLink';
+import TermsOfUseLink from '../../resourses/Links/TermsOfUseLink';
 import PrivacyPolicyLink from '../../resourses/Links/PrivacyPolicyLink';
 import BusinessSummaryLink from '../../resourses/Links/BusinessSummaryLink';
-import DisclaimerLink from '../../resourses/Links/DisclaimerLink';
 import Popup from '../Popup';
 
 const MobileNavigation = (props) => {
@@ -68,9 +67,8 @@ const MobileNavigation = (props) => {
       <div className={s.link}><WhitePaperLink/></div>
       <div className={s.link}><TechPaperLink className={s.disabled}/></div>
       <div className={s.link}><BusinessSummaryLink/></div>
-      <div className={s.link}><TermsAndConditionsLink className={s.disabled}/></div>
-      <div className={s.link}><PrivacyPolicyLink className={s.disabled}/></div>
-      <div className={s.link}><DisclaimerLink className={s.disabled}/></div>
+      <div className={s.link}><TermsOfUseLink/></div>
+      <div className={s.link}><PrivacyPolicyLink/></div>
     </div>
   );
 

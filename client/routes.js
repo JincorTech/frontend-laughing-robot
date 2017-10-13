@@ -3,7 +3,8 @@
 import LandingPage from './containers/app/LandingPage';
 import WhitePaper from './containers/app/WhitePaper';
 import BusinessSummary from './containers/app/BusinessSummary';
-import TermsAndConditions from './containers/app/TermsAndConditions';
+import PrivacyPolicy from './containers/app/PrivacyPolicy';
+import TermsOfUse from './containers/app/TermsOfUse';
 import ErrorPage from './components/common/ErrorPage';
 import Faq from './components/faq/Faq';
 
@@ -33,14 +34,19 @@ const routes = [
     component: WhitePaper
   },
   {
-    path: 'terms-and-conditions',
+    path: 'agreement',
     exact: true,
-    component: TermsAndConditions
+    component: TermsOfUse
   },
   {
     path: 'business-summary',
     exact: true,
     component: BusinessSummary
+  },
+  {
+    path: 'privacy-policy',
+    exact: true,
+    component: PrivacyPolicy
   },
   {
     path: '*',
