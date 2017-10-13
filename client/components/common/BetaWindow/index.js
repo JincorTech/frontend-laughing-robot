@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { translate } from 'react-i18next';
+import { translate, Interpolate } from 'react-i18next';
 import s from './styles.scss';
 
 import { closeBeta, betaRequest } from '../../../redux/modules/common/beta';
@@ -8,6 +8,8 @@ import { closeBeta, betaRequest } from '../../../redux/modules/common/beta';
 import FormWindow from '../FormWindow';
 import TextInput from '../TextInput';
 import Button from '../Button';
+import PrivacyPolicyLink from '../../resourses/Links/PrivacyPolicyLink';
+import TermsOfUseLink from '../../resourses/Links/TermsOfUseLink';
 
 class BetaWindow extends Component {
   constructor(props) {
@@ -92,6 +94,13 @@ class BetaWindow extends Component {
           </div>
           <div className={s.button}>
             <Button type="submit" style="primary">{t('beta.accept')}</Button>
+          </div>
+          <div className={s.tip}>
+            <Interpolate
+              i18nKey="tips.form"
+              useDangerouslySetInnerHTML={true}
+              tou={<TermsOfUseLink propLabel={t('tips.touPropLabel')}/>}
+              pp={<PrivacyPolicyLink propLabel={t('tips.ppPropLabel')}/>}/>
           </div>
         </form>
       </FormWindow>
