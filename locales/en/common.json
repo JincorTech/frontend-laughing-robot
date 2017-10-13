@@ -440,7 +440,7 @@
       },
       "18": {
         "q": "18. When and on which exchange markets your token will be available?",
-        "a": "List of exchanges, on which will JCR token will be listed, will be announced before ICO, or during it. We’re already negotiating with several exchanges. Placing on exchanges is planned in December 2016."
+        "a": "List of exchanges, on which will JCR token will be listed, will be announced before ICO, or during it. We’re already negotiating with several exchanges. Placing on exchanges is planned in December 2017."
       },
       "19": {
         "q": "19. What are my risks when investing in you?",
@@ -511,6 +511,11 @@
   "pdf": {
     "download": "Download",
     "gotomain": "Main page"
+  },
+  "tips": {
+    "touPropLabel": "Terms of Use",
+    "ppPropLabel": "Privacy Policy",
+    "form": "By submitting this form you agree to the {{tou}} and {{pp}}"
   },
   "404": {
     "error": "Sorry, we can’t seem to find the page you are looking for :(",
