@@ -30,7 +30,7 @@ const MobileNavigation = (props) => {
 
   const selectRu = () => changeLanguage({ lang: 'ru', pathname });
   const selectEn = () => changeLanguage({ lang: 'en', pathname });
-  const openMenu = () => changeView('nav');
+  // const openMenu = () => changeView('nav');
   const openLangs = () => changeView('langs');
   const openResourses = () => changeView('resourses');
 
