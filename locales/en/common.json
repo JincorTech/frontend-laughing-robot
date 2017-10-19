@@ -155,49 +155,30 @@
     "title": "Crowdsale",
     "subtitle": "Jincor’s ICO at a glance",
     "text": "In order to fully exploit the potential of Jincor ecosystem, reach a critical mass of industry players participating and get to the global market as soon as possible, we are going to raise extra funding by running an ICO campaign. We have issued 35,000,000 JCR tokens, 4% of which were sold at pre-ICO in August, and another 76% will be put on sale during ICO in November at a starting price of $1. Thus, the total amount of money we are planning to raise comes to $27M. JCR tokens will play an integral role in Jincor’s business model and act as a native currency for all the services provided by the platform.",
-    "table": {
-      "1row": {
-        "1ceil": "Token",
-        "2ceil": "JCR (ERC20)"
+    "blocks": {
+      "1": {
+        "label": "Token",
+        "val": "JCR (ERC20)"
       },
-      "2row": {
-        "1ceil": "Platform",
-        "2ceil": "Ethereum"
+      "2": {
+        "label": "Platform",
+        "val": "Ethereum"
       },
-      "3row": {
-        "1ceil": "Total supply",
-        "2ceil": "35 000 000 JCR"
+      "3": {
+        "label": "Total supply",
+        "val": "35M JCR"
       },
-      "4row": {
-        "1ceil": "Hard cap",
-        "2ceil": "26 600 000 USD"
+      "4": {
+        "label": "Hard cap",
+        "val": "$26.6M"
       },
-      "5row": {
-        "1ceil": "Soft cap",
-        "2ceil": "2 500 000 USD"
+      "5": {
+        "label": "Soft cap",
+        "val": "$2.5M"
       },
-      "6row": {
-        "1ceil": "ICO timeframe",
-        "2ceil": "15.11.-30.12.2017"
-      }
-    },
-    "distribution": {
-      "title": "Token distribution",
-      "1col": {
-        "num": "4%",
-        "desc": "Presale"
-      },
-      "2col": {
-        "num": "8%",
-        "desc": "Incentives"
-      },
-      "3col": {
-        "num": "12%",
-        "desc": "Jincor team"
-      },
-      "4col": {
-        "num": "76%",
-        "desc": "Crowdsale"
+      "6": {
+        "label": "ICO timeframe",
+        "val": "Nov, 15 - Dev, 30"
       }
     }
   },

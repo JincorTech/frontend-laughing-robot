@@ -15,38 +15,30 @@ const CrowdsaleSection = (props) => {
 
         <div className={s.content}>
           <div className={s.text}>{t('crowdsale.text')}</div>
-          <div className={s.table}>
-            <table cellPadding="0" cellSpacing="0">
-              <tbody>
-                <tr className={s.row}><td>{t('crowdsale.table.1row.1ceil')}</td><td>{t('crowdsale.table.1row.2ceil')}</td></tr>
-                <tr className={s.row}><td>{t('crowdsale.table.2row.1ceil')}</td><td>{t('crowdsale.table.2row.2ceil')}</td></tr>
-                <tr className={s.row}><td>{t('crowdsale.table.3row.1ceil')}</td><td>{t('crowdsale.table.3row.2ceil')}</td></tr>
-                <tr className={s.row}><td>{t('crowdsale.table.4row.1ceil')}</td><td>{t('crowdsale.table.4row.2ceil')}</td></tr>
-                <tr className={s.row}><td>{t('crowdsale.table.5row.1ceil')}</td><td>{t('crowdsale.table.5row.2ceil')}</td></tr>
-                <tr className={s.row}><td>{t('crowdsale.table.6row.1ceil')}</td><td>{t('crowdsale.table.6row.2ceil')}</td></tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-
-        <div className={s.distribution}>
-          <h4 className={s.distTitle}>{t('crowdsale.distribution.title')}</h4>
-          <div className={s.distArea}>
-            <div className={s.item}>
-              <div className={s.number}>{t('crowdsale.distribution.1col.num')}</div>
-              <div className={s.description}>{t('crowdsale.distribution.1col.desc')}</div>
+          <div className={s.blocks}>
+            <div className={s.block}>
+              <div className={s.val}>{t('crowdsale.blocks.1.val')}</div>
+              <div className={s.label}>{t('crowdsale.blocks.1.label')}</div>
             </div>
-            <div className={s.item}>
-              <div className={s.number}>{t('crowdsale.distribution.2col.num')}</div>
-              <div className={s.description}>{t('crowdsale.distribution.2col.desc')}</div>
+            <div className={s.block}>
+              <div className={s.val}>{t('crowdsale.blocks.2.val')}</div>
+              <div className={s.label}>{t('crowdsale.blocks.2.label')}</div>
             </div>
-            <div className={s.item}>
-              <div className={s.number}>{t('crowdsale.distribution.3col.num')}</div>
-              <div className={s.description}>{t('crowdsale.distribution.3col.desc')}</div>
+            <div className={s.block}>
+              <div className={s.val}>{t('crowdsale.blocks.3.val')}</div>
+              <div className={s.label}>{t('crowdsale.blocks.3.label')}</div>
             </div>
-            <div className={s.item}>
-              <div className={s.number}>{t('crowdsale.distribution.4col.num')}</div>
-              <div className={s.description}>{t('crowdsale.distribution.4col.desc')}</div>
+            <div className={s.block}>
+              <div className={s.val}>{t('crowdsale.blocks.4.val')}</div>
+              <div className={s.label}>{t('crowdsale.blocks.4.label')}</div>
+            </div>
+            <div className={s.block}>
+              <div className={s.val}>{t('crowdsale.blocks.5.val')}</div>
+              <div className={s.label}>{t('crowdsale.blocks.5.label')}</div>
+            </div>
+            <div className={s.block}>
+              <div className={s.val}>{t('crowdsale.blocks.6.val')}</div>
+              <div className={s.label}>{t('crowdsale.blocks.6.label')}</div>
             </div>
           </div>
         </div>

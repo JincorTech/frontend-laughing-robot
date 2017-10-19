@@ -3,7 +3,7 @@
 
 .crowdsale {
   width: 100%;
-  padding: 80px 0;
+  padding: 120px 0;
   background-color: #fff;
 
   @media only screen and (max-width: 480px) {
@@ -12,7 +12,7 @@
 }
 
 .container {
-  width: 1140px;
+  width: 1100px;
   margin: 0 auto;
   clear: fix;
 
@@ -26,176 +26,54 @@
 }
 
 .head {
-  margin-bottom: 80px;
-
-  @media only screen and (max-width: 480px) {
-    margin-bottom: 40px;
-  }
+  margin-bottom: 60px;
 }
 
 .title {
-  font: bold 35px Roboto;
-  color: #444;
-  margin: 0 0 5px 0;
-  letter-spacing: -0.1px;
-
-  @media only screen and (max-width: 1024px) {
-    padding: 0 20px;
-  }
-
-  @media only screen and (max-width: 480px) {
-    font: bold 30px Roboto;
-    padding: 0 20px;
-  }
+  font: bold 64px/80px Roboto;
+  color: #111;
+  margin: 0 0 10px 0;
+  text-align: center;
 }
 
 .subtitle {
-  font: normal 20px Roboto;
-  color: #adadad;
+  font: 300 28px/46px Roboto;
+  color: #111;
   margin: 0;
-  letter-spacing: -0.1px;
-
-  @media only screen and (max-width: 1024px) {
-    padding: 0 20px;
-  }
-
-  @media only screen and (max-width: 480px) {
-    padding: 0 20px;
-  }
+  text-align: center;
 }
 
 .content {
   clear: fix;
-
-  @media only screen and (max-width: 1024px) {
-    padding: 0 20px;
-  }
-
-  @media only screen and (max-width: 480px) {
-    padding: 0;
-  }
 }
 
 .text {
-  width: 600px;
-  float: left;
-  margin-right: 170px;
-  font: normal 16px/24px Roboto;
-  color: #444;
-
-  @media only screen and (max-width: 1024px) {
-    width: 50%;
-    margin-right: 5%;
-  }
-
-  @media only screen and (max-width: 480px) {
-    width: 100%;
-    padding: 0 20px;
-    margin: 0;
-    box-sizing: border-box;
-    float: none;
-  }
-}
-
-.table {
-  & .row {
-    & > td {
-      font: normal 18px Roboto;
-      color: #0080FF;
-      letter-spacing: -0.1px;
-      padding: 5px 10px;
-      opacity: 0.75;
-      border-bottom: 1px solid #dadada;
-
-      &:first-child {
-        color: #444;
-        text-align: right;
-      }
-
-      @media only screen and (max-width: 480px) {
-        font: normal 16px Roboto;
-      }
-    }
-
-    &:last-child {
-      & > td {
-        border-bottom: none;
-      }
-    }
-  }
-
-  @media only screen and (max-width: 1024px) {
-    width: 45%;
-    float: left;
-  }
-
-  @media only screen and (max-width: 480px) {
-    padding: 0 20px;
-    margin: 30px auto 0;
-  }
-}
-
-.distribution {
-  margin: 65px 0 0 0;
-}
-
-.distTitle {
-  font: bold 25px Roboto;
-  color: #444;
-  letter-spacing: -0.1px;
-  margin: 0 0 30px 0;
-
-  @media only screen and (max-width: 1024px) {
-    text-align: center;
-  }
-
-  @media only screen and (max-width: 480px) {
-    text-align: center;
-  }
-}
-
-.distArea {
-  margin: 0 -30px;
-
-  @media only screen and (max-width: 1024px) {
-    margin: 0;
-    text-align: center;
-  }
-
-  @media only screen and (max-width: 480px) {
-    width: 280px;
-    margin: -30px auto;
-    padding: 0 20px;
-    text-align: center;
-  }
-}
-
-.item {
-  display: inline-block;
+  font: 300 28px/46px Roboto;
+  color: #111;
   text-align: center;
-  padding: 0 30px;
-  border-right: 1px solid #dadada;
-
-  &:last-child {
-    border-right: none;
-  }
-
-  @media only screen and (max-width: 480px) {
-    width: 50%;
-    border: none;
-    margin: 30px 0;
-    padding: 0;
-  }
+  margin-bottom: 80px;
 }
 
-.number {
-  font: light 30px Roboto;
-  letter-spacing: -0.1px;
-  color: #444;
+.blocks {
+  margin: -30px 0;
 }
 
-.description {
-  font: normal 16px Roboto;
-  letter-spacing: -0.1px;
-  color: #a2a2a2;
+.block {
+  display: inline-block;
+  vertical-align: top;
+  width: 33.33333%;
+  margin: 30px 0;
+}
+
+.val {
+  font: 500 42px Roboto;
+  color: #111;
+  text-align: center;
+}
+
+.label {
+  font: 300 24px Roboto;
+  color: #111;
+  margin-top: 15px;
+  text-align: center;
 }
