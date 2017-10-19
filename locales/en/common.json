@@ -182,6 +182,13 @@
       }
     }
   },
+  "distribution": {
+    "title": "Token distribution",
+    "presale": "Presale",
+    "incentives": "Incentives",
+    "team": "Jincor team",
+    "crowdsale": "Crowdsale"
+  },
   "team": {
     "title": "Executive Team",
     "subtitle": "Who's making it real?",

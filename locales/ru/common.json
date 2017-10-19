@@ -182,6 +182,13 @@
       }
     }
   },
+  "distribution": {
+    "title": "Распределение токенов",
+    "presale": "Пресейл",
+    "incentives": "Бонусы",
+    "team": "Команда Jincor",
+    "crowdsale": "Краудсейл"
+  },
   "team": {
     "title": "Руководители проекта",
     "subtitle": "Кто за этим стоит?",

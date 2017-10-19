@@ -14,6 +14,7 @@ import UseCases from '../../../components/landingPage/UseCases';
 import ProductCarousel from '../../../components/landingPage/ProductCarousel';
 import Roadmap from '../../../components/landingPage/Roadmap';
 import CrowdsaleSection from '../../../components/landingPage/CrowdsaleSection';
+import Distribution from '../../../components/landingPage/Distribution';
 import Team from '../../../components/landingPage/Team';
 import Advisors from '../../../components/landingPage/Advisors';
 import JoinCommunity from '../../../components/landingPage/JoinCommunity';
@@ -45,6 +46,7 @@ const LandingPage = (props) => {
         <ProductCarousel/>
         <Roadmap/>
         <Scroll.Element name="crowdsaleSection"><CrowdsaleSection/></Scroll.Element>
+        <Distribution/>
         <Scroll.Element name="teamSection"><Team/></Scroll.Element>
         <Scroll.Element name="advisorsSection"><Advisors/></Scroll.Element>
         <JoinCommunity/>
