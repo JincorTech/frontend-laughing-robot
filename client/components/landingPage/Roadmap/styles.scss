@@ -1,7 +1,7 @@
 .roadmap {
   width: 100%;
-  padding: 80px 0;
-  background-color: #fafafa;
+  padding: 120px 0;
+  background-color: #0080ff;
 
   @media only screen and (max-width: 480px) {
     padding: 40px 0;
@@ -23,42 +23,21 @@
 }
 
 .head {
-  margin-bottom: 80px;
-
-  @media only screen and (max-width: 480px) {
-    margin-bottom: 40px;
-  }
+  margin-bottom: 110px;
 }
 
 .title {
-  font: bold 35px Roboto;
-  color: #444;
-  margin: 0 0 5px 0;
-  letter-spacing: -0.1px;
-
-  @media only screen and (max-width: 1024px) {
-    padding: 0 20px;
-  }
-
-  @media only screen and (max-width: 480px) {
-    font: bold 30px Roboto;
-    padding: 0 20px;
-  }
+  font: bold 64px/80px Roboto;
+  color: #fff;
+  margin: 0 0 10px 0;
+  text-align: center;
 }
 
 .subtitle {
-  font: normal 20px Roboto;
-  color: #adadad;
+  font: 300 28px/46px Roboto;
+  color: #fff;
   margin: 0;
-  letter-spacing: -0.1px;
-
-  @media only screen and (max-width: 1024px) {
-    padding: 0 20px;
-  }
-
-  @media only screen and (max-width: 480px) {
-    padding: 0 20px;
-  }
+  text-align: center;
 }
 
 .content {
@@ -103,30 +82,23 @@
 }
 
 .label {
-  font: normal 16px/24px Roboto;
+  font: bold 16px/24px Roboto;
   position: absolute;
-  top: -40px;
-  left: -30px;
-  width: 80px;
-  color: #fff;
-  border-radius: 100px;
-  background-color: #0080FF;
-  text-align: center;
+  top: -50px;
+  width: auto;
+  color: #0080ff;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 2px 9px;
 
   @media only screen and (max-width: 480px) {
     display: none;
   }
 }
 
-.shortLabel {
-  composes: label;
-  width: 50px;
-  left: -15px;
-}
-
 .date {
-  font: normal 20px Roboto;
-  color: #444;
+  font: 500 22px/24px Roboto;
+  color: #fff;
   margin-bottom: 15px;
 
   @media only screen and (max-width: 480px) {
@@ -135,10 +107,9 @@
 }
 
 .what {
-  font: normal 14px/24px Roboto;
-  color: #444;
-  opacity: 0.6;
-  max-width: 190px;
+  font: normal 15px/24px Roboto;
+  color: #fff;
+  max-width: 200px;
 
   @media only screen and (max-width: 480px) {
     padding-left: 40px;
@@ -149,7 +120,7 @@
 .line {
   height: 2px;
   width: 100%;
-  background-color: #0080FF;
+  background-color: #499aff;
   margin-bottom: 30px;
 
   @media only screen and (max-width: 480px) {
@@ -161,13 +132,12 @@
 }
 
 .point {
-  width: 16px;
-  height: 16px;
-  border: 2px solid #0080FF;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   background-color: #fff;
   position: relative;
-  top: -9px;
+  top: -11px;
 
   @media only screen and (max-width: 480px) {
     top: 0;
