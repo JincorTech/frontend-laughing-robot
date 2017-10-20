@@ -39,16 +39,16 @@ const LandingPage = (props) => {
         </HelmetBase>
         <UserAgent computer><Header/></UserAgent>
         <UserAgent mobile><MobileHeader/></UserAgent>
-        <LandingSection/>
-        <Scroll.Element name="aboutSection"><AboutSection/></Scroll.Element>
-        <Scroll.Element name="casesSection"><UseCases/></Scroll.Element>
-        <ProductCarousel/>
-        <Roadmap/>
-        <Scroll.Element name="crowdsaleSection"><CrowdsaleSection/></Scroll.Element>
-        <Scroll.Element name="teamSection"><Team/></Scroll.Element>
-        <Scroll.Element name="advisorsSection"><Advisors/></Scroll.Element>
-        <JoinCommunity/>
-        <Footer/>
+        <Scroll.Element name="landingSection" id="landing"><LandingSection/></Scroll.Element>
+        <Scroll.Element name="aboutSection" id="about"><AboutSection/></Scroll.Element>
+        <Scroll.Element name="casesSection" id="cases"><UseCases/></Scroll.Element>
+        <Scroll.Element name="productSection" id="product"><ProductCarousel/></Scroll.Element>
+        <Scroll.Element name="roadmapSection" id="roadmap"><Roadmap/></Scroll.Element>
+        <Scroll.Element name="crowdsaleSection" id="crowdsale"><CrowdsaleSection/></Scroll.Element>
+        <Scroll.Element name="teamSection" id="team"><Team/></Scroll.Element>
+        <Scroll.Element name="advisorsSection" id="advisors"><Advisors/></Scroll.Element>
+        <Scroll.Element name="communitySection" id="community"><JoinCommunity/></Scroll.Element>
+        <Scroll.Element name="footerSection" id="footer"><Footer/></Scroll.Element>
 
         <SubscribeWindow/>
         <BetaWindow/>

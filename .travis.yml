@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+- '8'
+sudo: false
+branches:
+  only:
+  - master
+  - develop
+cache:
+  yarn: true
+  directories:
+  - node_modules
+install:
+- yarn
+script:
+- yarn run lint
+notifications:
+  slack:
+    secure: RF2zmXpPhX06+PaUI2vZKR0CHelRsKlC8WIuPT2++YXFWY/KM7GgwS/7/t1bO4bkNpoGl0E0xhQT/Cb1YhMd+pdHP+wloaKV+Yhfp71HPu+rbIiAufFqtNpniwuMAdGfu05LsQqSGksN2gfl174PgWR3cauuYjB7mm1lcCX5tBF8HyDCq/K+0Or5Td/qH9kAejBWBNbWss/FnE9wFoDr9KGjzakZbokbflLTN5xSW8zgL58E4A+hHC+Y+/Nyb7u+gahCivnvnVQ9jcxHDvCT4mQ5oMHWKDHrW/ez3ZCVWmvt9rGmiW1P36x4TlZyqn51oPAAgPqH7fTjj8e0RjG4lCYk4qZSt/TLSgOoVhdUzH3tSAUkNy4L1wwSXxjfGF8JdcboJ7MJ7sct7KoGG5CqJjlZqwSToXYljChw1VgtlB3GPRqZ3VEymcOeQJm+oMt66Mcs4I60cu4Z6FP6wO6DebEOoBIFYugcqyJR3iCqkx//FaR8HkeVCCiB12PmlFJRn/8JGa9F05Qh4wK3SSCsBFjF0TAGxifKFz9ra5TWlDvTQ0J3soybTbJdmJq4xJYRrnzg1c5/k0VIfx+ITG5V588RoTNiPxwQQ3xFtVuiSzCW1V/Bzb0/QOetXXtR2ynxaVDDMCgQF+4a+XOYc6d53mKPZdu3XEegorwFj4kuR3c=
