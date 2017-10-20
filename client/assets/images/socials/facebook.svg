@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
-    <title>Combined Shape</title>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Facebook</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="ICO-LP-ver.1" transform="translate(-795.000000, -498.000000)" fill-rule="nonzero" fill="#000000">
-            <path d="M810,528 C801.715729,528 795,521.284271 795,513 C795,504.715729 801.715729,498 810,498 C818.284271,498 825,504.715729 825,513 C825,521.284271 818.284271,528 810,528 Z M813.77099,513.587187 L814.125281,510.144283 L811.094691,510.144283 L811.094691,508.116136 C811.094691,507.355414 811.597383,507.176798 811.954883,507.176798 L814.134372,507.176798 L814.134372,503.831759 L811.130522,503.819191 C807.796713,503.819191 807.039199,506.316339 807.039199,507.911049 L807.039199,510.141075 L805.110521,510.141075 L805.110521,513.587187 L807.039199,513.587187 L807.039199,523.392884 L811.094424,523.392884 L811.094424,513.587187 L813.77099,513.587187 Z" id="Combined-Shape"></path>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Main" transform="translate(-820.000000, -10108.000000)">
+            <g id="Footer" transform="translate(0.000000, 9586.000000)">
+                <g id="Social/Facebook" transform="translate(820.000000, 522.000000)">
+                    <circle id="Oval-2" fill="#FFFFFF" cx="40" cy="40" r="40"></circle>
+                    <path d="M42.1269439,56.6393459 L42.1269439,40.317762 L46.6324148,40.317762 L47.229487,34.6932538 L42.1269439,34.6932538 L42.1345986,31.8781333 C42.1345986,30.411175 42.2739793,29.6251452 44.3809551,29.6251452 L47.1975921,29.6251452 L47.1975921,24 L42.6914833,24 C37.2789219,24 35.3738406,26.7284916 35.3738406,31.3169565 L35.3738406,34.6938908 L32,34.6938908 L32,40.318399 L35.3738406,40.318399 L35.3738406,56.6393459 L42.1269439,56.6393459 Z" id="Shape" fill="#3B5998"></path>
+                </g>
+            </g>
         </g>
     </g>
 </svg>

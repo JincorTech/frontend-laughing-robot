@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="18px" height="33px" viewBox="0 0 18 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
-    <title>back</title>
+<svg width="58px" height="58px" viewBox="0 0 58 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Next</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <polygon id="path-1" points="0.00517714086 0.0224989913 0.00517714086 32.9609576 17.4055907 32.9609576 17.4055907 0.0224989913"></polygon>
+        <path d="M25,50 C38.8071187,50 50,38.8071187 50,25 C50,11.1928813 38.8071187,0 25,0 C11.1928813,0 0,11.1928813 0,25 C0,38.8071187 11.1928813,50 25,50 Z" id="path-1"></path>
+        <filter x="-14.0%" y="-10.0%" width="128.0%" height="128.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
     </defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="ICO-LP-ver.1" transform="translate(-82.000000, -4102.000000)">
-            <g id="back" transform="translate(82.000000, 4102.000000)">
-                <mask id="mask-2" fill="white">
-                    <use xlink:href="#path-1"></use>
-                </mask>
-                <g id="Clip-2"></g>
-                <path d="M2.25559399,16.4908331 L17.1310728,1.61535423 C17.4970967,1.24933038 17.4970967,0.662846602 17.1310728,0.296822743 C16.7653941,-0.0689422592 16.1785652,-0.0689422592 15.8128865,0.296822743 L0.274388466,15.8353208 C-0.0913765362,16.2009995 -0.0913765362,16.7878284 0.274388466,17.1535071 L15.8128865,32.6849297 C15.9921881,32.8645765 16.2338743,32.9609576 16.4683988,32.9609576 C16.7030096,32.9609576 16.9446958,32.8713068 17.1243425,32.6849297 C17.4900213,32.319251 17.4900213,31.7324221 17.1243425,31.3667433 L2.25559399,16.4908331 Z" id="Fill-1" fill="#000000" mask="url(#mask-2)"></path>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Main" transform="translate(-1326.000000, -8807.000000)">
+            <g id="Advisory-board" transform="translate(0.000000, 8424.000000)">
+                <g id="Next" transform="translate(1355.000000, 414.000000) rotate(180.000000) translate(-1355.000000, -414.000000) translate(1330.000000, 389.000000)">
+                    <g id="Icon">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <path d="M26.0383841,25.5 L30.4832389,21.0551452 C31.1826578,20.3557263 31.1883087,19.2273952 30.4849842,18.5240707 C29.7865293,17.8256158 28.6553038,17.824422 27.9539098,18.525816 L21,25.4797258 L21.0202742,25.5 L21,25.5202742 L27.9539098,32.474184 C28.6553038,33.175578 29.7865293,33.1743842 30.4849842,32.4759293 C31.1883087,31.7726048 31.1826578,30.6442737 30.4832389,29.9448548 L26.0383841,25.5 Z" id="Combined-Shape" stroke="#FFFFFF" stroke-width="1" fill="#0080FF" fill-rule="evenodd" transform="translate(26.003891, 25.500000) scale(-1, 1) translate(-26.003891, -25.500000) "></path>
+                </g>
             </g>
         </g>
     </g>

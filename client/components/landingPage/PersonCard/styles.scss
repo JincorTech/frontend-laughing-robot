@@ -10,6 +10,10 @@
   margin: 0 auto;
   border-radius: 1000px;
   overflow: hidden;
+
+  & > img {
+    width: 100%;
+  }
 }
 
 .socialNetworks {
@@ -53,6 +57,7 @@
   color: #111;
   margin-top: 40px;
   text-align: center;
+  user-select: auto;
 }
 
 .role {
@@ -60,6 +65,7 @@
   color: #111;
   margin-top: 10px;
   text-align: center;
+  user-select: auto;
 }
 
 .about {
@@ -67,4 +73,5 @@
   color: #111;
   margin-top: 40px;
   text-align: center;
+  user-select: auto;
 }

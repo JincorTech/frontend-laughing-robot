@@ -65,6 +65,36 @@ class JoinCommunity extends Component {
                 pp={<PrivacyPolicyLink propLabel={t('tips.ppPropLabel')}/>}/>
             </div>
           </form>
+
+          <div className={s.socials}>
+            <a className={s.social} href="" target="_blank">
+              <img src={require('../../../assets/images/socials/telegram.svg')}/>
+            </a>
+
+            <a className={s.social} href="" target="_blank">
+              <img src={require('../../../assets/images/socials/twitter.svg')}/>
+            </a>
+
+            <a className={s.social} href="" target="_blank">
+              <img src={require('../../../assets/images/socials/reddit.svg')}/>
+            </a>
+
+            <a className={s.social} href="" target="_blank">
+              <img src={require('../../../assets/images/socials/medium.svg')}/>
+            </a>
+
+            <a className={s.social} href="" target="_blank">
+              <img src={require('../../../assets/images/socials/facebook.svg')}/>
+            </a>
+
+            <a className={s.social} href="" target="_blank">
+              <img src={require('../../../assets/images/socials/instagram.svg')}/>
+            </a>
+
+            <a className={s.social} href="" target="_blank">
+              <img src={require('../../../assets/images/socials/github.svg')}/>
+            </a>
+          </div>
         </div>
       </div>
     );
@@ -73,7 +103,7 @@ class JoinCommunity extends Component {
 
 const TranslatedComponent = translate()(JoinCommunity);
 export default connect(
-  () => ({}),
+  null,
   {
     subscribeRequest
   }

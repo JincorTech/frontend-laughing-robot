@@ -121,14 +121,17 @@
   transition: 0.1s linear all;
 
   &:global(.slick-disabled) {
-    opacity: 0.2;
+    opacity: 0;
     cursor: default;
   }
 }
 
 :global(.slick-prev),
 :global(.slick-next) {
-  height: 33px;
+  height: 58px;
+  width: 58px;
+  transform: none;
+  top: 75px;
 
   &:before {
     display: none;
@@ -136,9 +139,9 @@
 }
 
 :global(.slick-prev) {
-  left: -50px;
+  left: -75px;
 }
 
 :global(.slick-next) {
-  right: -50px;
+  right: -75px;
 }
