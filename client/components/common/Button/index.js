@@ -6,15 +6,13 @@ const Button = (props) => {
   const {
     style,
     children,
-    rounded,
     ...restProps
   } = props;
 
   const cx = classnames.bind(s);
   const className = cx(
     'button',
-    style,
-    rounded ? 'rounded' : null
+    style
   );
 
   return (
