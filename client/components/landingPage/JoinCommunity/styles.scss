@@ -3,60 +3,29 @@
 
 .community {
   width: 100%;
-  padding: 60px 0 80px;
-  background-color: #fafafa;
-
-  @media only screen and (max-width: 480px) {
-    padding: 40px 0;
-  }
+  padding: 120px 0 100px;
+  background-color: #111;
+  border-bottom: 1px solid #414141;
 }
 
 .container {
   width: 1140px;
   margin: 0 auto;
-  clear: fix;
-
-  @media only screen and (max-width: 1024px) {
-    width: 100%;
-  }
-
-  @media only screen and (max-width: 480px) {
-    width: 100%;
-  }
-}
-
-.logo {
-  text-align: center;
-  margin-bottom: 40px;
-
-  & > img {
-    height: 100px;
-    width: 100px;
-  }
 }
 
 .title {
-  font: bold 34px Roboto;
-  color: #444;
+  font: bold 64px/80px Roboto;
+  color: #fff;
   margin: 0 0 20px 0;
   text-align: center;
-
-  @media only screen and (max-width: 480px) {
-    font: bold 25px Roboto;
-    padding: 0 20px;
-  }
 }
 
 .subtitle {
-  font: normal 20px Roboto;
-  color: #7c7c7c;
-  margin: 0 0 50px 0;
+  font: 300 26px/46px Roboto;
+  color: #fff;
+  margin: 0 auto 60px;
   text-align: center;
-
-  @media only screen and (max-width: 480px) {
-    font: normal 16px/30px Roboto;
-    padding: 0 20px;
-  }
+  max-width: 660px;
 }
 
 .form {
@@ -66,40 +35,44 @@
 .input {
   display: inline-block;
   vertical-align: top;
-  width: 280px;
-  margin-right: 20px;
+  width: 360px;
+}
 
-  @media only screen and (max-width: 480px) {
-    width: 100%;
-    padding: 0 20px;
-    margin: 0;
-    box-sizing: border-box;
-  }
+.inputElement {
+  font: 300 20px Roboto;
+  color: #111;
+  padding: 13px 20px;
+  background-color: #fff;
+  border-radius: 4px 0 0 4px;
+  border: none;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .button {
-  width: 225px;
+  width: 140px;
   display: inline-block;
   vertical-align: top;
+}
 
-  @media only screen and (max-width: 480px) {
-    width: 100%;
-    padding: 0 20px;
-    box-sizing: border-box;
-    margin-top: 20px;
-  }
+.buttonElement {
+  font: 500 20px Roboto;
+  color: #fff;
+  padding: 13px 25px;
+  background-color: #0080ff;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 0 4px 4px 0;
 }
 
 .tip {
   font: normal 12px/20px Roboto;
-  color: #7c7c7c;
+  color: #fff;
   width: 600px;
   margin: 20px auto 0;
   text-align: center;
-
-  @media only screen and (max-width: 600px) {
-    width: 100%;
-  }
 
   & a {
     color: #0380ff;

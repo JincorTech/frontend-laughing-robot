@@ -1,95 +1,31 @@
 .footer {
   width: 100%;
-  background-color: #fff;
-  padding: 40px 0 80px;
-
-  @media only screen and (max-width: 480px) {
-    padding: 40px 0;
-  }
+  background-color: #111;
+  padding: 60px 0 150px;
 }
 
 .container {
-  width: 930px;
+  width: 1200px;
   margin: 0 auto;
-
-  @media only screen and (max-width: 1024px) {
-    width: 100%;
-    padding: 0 20px;
-    box-sizing: border-box;
-  }
-
-  @media only screen and (max-width: 480px) {
-    width: 100%;
-    padding: 0 20px;
-    box-sizing: border-box;
-    margin: -15px 0;
-  }
 }
 
 .col {
   display: inline-block;
-  width: 250px;
+  width: 25%;
   vertical-align: top;
-
-  @media only screen and (max-width: 1024px) {
-    width: 27%;
-  }
-
-  @media only screen and (max-width: 480px) {
-    width: 100%;
-    display: block;
-    margin: 20px 0;
-  }
-}
-
-.smallCol {
-  composes: col;
-  width: 190px;
-
-  @media only screen and (max-width: 1024px) {
-    width: 24%;
-  }
-
-  @media only screen and (max-width: 480px) {
-    width: 100%;
-    display: block;
-    margin: 20px 0;
-  }
-}
-
-.largeCol {
-  composes: col;
-  width: 300px;
-
-  @media only screen and (max-width: 1024px) {
-    width: 25%;
-  }
-
-  @media only screen and (max-width: 480px) {
-    display: block;
-    width: 100%;
-    margin: 20px 0;
-  }
 }
 
 .head {
-  font: normal 18px Roboto;
-  color: #0080FF;
-  margin-bottom: 15px;
-}
-
-.links {
-  margin: -4px 0;
+  font: bold 18px Roboto;
+  color: #fff;
+  margin-bottom: 10px;
 }
 
 .link {
-  padding: 4px 0;
-
   & a {
-    font: normal 14px Roboto;
-    color: #444;
+    font: 300 14px/28px Roboto;
+    color: #fff;
     cursor: pointer;
-    letter-spacing: -0.1px;
     transition: 0.1s linear color;
     text-decoration: none;
 
@@ -105,9 +41,8 @@
 }
 
 .text {
-  font: normal 14px/21px Roboto;
-  color: #444;
-  letter-spacing: -0.1px;
+  font: 300 14px/28px Roboto;
+  color: #fff;
 }
 
 .socials {
