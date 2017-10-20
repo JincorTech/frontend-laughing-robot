@@ -1,63 +1,30 @@
 .advisors {
   width: 100%;
-  padding: 80px 0;
-  background-color: #fff;
-
-  @media only screen and (max-width: 480px) {
-    padding: 40px 0;
-  }
+  padding: 120px 0;
+  background-color: #fbfbfb;
 }
 
 .container {
-  width: 1140px;
+  width: 1200px;
   margin: 0 auto;
-
-  @media only screen and (max-width: 1024px) {
-    width: 100%;
-  }
-
-  @media only screen and (max-width: 480px) {
-    width: 100%;
-  }
 }
 
 .head {
-  margin-bottom: 80px;
-
-  @media only screen and (max-width: 480px) {
-    margin-bottom: 40px;
-  }
+  margin-bottom: 60px;
 }
 
 .title {
-  font: bold 35px Roboto;
-  color: #444;
-  margin: 0 0 5px 0;
-  letter-spacing: -0.1px;
-
-  @media only screen and (max-width: 1024px) {
-    padding: 0 20px;
-  }
-
-  @media only screen and (max-width: 480px) {
-    font: bold 30px Roboto;
-    padding: 0 20px;
-  }
+  font: bold 64px/80px Roboto;
+  color: #111;
+  margin: 0 0 10px 0;
+  text-align: center;
 }
 
 .subtitle {
-  font: normal 20px Roboto;
-  color: #adadad;
+  font: 300 28px/46px Roboto;
+  color: #111;
   margin: 0;
-  letter-spacing: -0.1px;
-
-  @media only screen and (max-width: 1024px) {
-    padding: 0 20px;
-  }
-
-  @media only screen and (max-width: 480px) {
-    padding: 0 20px;
-  }
+  text-align: center;
 }
 
 .slick {
@@ -114,13 +81,13 @@
 
     & > button {
       padding: 5px 0;
-      width: 40px;
-      height: 5px;
+      width: 42px;
+      height: 6px;
 
       &:before {
         content: '';
-        width: 40px;
-        height: 5px;
+        width: 42px;
+        height: 6px;
         border-radius: 3px;
         opacity: 1;
         background-color: #e7e7e7;

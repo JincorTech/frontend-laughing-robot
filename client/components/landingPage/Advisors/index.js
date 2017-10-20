@@ -4,6 +4,7 @@ import s from './styles.scss';
 
 import Slick from 'react-slick';
 import PersonCard from '../PersonCard';
+import CustomArrow from '../../common/CustomArrow';
 
 const Advisors = (props) => {
   const { t } = props;
@@ -13,10 +14,12 @@ const Advisors = (props) => {
     infinite: false,
     dotsClass: s.dots,
     speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToShow: 3,
+    slidesToScroll: 3,
     swipe: false,
     swipeToSlide: false,
+    nextArrow: <CustomArrow><img src={require('../../../assets/images/carousel/fwd.svg')}/></CustomArrow>,
+    prevArrow: <CustomArrow><img src={require('../../../assets/images/carousel/back.svg')}/></CustomArrow>,
     responsive: [
       {
         breakpoint: 375,
