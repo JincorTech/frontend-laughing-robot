@@ -9,6 +9,7 @@ import HelmetBase from '../../../components/common/HelmetBase';
 import Header from '../../../components/landingPage/Header';
 import MobileHeader from '../../../components/landingPage/MobileHeader';
 import LandingSection from '../../../components/landingPage/LandingSection';
+import Media from '../../../components/landingPage/Media';
 import AboutSection from '../../../components/landingPage/AboutSection/';
 import UseCases from '../../../components/landingPage/UseCases';
 import ProductCarousel from '../../../components/landingPage/ProductCarousel';
@@ -41,6 +42,7 @@ const LandingPage = (props) => {
         <UserAgent computer><Header/></UserAgent>
         <UserAgent mobile><MobileHeader/></UserAgent>
         <LandingSection/>
+        <Media/>
         <Scroll.Element name="aboutSection"><AboutSection/></Scroll.Element>
         <Scroll.Element name="casesSection"><UseCases/></Scroll.Element>
         <ProductCarousel/>

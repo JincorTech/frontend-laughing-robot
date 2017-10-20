@@ -76,6 +76,9 @@
     "betaButton": "Запросить бету",
     "godown": "Информация о проекте"
   },
+  "media": {
+    "text": "Jincor is a platform, which will allow any business easily transition into accepting cryptocurrencies with no legal, technical or operational complications in a cost-efficient and user-friendly manner. "
+  },
   "about": {
     "whatIs": {
       "title": "Что такое Jincor?",

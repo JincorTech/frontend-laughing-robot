@@ -1,0 +1,35 @@
+@use postcss-short;
+@use postcss-clearfix;
+
+.media {
+  width: 100%;
+  padding: 120px 0 100px;
+  background-color: #fbfbfb;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.text {
+  font: 500 34px/46px Roboto;
+  color: #111;
+  text-align: center;
+  max-width: 960px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.logos {
+  text-align: center;
+}
+
+.logo {
+  display: inline-block;
+  width: 220px;
+  height: 100px;
+  vertical-align: middle;
+  background-color: #ececec;
+  margin: 0 10px;
+}
