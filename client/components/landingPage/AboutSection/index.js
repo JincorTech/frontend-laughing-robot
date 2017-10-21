@@ -2,34 +2,26 @@ import React from 'react';
 import { translate } from 'react-i18next';
 import s from './styles.scss';
 
-import WhitePaperLink from '../../resourses/Links/WhitePaperLink';
-import TechPaperLink from '../../resourses/Links/TechPaperLink';
-import TermsOfUseLink from '../../resourses/Links/TermsOfUseLink';
-import PrivacyPolicyLink from '../../resourses/Links/PrivacyPolicyLink';
-import BusinessSummaryLink from '../../resourses/Links/BusinessSummaryLink';
+import SLink from '../../common/SLink';
 
-const AboutSection = ({ t }) => {
+const AboutSection = (props) => {
+  const { t } = props;
+
   return (
     <div className={s.about}>
       <div className={s.container}>
-        <div className={s.what}>
-          <h2 className={s.title}>{t('about.whatIs.title')}</h2>
-          <h4 className={s.subtitle}>{t('about.whatIs.subtitle')}</h4>
-          <div className={s.content}>
-            <div className={s.text}>{t('about.whatIs.text')}</div>
-          </div>
+        <div className={s.head}>
+          <h2 className={s.title}>{t('about.title')}</h2>
+          <h4 className={s.subtitle}>{t('about.subtitle')}</h4>
         </div>
-        <div className={s.resourses}>
-          <h2 className={s.title}>{t('about.resourses.title')}</h2>
-          <h4 className={s.subtitle}>{t('about.resourses.subtitle')}</h4>
-          <div className={s.content}>
-            <div className={s.links}>
-              <div><WhitePaperLink/></div>
-              <div><TechPaperLink className={s.disabled}/></div>
-              <div><BusinessSummaryLink/></div>
-              <div><TermsOfUseLink/></div>
-              <div><PrivacyPolicyLink/></div>
-            </div>
+
+        <div className={s.body}>
+          <div className={s.text}>{t('about.text')}</div>
+          <div className={s.button}>
+            <SLink to="/video" className={s.buttonElement}>
+              <img src={require('./svg/video.svg')}/>
+              {t('about.video')}
+            </SLink>
           </div>
         </div>
       </div>

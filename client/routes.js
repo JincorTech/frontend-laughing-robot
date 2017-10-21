@@ -7,6 +7,7 @@ import PrivacyPolicy from './containers/app/PrivacyPolicy';
 import TermsOfUse from './containers/app/TermsOfUse';
 import ErrorPage from './components/common/ErrorPage';
 import Faq from './components/faq/Faq';
+import Video from './components/video/Video';
 
 const dupeRoutes = (routes) => {
   return routes.reduce((acc, route) => {
@@ -27,6 +28,11 @@ const routes = [
     path: 'faq',
     exact: true,
     component: Faq
+  },
+  {
+    path: 'video',
+    exact: true,
+    component: Video
   },
   {
     path: 'whitepaper',

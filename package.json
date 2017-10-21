@@ -175,6 +175,7 @@
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.1.2",
     "react-router-redux": "next",
+    "react-router-scroll-memory": "^1.0.0",
     "react-scroll": "^1.5.4",
     "react-slick": "^0.15.4",
     "redux": "^3.7.2",

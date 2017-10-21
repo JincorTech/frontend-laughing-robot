@@ -8,6 +8,7 @@ import { AppContainer } from 'react-hot-loader';
 import { UserAgentProvider } from '@quentin-sommer/react-useragent';
 import createHistory from 'history/createBrowserHistory';
 
+import ScrollMemory from 'react-router-scroll-memory';
 import App from './containers/app/RootContainer';
 import configureStore from './redux/configureStore';
 import i18next from './utils/i18next/client';
@@ -47,7 +48,10 @@ const render = (Component) => {
         <AppContainer>
           <UserAgentProvider ua={ua}>
             <ConnectedRouter history={history}>
-              <Component />
+              <div>
+                <ScrollMemory/>
+                <Component/>
+              </div>
             </ConnectedRouter>
           </UserAgentProvider>
         </AppContainer>

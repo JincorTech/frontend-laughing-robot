@@ -85,15 +85,10 @@
     "subtitle": "Find out more about Jincor"
   },
   "about": {
-    "whatIs": {
-      "title": "What is Jincor?",
-      "subtitle": "The Grand Vision",
-      "text": "Jincor is a platform which will allow any business to work with smart contracts and cryptocurrency payments easily with no legal, technical, or operational complications and in a cost-efficient manner. While existing solutions offer to solve just one problem at a time, our team build up a useful, secure and easy-to-use product, which will include smart contracts constructor, cryptocurrency payments, and even a digital arbitration system to work out the right judgements on unclear matters related to smart contracts performance. In the end, Jincor aims to integrate all companies, employees and business assets into a unified blockchain ecosystem, which will make business relations truly transparent, effective and reliable."
-    },
-    "resourses": {
-      "title": "Resources",
-      "subtitle": "Find out more about Jincor"
-    }
+    "title": "What is Jincor?",
+    "subtitle": "The Grand Vision",
+    "text": "Jincor is a platform which will allow any business to work with smart contracts and cryptocurrency payments easily with no legal, technical, or operational complications and in a cost-efficient manner. While existing solutions offer to solve just one problem at a time, our team build up a useful, secure and easy-to-use product, which will include smart contracts constructor, cryptocurrency payments, and even a digital arbitration system to work out the right judgements on unclear matters related to smart contracts performance. In the end, Jincor aims to integrate all companies, employees and business assets into a unified blockchain ecosystem, which will make business relations truly transparent, effective and reliable.",
+    "video": "Watch video"
   },
   "cases": {
     "title": "Use Cases",

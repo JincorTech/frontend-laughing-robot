@@ -1,0 +1,22 @@
+.video {
+  width: 1280px;
+  margin: 100px auto 0;
+  position: relative;
+}
+
+.iframe {
+  width: 1280px;
+  height: 720px;
+}
+
+.close {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -25px;
+  outline: none;
+}
