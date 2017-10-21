@@ -3,148 +3,96 @@
 
 .cases {
   width: 100%;
-  padding: 80px 0;
+  padding: 120px 0;
   background-color: #fff;
-
-  @media only screen and (max-width: 480px) {
-    padding: 40px 0;
-  }
 }
 
 .container {
-  width: 1140px;
+  width: 1040px;
   margin: 0 auto;
   clear: fix;
-
-  @media only screen and (max-width: 1024px) {
-    width: 100%;
-  }
-
-  @media only screen and (max-width: 480px) {
-    width: 100%;
-  }
 }
 
 .head {
-  margin-bottom: 80px;
-
-  @media only screen and (max-width: 480px) {
-    margin-bottom: 40px;
-  }
+  margin-bottom: 60px;
 }
 
 .title {
-  font: bold 35px Roboto;
-  color: #444;
-  margin: 0 0 5px 0;
-  letter-spacing: -0.1px;
-
-  @media only screen and (max-width: 1024px) {
-    padding: 0 20px;
-  }
-
-  @media only screen and (max-width: 480px) {
-    font: bold 30px Roboto;
-    padding: 0 20px;
-  }
+  font: bold 64px/80px Roboto;
+  color: #111;
+  margin: 0 0 10px 0;
+  text-align: center;
 }
 
 .subtitle {
-  font: normal 20px Roboto;
-  color: #adadad;
+  font: 300 28px/46px Roboto;
+  color: #111;
   margin: 0;
-  letter-spacing: -0.1px;
+  text-align: center;
+}
 
-  @media only screen and (max-width: 1024px) {
-    padding: 0 20px;
-  }
-
-  @media only screen and (max-width: 480px) {
-    font: normal 20px Roboto;
-    padding: 0 20px;
-  }
+.text {
+  font: 300 28px/46px Roboto;
+  color: #111;
+  text-align: center;
+  margin-bottom: 60px;
 }
 
 .tabs {
-  width: 340px;
-  float: left;
-  margin: -5px 50px -5px -15px;
+  margin: 60px -60px 0;
+  text-align: center;
+}
+
+.inner {
+  display: inline-block;
+  border-bottom: 1px solid #F2F3F7;
+}
+
+.button {
+  text-align: center;
+}
+
+.buttonElement {
+  background-color: transparent;
+  font: 500 28px/46px Roboto;
+  color: #0080ff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: none;
+
+  & > img {
+    margin-right: 8px;
+    display: inline-block;
+    vertical-align: middle;
+  }
 }
 
 .tab {
-  display: block;
+  display: inline-block;
+  width: 80px;
+  margin: 0 60px;
+  padding-bottom: 30px;
   cursor: pointer;
-  font: normal 20px Roboto;
-  letter-spacing: -0.1px;
-  color: #0080FF;
-  padding: 15px;
-  background-color: #fff;
-  margin: 5px 0;
-  transition: 0.1s linear background-color;
 
-  &:hover {
-    background-color: #fafafa;
+  &:first-child {
+    margin: 0 60px 0 0;
+  }
+
+  &:last-child {
+    margin: 0 0 0 60px;
   }
 }
 
 .active {
   composes: tab;
-  background-color: #fafafa;
-  cursor: default;
-  pointer-events: none;
+  border-bottom: 1px solid #111;
 }
 
-.content {
-  width: 700px;
-  float: right;
-}
-
-.text {
-  display: none;
-  font: normal 16px/24px Roboto;
-  color: #444;
-  min-height: 360px;
-
-  & a {
-    color: #0080FF;
-    text-decoration: none;
-  }
-
-  @media only screen and (max-width: 1024px) {
-    display: block;
-    font: normal 14px/24px Roboto;
-    padding: 0 20px;
-    min-height: auto;
-  }
-}
-
-.visible {
-  composes: text;
-  display: block;
-}
-
-.sections {
-  @media only screen and (max-width: 1024px) {
-    margin-bottom: -40px;
-  }
-}
-
-.section {
-  @media only screen and (max-width: 1024px) {
-    margin: 40px 0;
-  }
-
-  & a {
-    color: #0080FF;
-    text-decoration: none;
-  }
-}
-
-.sectionTitle {
-  @media only screen and (max-width: 1024px) {
-    font: normal 18px/24px Roboto;
-    color: #0080FF;
-    margin-bottom: 15px;
-    padding: 0 20px;
-  }
+.label {
+  margin: 10px -30px 0;
+  text-align: center;
+  font: 300 15px/18px Roboto;
+  color: #111;
 }

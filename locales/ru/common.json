@@ -91,19 +91,41 @@
     "video": "Смотреть видео"
   },
   "cases": {
-    "title": "Ключевые функции",
-    "subtitle": "Что умеет Jincor?",
-    "1": {
-      "title": "Криптовалютные платежи, удовлетворяющие требованиям регуляторов",
-      "text": "По результатам <a href='https://www.jbs.cam.ac.uk/fileadmin/user_upload/research/centres/alternative-finance/downloads/2017-global-cryptocurrency-benchmarking-study.pdf' target='_blank'>исследования</a>, проведенного Кембриджским университетом в начале 2017 года, криптовалютные кошельки сейчас используют от 2,9 млн до 5,8 млн человек, а более 100 000 компаний по всему миру, включая таких <a href='https://www.fool.com/investing/2017/07/06/5-brand-name-businesses-that-currently-accept-bitc.aspx' target='_blank'>гигантов</a>, как Microsoft, PayPal, DISH Network, Intuit и Overstock, уже доверяют биткоину настолько, чтобы принимать его в качестве средства платежа. И в этом нет ничего удивительного: использование криптовалют в бизнесе означает низкую комиссию при проведении платежей, кардинальное увеличение скорости обработки транзакций, а также исключает возможность мошенничества и подделки денежных средств. Тем не менее, многие компании продолжают отказываться от криптовалют из-за их анонимности: анонимные транзакции не могут быть учтены в налоговом и бухгалтерском учете, а значит, легальность их использования остается под большим вопросом. В Jincor компании смогут зарегистрировать верифицированные криптовалютные кошельки и проводить с их помощью прозрачные платежи в криптовалюте по модели KYC (знай своего клиента)."
+    "title": "Use Cases",
+    "more": "Learn more",
+    "preview": {
+      "1": {
+        "title": "Crypto transactions for business",
+        "text": "A recent Cambridge University study estimates between 2.9 million and 5.8 million people now use cryptocurrency wallets worldwide in 2017. There are also more than 100,000 merchants, including giants like Microsoft, Paypal, DISH Network, Intuit, and Overstock, who trust bitcoin enough to accept it as a means of payment…"
+      },
+      "2": {
+        "title": "Legally binding smart contracts",
+        "text": "A recent Cambridge University study estimates between 2.9 million and 5.8 million people now use cryptocurrency wallets worldwide in 2017. There are also more than 100,000 merchants, including giants like Microsoft, Paypal, DISH Network, Intuit, and Overstock, who trust bitcoin enough to accept it as a means of payment…"
+      },
+      "3": {
+        "title": "Decentralised arbitration system",
+        "text": "A recent Cambridge University study estimates between 2.9 million and 5.8 million people now use cryptocurrency wallets worldwide in 2017. There are also more than 100,000 merchants, including giants like Microsoft, Paypal, DISH Network, Intuit, and Overstock, who trust bitcoin enough to accept it as a means of payment…"
+      }
     },
-    "2": {
-      "title": "Простые в использовании и обязательные к исполнению смарт-контракты",
-      "text": "Смарт-контракты несут в себе множество выгод для компаний, так как существенно сокращают расходы, связанные с бухгалтерским учетом, повышают доверие между бизнес-партнерами и исключают ошибки, связанные с человеческим фактором. Согласно <a href='https://newsroom.accenture.com/news/blockchain-technology-could-reduce-investment-banks-infrastructure-costs-by-30-percent-according-to-accenture-report.htm' target='_blank'>отчету</a> международной консалтинговой компании Accenture, опубликованному в январе 2017 года, одни только инвестиционные банки смогут экономить до $12 млрд за счет использования смарт-контрактов. Тем не менее, большинство маленьких и средних компаний пока что не могут внедрить смарт-контракты в свою деятельность из-за их дороговизны и технической сложности. Для решения этой проблемы Jincor разрабатывает конструктор смарт-контрактов, который снизит стоимость их разработки и внедрения с текущих $5000-7000 (разработка и тестирование смарт-контрактов требует продолжительной работы профессионала высокой квалификации; средние <a href='https://www.fnlondon.com/articles/blockchain-salaries-go-parabolic-you-can-make-a-fortune-20170605' target='_blank'>зарплаты</a> блокчейн-разработчиков можно посмотреть здесь) до примерно $100-500 за контракт за счет устранения необходимости программировать их с нуля и сделает создание смарт-контрактов простым и доступным даже для пользователей без каких-либо технических знаний."
-    },
-    "3": {
-      "title": "Децентрализованная арбитражная система",
-      "text": "Отсутствие четкой законодательной базы является одной из основных проблем, препятствующих массовому распространению криптовалют и смарт-контрактов. По <a href='http://bitlegal.io/list.php' target='_blank'>данным</a> портала Bitlegal, который мониторит правовое регулирование блокчейн-технологий по всему миру, в настоящее время только 62 страны разрешили их использование на законодательном уровне, но даже в этих странах смарт-контракты почти никак не регулируются. В реальности это означает, что если вы, например, заключили смарт-контракт со своим бизнес-партнером и остались недовольны какими-либо его действиями, у вас практически нет никаких механизмов для того, чтобы отстоять свои права, так как контракт исполняется автоматически, а каких-то специальных судов или регулирующих органов в этой сфере просто не существует. Jincor решает эту проблему при помощи децентрализованной арбитражной системы, в которой организации смогут подать иск, связанный с исполнением смарт-контрактов, и получить непредвзятое и обязательное к исполнению решение, принимаемое несколькими арбитрами, которые выбираются случайным образом из числа компаний, имеющих хорошую деловую репутацию и релевантный рассматриваемому делу опыт."
+    "full": {
+      "1": {
+        "title": "Regulatory compliant crypto-asset transactions for business",
+        "subtitle": "A recent Cambridge University study estimates between 2.9 million and 5.8 million people now use cryptocurrency wallets worldwide in 2017.",
+        "text": "<p>There are also more than 100,000 merchants, including giants like Microsoft, Paypal, DISH Network, Intuit, and Overstock, who trust bitcoin enough to accept it as a means of payment. And there is nothing amazing here: using cryptocurrency in business means lower transaction fees, high-speed processing and complete elimination of fraud.</p>
+        <p>However, most companies are still unable to use it for intercorporate settlements — cryptocurrency transactions involve anonymity, which has nothing to do with taxation and accounting of organizations. At Jincor companies will be able to use verified digital wallets to carry out transparent and trackable b2b cryptocurrency payments, knowing exactly who they pay to with “know your customer” principle applied.</p>"
+      },
+      "2": {
+        "title": "Regulatory compliant crypto-asset transactions for business",
+        "subtitle": "A recent Cambridge University study estimates between 2.9 million and 5.8 million people now use cryptocurrency wallets worldwide in 2017.",
+        "text": "<p>There are also more than 100,000 merchants, including giants like Microsoft, Paypal, DISH Network, Intuit, and Overstock, who trust bitcoin enough to accept it as a means of payment. And there is nothing amazing here: using cryptocurrency in business means lower transaction fees, high-speed processing and complete elimination of fraud.</p>
+        <p>However, most companies are still unable to use it for intercorporate settlements — cryptocurrency transactions involve anonymity, which has nothing to do with taxation and accounting of organizations. At Jincor companies will be able to use verified digital wallets to carry out transparent and trackable b2b cryptocurrency payments, knowing exactly who they pay to with “know your customer” principle applied.</p>"
+      },
+      "3": {
+        "title": "Regulatory compliant crypto-asset transactions for business",
+        "subtitle": "A recent Cambridge University study estimates between 2.9 million and 5.8 million people now use cryptocurrency wallets worldwide in 2017.",
+        "text": "<p>There are also more than 100,000 merchants, including giants like Microsoft, Paypal, DISH Network, Intuit, and Overstock, who trust bitcoin enough to accept it as a means of payment. And there is nothing amazing here: using cryptocurrency in business means lower transaction fees, high-speed processing and complete elimination of fraud.</p>
+        <p>However, most companies are still unable to use it for intercorporate settlements — cryptocurrency transactions involve anonymity, which has nothing to do with taxation and accounting of organizations. At Jincor companies will be able to use verified digital wallets to carry out transparent and trackable b2b cryptocurrency payments, knowing exactly who they pay to with “know your customer” principle applied.</p>"
+      }
     }
   },
   "roadmap": {

@@ -1,0 +1,38 @@
+.container {
+  width: 750px;
+  margin: 0 auto;
+  padding: 40px 0 80px;
+}
+
+.close {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -25px;
+  outline: none;
+}
+
+.case {
+  margin: 60px 0;
+
+  & p {
+    font: 300 20px/32px Roboto;
+    color: #111;
+    margin: 30px 0 0;
+  }
+}
+
+.title {
+  font: 500 56px/64px Roboto;
+  color: #111;
+}
+
+.subtitle {
+  font: 300 28px/46px Roboto;
+  color: #111;
+  margin: 30px 0 0;
+}

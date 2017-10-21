@@ -1,91 +1,89 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { translate, Interpolate } from 'react-i18next';
-import { UserAgent } from '@quentin-sommer/react-useragent';
 import s from './styles.scss';
 
 import { changeTab } from '../../../redux/modules/landingPage/useCases';
 
+import SLink from '../../common/SLink';
+
 const UseCases = (props) => {
   const { changeTab, activeTab, t } = props;
 
-  const renderDesktop = () => (
-    <div>
-      <div className={s.tabs}>
-        <div
-          className={activeTab === 1 ? s.active : s.tab}
-          onClick={() => changeTab(1)}>
-          {t('cases.1.title')}
-        </div>
-        <div
-          className={activeTab === 2 ? s.active : s.tab}
-          onClick={() => changeTab(2)}>
-          {t('cases.2.title')}
-        </div>
-        <div
-          className={activeTab === 3 ? s.active : s.tab}
-          onClick={() => changeTab(3)}>
-          {t('cases.3.title')}
-        </div>
-      </div>
-      <div className={s.content}>
-        <div className={activeTab === 1 ? s.visible : s.text}>
+  const renderTabContent = (tab) => {
+    switch (tab) {
+      case 1:
+        return (
           <Interpolate
-            i18nKey="cases.1.text"
+            i18nKey="cases.preview.1.text"
             useDangerouslySetInnerHTML={true}/>
-        </div>
-        <div className={activeTab === 2 ? s.visible : s.text}>
+        );
+      case 2:
+        return (
           <Interpolate
-            i18nKey="cases.2.text"
+            i18nKey="cases.preview.2.text"
             useDangerouslySetInnerHTML={true}/>
-        </div>
-        <div className={activeTab === 3 ? s.visible : s.text}>
+        );
+      case 3:
+        return (
           <Interpolate
-            i18nKey="cases.3.text"
+            i18nKey="cases.preview.3.text"
             useDangerouslySetInnerHTML={true}/>
-        </div>
-      </div>
-    </div>
-  );
-
-  const renderMobile = () => (
-    <div className={s.sections}>
-      <div className={s.section}>
-        <div className={s.sectionTitle}>{t('cases.1.title')}</div>
-        <div className={s.text}>
-          <Interpolate
-            i18nKey="cases.1.text"
-            useDangerouslySetInnerHTML={true}/>
-        </div>
-      </div>
-      <div className={s.section}>
-        <div className={s.sectionTitle}>{t('cases.2.title')}</div>
-        <div className={s.text}>
-          <Interpolate
-            i18nKey="cases.2.text"
-            useDangerouslySetInnerHTML={true}/>
-        </div>
-      </div>
-      <div className={s.section}>
-        <div className={s.sectionTitle}>{t('cases.3.title')}</div>
-        <div className={s.text}>
-          <Interpolate
-            i18nKey="cases.3.text"
-            useDangerouslySetInnerHTML={true}/>
-        </div>
-      </div>
-    </div>
-  );
+        );
+    }
+  };
 
   return (
     <div className={s.cases}>
       <div className={s.container}>
         <div className={s.head}>
           <h2 className={s.title}>{t('cases.title')}</h2>
-          <h4 className={s.subtitle}>{t('cases.subtitle')}</h4>
         </div>
-        <UserAgent computer>{renderDesktop()}</UserAgent>
-        <UserAgent mobile>{renderMobile()}</UserAgent>
+
+        <div className={s.body}>
+          <div className={s.text}>{renderTabContent(activeTab)}</div>
+
+          <div className={s.button}>
+            <SLink to="/cases" className={s.buttonElement}>
+              <img src={require('./svg/more.svg')}/>
+              {t('cases.more')}
+            </SLink>
+          </div>
+
+          <div className={s.tabs}>
+            <div className={s.inner}>
+              <div className={activeTab === 1 ? s.active : s.tab} onClick={() => changeTab(1)}>
+                <div className={s.icon}>
+                  <img src={require('./svg/lock.svg')}/>
+                </div>
+
+                <div className={s.label}>
+                  {t('cases.preview.1.title')}
+                </div>
+              </div>
+
+              <div className={activeTab === 2 ? s.active : s.tab} onClick={() => changeTab(2)}>
+                <div className={s.icon}>
+                  <img src={require('./svg/contract.svg')}/>
+                </div>
+
+                <div className={s.label}>
+                  {t('cases.preview.2.title')}
+                </div>
+              </div>
+
+              <div className={activeTab === 3 ? s.active : s.tab} onClick={() => changeTab(3)}>
+                <div className={s.icon}>
+                  <img src={require('./svg/hammer.svg')}/>
+                </div>
+
+                <div className={s.label}>
+                  {t('cases.preview.3.title')}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

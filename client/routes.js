@@ -8,6 +8,7 @@ import TermsOfUse from './containers/app/TermsOfUse';
 import ErrorPage from './components/common/ErrorPage';
 import Faq from './components/faq/Faq';
 import Video from './components/video/Video';
+import Cases from './components/cases/Cases';
 
 const dupeRoutes = (routes) => {
   return routes.reduce((acc, route) => {
@@ -33,6 +34,11 @@ const routes = [
     path: 'video',
     exact: true,
     component: Video
+  },
+  {
+    path: 'cases',
+    exact: true,
+    component: Cases
   },
   {
     path: 'whitepaper',

@@ -92,18 +92,37 @@
   },
   "cases": {
     "title": "Use Cases",
-    "subtitle": "What does Jincor offer?",
-    "1": {
-      "title": "Regulatory compliant crypto-asset transactions for business",
-      "text": "A recent Cambridge University <a href='https://www.jbs.cam.ac.uk/fileadmin/user_upload/research/centres/alternative-finance/downloads/2017-global-cryptocurrency-benchmarking-study.pdf' target='_blank'>study</a> estimates between 2.9 million and 5.8 million people now use cryptocurrency wallets worldwide in 2017. There are also more than 100,000 merchants, including <a href='https://www.fool.com/investing/2017/07/06/5-brand-name-businesses-that-currently-accept-bitc.aspx' target='_blank'>giants</a> like Microsoft, Paypal, DISH Network, Intuit, and Overstock, who trust bitcoin enough to accept it as a means of payment. And there is nothing amazing here: using cryptocurrency in business means lower transaction fees, high-speed processing and complete elimination of fraud. However, most companies are still unable to use it for intercorporate settlements — cryptocurrency transactions involve anonymity, which has nothing to do with taxation and accounting of organizations. At Jincor companies will be able to use verified digital wallets to carry out transparent and trackable b2b cryptocurrency payments, knowing exactly who they pay to with “know your customer” principle applied."
+    "more": "Learn more",
+    "preview": {
+      "1": {
+        "title": "Crypto transactions for business",
+        "text": "A recent Cambridge University study estimates between 2.9 million and 5.8 million people now use cryptocurrency wallets worldwide in 2017. There are also more than 100,000 merchants, including giants like Microsoft, Paypal, DISH Network, Intuit, and Overstock, who trust bitcoin enough to accept it as a means of payment…"
+      },
+      "2": {
+        "title": "Legally binding smart contracts",
+        "text": "A recent Cambridge University study estimates between 2.9 million and 5.8 million people now use cryptocurrency wallets worldwide in 2017. There are also more than 100,000 merchants, including giants like Microsoft, Paypal, DISH Network, Intuit, and Overstock, who trust bitcoin enough to accept it as a means of payment…"
+      },
+      "3": {
+        "title": "Decentralised arbitration system",
+        "text": "A recent Cambridge University study estimates between 2.9 million and 5.8 million people now use cryptocurrency wallets worldwide in 2017. There are also more than 100,000 merchants, including giants like Microsoft, Paypal, DISH Network, Intuit, and Overstock, who trust bitcoin enough to accept it as a means of payment…"
+      }
     },
-    "2": {
-      "title": "Easy-to-use and legally binding smart contracts",
-      "text": "Smart contracts are a great cost-saving tool for business, since they significantly cut accounting costs, raise trust between counterparties and eliminate human factor errors. According to a recent Accenture <a href='https://newsroom.accenture.com/news/blockchain-technology-could-reduce-investment-banks-infrastructure-costs-by-30-percent-according-to-accenture-report.htm' target='_blank'>research</a>, published at the beginning of 2017, investment banks alone could save up to $12 billion per year by adopting blockchain and smart contracts. But still, most small and medium businesses are unable to implement smart contracts due to their expensiveness and technological complexity. To address this issue, Jincor will provide corporate smart contracts templates, which will cut the cost of their implementation from today's approximate of $5,000-7,000 (just have a look at blockchain developers’ <a href='https://www.fnlondon.com/articles/blockchain-salaries-go-parabolic-you-can-make-a-fortune-20170605' target='_blank'>salaries</a> and take into consideration that coding and proper security testing of a smart contract requires many working hours of a qualified professional) to roughly $100-500 per contract by removing the need to actually program them and make smart contracts creation genuinely easy even for users with no technical skills."
-    },
-    "3": {
-      "title": "Decentralised Arbitration system",
-      "text": "Lack of proper legislative base in the field seems to be the most significant challenge preventing smart contracts and cryptocurrencies from wider adoption. According to the <a href='http://bitlegal.io/list.php' target='_blank'>data</a> from Bitlegal, which tracks evolving regulatory landscape of blockchain technologies around the world, at the moment there are only 62 countries explicitly allowing their usage, but even there smart contracts are not regulated by clear, widely-adopted and well-known rules. In practice, it means that if you have signed a smart contract with your business partner, and you are dissatisfied with some of his actions, there are virtually no means for you to uphold your rights, as the contract is performed automatically and there are no courts or some regulatory bodies at all. Jincor solves this problem by providing a decentralized arbitration system, where organizations will be able to file a claim related to smart contract performance and get an unbiased judgment of several arbitrators, randomly picked from the list of companies which have gained a good reputation while using the platform and dealing with other participants on similar matters."
+    "full": {
+      "1": {
+        "title": "Regulatory compliant crypto-asset transactions for business",
+        "subtitle": "A recent Cambridge University study estimates between 2.9 million and 5.8 million people now use cryptocurrency wallets worldwide in 2017.",
+        "text": "<p>There are also more than 100,000 merchants, including giants like Microsoft, Paypal, DISH Network, Intuit, and Overstock, who trust bitcoin enough to accept it as a means of payment. And there is nothing amazing here: using cryptocurrency in business means lower transaction fees, high-speed processing and complete elimination of fraud.</p><p>However, most companies are still unable to use it for intercorporate settlements — cryptocurrency transactions involve anonymity, which has nothing to do with taxation and accounting of organizations. At Jincor companies will be able to use verified digital wallets to carry out transparent and trackable b2b cryptocurrency payments, knowing exactly who they pay to with “know your customer” principle applied.</p>"
+      },
+      "2": {
+        "title": "Regulatory compliant crypto-asset transactions for business",
+        "subtitle": "A recent Cambridge University study estimates between 2.9 million and 5.8 million people now use cryptocurrency wallets worldwide in 2017.",
+        "text": "<p>There are also more than 100,000 merchants, including giants like Microsoft, Paypal, DISH Network, Intuit, and Overstock, who trust bitcoin enough to accept it as a means of payment. And there is nothing amazing here: using cryptocurrency in business means lower transaction fees, high-speed processing and complete elimination of fraud.</p><p>However, most companies are still unable to use it for intercorporate settlements — cryptocurrency transactions involve anonymity, which has nothing to do with taxation and accounting of organizations. At Jincor companies will be able to use verified digital wallets to carry out transparent and trackable b2b cryptocurrency payments, knowing exactly who they pay to with “know your customer” principle applied.</p>"
+      },
+      "3": {
+        "title": "Regulatory compliant crypto-asset transactions for business",
+        "subtitle": "A recent Cambridge University study estimates between 2.9 million and 5.8 million people now use cryptocurrency wallets worldwide in 2017.",
+        "text": "<p>There are also more than 100,000 merchants, including giants like Microsoft, Paypal, DISH Network, Intuit, and Overstock, who trust bitcoin enough to accept it as a means of payment. And there is nothing amazing here: using cryptocurrency in business means lower transaction fees, high-speed processing and complete elimination of fraud.</p><p>However, most companies are still unable to use it for intercorporate settlements — cryptocurrency transactions involve anonymity, which has nothing to do with taxation and accounting of organizations. At Jincor companies will be able to use verified digital wallets to carry out transparent and trackable b2b cryptocurrency payments, knowing exactly who they pay to with “know your customer” principle applied.</p>"
+      }
     }
   },
   "roadmap": {
