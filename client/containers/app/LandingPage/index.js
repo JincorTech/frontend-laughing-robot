@@ -7,6 +7,7 @@ import Scroll from 'react-scroll';
 import BodyClassName from 'react-body-classname';
 import HelmetBase from '../../../components/common/HelmetBase';
 import Header from '../../../components/landingPage/Header';
+import FixedMenu from '../../../components/landingPage/FixedMenu';
 import MobileHeader from '../../../components/landingPage/MobileHeader';
 import LandingSection from '../../../components/landingPage/LandingSection';
 import Media from '../../../components/landingPage/Media';
@@ -42,6 +43,7 @@ const LandingPage = (props) => {
         </HelmetBase>
         <UserAgent computer><Header/></UserAgent>
         <UserAgent mobile><MobileHeader/></UserAgent>
+        <FixedMenu/>
         <LandingSection/>
         <Media/>
         <Resources/>

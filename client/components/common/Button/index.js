@@ -5,6 +5,7 @@ import s from './styles.scss';
 const Button = (props) => {
   const {
     style,
+    size,
     children,
     ...restProps
   } = props;
@@ -12,6 +13,7 @@ const Button = (props) => {
   const cx = classnames.bind(s);
   const className = cx(
     'button',
+    size,
     style
   );
 

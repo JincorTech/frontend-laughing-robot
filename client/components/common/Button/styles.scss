@@ -49,4 +49,10 @@
       box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
     }
   }
+
+  &.small {
+    padding: 9px 12px;
+    font: 500 14px/16px Roboto;
+    height: auto;
+  }
 }

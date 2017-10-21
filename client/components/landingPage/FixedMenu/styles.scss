@@ -1,0 +1,44 @@
+.menu {
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  transition: 0.2s linear all;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.hidden {
+  composes: menu;
+  top: -60px;
+}
+
+.inner {
+  position: relative;
+  height: 100%;
+}
+
+.logo {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+
+  & > img {
+    height: 100%;
+  }
+}
+
+.buttons {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+.contrib {
+  width: 120px;
+}
