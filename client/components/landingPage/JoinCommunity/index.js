@@ -88,7 +88,7 @@ class JoinCommunity extends Component {
             </a>
 
             <a className={s.social} href="" target="_blank">
-              <img src={require('../../../assets/images/socials/instagram.svg')}/>
+              <img src={require('../../../assets/images/socials/insta.svg')}/>
             </a>
 
             <a className={s.social} href="" target="_blank">
