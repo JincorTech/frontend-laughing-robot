@@ -2,92 +2,26 @@
   position: relative;
   width: 100%;
   overflow: hidden;
-  padding-top: 30px;
+  padding: 30px 0 180px;
 
   @media only screen and (max-width: 480px) {
     padding-top: 0;
   }
 }
 
-.images {
-  width: 2340px;
-  position: relative;
-  left: 50%;
-  margin-left: -1170px;
-
-  @media only screen and (max-width: 1024px) {
-    width: 1610px;
-    margin-left: -805px;
-  }
-
-  @media only screen and (max-width: 480px) {
-    width: 680px;
-    margin-left: -340px;
-  }
-}
-
-.image {
-  width: 800px;
-  height: 400px;
-
-  & > img {
-    width: 100%;
-    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
-  }
-
-  @media only screen and (max-width: 1024px) {
-    width: 550px;
-    height: 344px;
-  }
-
-  @media only screen and (max-width: 480px) {
-    width: 260px;
-    height: 162px;
-  }
-}
-
-.center {
-  composes: image;
+.container {
+  width: 1134px;
   margin: 0 auto;
-  display: block;
 }
 
-.left {
-  composes: image;
-  opacity: 0.7;
-  width: 720px;
-  height: 350px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-
-  @media only screen and (max-width: 1024px) {
-    width: 480px;
-    height: 300px;
-  }
-
-  @media only screen and (max-width: 480px) {
-    width: 200px;
-    height: 125px;
-  }
+.mid {
+  top: 50%;
 }
 
-.right {
-  composes: image;
-  opacity: 0.7;
-  width: 720px;
-  height: 350px;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-
-  @media only screen and (max-width: 1024px) {
-    width: 480px;
-    height: 300px;
-  }
-
-  @media only screen and (max-width: 480px) {
-    width: 200px;
-    height: 125px;
+:global(.product) {
+  :global(.slick-prev),
+  :global(.slick-next) {
+    top: 50%;
+    transform: translateY(-50%);
   }
 }
