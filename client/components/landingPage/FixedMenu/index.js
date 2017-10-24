@@ -23,7 +23,6 @@ class FixedMenu extends Component {
     if (!isBrowser()) return;
 
     const windowHeight = window.innerHeight;
-    const scrollY = window.scrollY;
     this.setState({ windowHeight });
     window.addEventListener('scroll', this._handleScrollY);
   }
