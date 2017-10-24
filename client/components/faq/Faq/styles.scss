@@ -1,76 +1,35 @@
 .faq {
-  width: 100%;
-}
-
-.head {
+  width: 750px;
+  margin: 100px auto 140px;
   position: relative;
-  padding: 50px 30px;
-
-  @media only screen and (max-width: 480px) {
-    padding: 20px 30px 0;
-  }
-}
-
-.title {
-  font: bold 50px Roboto;
-  color: #444;
-  text-align: center;
-
-  @media only screen and (max-width: 480px) {
-    font: bold 25px Roboto;
-    text-align: left;
-  }
 }
 
 .close {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
   position: fixed;
-  top: 54px;
-  right: 125px;
-
-  & img {
-    width: 48px;
-    height: 48px;
-  }
-
-  @media only screen and (max-width: 1024px) {
-    position: absolute;
-    right: 54px;
-  }
-
-  @media only screen and (max-width: 480px) {
-    right: 30px;
-    top: 20px;
-
-    & img {
-      width: 30px;
-      height: 30px;
-    }
-  }
+  bottom: 30px;
+  left: 50%;
+  margin-left: -25px;
+  outline: none;
 }
 
-.body {
-  width: 800px;
-  margin: 0 auto;
-  padding-bottom: 100px;
-  box-sizing: border-box;
-
-  @media only screen and (max-width: 800px) {
-    width: 100%;
-    padding: 0 15px;
-  }
+.title {
+  font: 500 56px/64px Roboto;
+  color: #111;
+  margin-bottom: 60px;
 }
 
 .section {
-  margin: 30px 0;
+
 }
 
 .sectionTitle {
-  font: bold 25px Roboto;
-  color: #0080FF;
-  padding: 5px 15px;
-  margin: 0;
-
-  @media only screen and (max-width: 480px) {
-    font: bold 18px/30px Roboto;
-  }
+  font: 500 34px/46px Roboto;
+  color: #111;
+  padding: 15px 0;
+  border-bottom: 1px solid #e0e0e0;
+  margin: 15px 0 0;
 }

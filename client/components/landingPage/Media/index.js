@@ -4,8 +4,7 @@ import s from './styles.scss';
 
 const Media = (props) => {
   const { t } = props;
-  console.log(t);
-
+  
   return (
     <div className={s.media}>
       <div className={s.container}>

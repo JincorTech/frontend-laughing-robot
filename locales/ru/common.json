@@ -111,20 +111,17 @@
       "1": {
         "title": "Regulatory compliant crypto-asset transactions for business",
         "subtitle": "A recent Cambridge University study estimates between 2.9 million and 5.8 million people now use cryptocurrency wallets worldwide in 2017.",
-        "text": "<p>There are also more than 100,000 merchants, including giants like Microsoft, Paypal, DISH Network, Intuit, and Overstock, who trust bitcoin enough to accept it as a means of payment. And there is nothing amazing here: using cryptocurrency in business means lower transaction fees, high-speed processing and complete elimination of fraud.</p>
-        <p>However, most companies are still unable to use it for intercorporate settlements — cryptocurrency transactions involve anonymity, which has nothing to do with taxation and accounting of organizations. At Jincor companies will be able to use verified digital wallets to carry out transparent and trackable b2b cryptocurrency payments, knowing exactly who they pay to with “know your customer” principle applied.</p>"
+        "text": "<p>There are also more than 100,000 merchants, including giants like Microsoft, Paypal, DISH Network, Intuit, and Overstock, who trust bitcoin enough to accept it as a means of payment. And there is nothing amazing here: using cryptocurrency in business means lower transaction fees, high-speed processing and complete elimination of fraud.</p><p>However, most companies are still unable to use it for intercorporate settlements — cryptocurrency transactions involve anonymity, which has nothing to do with taxation and accounting of organizations. At Jincor companies will be able to use verified digital wallets to carry out transparent and trackable b2b cryptocurrency payments, knowing exactly who they pay to with “know your customer” principle applied.</p>"
       },
       "2": {
         "title": "Regulatory compliant crypto-asset transactions for business",
         "subtitle": "A recent Cambridge University study estimates between 2.9 million and 5.8 million people now use cryptocurrency wallets worldwide in 2017.",
-        "text": "<p>There are also more than 100,000 merchants, including giants like Microsoft, Paypal, DISH Network, Intuit, and Overstock, who trust bitcoin enough to accept it as a means of payment. And there is nothing amazing here: using cryptocurrency in business means lower transaction fees, high-speed processing and complete elimination of fraud.</p>
-        <p>However, most companies are still unable to use it for intercorporate settlements — cryptocurrency transactions involve anonymity, which has nothing to do with taxation and accounting of organizations. At Jincor companies will be able to use verified digital wallets to carry out transparent and trackable b2b cryptocurrency payments, knowing exactly who they pay to with “know your customer” principle applied.</p>"
+        "text": "<p>There are also more than 100,000 merchants, including giants like Microsoft, Paypal, DISH Network, Intuit, and Overstock, who trust bitcoin enough to accept it as a means of payment. And there is nothing amazing here: using cryptocurrency in business means lower transaction fees, high-speed processing and complete elimination of fraud.</p><p>However, most companies are still unable to use it for intercorporate settlements — cryptocurrency transactions involve anonymity, which has nothing to do with taxation and accounting of organizations. At Jincor companies will be able to use verified digital wallets to carry out transparent and trackable b2b cryptocurrency payments, knowing exactly who they pay to with “know your customer” principle applied.</p>"
       },
       "3": {
         "title": "Regulatory compliant crypto-asset transactions for business",
         "subtitle": "A recent Cambridge University study estimates between 2.9 million and 5.8 million people now use cryptocurrency wallets worldwide in 2017.",
-        "text": "<p>There are also more than 100,000 merchants, including giants like Microsoft, Paypal, DISH Network, Intuit, and Overstock, who trust bitcoin enough to accept it as a means of payment. And there is nothing amazing here: using cryptocurrency in business means lower transaction fees, high-speed processing and complete elimination of fraud.</p>
-        <p>However, most companies are still unable to use it for intercorporate settlements — cryptocurrency transactions involve anonymity, which has nothing to do with taxation and accounting of organizations. At Jincor companies will be able to use verified digital wallets to carry out transparent and trackable b2b cryptocurrency payments, knowing exactly who they pay to with “know your customer” principle applied.</p>"
+        "text": "<p>There are also more than 100,000 merchants, including giants like Microsoft, Paypal, DISH Network, Intuit, and Overstock, who trust bitcoin enough to accept it as a means of payment. And there is nothing amazing here: using cryptocurrency in business means lower transaction fees, high-speed processing and complete elimination of fraud.</p><p>However, most companies are still unable to use it for intercorporate settlements — cryptocurrency transactions involve anonymity, which has nothing to do with taxation and accounting of organizations. At Jincor companies will be able to use verified digital wallets to carry out transparent and trackable b2b cryptocurrency payments, knowing exactly who they pay to with “know your customer” principle applied.</p>"
       }
     }
   },
@@ -373,7 +370,7 @@
     "failure": "Что-то пошло не так"
   },
   "faq": {
-    "title": "FAQ",
+    "title": "Frequently Asked Questions",
     "titles": {
       "1": "Общие вопросы",
       "2": "Сбор средств",

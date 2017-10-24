@@ -8,7 +8,7 @@ import s from './styles.scss';
 
 import SLink from '../../common/SLink';
 
-const Faq = (props) => {
+const Video = (props) => {
   const { goBack } = props;
 
   const renderClose = () => {
@@ -45,7 +45,7 @@ const Faq = (props) => {
   );
 };
 
-const WithRouterComponent = withRouter(Faq);
+const WithRouterComponent = withRouter(Video);
 const TranslatedComponent = translate()(WithRouterComponent);
 export default connect(
   null,
