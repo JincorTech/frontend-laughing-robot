@@ -8,7 +8,11 @@
   background-position: 50% 100%;
   background-size: 1330px;
 
-  @media only screen and (max-height: 768px) {
+  @media only screen and (max-height: 900px) {
+    background-size: 890px;
+  }
+
+  @media only screen and (max-height: 630px) {
     min-height: auto;
     padding-bottom: 300px;
   }
@@ -31,11 +35,11 @@
   transform: translateY(-50%);
   margin: 0 auto;
 
-  @media only screen and (max-height: 900px) {
+  @media only screen and (max-height: 630px) {
     position: static;
     top: auto;
     transform: none;
-    margin: 90px auto 0;
+    margin: 20px auto 0;
   }
 
   @media only screen and (max-width: 480px) {
@@ -52,6 +56,10 @@
   & > img {
     width: 100%;
   }
+
+  @media only screen and (max-height: 900px) {
+    width: 60px;
+  }
 }
 
 .title {
@@ -60,6 +68,12 @@
   font: bold 72px Roboto;
   text-align: center;
   color: #111;
+
+  @media only screen and (max-height: 900px) {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font: bold 56px/80px Roboto;
+  }
 
   @media only screen and (max-width: 480px) {
     font: bold 30px/35px Roboto;
@@ -76,6 +90,10 @@
   text-align: center;
   color: #111;
 
+  @media only screen and (max-height: 900px) {
+    font: 300 24px/40px Roboto;
+  }
+
   @media only screen and (max-width: 480px) {
     font: normal 20px/30px Roboto;
     text-align: left;
@@ -84,7 +102,7 @@
 }
 
 .buttons {
-  margin-top: 50px;
+  margin-top: 25px;
   text-align: center;
 }
 
