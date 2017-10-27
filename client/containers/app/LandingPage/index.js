@@ -43,7 +43,7 @@ const LandingPage = (props) => {
         </HelmetBase>
         <UserAgent computer><Header/></UserAgent>
         <UserAgent mobile><MobileHeader/></UserAgent>
-        <FixedMenu/>
+        <UserAgent computer><FixedMenu/></UserAgent>
         <Scroll.Element name="landingSection" id="landing"><LandingSection/></Scroll.Element>
         <Scroll.Element name="mediaSection" id="media"><Media/></Scroll.Element>
         <Scroll.Element name="resourcesSection" id="resources"><Resources/></Scroll.Element>

@@ -21,10 +21,23 @@
     min-height: calc(100vh - 74px);
   }
 
-  @media only screen and (max-width: 480px) {
-    min-height: auto;
+  @media only screen and (max-device-width: 480px) {
+    min-height: calc(100vh - 94px);
     height: auto;
     padding: 50px 0 40px;
+    background-image: url(./images/guys_mobile.png);
+    background-size: 320px;
+  }
+
+  @media only screen and (max-device-height: 630px) {
+    min-height: auto;
+    height: auto;
+    padding: 50px 0 140px;
+  }
+
+  @media only screen and (max-device-width: 812px) and (orientation: landscape) {
+    background-image: url(./images/guys.png);
+    background-size: 812px;
   }
 }
 
@@ -42,7 +55,19 @@
     margin: 20px auto 0;
   }
 
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-device-width: 480px) {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+  }
+
+  @media only screen and (max-device-height: 630px) {
+    position: static;
+    top: auto;
+    transform: none;
+  }
+
+  @media only screen and (max-device-width: 812px) and (orientation: landscape) {
     position: static;
     top: auto;
     transform: none;
@@ -60,6 +85,14 @@
   @media only screen and (max-height: 900px) {
     width: 60px;
   }
+
+  @media only screen and (max-width: 480px) {
+    width: 30px;
+  }
+
+  @media only screen and (max-device-width: 812px) and (orientation: landscape) {
+    width: 30px;
+  }
 }
 
 .title {
@@ -76,9 +109,18 @@
   }
 
   @media only screen and (max-width: 480px) {
-    font: bold 30px/35px Roboto;
-    letter-spacing: -0.1px;
-    text-align: left;
+    font: bold 32px/38px Roboto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    padding: 0 20px;
+  }
+
+  @media only screen and (max-device-width: 812px) and (orientation: landscape) {
+    font: bold 32px/38px Roboto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
     padding: 0 20px;
   }
 }
@@ -95,8 +137,14 @@
   }
 
   @media only screen and (max-width: 480px) {
-    font: normal 20px/30px Roboto;
-    text-align: left;
+    font: 300 16px/28px Roboto;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  @media only screen and (max-device-width: 812px) and (orientation: landscape) {
+    font: 300 16px/28px Roboto;
+    text-align: center;
     padding: 0 20px;
   }
 }
@@ -104,6 +152,12 @@
 .buttons {
   margin-top: 25px;
   text-align: center;
+
+  @media only screen and (max-width: 480px) {
+    width: 260px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
 }
 
 .button {
@@ -113,7 +167,7 @@
 
   @media only screen and (max-width: 480px) {
     width: 100%;
-    margin: 10px 0;
+    margin: 7px 0;
     padding: 0 20px;
     box-sizing: border-box;
   }
@@ -127,6 +181,7 @@
 }
 
 .link {
+  display: inline-block;
   width: 100%;
   height: 50px;
   cursor: pointer;
@@ -141,6 +196,7 @@
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
   transition: 0.2s linear all;
   text-decoration: none;
+  box-sizing: border-box;
 
   &:hover {
     box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
