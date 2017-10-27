@@ -54,18 +54,21 @@
       }
     },
     "nav": {
-      "blog": {
-        "label": "Блог",
-        "href": "https://blog.jincor.com/"
+      "vision": {
+        "label": "Vision"
       },
-      "faq": {
-        "label": "FAQ"
-      },
-      "downloads": {
-        "label": "Загрузки"
+      "crowdsale": {
+        "label": "Краудсейл"
       },
       "team": {
         "label": "Команда"
+      },
+      "community": {
+        "label": "Контакты"
+      },
+      "blog": {
+        "label": "Блог",
+        "href": "https://blog.jincor.com/"
       }
     }
   },
