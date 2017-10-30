@@ -22,56 +22,27 @@ const Team = (props) => {
     prevArrow: <CustomArrow><img src={require('../../../assets/images/carousel/back.svg')}/></CustomArrow>,
     responsive: [
       {
-        breakpoint: 375,
+        breakpoint: 1200,
         settings: {
-          centerPadding: '30px',
           infinite: true,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          swipe: true,
-          swipeToSlide: true,
-          centerMode: true,
-          arrows: false
-        }
-      },
-      {
-        breakpoint: 414,
-        settings: {
-          centerPadding: '50px',
-          infinite: true,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          swipe: true,
-          swipeToSlide: true,
-          centerMode: true,
-          arrows: false
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          centerPadding: '70px',
-          infinite: true,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          swipe: true,
-          swipeToSlide: true,
-          centerMode: true,
-          arrows: false
-        }
-      },
-      {
-        breakpoint: 769,
-        settings: {
           slidesToShow: 2,
-          slidesToScroll: 2
+          slidesToScroll: 2,
+          swipe: true,
+          swipeToSlide: true,
+          centerMode: false,
+          arrows: false
         }
       },
       {
-        breakpoint: 1025,
+        breakpoint: 800,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          swipe: true,
+          swipeToSlide: true,
+          centerMode: false,
+          arrows: false
         }
       }
     ]
