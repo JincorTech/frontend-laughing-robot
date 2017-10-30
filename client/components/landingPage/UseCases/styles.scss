@@ -5,30 +5,46 @@
   width: 100%;
   padding: 120px 0 90px;
   background-color: #fff;
+
+  @media only screen and (max-width: 480px) {
+    padding: 40px 0 15px;
+  }
 }
 
 .container {
   width: 1040px;
   margin: 0 auto;
   clear: fix;
+
+  @media only screen and (max-width: 1040px) {
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+  }
 }
 
 .head {
   margin-bottom: 60px;
+
+  @media only screen and (max-width: 480px) {
+    margin-bottom: 30px;
+  }
 }
 
 .title {
   font: bold 64px/80px Roboto;
   color: #111;
-  margin: 0 0 10px 0;
   text-align: center;
-}
 
-.subtitle {
-  font: 300 28px/46px Roboto;
-  color: #111;
-  margin: 0;
-  text-align: center;
+  @media only screen and (max-width: 1040px) {
+    padding: 0 20px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    font: bold 36px/42px Roboto;
+  }
 }
 
 .text {
@@ -36,16 +52,17 @@
   color: #111;
   text-align: center;
   margin-bottom: 60px;
-}
 
-.tabs {
-  margin: 60px -60px 0;
-  text-align: center;
-}
+  @media only screen and (max-width: 1040px) {
+    padding: 0 20px;
+  }
 
-.inner {
-  display: inline-block;
-  border-bottom: 1px solid #F2F3F7;
+  @media only screen and (max-width: 480px) {
+    font: 300 18px/28px Roboto;
+    text-align: left;
+    margin-bottom: 20px;
+    padding: 0 20px;
+  }
 }
 
 .button {
@@ -69,6 +86,34 @@
     position: relative;
     top: -2px;
   }
+
+  @media only screen and (max-width: 480px) {
+    font: 500 20px/24px Roboto;
+
+    & > img {
+      width: 20px;
+      top: -1px;
+    }
+  }
+}
+
+.tabs {
+  margin: 60px -60px 0;
+  text-align: center;
+
+  @media only screen and (max-width: 1040px) {
+    padding: 0 20px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    margin: 30px 0 0;
+    padding: 0 20px;
+  }
+}
+
+.inner {
+  display: inline-block;
+  border-bottom: 1px solid #F2F3F7;
 }
 
 .tab {
@@ -85,6 +130,33 @@
   &:last-child {
     margin: 0 0 0 60px;
   }
+
+  @media only screen and (max-width: 600px) {
+    margin: 0;
+    padding-bottom: 15px;
+    width: 80px;
+
+    &:first-child {
+      margin: 0;
+    }
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+}
+
+.icon {
+  width: 80px;
+
+  & > img {
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 600px) {
+    width: 50px;
+    margin: 0 auto;
+  }
 }
 
 .active {
@@ -97,4 +169,8 @@
   text-align: center;
   font: 300 15px/18px Roboto;
   color: #111;
+
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
 }

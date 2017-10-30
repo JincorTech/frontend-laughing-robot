@@ -12,7 +12,6 @@ const AboutSection = (props) => {
       <div className={s.container}>
         <div className={s.head}>
           <h2 className={s.title}>{t('about.title')}</h2>
-          <h4 className={s.subtitle}>{t('about.subtitle')}</h4>
         </div>
 
         <div className={s.body}>
