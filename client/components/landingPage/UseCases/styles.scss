@@ -6,6 +6,12 @@
   padding: 120px 0 90px;
   background-color: #fff;
 
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    padding: 40px 0 15px;
+  }
+
   @media only screen and (max-width: 480px) {
     padding: 40px 0 15px;
   }
@@ -20,6 +26,12 @@
     width: 100%;
   }
 
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    width: 100%;
+  }
+
   @media only screen and (max-width: 480px) {
     width: 100%;
   }
@@ -27,6 +39,12 @@
 
 .head {
   margin-bottom: 60px;
+
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    margin-bottom: 30px;
+  }
 
   @media only screen and (max-width: 480px) {
     margin-bottom: 30px;
@@ -42,6 +60,12 @@
     padding: 0 20px;
   }
 
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    font: bold 36px/42px Roboto;
+  }
+
   @media only screen and (max-width: 480px) {
     font: bold 36px/42px Roboto;
   }
@@ -54,6 +78,15 @@
   margin-bottom: 60px;
 
   @media only screen and (max-width: 1040px) {
+    padding: 0 20px;
+  }
+
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    font: 300 18px/28px Roboto;
+    text-align: left;
+    margin-bottom: 20px;
     padding: 0 20px;
   }
 
@@ -87,6 +120,17 @@
     top: -2px;
   }
 
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    font: 500 20px/24px Roboto;
+
+    & > img {
+      width: 20px;
+      top: -1px;
+    }
+  }
+
   @media only screen and (max-width: 480px) {
     font: 500 20px/24px Roboto;
 
@@ -102,6 +146,13 @@
   text-align: center;
 
   @media only screen and (max-width: 1040px) {
+    padding: 0 20px;
+  }
+
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    margin: 30px 0 0;
     padding: 0 20px;
   }
 
@@ -144,6 +195,22 @@
       margin: 0;
     }
   }
+
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    margin: 0;
+    padding-bottom: 15px;
+    width: 80px;
+
+    &:first-child {
+      margin: 0;
+    }
+
+    &:last-child {
+      margin: 0;
+    }
+  }
 }
 
 .icon {
@@ -154,6 +221,13 @@
   }
 
   @media only screen and (max-width: 600px) {
+    width: 50px;
+    margin: 0 auto;
+  }
+
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
     width: 50px;
     margin: 0 auto;
   }
@@ -171,6 +245,12 @@
   color: #111;
 
   @media only screen and (max-width: 600px) {
+    display: none;
+  }
+
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
     display: none;
   }
 }

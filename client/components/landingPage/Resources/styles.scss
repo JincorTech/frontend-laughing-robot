@@ -6,8 +6,14 @@
   padding: 120px 0;
   background-color: #fff;
 
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    padding: 50px 0;
+  }
+
   @media only screen and (max-width: 480px) {
-    padding: 40px 0;
+    padding: 50px 0;
   }
 }
 
@@ -16,7 +22,13 @@
   margin: 0 auto;
   clear: fix;
 
-  @media only screen and (max-width: 1024px) {
+  @media only screen and (max-width: 1140px) {
+    width: 100%;
+  }
+
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
     width: 100%;
   }
 
@@ -27,6 +39,16 @@
 
 .head {
   margin-bottom: 80px;
+
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    margin-bottom: 30px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    margin-bottom: 30px;
+  }
 }
 
 .title {
@@ -34,6 +56,18 @@
   color: #111;
   margin: 0 0 10px 0;
   text-align: center;
+
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    font: bold 36px/42px Roboto;
+    margin: 0 0 5px 0;
+  }
+
+  @media only screen and (max-width: 480px) {
+    font: bold 36px/42px Roboto;
+    margin: 0 0 5px 0;
+  }
 }
 
 .subtitle {
@@ -41,10 +75,37 @@
   color: #111;
   margin: 0;
   text-align: center;
+
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    font: 300 18px/25px Roboto;
+  }
+
+  @media only screen and (max-width: 480px) {
+    font: 300 18px/25px Roboto;
+  }
 }
 
 .body {
   margin: -20px -15px;
+
+  @media only screen and (max-width: 1200px) {
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    padding: 0 20px;
+    margin: -5px 0;
+  }
+
+  @media only screen and (max-width: 480px) {
+    padding: 0 20px;
+    margin: -5px 0;
+  }
 }
 
 .link {
@@ -54,6 +115,10 @@
   display: inline-block;
   margin: 20px 15px;
   vertical-align: top;
+  border-radius: 4px;
+  border: 1px solid #dceffe;
+  box-sizing: border-box;
+  text-align: left;
 
   &::after {
     content: 'pdf';
@@ -71,15 +136,43 @@
     transform: translateY(-50%);
     pointer-events: none;
   }
+
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    width: 100%;
+    margin: 5px 0;
+    height: 60px;
+
+    &::after {
+      width: 32px;
+      height: 32px;
+      font: bold 10px/32px Roboto;
+      right: 12px;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+    margin: 5px 0;
+    height: 60px;
+
+    &::after {
+      width: 32px;
+      height: 32px;
+      font: bold 10px/32px Roboto;
+      right: 12px;
+    }
+  }
 }
 
 .linkComponent {
   display: block;
   width: 100%;
-  height: 100%;
-  border-radius: 4px;
-  border: 1px solid #dceffe;
-  font: 300 24px/88px Roboto;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font: 300 24px/36px Roboto;
   color: #111;
   text-decoration: none;
   padding: 0 25px;
@@ -88,5 +181,15 @@
 
   &:hover {
     color: #0080ff;
+  }
+
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    font: 300 18px/22px Roboto;
+  }
+
+  @media only screen and (max-width: 480px) {
+    font: 300 18px/22px Roboto;
   }
 }
