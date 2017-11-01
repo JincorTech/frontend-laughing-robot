@@ -10,17 +10,24 @@ import TextInput from '../TextInput';
 import Button from '../Button';
 import PrivacyPolicyLink from '../../resourses/Links/PrivacyPolicyLink';
 import TermsOfUseLink from '../../resourses/Links/TermsOfUseLink';
+import Checkbox from '../Checkbox';
 
 class SubscribeWindow extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
+      agree: false,
       email: this.props.email || ''
     };
 
+    this._handleAgreeToggle = this._handleAgreeToggle.bind(this);
     this._handleEmailChange = this._handleEmailChange.bind(this);
     this._handleFormSubmit = this._handleFormSubmit.bind(this);
+  }
+
+  _handleAgreeToggle() {
+    this.setState((prevState) => ({ agree: !prevState.agree }));
   }
 
   _handleEmailChange(e) {
@@ -35,7 +42,7 @@ class SubscribeWindow extends Component {
 
   render() {
     const { open, closeSubscribe, t } = this.props;
-    const { email } = this.state;
+    const { email, agree } = this.state;
 
     return (
       <FormWindow
@@ -54,14 +61,19 @@ class SubscribeWindow extends Component {
               onChange={this._handleEmailChange}/>
           </div>
           <div className={s.button}>
-            <Button type="submit" style="primary">{t('subscribe.accept')}</Button>
+            <Button disabled={!agree} type="submit" style="primary">{t('subscribe.accept')}</Button>
           </div>
           <div className={s.tip}>
-            <Interpolate
-              i18nKey="tips.form"
-              useDangerouslySetInnerHTML={true}
-              tou={<TermsOfUseLink propLabel={t('tips.touPropLabel')}/>}
-              pp={<PrivacyPolicyLink propLabel={t('tips.ppPropLabel')}/>}/>
+            <Checkbox
+              onChange={this._handleAgreeToggle}
+              checked={agree}
+              label={
+                <Interpolate
+                  i18nKey="tips.form"
+                  useDangerouslySetInnerHTML={true}
+                  tou={<TermsOfUseLink propLabel={t('tips.touPropLabel')}/>}
+                  pp={<PrivacyPolicyLink propLabel={t('tips.ppPropLabel')}/>}/>
+              }/>
           </div>
         </form>
       </FormWindow>

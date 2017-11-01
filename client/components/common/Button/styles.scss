@@ -55,4 +55,11 @@
     font: 500 14px/16px Roboto;
     height: auto;
   }
+
+  &:disabled {
+    border-color: #dbdfe4;
+    background-color: #dbdfe4;
+    pointer-events: none;
+    cursor: not-allowed;
+  }
 }

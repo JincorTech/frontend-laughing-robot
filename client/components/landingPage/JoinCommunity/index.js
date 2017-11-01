@@ -7,17 +7,24 @@ import { subscribeRequest } from '../../../redux/modules/common/subscribe';
 
 import PrivacyPolicyLink from '../../resourses/Links/PrivacyPolicyLink';
 import TermsOfUseLink from '../../resourses/Links/TermsOfUseLink';
+import Checkbox from '../../common/Checkbox';
 
 class JoinCommunity extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
+      agree: false,
       email: this.props.email || ''
     };
 
+    this._handleAgreeToggle = this._handleAgreeToggle.bind(this);
     this._handleEmailChange = this._handleEmailChange.bind(this);
     this._handleFormSubmit = this._handleFormSubmit.bind(this);
+  }
+
+  _handleAgreeToggle() {
+    this.setState((prevState) => ({ agree: !prevState.agree }));
   }
 
   _handleEmailChange(e) {
@@ -32,7 +39,7 @@ class JoinCommunity extends Component {
 
   render() {
     const { t } = this.props;
-    const { email } = this.state;
+    const { email, agree } = this.state;
 
     return (
       <div className={s.community}>
@@ -47,22 +54,29 @@ class JoinCommunity extends Component {
             <div className={s.input}>
               <input
                 className={s.inputElement}
-                placeholder="e-mail"
+                placeholder="Email address"
                 name="email"
                 value={email}
                 onChange={this._handleEmailChange}/>
             </div>
             <div className={s.button}>
               <button
+                disabled={!agree}
                 className={s.buttonElement}
                 type="submit">{t('community.button')}</button>
             </div>
             <div className={s.tip}>
-              <Interpolate
-                i18nKey="tips.form"
-                useDangerouslySetInnerHTML={true}
-                tou={<TermsOfUseLink propLabel={t('tips.touPropLabel')}/>}
-                pp={<PrivacyPolicyLink propLabel={t('tips.ppPropLabel')}/>}/>
+              <Checkbox
+                onChange={this._handleAgreeToggle}
+                style="black"
+                checked={agree}
+                label={
+                  <Interpolate
+                    i18nKey="tips.form"
+                    useDangerouslySetInnerHTML={true}
+                    tou={<TermsOfUseLink propLabel={t('tips.touPropLabel')}/>}
+                    pp={<PrivacyPolicyLink propLabel={t('tips.ppPropLabel')}/>}/>
+                }/>
             </div>
           </form>
 
