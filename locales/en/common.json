@@ -273,6 +273,11 @@
         "position": "Design Director",
         "bio": "Khasan is an experienced design director for digital products and conceptual & product designer. Author of projects for McKinsey, Bauer and some other world-wide famous companies. Passionate about blockchain technologies and mobile products. In Jincor he is responsible for conceptual and product design. Directs the graphic design department."
       },
+      "ivan": {
+        "name": "Ivan Krestov",
+        "position": "Designer",
+        "bio": "Ivan is a talented designer with a deep background in digital. He has worked for major Russian and American companies and has a full technical skill-set for creating awesome projects. Ivan is inspired by innovative technologies and how they influence people’s lives. In Jincor he is responsible for the design of marketing materials and illustration."
+      },
       "alexandra_s": {
         "name": "Alexandra Samuilkina",
         "position": "PR Manager",
@@ -292,6 +297,16 @@
         "name": "Vlad Belousov",
         "position": "Community Manager",
         "bio": "Vladislav is a great specialist in the field of B2B support. He has an experience of successful implementation and maintenance of more than 30 commercial projects. He graduated from Tomsk State University of Control Systems and Radio-electronics. Along with Anton Lysakov, he is in charge of community management and spreading the Jincor’s mission."
+      },
+      "inna": {
+        "name": "Inna Malakhova",
+        "position": "Chief Accountant",
+        "bio": "Inna has graduated from Plekhanov University and Presidential academy with masters degree. Has more than 10 years practice in accounting and financial management. She is responsible for the financial strategy, budgeting, documentation, financial and tax reporting in Jincor. Also Inna has very strong skills in creating company policies and has rather huge practice in HR administration."
+      },
+      "alexandra_se": {
+        "name": "Alexandra Anna Serebrennikova",
+        "position": "Investor Relations",
+        "bio": "Alexandra Anna liaises with investors and potential partners and represents Jincor on the international scene together with George Paliani. She has a BA in Project Management at Russian Presidential Academy, speaks three languages and has a strong passion for IT as well as an experience of working for a couple of other IT startups prior to joining Jincor."
       }
     }
   },
@@ -299,6 +314,11 @@
     "title": "Advisory Board",
     "subtitle": "Our knowledgeable supporters",
     "members": {
+      "michael": {
+        "name": "Michael Terpin",
+        "position": "Strategic ICO Advisor",
+        "bio": "Michael is one of the most legendary characters in crypto and blockchain environment. Some of his roles include Chairman and Co-founder of BitAngels, the first angel network for digital currency startups, a partner at Flight VC and CEO of Transform Group. Terpin is also an investor and advisor to numerous media and technology companies."
+      },
       "marcus": {
         "name": "Marcus Killick OBE",
         "position": "Jurisdiction Adviser",

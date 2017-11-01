@@ -261,6 +261,22 @@ const Team = (props) => {
       <div>
         <div className={s.slickItem}>
           <PersonCard
+            name={t('team.members.ivan.name')}
+            role={t('team.members.ivan.position')}
+            about={t('team.members.ivan.bio')}
+            photoElement={<img src={require('../../../assets/images/photos/ivan.jpg')}/>}
+            socialNetworks={[
+              {
+                href: 'https://www.behance.net/iamcross',
+                icon: <img src={require('../../../assets/images/teamSocials/behance.svg')}/>
+              }
+            ]}/>
+        </div>
+      </div>
+
+      <div>
+        <div className={s.slickItem}>
+          <PersonCard
             name={t('team.members.alexandra_s.name')}
             role={t('team.members.alexandra_s.position')}
             about={t('team.members.alexandra_s.bio')}
@@ -320,6 +336,38 @@ const Team = (props) => {
               },
               {
                 href: 'https://www.facebook.com/vladislav.belousov.98',
+                icon: <img src={require('../../../assets/images/teamSocials/facebook.svg')}/>
+              }
+            ]}/>
+        </div>
+      </div>
+
+      <div>
+        <div className={s.slickItem}>
+          <PersonCard
+            name={t('team.members.inna.name')}
+            role={t('team.members.inna.position')}
+            about={t('team.members.inna.bio')}
+            photoElement={<img src={require('../../../assets/images/photos/inna.jpg')}/>}
+            socialNetworks={[
+              {
+                href: 'https://www.facebook.com/inna.kudinova.71',
+                icon: <img src={require('../../../assets/images/teamSocials/linkedin.svg')}/>
+              }
+            ]}/>
+        </div>
+      </div>
+
+      <div>
+        <div className={s.slickItem}>
+          <PersonCard
+            name={t('team.members.alexandra_se.name')}
+            role={t('team.members.alexandra_se.position')}
+            about={t('team.members.alexandra_se.bio')}
+            photoElement={<img src={require('../../../assets/images/photos/alexandra_se.jpg')}/>}
+            socialNetworks={[
+              {
+                href: 'https://www.facebook.com/sasha.serebrennikova.5',
                 icon: <img src={require('../../../assets/images/teamSocials/facebook.svg')}/>
               }
             ]}/>
