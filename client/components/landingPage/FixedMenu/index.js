@@ -8,9 +8,10 @@ import i18next from '../../../utils/i18next/client';
 import { isBrowser } from '../../../utils/common';
 
 import { changeLanguage } from '../../../redux/modules/app/i18next';
+import { openSubscribe } from '../../../redux/modules/common/subscribe';
 
 import Scroll from 'react-scroll';
-import Button from '../../common/Button';
+// import Button from '../../common/Button';
 import SLink from '../../common/SLink';
 import WhitePaperLink from '../../resourses/Links/WhitePaperLink';
 import Dropdown from '../../common/Dropdown';
@@ -61,7 +62,7 @@ class FixedMenu extends Component {
   render() {
     const { visible } = this.state;
 
-    const { changeLanguage, location, t } = this.props;
+    const { changeLanguage, openSubscribe, location, t } = this.props;
     const { pathname } = location;
     const selectRu = () => changeLanguage({ lang: 'ru', pathname });
     const selectEn = () => changeLanguage({ lang: 'en', pathname });
@@ -118,7 +119,10 @@ class FixedMenu extends Component {
 
           <div className={s.buttons}>
             <div className={s.contrib}>
-              <a className={s.button} href="">Contribute</a>
+              <a className={s.telegramButton} href="tg://resolve?domain=JincorICOeng">
+                <img src={require('../../../assets/images/common/telegramButton.svg')}/>
+              </a>
+              <a className={s.button} onClick={() => openSubscribe()}>Subscribe</a>
             </div>
           </div>
         </div>
@@ -132,6 +136,7 @@ const TranslatedComponent = translate()(WithRouterComponent);
 export default connect(
   () => ({}),
   {
-    changeLanguage
+    changeLanguage,
+    openSubscribe
   }
 )(TranslatedComponent);

@@ -4,12 +4,11 @@ import { translate } from 'react-i18next';
 import s from './styles.scss';
 
 import { openSubscribe } from '../../../redux/modules/common/subscribe';
-import { openBeta } from '../../../redux/modules/common/beta';
 
 import Button from '../../common/Button';
 
 const LandingSection = (props) => {
-  const { openSubscribe, openBeta, t } = props;
+  const { openSubscribe, t } = props;
 
   return (
     <div className={s.landing}>
@@ -21,9 +20,6 @@ const LandingSection = (props) => {
         <div className={s.buttons}>
           <div className={s.button}>
             <Button style="blue" onClick={() => openSubscribe()}>{t('landing.subscribeButton')}</Button>
-          </div>
-          <div className={s.button}>
-            <Button style="blue" onClick={() => openBeta()}>{t('landing.subscribeButton')}</Button>
           </div>
           <div className={s.button}>
             <a className={s.link} href="tg://resolve?domain=JincorICOeng">
@@ -41,7 +37,6 @@ const TranslatedComponent = translate()(LandingSection);
 export default connect(
   () => ({}),
   {
-    openSubscribe,
-    openBeta
+    openSubscribe
   }
 )(TranslatedComponent);

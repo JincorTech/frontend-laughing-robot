@@ -60,6 +60,19 @@
     color: #0080FF;
     text-decoration: none;
   }
+
+  & button {
+    display: inline;
+    font: 300 14px Roboto;
+    color: #0080FF;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
 }
 
 .center {

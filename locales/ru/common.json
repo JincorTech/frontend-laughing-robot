@@ -10,27 +10,31 @@
     "resourses": {
       "whitepaper": {
         "label": "Whitepaper",
-        "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/whitepaper_ru.pdf"
+        "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/whitepaper_jincor.pdf"
       },
       "techpaper": {
-        "label": "Technical paper",
+        "label": "Technical Paper",
         "href": ""
       },
       "bsummary": {
         "label": "Business Summary",
-        "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/summary_ru.pdf"
+        "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/business_summary_jincor_ru.pdf"
       },
       "tou": {
-        "label": "Пользовательское соглашение",
-        "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/terms_of_use.pdf"
+        "label": "Terms of Use",
+        "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/terms_of_use_jincor.pdf"
       },
       "disclaimer": {
         "label": "Disclaimer",
         "href": ""
       },
       "privacy": {
-        "label": "Политика конфиденциальности",
-        "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/privacy.pdf"
+        "label": "Privacy Policy",
+        "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/privacy_policy_jincor.pdf"
+      },
+      "guidelines": {
+        "label": "Brand Resources",
+        "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/brand_resources_jincor.pdf"
       }
     },
     "socials": {

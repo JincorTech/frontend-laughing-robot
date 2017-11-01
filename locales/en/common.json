@@ -10,7 +10,7 @@
     "resourses": {
       "whitepaper": {
         "label": "Whitepaper",
-        "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/whitepaper.pdf"
+        "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/whitepaper_jincor.pdf"
       },
       "techpaper": {
         "label": "Technical Paper",
@@ -18,11 +18,11 @@
       },
       "bsummary": {
         "label": "Business Summary",
-        "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/summary_eng.pdf"
+        "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/business_summary_jincor.pdf"
       },
       "tou": {
         "label": "Terms of Use",
-        "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/terms_of_use.pdf"
+        "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/terms_of_use_jincor.pdf"
       },
       "disclaimer": {
         "label": "Disclaimer",
@@ -30,7 +30,11 @@
       },
       "privacy": {
         "label": "Privacy Policy",
-        "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/privacy.pdf"
+        "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/privacy_policy_jincor.pdf"
+      },
+      "guidelines": {
+        "label": "Brand Resources",
+        "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/brand_resources_jincor.pdf"
       }
     },
     "socials": {
@@ -549,7 +553,7 @@
   "tips": {
     "touPropLabel": "Terms of Use",
     "ppPropLabel": "Privacy Policy",
-    "form": "By submitting this form you agree to the {{tou}} and {{pp}}"
+    "form": "I agree with the {{tou}} and {{pp}}"
   },
   "404": {
     "error": "Sorry, we can’t seem to find the page you are looking for :(",

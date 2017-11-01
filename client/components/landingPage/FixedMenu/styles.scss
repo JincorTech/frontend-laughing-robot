@@ -62,11 +62,12 @@
 }
 
 .contrib {
-  width: 120px;
+  width: 160px;
+  text-align: right;
 }
 
 .button {
-  width: 100%;
+  width: auto;
   cursor: pointer;
   margin: 0;
   outline: none;
@@ -76,15 +77,26 @@
   border: 1px solid transparent;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
   transition: 0.2s linear all;
-  padding: 9px 12px;
+  padding: 9px 20px;
   font: 500 14px/16px Roboto;
   height: auto;
   text-decoration: none;
   display: inline-block;
+  vertical-align: middle;
   box-sizing: border-box;
   text-align: center;
 
   &:hover {
     box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
   }
+}
+
+.telegramButton {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 25px;
+  position: relative;
+  top: 3px;
+  cursor: pointer;
+  outline: none;
 }
