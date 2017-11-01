@@ -67,33 +67,35 @@ class JoinCommunity extends Component {
           </form>
 
           <div className={s.socials}>
-            <a className={s.social} href="" target="_blank">
-              <img src={require('../../../assets/images/socials/telegram.svg')}/>
-            </a>
+            <div className={s.socialsWrapper}>
+              <a className={s.social} href="" target="_blank">
+                <img src={require('../../../assets/images/socials/telegram.svg')}/>
+              </a>
 
-            <a className={s.social} href="" target="_blank">
-              <img src={require('../../../assets/images/socials/twitter.svg')}/>
-            </a>
+              <a className={s.social} href="" target="_blank">
+                <img src={require('../../../assets/images/socials/twitter.svg')}/>
+              </a>
 
-            <a className={s.social} href="" target="_blank">
-              <img src={require('../../../assets/images/socials/reddit.svg')}/>
-            </a>
+              <a className={s.social} href="" target="_blank">
+                <img src={require('../../../assets/images/socials/reddit.svg')}/>
+              </a>
 
-            <a className={s.social} href="" target="_blank">
-              <img src={require('../../../assets/images/socials/medium.svg')}/>
-            </a>
+              <a className={s.social} href="" target="_blank">
+                <img src={require('../../../assets/images/socials/medium.svg')}/>
+              </a>
 
-            <a className={s.social} href="" target="_blank">
-              <img src={require('../../../assets/images/socials/facebook.svg')}/>
-            </a>
+              <a className={s.social} href="" target="_blank">
+                <img src={require('../../../assets/images/socials/facebook.svg')}/>
+              </a>
 
-            <a className={s.social} href="" target="_blank">
-              <img src={require('../../../assets/images/socials/insta.svg')}/>
-            </a>
+              <a className={s.social} href="" target="_blank">
+                <img src={require('../../../assets/images/socials/insta.svg')}/>
+              </a>
 
-            <a className={s.social} href="" target="_blank">
-              <img src={require('../../../assets/images/socials/github.svg')}/>
-            </a>
+              <a className={s.social} href="" target="_blank">
+                <img src={require('../../../assets/images/socials/github.svg')}/>
+              </a>
+            </div>
           </div>
         </div>
       </div>

@@ -4,7 +4,7 @@
   background-color: #0080ff;
 
   @media only screen and (max-width: 480px) {
-    padding: 40px 0;
+    padding: 50px 0;
   }
 }
 
@@ -24,6 +24,16 @@
 
 .head {
   margin-bottom: 110px;
+
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    margin-bottom: 50px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    margin-bottom: 50px;
+  }
 }
 
 .title {
@@ -31,6 +41,22 @@
   color: #fff;
   margin: 0 0 10px 0;
   text-align: center;
+
+  @media only screen and (max-width: 1100px) {
+    padding: 0 20px;
+  }
+
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    font: bold 36px/42px Roboto;
+    margin: 0 0 5px 0;
+  }
+
+  @media only screen and (max-width: 480px) {
+    font: bold 36px/42px Roboto;
+    margin: 0 0 5px 0;
+  }
 }
 
 .subtitle {
@@ -38,6 +64,20 @@
   color: #fff;
   margin: 0;
   text-align: center;
+
+  @media only screen and (max-width: 1100px) {
+    padding: 0 20px;
+  }
+
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    font: 300 18px/25px Roboto;
+  }
+
+  @media only screen and (max-width: 480px) {
+    font: 300 18px/25px Roboto;
+  }
 }
 
 .content {
