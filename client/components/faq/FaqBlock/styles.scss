@@ -2,6 +2,16 @@
   display: block;
   padding: 15px 0;
   border-bottom: 1px solid #e0e0e0;
+
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    padding: 20px 0;
+  }
+
+  @media only screen and (max-width: 480px) {
+    padding: 20px 0;
+  }
 }
 
 .title {
@@ -13,10 +23,32 @@
   &:hover {
     color: #0080FF;
   }
+
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    font: 500 18px/21px Roboto;
+  }
+
+  @media only screen and (max-width: 480px) {
+    font: 500 18px/21px Roboto;
+  }
 }
 
 .body {
   font: 300 20px/32px Roboto;
   color: #111;
   margin-top: 10px;
+
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    font: 300 18px/28px Roboto;
+    margin-top: 20px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    font: 300 18px/28px Roboto;
+    margin-top: 20px;
+  }
 }

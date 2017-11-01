@@ -2,6 +2,13 @@
   width: 750px;
   margin: 100px auto 140px;
   position: relative;
+
+  @media only screen and (max-width: 750px) {
+    width: 100%;
+    padding: 0 20px;
+    margin: 30px auto 90px;
+    box-sizing: border-box;
+  }
 }
 
 .close {
@@ -14,16 +21,44 @@
   left: 50%;
   margin-left: -25px;
   outline: none;
+
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    width: 40px;
+    height: 40px;
+
+    & > img {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    width: 40px;
+    height: 40px;
+
+    & > img {
+      width: 100%;
+    }
+  }
 }
 
 .title {
   font: 500 56px/64px Roboto;
   color: #111;
   margin-bottom: 60px;
-}
 
-.section {
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    font: 500 22px/44px Roboto;
+    margin-bottom: 0;
+  }
 
+  @media only screen and (max-width: 480px) {
+    font: 500 22px/44px Roboto;
+    margin-bottom: 0;
+  }
 }
 
 .sectionTitle {
@@ -32,4 +67,16 @@
   padding: 15px 0;
   border-bottom: 1px solid #e0e0e0;
   margin: 15px 0 0;
+
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    font: 500 22px/34px Roboto;
+    padding: 20px 0;
+  }
+
+  @media only screen and (max-width: 480px) {
+    font: 500 22px/34px Roboto;
+    padding: 20px 0;
+  }
 }
