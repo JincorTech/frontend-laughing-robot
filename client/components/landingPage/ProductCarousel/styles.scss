@@ -2,20 +2,42 @@
   position: relative;
   width: 100%;
   overflow: hidden;
-  padding: 30px 0 180px;
+  padding: 15px 0 185px;
 
-  @media only screen and (max-width: 480px) {
-    padding-top: 0;
+  @media only screen and (max-device-width: 480px) {
+    padding: 15px 0 80px;
   }
 }
 
 .container {
   width: 1134px;
   margin: 0 auto;
+
+  @media only screen and (max-width: 1134px) {
+    width: calc(100% - 170px);
+  }
+
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+  }
+
+  @media only screen and (max-device-width: 1200px) {
+    width: 400px;
+  }
+
+  @media only screen and (max-device-width: 480px) {
+    width: 100%;
+  }
 }
 
 .mid {
   top: 50%;
+}
+
+.slide {
+  & > img {
+    width: 100%;
+  }
 }
 
 :global(.product) {
@@ -23,5 +45,20 @@
   :global(.slick-next) {
     top: 50%;
     transform: translateY(-50%);
+  }
+
+  :global(.slick-slide) {
+    opacity: 0;
+    transform: scale(0.8);
+    transition: 0.3s linear all;
+  }
+
+  :global(.slick-active) {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  :global(.slick-dots) {
+    bottom: -30px;
   }
 }
