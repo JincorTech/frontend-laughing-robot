@@ -32,7 +32,7 @@ const Media = (props) => {
             target="_blank"
             rel="nofollow"
             className={s.logo}>
-            <img src={require('../../../assets/images/media/vc.png')}/>
+            <img src={require('../../../assets/images/media/cointelegraph.png')}/>
           </a>
           <a
             href="https://www.cio.com/article/3231220/internet/smart-contracts-are-winning-over-tech-startups.html"

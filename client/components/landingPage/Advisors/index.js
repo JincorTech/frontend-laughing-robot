@@ -69,6 +69,10 @@ const Advisors = (props) => {
                     {
                       href: 'https://www.linkedin.com/in/michaelterpin/',
                       icon: <img src={require('../../../assets/images/teamSocials/linkedin.svg')}/>
+                    },
+                    {
+                      href: 'https://twitter.com/michaelterpin',
+                      icon: <img src={require('../../../assets/images/teamSocials/twitter.svg')}/>
                     }
                   ]}/>
               </div>

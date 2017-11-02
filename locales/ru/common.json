@@ -39,7 +39,7 @@
     },
     "socials": {
       "telegram": {
-        "href": "tg://resolve?domain=JincorICO"
+        "href": "http://t.me/jincorICO"
       },
       "reddit": {
         "href": "https://www.reddit.com/r/Jincor/"
@@ -346,7 +346,7 @@
     }
   },
   "community": {
-    "title": "Присоединяйтесь к нашему сообществу!",
+    "title": "Вступайте в наше сообщество!",
     "subtitle": "Подпишитесь и получайте актуальные новости о предстоящем ICO.",
     "button": "Подписаться"
   },
