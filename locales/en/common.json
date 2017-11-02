@@ -39,7 +39,7 @@
     },
     "socials": {
       "telegram": {
-        "href": "https://t.me/JincorICOeng"
+        "href": "tg://resolve?domain=JincorICOeng"
       },
       "reddit": {
         "href": "https://www.reddit.com/r/Jincor/"

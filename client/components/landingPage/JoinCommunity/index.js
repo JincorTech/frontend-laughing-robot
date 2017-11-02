@@ -83,31 +83,31 @@ class JoinCommunity extends Component {
 
           <div className={s.socials}>
             <div className={s.socialsWrapper}>
-              <a className={s.social} href="" target="_blank">
+              <a className={s.social} href={t('links.socials.telegram.href')} target="_blank">
                 <img src={require('../../../assets/images/socials/telegram.svg')}/>
               </a>
 
-              <a className={s.social} href="" target="_blank">
+              <a className={s.social} href="https://twitter.com/jincor_ico" target="_blank">
                 <img src={require('../../../assets/images/socials/twitter.svg')}/>
               </a>
 
-              <a className={s.social} href="" target="_blank">
+              <a className={s.social} href="https://www.reddit.com/r/Jincor/" target="_blank">
                 <img src={require('../../../assets/images/socials/reddit.svg')}/>
               </a>
 
-              <a className={s.social} href="" target="_blank">
+              <a className={s.social} href="https://blog.jincor.com/" target="_blank">
                 <img src={require('../../../assets/images/socials/medium.svg')}/>
               </a>
 
-              <a className={s.social} href="" target="_blank">
+              <a className={s.social} href="https://www.facebook.com/jincorlimited/" target="_blank">
                 <img src={require('../../../assets/images/socials/facebook.svg')}/>
               </a>
 
-              <a className={s.social} href="" target="_blank">
+              <a className={s.social} href="https://www.instagram.com/jincorlimited/" target="_blank">
                 <img src={require('../../../assets/images/socials/insta.svg')}/>
               </a>
 
-              <a className={s.social} href="" target="_blank">
+              <a className={s.social} href="https://github.com/JincorTech" target="_blank">
                 <img src={require('../../../assets/images/socials/github.svg')}/>
               </a>
             </div>

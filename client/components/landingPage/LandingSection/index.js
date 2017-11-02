@@ -22,7 +22,7 @@ const LandingSection = (props) => {
             <Button style="blue" onClick={() => openSubscribe()}>{t('landing.subscribeButton')}</Button>
           </div>
           <div className={s.button}>
-            <a className={s.link} href="tg://resolve?domain=JincorICOeng">
+            <a className={s.link} href={t('links.socials.telegram.href')}>
               <img className={s.telegramButton} src={require('../../../assets/images/common/telegramButton.svg')}/>
               {t('landing.telegramButton')}
             </a>

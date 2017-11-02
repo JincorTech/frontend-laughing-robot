@@ -28,18 +28,18 @@ const Media = (props) => {
             <img src={require('../../../assets/images/media/zerohedge.png')}/>
           </a>
           <a
+            href="https://cointelegraph.com/news/smart-business-to-business-payments-could-explode-blockchain-adoption"
+            target="_blank"
+            rel="nofollow"
+            className={s.logo}>
+            <img src={require('../../../assets/images/media/vc.png')}/>
+          </a>
+          <a
             href="https://www.cio.com/article/3231220/internet/smart-contracts-are-winning-over-tech-startups.html"
             target="_blank"
             rel="nofollow"
             className={s.logo}>
             <img src={require('../../../assets/images/media/cio.png')}/>
-          </a>
-          <a
-            href="https://vc.ru/27269-cryptocurrency-for-business"
-            target="_blank"
-            rel="nofollow"
-            className={s.logo}>
-            <img src={require('../../../assets/images/media/vc.png')}/>
           </a>
           <a
             href="https://www.benzinga.com/news/contracts/17/10/10186829/are-smart-contracts-changing-how-we-do-business"

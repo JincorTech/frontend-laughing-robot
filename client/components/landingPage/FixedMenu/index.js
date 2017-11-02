@@ -119,7 +119,7 @@ class FixedMenu extends Component {
 
           <div className={s.buttons}>
             <div className={s.contrib}>
-              <a className={s.telegramButton} href="tg://resolve?domain=JincorICOeng">
+              <a className={s.telegramButton} href={t('links.socials.telegram.href')}>
                 <img src={require('../../../assets/images/common/telegramButton.svg')}/>
               </a>
               <a className={s.button} onClick={() => openSubscribe()}>Subscribe</a>
