@@ -42,7 +42,7 @@ const Cases = (props) => {
           <h1 className={s.title}>{t('cases.full.2.title')}</h1>
           <h3 className={s.subtitle}>{t('cases.full.2.subtitle')}</h3>
           <Interpolate
-            i18nKey="cases.full.1.text"
+            i18nKey="cases.full.2.text"
             useDangerouslySetInnerHTML={true}/>
         </div>
 
@@ -50,7 +50,7 @@ const Cases = (props) => {
           <h1 className={s.title}>{t('cases.full.3.title')}</h1>
           <h3 className={s.subtitle}>{t('cases.full.3.subtitle')}</h3>
           <Interpolate
-            i18nKey="cases.full.1.text"
+            i18nKey="cases.full.3.text"
             useDangerouslySetInnerHTML={true}/>
         </div>
       </div>

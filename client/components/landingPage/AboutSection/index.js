@@ -2,7 +2,14 @@ import React from 'react';
 import { translate } from 'react-i18next';
 import s from './styles.scss';
 
-import SLink from '../../common/SLink';
+// import SLink from '../../common/SLink';
+
+// <div className={s.button}>
+//   <SLink to="/video" className={s.buttonElement}>
+//     <img src={require('./svg/video.svg')}/>
+//     {t('about.video')}
+//   </SLink>
+// </div>
 
 const AboutSection = (props) => {
   const { t } = props;
@@ -16,12 +23,6 @@ const AboutSection = (props) => {
 
         <div className={s.body}>
           <div className={s.text}>{t('about.text')}</div>
-          <div className={s.button}>
-            <SLink to="/video" className={s.buttonElement}>
-              <img src={require('./svg/video.svg')}/>
-              {t('about.video')}
-            </SLink>
-          </div>
         </div>
       </div>
     </div>

@@ -9,6 +9,7 @@ import TechPaperLink from '../../resourses/Links/TechPaperLink';
 import TermsOfUseLink from '../../resourses/Links/TermsOfUseLink';
 import PrivacyPolicyLink from '../../resourses/Links/PrivacyPolicyLink';
 import BusinessSummaryLink from '../../resourses/Links/BusinessSummaryLink';
+import BrandResourcesLink from '../../resourses/Links/BrandResourcesLink';
 
 const Footer = (props) => {
   const { t } = props;
@@ -33,6 +34,7 @@ const Footer = (props) => {
               <div className={s.link}><WhitePaperLink/></div>
               <div className={s.link}><TechPaperLink className={s.disabled}/></div>
               <div className={s.link}><BusinessSummaryLink/></div>
+              <div className={s.link}><BrandResourcesLink/></div>
             </div>
           </div>
         </div>

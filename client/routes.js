@@ -5,6 +5,7 @@ import WhitePaper from './containers/app/WhitePaper';
 import BusinessSummary from './containers/app/BusinessSummary';
 import PrivacyPolicy from './containers/app/PrivacyPolicy';
 import TermsOfUse from './containers/app/TermsOfUse';
+import BrandResources from './containers/app/BrandResources';
 import ErrorPage from './components/common/ErrorPage';
 import Faq from './components/faq/Faq';
 import Video from './components/video/Video';
@@ -44,6 +45,11 @@ const routes = [
     path: 'whitepaper',
     exact: true,
     component: WhitePaper
+  },
+  {
+    path: 'brand-resources',
+    exact: true,
+    component: BrandResources
   },
   {
     path: 'agreement',

@@ -58,12 +58,13 @@ class JoinCommunity extends Component {
                 name="email"
                 value={email}
                 onChange={this._handleEmailChange}/>
-            </div>
-            <div className={s.button}>
-              <button
-                disabled={!agree}
-                className={s.buttonElement}
-                type="submit">{t('community.button')}</button>
+
+              <div className={s.button}>
+                <button
+                  disabled={!agree}
+                  className={s.buttonElement}
+                  type="submit">{t('community.button')}</button>
+              </div>
             </div>
             <div className={s.tip}>
               <Checkbox

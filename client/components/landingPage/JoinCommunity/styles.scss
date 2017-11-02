@@ -73,16 +73,15 @@
 }
 
 .input {
-  display: inline-block;
-  vertical-align: top;
-  width: 360px;
+  width: 500px;
+  position: relative;
+  margin: 0 auto;
 
   @media only screen
   and (max-device-width: 812px)
   and (orientation: landscape) {
     width: 100%;
     display: block;
-    margin-bottom: 15px;
     padding: 0 20px;
     box-sizing: border-box;
   }
@@ -90,7 +89,6 @@
   @media only screen and (max-width: 500px) {
     width: 100%;
     display: block;
-    margin-bottom: 15px;
     padding: 0 20px;
     box-sizing: border-box;
   }
@@ -99,9 +97,9 @@
 .inputElement {
   font: 300 20px Roboto;
   color: #111;
-  padding: 13px 20px;
+  padding: 13px 190px 13px 20px;
   background-color: #fff;
-  border-radius: 4px 0 0 4px;
+  border-radius: 4px;
   border: none;
   outline: none;
   width: 100%;
@@ -119,23 +117,25 @@
 }
 
 .button {
-  width: 170px;
-  display: inline-block;
-  vertical-align: top;
+  position: absolute;
+  top: 0;
+  right: 0;
 
   @media only screen
   and (max-device-width: 812px)
   and (orientation: landscape) {
+    position: static;
+    margin-top: 15px;
     width: 100%;
     display: block;
-    padding: 0 20px;
     box-sizing: border-box;
   }
 
   @media only screen and (max-width: 530px) {
+    position: static;
+    margin-top: 15px;
     width: 100%;
     display: block;
-    padding: 0 20px;
     box-sizing: border-box;
   }
 }

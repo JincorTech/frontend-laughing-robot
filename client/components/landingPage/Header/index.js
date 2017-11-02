@@ -49,7 +49,7 @@ const Header = (props) => {
             <Scroll.Link to="communitySection" smooth={true} className={s.linkInner}>{t('links.nav.community.label')}</Scroll.Link>
           </div>
           <div className={s.link}>
-            <a href={t('links.nav.blog.href')} target="_blank" rel="nofollow" className={s.linkInner}>FAQ</a>
+            <a href={t('links.nav.blog.href')} target="_blank" rel="nofollow" className={s.linkInner}>{t('links.nav.blog.label')}</a>
           </div>
           <div className={s.link}>
             <SLink to="/faq" className={s.linkInner}>FAQ</SLink>

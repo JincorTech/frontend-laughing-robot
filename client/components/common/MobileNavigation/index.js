@@ -101,7 +101,7 @@ const MobileNavigation = (props) => {
 
       <div className={s.link}>
         <SLink href='/faq'>
-          {t('links.nav.faq.label')}
+          FAQ
         </SLink>
       </div>
 

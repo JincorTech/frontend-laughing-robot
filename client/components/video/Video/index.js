@@ -35,7 +35,6 @@ const Video = (props) => {
           className={s.iframe}
           width="100%"
           height="100%"
-          src="https://www.youtube.com/embed/AQBh9soLSkI"
           frameBorder="0"
           allowFullScreen/>
       </div>
