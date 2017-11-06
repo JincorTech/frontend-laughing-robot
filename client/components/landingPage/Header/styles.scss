@@ -8,42 +8,14 @@
 .header {
   width: 1140px;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 40px 0;
   clear: fix;
   background-color: #fff;
 }
 
-.logo {
-  width: 200px;
-  float: left;
-  vertical-align: middle;
-}
-
-.pic {
-  width: 54px;
-  height: 54px;
-  display: inline-block;
-  vertical-align: middle;
-
-  & > img {
-    width: 100%;
-  }
-}
-
-.symbol {
-  display: inline-block;
-  vertical-align: middle;
-  margin-left: 10px;
-  color: #444;
-  font: bold 40px Roboto;
-}
-
 .nav {
-  width: calc(100% - 200px);
-  float: right;
-  margin: 0 -20px;
-  text-align: right;
-  line-height: 54px;
+  width: 100%;
+  text-align: center;
 }
 
 .link {
@@ -51,14 +23,26 @@
   margin: 0 20px;
 
   & a {
-    font: normal 18px Roboto;
-    color: #707070;
+    font: 300 15px Roboto;
+    color: #111;
     cursor: pointer;
     text-decoration: none;
+
+    &:hover {
+      color: #0080ff;
+    }
   }
 }
 
 .disabled {
   opacity: 0.4;
   pointer-events: none;
+}
+
+.linkInner {
+  & > img {
+    position: relative;
+    top: -2px;
+    left: 2px;
+  }
 }

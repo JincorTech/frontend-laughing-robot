@@ -1,0 +1,213 @@
+@use postcss-short;
+
+.distribution {
+  width: 100%;
+  padding: 120px 0;
+  background-color: #fbfbfb;
+
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    padding: 40px 0 50px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    padding: 40px 0 50px;
+  }
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+  clear: fix;
+
+  @media only screen and (max-width: 1100px) {
+    width: 100%;
+  }
+
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+  }
+}
+
+.head {
+  margin-bottom: 60px;
+
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    margin-bottom: 30px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    margin-bottom: 30px;
+  }
+}
+
+.title {
+  font: bold 64px/80px Roboto;
+  color: #111;
+  margin: 0 0 10px 0;
+  text-align: center;
+
+  @media only screen and (max-width: 1100px) {
+    padding: 0 20px;
+  }
+
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    font: bold 36px/42px Roboto;
+    margin: 0 0 5px 0;
+  }
+
+  @media only screen and (max-width: 480px) {
+    font: bold 36px/42px Roboto;
+    margin: 0 0 5px 0;
+  }
+}
+
+.subtitle {
+  font: 300 28px/46px Roboto;
+  color: #111;
+  margin: 0;
+  text-align: center;
+
+  @media only screen and (max-width: 1100px) {
+    padding: 0 20px;
+  }
+
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    font: 300 18px/25px Roboto;
+  }
+
+  @media only screen and (max-width: 480px) {
+    font: 300 18px/25px Roboto;
+  }
+}
+
+.blocks {
+  text-align: center;
+
+  @media only screen and (max-width: 1100px) {
+    margin: -15px -25px;
+    padding: 0 20px;
+  }
+
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    margin: -15px -25px;
+    padding: 0 20px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    margin: -15px 0;
+  }
+}
+
+.block {
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+  margin: 0 25px;
+  box-sizing: border-box;
+
+  @media only screen and (max-width: 1100px) {
+    margin: 15px 25px;
+  }
+
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    margin: 15px 25px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    margin: 15px 0;
+  }
+}
+
+.val {
+  font: 500 42px Roboto;
+  color: #111;
+  text-align: center;
+
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    font: 500 28px/33px Roboto;
+  }
+
+  @media only screen and (max-width: 480px) {
+    font: 500 28px/33px Roboto;
+  }
+}
+
+.label {
+  font: 300 24px Roboto;
+  color: #111;
+  text-align: center;
+  margin-top: 15px;
+
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    font: 300 14px/25px Roboto;
+    margin-top: 2px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    font: 300 14px/25px Roboto;
+    margin-top: 2px;
+  }
+}
+
+.progress {
+  position: relative;
+  margin-top: 35px;
+  background-color: #dceffe;
+  height: 12px;
+  width: 100%;
+  border-radius: 6px;
+
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    margin-top: 10px;
+    height: 8px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    margin-top: 10px;
+    height: 8px;
+  }
+}
+
+.filled {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: #0080ff;
+  height: 12px;
+  border-radius: 6px;
+
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    height: 8px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    height: 8px;
+  }
+}

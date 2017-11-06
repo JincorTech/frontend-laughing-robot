@@ -10,9 +10,6 @@ const MobileHeader = (props) => {
   return (
     <div className={s.wrap}>
       <div className={s.header}>
-        <div className={s.logo}>
-          <img src={require('../../../assets/images/logo.svg')}/>
-        </div>
         <div className={s.button} onClick={() => openNavigation()}>
           <img src={require('./images/burger.svg')}/>
         </div>

@@ -8,13 +8,9 @@ import i18next from '../../../utils/i18next/client';
 import { closeNavigation, changeView } from '../../../redux/modules/common/mobileNavigation';
 import { changeLanguage } from '../../../redux/modules/app/i18next';
 
+import Scroll from 'react-scroll';
 import SLink from '../SLink';
 import WhitePaperLink from '../../resourses/Links/WhitePaperLink';
-import TechPaperLink from '../../resourses/Links/TechPaperLink';
-import TermsOfUseLink from '../../resourses/Links/TermsOfUseLink';
-import PrivacyPolicyLink from '../../resourses/Links/PrivacyPolicyLink';
-import BusinessSummaryLink from '../../resourses/Links/BusinessSummaryLink';
-import Popup from '../Popup';
 
 const MobileNavigation = (props) => {
   const {
@@ -28,47 +24,97 @@ const MobileNavigation = (props) => {
   } = props;
   const { pathname } = location;
 
-  const selectRu = () => changeLanguage({ lang: 'ru', pathname });
-  const selectEn = () => changeLanguage({ lang: 'en', pathname });
-  // const openMenu = () => changeView('nav');
+  const selectRu = () => {
+    changeLanguage({ lang: 'ru', pathname });
+    closeNavigation();
+  };
+
+  const selectEn = () => {
+    changeLanguage({ lang: 'en', pathname });
+    closeNavigation();
+  };
+
   const openLangs = () => changeView('langs');
-  const openResourses = () => changeView('resourses');
 
   const getCurrentLang = () => {
     switch (i18next.language) {
       case 'ru':
-        return <a><img src={require('../../../assets/images/flags/ru.svg')}/> Рус</a>;
+        return <a>Рус</a>;
       case 'en':
-        return <a><img src={require('../../../assets/images/flags/en.svg')}/> Eng</a>;
+        return <a>Eng</a>;
       default:
-        return <a><img src={require('../../../assets/images/flags/en.svg')}/> Eng</a>;
+        return <a>Eng</a>;
     }
   };
 
   const renderMenu = () => (
     <div className={s.menu}>
-      <div className={s.link}><a href={t('links.nav.blog.href')}>{t('links.nav.blog.label')}</a></div>
-      <div className={s.link}><SLink href='/faq'>{t('links.nav.faq.label')}</SLink></div>
-      <div className={s.link} onClick={() => openResourses()}><a>{t('links.nav.downloads.label')}</a></div>
-      <div className={s.link}><WhitePaperLink/></div>
-      <div className={s.link} onClick={() => openLangs()}>{getCurrentLang()}</div>
+      <div className={s.link}>
+        <WhitePaperLink/>
+      </div>
+
+      <div className={s.link}>
+        <Scroll.Link
+          onClick={() => closeNavigation()}
+          to="aboutSection"
+          smooth={true}
+          className={s.linkInner}>
+          {t('links.nav.vision.label')}
+        </Scroll.Link>
+      </div>
+
+      <div className={s.link}>
+        <Scroll.Link
+          onClick={() => closeNavigation()}
+          to="crowdsaleSection"
+          smooth={true}
+          className={s.linkInner}>
+          {t('links.nav.crowdsale.label')}
+        </Scroll.Link>
+      </div>
+
+      <div className={s.link}>
+        <Scroll.Link
+          onClick={() => closeNavigation()}
+          to="teamSection"
+          smooth={true}
+          className={s.linkInner}>
+          {t('links.nav.team.label')}
+        </Scroll.Link>
+      </div>
+
+      <div className={s.link}>
+        <Scroll.Link
+          onClick={() => closeNavigation()}
+          to="communitySection"
+          smooth={true}
+          className={s.linkInner}>
+          {t('links.nav.community.label')}
+        </Scroll.Link>
+      </div>
+
+      <div className={s.link}>
+        <a href={t('links.nav.blog.href')}>
+          {t('links.nav.blog.label')}
+        </a>
+      </div>
+
+      <div className={s.link}>
+        <SLink href='/faq'>
+          FAQ
+        </SLink>
+      </div>
+
+      <div className={s.link} onClick={() => openLangs()}>
+        {getCurrentLang()}
+      </div>
     </div>
   );
 
   const renderLangs = () => (
     <div className={s.menu}>
-      <div className={s.link} onClick={() => selectEn()}><a><img src={require('../../../assets/images/flags/en.svg')}/>English</a></div>
-      <div className={s.link} onClick={() => selectRu()}><a><img src={require('../../../assets/images/flags/ru.svg')}/>Русский</a></div>
-    </div>
-  );
-
-  const renderResourses = () => (
-    <div className={s.menu}>
-      <div className={s.link}><WhitePaperLink/></div>
-      <div className={s.link}><TechPaperLink className={s.disabled}/></div>
-      <div className={s.link}><BusinessSummaryLink/></div>
-      <div className={s.link}><TermsOfUseLink/></div>
-      <div className={s.link}><PrivacyPolicyLink/></div>
+      <div className={s.link} onClick={() => selectEn()}><a>English</a></div>
+      <div className={s.link} onClick={() => selectRu()}><a>Русский</a></div>
     </div>
   );
 
@@ -78,20 +124,27 @@ const MobileNavigation = (props) => {
         return renderMenu();
       case 'langs':
         return renderLangs();
-      case 'resourses':
-        return renderResourses();
       default:
         return renderMenu();
     }
   };
 
-  return (
-    <Popup
-      open={open}
-      close={() => closeNavigation()}>
-      {currentView()}
-    </Popup>
+  const renderMobileNavigation = () => (
+    <div className={s.mobileNavigation}>
+      <div>
+        <div className={s.header}>
+          <div className={s.button} onClick={() => closeNavigation()}>
+            <img src={require('./svg/close.svg')}/>
+          </div>
+        </div>
+      </div>
+      <div>
+        {currentView()}
+      </div>
+    </div>
   );
+
+  return open ? renderMobileNavigation() : null;
 };
 
 const WithRouterComponent = withRouter(MobileNavigation);

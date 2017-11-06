@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>lock</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="12.7777778" width="19.8333333" height="19.9007937" rx="2"></rect>
+        <circle id="path-2" cx="9.72222222" cy="22.5" r="3.05555556"></circle>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="lock">
+            <g id="Group" transform="translate(15.000000, 7.000000)">
+                <path d="M17.037037,12.7243397 L17.037037,7.37178368 C16.8689141,3.27208272 13.6172378,0 9.62962963,0 C5.64202141,0 2.39034515,3.27208272 2.22853578,7.37178099 L2.22222222,12.7243397" id="Oval-29" stroke="#0080FF" stroke-width="1.5"></path>
+                <g id="Rectangle-27">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#008AFF" stroke-width="1.5" x="-0.75" y="12.0277778" width="21.3333333" height="21.4007937" rx="2"></rect>
+                    <rect stroke="#DCEFFE" stroke-width="1.5" x="0.75" y="13.5277778" width="18.3333333" height="18.4007937" rx="2"></rect>
+                </g>
+                <g id="Oval-5">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <circle stroke="#0080FF" stroke-width="1.5" cx="9.72222222" cy="22.5" r="3.80555556"></circle>
+                    <circle stroke="#DCEFFE" stroke-width="1.5" cx="9.72222222" cy="22.5" r="2.30555556"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

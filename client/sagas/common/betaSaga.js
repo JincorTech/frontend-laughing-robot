@@ -15,11 +15,11 @@ function* betaRequestIterator({ payload }) {
   const { email, name, company, position } = payload;
   // remove all notifications before validation
   // dont render 2 notifications at the one time
-  // because react key can be equal
+  // because react key can not be equal
   yield put(removeAllNotifications());
 
   const body = {
-    email,
+    email: email.toLowerCase(),
     name,
     company,
     position,

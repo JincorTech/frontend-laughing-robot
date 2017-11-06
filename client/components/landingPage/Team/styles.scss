@@ -1,18 +1,18 @@
 .team {
   width: 100%;
-  padding: 80px 0;
-  background-color: #fafafa;
+  padding: 120px 0;
+  background-color: #fff;
 
   @media only screen and (max-width: 480px) {
-    padding: 40px 0;
+    padding: 50px 0 70px;
   }
 }
 
 .container {
-  width: 1140px;
+  width: 1200px;
   margin: 0 auto;
 
-  @media only screen and (max-width: 1024px) {
+  @media only screen and (max-width: 1200px) {
     width: 100%;
   }
 
@@ -22,41 +22,54 @@
 }
 
 .head {
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 
   @media only screen and (max-width: 480px) {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
 }
 
 .title {
-  font: bold 35px Roboto;
-  color: #444;
-  margin: 0 0 5px 0;
-  letter-spacing: -0.1px;
+  font: bold 64px/80px Roboto;
+  color: #111;
+  margin: 0 0 10px 0;
+  text-align: center;
 
-  @media only screen and (max-width: 1024px) {
+  @media only screen and (max-width: 1100px) {
     padding: 0 20px;
   }
 
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    font: bold 36px/42px Roboto;
+    margin: 0 0 5px 0;
+  }
+
   @media only screen and (max-width: 480px) {
-    font: bold 30px Roboto;
-    padding: 0 20px;
+    font: bold 36px/42px Roboto;
+    margin: 0 0 5px 0;
   }
 }
 
 .subtitle {
-  font: normal 20px Roboto;
-  color: #adadad;
+  font: 300 28px/46px Roboto;
+  color: #111;
   margin: 0;
-  letter-spacing: -0.1px;
+  text-align: center;
 
-  @media only screen and (max-width: 1024px) {
+  @media only screen and (max-width: 1100px) {
     padding: 0 20px;
   }
 
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    font: 300 18px/25px Roboto;
+  }
+
   @media only screen and (max-width: 480px) {
-    padding: 0 20px;
+    font: 300 18px/25px Roboto;
   }
 }
 
@@ -91,19 +104,6 @@
   }
 }
 
-:global(.slick-slide) {
-  @media only screen and (max-width: 480px) {
-    opacity: 0.4;
-    transition: 0.3s linear all;
-  }
-}
-
-:global(.slick-center) {
-  @media only screen and (max-width: 480px) {
-    opacity: 1;
-  }
-}
-
 :global(.slick-dots) {
   bottom: -70px;
 
@@ -114,13 +114,13 @@
 
     & > button {
       padding: 5px 0;
-      width: 40px;
-      height: 5px;
+      width: 42px;
+      height: 6px;
 
       &:before {
         content: '';
-        width: 40px;
-        height: 5px;
+        width: 42px;
+        height: 6px;
         border-radius: 3px;
         opacity: 1;
         background-color: #e7e7e7;
@@ -154,14 +154,17 @@
   transition: 0.1s linear all;
 
   &:global(.slick-disabled) {
-    opacity: 0.2;
+    opacity: 0;
     cursor: default;
   }
 }
 
 :global(.slick-prev),
 :global(.slick-next) {
-  height: 33px;
+  height: 58px;
+  width: 58px;
+  transform: none;
+  top: 75px;
 
   &:before {
     display: none;
@@ -169,9 +172,9 @@
 }
 
 :global(.slick-prev) {
-  left: -50px;
+  left: -65px;
 }
 
 :global(.slick-next) {
-  right: -50px;
+  right: -65px;
 }

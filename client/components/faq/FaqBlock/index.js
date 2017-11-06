@@ -30,7 +30,7 @@ class FaqBlock extends Component {
     const { title } = this.props;
 
     return (
-      <div className={open ? s.open : s.block}>
+      <div className={s.block}>
         <div
           className={s.title}
           onClick={() => this._toggle()}>

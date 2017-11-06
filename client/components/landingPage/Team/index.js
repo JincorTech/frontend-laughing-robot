@@ -14,64 +14,35 @@ const Team = (props) => {
     infinite: false,
     dotsClass: s.dots,
     speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToShow: 3,
+    slidesToScroll: 3,
     swipe: false,
     swipeToSlide: false,
     nextArrow: <CustomArrow><img src={require('../../../assets/images/carousel/fwd.svg')}/></CustomArrow>,
     prevArrow: <CustomArrow><img src={require('../../../assets/images/carousel/back.svg')}/></CustomArrow>,
     responsive: [
       {
-        breakpoint: 375,
+        breakpoint: 1200,
         settings: {
-          centerPadding: '30px',
           infinite: true,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          swipe: true,
-          swipeToSlide: true,
-          centerMode: true,
-          arrows: false
-        }
-      },
-      {
-        breakpoint: 414,
-        settings: {
-          centerPadding: '50px',
-          infinite: true,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          swipe: true,
-          swipeToSlide: true,
-          centerMode: true,
-          arrows: false
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          centerPadding: '70px',
-          infinite: true,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          swipe: true,
-          swipeToSlide: true,
-          centerMode: true,
-          arrows: false
-        }
-      },
-      {
-        breakpoint: 769,
-        settings: {
           slidesToShow: 2,
-          slidesToScroll: 2
+          slidesToScroll: 2,
+          swipe: true,
+          swipeToSlide: true,
+          centerMode: false,
+          arrows: false
         }
       },
       {
-        breakpoint: 1025,
+        breakpoint: 800,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          swipe: true,
+          swipeToSlide: true,
+          centerMode: false,
+          arrows: false
         }
       }
     ]
@@ -290,6 +261,22 @@ const Team = (props) => {
       <div>
         <div className={s.slickItem}>
           <PersonCard
+            name={t('team.members.ivan.name')}
+            role={t('team.members.ivan.position')}
+            about={t('team.members.ivan.bio')}
+            photoElement={<img src={require('../../../assets/images/photos/ivan.jpg')}/>}
+            socialNetworks={[
+              {
+                href: 'https://www.behance.net/iamcross',
+                icon: <img src={require('../../../assets/images/teamSocials/behance.svg')}/>
+              }
+            ]}/>
+        </div>
+      </div>
+
+      <div>
+        <div className={s.slickItem}>
+          <PersonCard
             name={t('team.members.alexandra_s.name')}
             role={t('team.members.alexandra_s.position')}
             about={t('team.members.alexandra_s.bio')}
@@ -349,6 +336,38 @@ const Team = (props) => {
               },
               {
                 href: 'https://www.facebook.com/vladislav.belousov.98',
+                icon: <img src={require('../../../assets/images/teamSocials/facebook.svg')}/>
+              }
+            ]}/>
+        </div>
+      </div>
+
+      <div>
+        <div className={s.slickItem}>
+          <PersonCard
+            name={t('team.members.inna.name')}
+            role={t('team.members.inna.position')}
+            about={t('team.members.inna.bio')}
+            photoElement={<img src={require('../../../assets/images/photos/inna.jpg')}/>}
+            socialNetworks={[
+              {
+                href: 'https://www.facebook.com/inna.kudinova.71',
+                icon: <img src={require('../../../assets/images/teamSocials/linkedin.svg')}/>
+              }
+            ]}/>
+        </div>
+      </div>
+
+      <div>
+        <div className={s.slickItem}>
+          <PersonCard
+            name={t('team.members.alexandra_se.name')}
+            role={t('team.members.alexandra_se.position')}
+            about={t('team.members.alexandra_se.bio')}
+            photoElement={<img src={require('../../../assets/images/photos/alexandra_se.jpg')}/>}
+            socialNetworks={[
+              {
+                href: 'https://www.facebook.com/sasha.serebrennikova.5',
                 icon: <img src={require('../../../assets/images/teamSocials/facebook.svg')}/>
               }
             ]}/>

@@ -13,9 +13,10 @@ const PersonCard = (props) => {
   return (
     <div className={s.card}>
       <div className={s.photo}>
-        <div className={s.shadow}/>
         {socialNetworks && <div className={s.socialNetworks}>
-          {socialNetworks.map(({ href, icon }) => <a href={href} key={href} rel="nofollow" target="_blank">{icon}</a>)}
+          <div className={s.inner}>
+            {socialNetworks.map(({ href, icon }) => <a href={href} key={href} rel="nofollow" target="_blank">{icon}</a>)}
+          </div>
         </div>}
         {photoElement}
       </div>

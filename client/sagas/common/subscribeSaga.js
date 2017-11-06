@@ -16,11 +16,11 @@ function* subscribeRequestIterator({ payload }) {
   const { email } = payload;
   // remove all notifications before validation
   // dont render 2 notifications at the one time
-  // because react key can be equal
+  // because react key can not be equal
   yield put(removeAllNotifications());
 
   const body = {
-    email,
+    email: email.toLowerCase(),
     subject: 'ico',
     browserLanguage: navigator.language || navigator.userLanguage,
     landingLanguage: i18next.language

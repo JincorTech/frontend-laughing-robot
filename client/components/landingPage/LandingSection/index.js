@@ -3,53 +3,32 @@ import { connect } from 'react-redux';
 import { translate } from 'react-i18next';
 import s from './styles.scss';
 
-import { openBeta } from '../../../redux/modules/common/beta';
 import { openSubscribe } from '../../../redux/modules/common/subscribe';
 
-import Scroll from 'react-scroll';
 import Button from '../../common/Button';
 
 const LandingSection = (props) => {
-  const { openBeta, openSubscribe, t } = props;
+  const { openSubscribe, t } = props;
 
   return (
     <div className={s.landing}>
       <div className={s.inner}>
+        <div className={s.logo}><img src={require('../../../assets/images/logo.svg')}/></div>
         <h1 className={s.title}>{t('landing.title')}</h1>
         <h3 className={s.description}>{t('landing.subtitle')}</h3>
 
         <div className={s.buttons}>
           <div className={s.button}>
-            <Button style="primary" onClick={() => openSubscribe()}>{t('landing.subscribeButton')}</Button>
+            <Button style="blue" onClick={() => openSubscribe()}>{t('landing.subscribeButton')}</Button>
           </div>
           <div className={s.button}>
-            <Button style="secondary" onClick={() => openBeta()}>{t('landing.betaButton')}</Button>
+            <a className={s.link} href={t('links.socials.telegram.href')}>
+              <img className={s.telegramButton} src={require('../../../assets/images/common/telegramButton.svg')}/>
+              {t('landing.telegramButton')}
+            </a>
           </div>
         </div>
-
-        <div className={s.socials}>
-          <a className={s.social} href={t('links.socials.telegram.href')} rel="nofollow" target="_blank">
-            <img src={require('../../../assets/images/socials/telegram.svg')}/>
-          </a>
-          <a className={s.social} href={t('links.socials.reddit.href')} rel="nofollow" target="_blank">
-            <img src={require('../../../assets/images/socials/reddit.svg')}/>
-          </a>
-          <a className={s.social} href={t('links.socials.twitter.href')} rel="nofollow" target="_blank">
-            <img src={require('../../../assets/images/socials/twitter.svg')}/>
-          </a>
-          <a className={s.social} href={t('links.socials.facebook.href')} rel="nofollow" target="_blank">
-            <img src={require('../../../assets/images/socials/facebook.svg')}/>
-          </a>
-          <a className={s.social} href={t('links.socials.github.href')} rel="nofollow" target="_blank">
-            <img src={require('../../../assets/images/socials/github.svg')}/>
-          </a>
-        </div>
       </div>
-
-      <Scroll.Link smooth={true} to="aboutSection" className={s.godown}>
-        <div>{t('landing.godown')}</div>
-        <img src={require('./images/godownarr.svg')}/>
-      </Scroll.Link>
     </div>
   );
 };
@@ -58,7 +37,6 @@ const TranslatedComponent = translate()(LandingSection);
 export default connect(
   () => ({}),
   {
-    openBeta,
     openSubscribe
   }
 )(TranslatedComponent);

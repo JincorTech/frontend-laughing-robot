@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Play" transform="translate(2.000000, 2.000000)" stroke="#0080FF" stroke-width="2.5" fill-rule="nonzero">
+            <path d="M15,0 L15,0 C6.72631579,0 0,6.72631579 0,15 L0,15 C0,23.2736842 6.72631579,30 15,30 L15,30 C23.2736842,30 30,23.2736842 30,15 L30,15 C30,6.72631579 23.2736842,0 15,0 Z M21.3920765,15.9092401 L12.9986339,20.8369562 C12.2408925,21.2749754 11.25,20.7822038 11.25,19.9335416 L11.25,10.0781094 C11.25,9.22944716 12.2408925,8.70929935 12.9986339,9.17469476 L21.3920765,14.1024109 C22.0915301,14.5130539 22.0915301,15.4985971 21.3920765,15.9092401 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

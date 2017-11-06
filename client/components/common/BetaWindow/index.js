@@ -10,23 +10,30 @@ import TextInput from '../TextInput';
 import Button from '../Button';
 import PrivacyPolicyLink from '../../resourses/Links/PrivacyPolicyLink';
 import TermsOfUseLink from '../../resourses/Links/TermsOfUseLink';
+import Checkbox from '../Checkbox';
 
 class BetaWindow extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
+      agree: false,
       email: this.props.email || '',
       name: this.props.name || '',
       company: this.props.company || '',
       position: this.props.position || ''
     };
 
+    this._handleAgreeToggle = this._handleAgreeToggle.bind(this);
     this._handleEmailChange = this._handleEmailChange.bind(this);
     this._handleNameChange = this._handleNameChange.bind(this);
     this._handleCompanyChange = this._handleCompanyChange.bind(this);
     this._handlePositionChange = this._handlePositionChange.bind(this);
     this._handleFormSubmit = this._handleFormSubmit.bind(this);
+  }
+
+  _handleAgreeToggle() {
+    this.setState((prevState) => ({ agree: !prevState.agree }));
   }
 
   _handleEmailChange(e) {
@@ -53,7 +60,7 @@ class BetaWindow extends Component {
 
   render() {
     const { t, open, closeBeta } = this.props;
-    const { email, name, company, position } = this.state;
+    const { email, name, company, position, agree } = this.state;
 
     return (
       <FormWindow
@@ -93,14 +100,19 @@ class BetaWindow extends Component {
               onChange={this._handleEmailChange}/>
           </div>
           <div className={s.button}>
-            <Button type="submit" style="primary">{t('beta.accept')}</Button>
+            <Button disabled={!agree} type="submit" style="primary">{t('beta.accept')}</Button>
           </div>
           <div className={s.tip}>
-            <Interpolate
-              i18nKey="tips.form"
-              useDangerouslySetInnerHTML={true}
-              tou={<TermsOfUseLink propLabel={t('tips.touPropLabel')}/>}
-              pp={<PrivacyPolicyLink propLabel={t('tips.ppPropLabel')}/>}/>
+            <Checkbox
+              onChange={this._handleAgreeToggle}
+              checked={agree}
+              label={
+                <Interpolate
+                  i18nKey="tips.form"
+                  useDangerouslySetInnerHTML={true}
+                  tou={<TermsOfUseLink propLabel={t('tips.touPropLabel')}/>}
+                  pp={<PrivacyPolicyLink propLabel={t('tips.ppPropLabel')}/>}/>
+              }/>
           </div>
         </form>
       </FormWindow>
