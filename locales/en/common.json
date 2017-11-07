@@ -14,7 +14,7 @@
       },
       "techpaper": {
         "label": "Technical Paper",
-        "href": ""
+        "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/technical_paper_jincor.pdf"
       },
       "bsummary": {
         "label": "Business Summary",
@@ -326,7 +326,7 @@
       },
       "marcus": {
         "name": "Marcus Killick OBE",
-        "position": "Jurisdiction Adviser",
+        "position": "Jurisdiction Advisor",
         "bio": "Marcus Killick (LLb Mphil) is the Non Executive Chairman of the Gibraltar Stock Exchange (GSX).  He is also Chief Executive Officer of ISOLAS LLP law firm and a non executive director of a number of other companies including the Gibraltar International Bank as well as a  Chairperson of the Commission of the Office of Fair Trading."
       },
       "simon": {
@@ -368,7 +368,7 @@
     },
     "jincor": {
       "title": "Jincor",
-      "text": "Jincor, the platform for genuinely simple smart contracts and cryptocurrency transactions for any business."
+      "text": "Jincor limited (Private company reg. № HE 366361) Pandoras street, 21, 2nd floor, flat 10 Larnaca, Cyprus 6042."
     }
   },
   "subscribe": {

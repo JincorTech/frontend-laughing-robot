@@ -32,7 +32,7 @@ const Footer = (props) => {
           <div className={s.content}>
             <div className={s.links}>
               <div className={s.link}><WhitePaperLink/></div>
-              <div className={s.link}><TechPaperLink className={s.disabled}/></div>
+              <div className={s.link}><TechPaperLink/></div>
               <div className={s.link}><BusinessSummaryLink/></div>
               <div className={s.link}><BrandResourcesLink/></div>
             </div>

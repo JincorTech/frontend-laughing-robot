@@ -2,6 +2,7 @@
 
 import LandingPage from './containers/app/LandingPage';
 import WhitePaper from './containers/app/WhitePaper';
+import TechPaper from './containers/app/TechPaper';
 import BusinessSummary from './containers/app/BusinessSummary';
 import PrivacyPolicy from './containers/app/PrivacyPolicy';
 import TermsOfUse from './containers/app/TermsOfUse';
@@ -45,6 +46,11 @@ const routes = [
     path: 'whitepaper',
     exact: true,
     component: WhitePaper
+  },
+  {
+    path: 'technical-paper',
+    exact: true,
+    component: TechPaper
   },
   {
     path: 'brand-resources',
