@@ -3,7 +3,7 @@ import { translate } from 'react-i18next';
 import s from './styles.scss';
 
 import WhitePaperLink from '../../resourses/Links/WhitePaperLink';
-// import TechPaperLink from '../../resourses/Links/TechPaperLink';
+import TechPaperLink from '../../resourses/Links/TechPaperLink';
 import TermsOfUseLink from '../../resourses/Links/TermsOfUseLink';
 import PrivacyPolicyLink from '../../resourses/Links/PrivacyPolicyLink';
 import BusinessSummaryLink from '../../resourses/Links/BusinessSummaryLink';
@@ -21,6 +21,7 @@ const Resources = (props) => {
 
         <div className={s.body}>
           <div className={s.link}><WhitePaperLink className={s.linkComponent}/></div>
+          <div className={s.link}><TechPaperLink className={s.linkComponent}/></div>
           <div className={s.link}><BusinessSummaryLink className={s.linkComponent}/></div>
           <div className={s.link}><TermsOfUseLink className={s.linkComponent}/></div>
           <div className={s.link}><PrivacyPolicyLink className={s.linkComponent}/></div>
