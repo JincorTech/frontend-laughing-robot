@@ -38,7 +38,6 @@ const Roadmap = (props) => {
           </div>
           <div className={s.block}>
             <div className={s.line}>
-              <div className={s.label}>{t('roadmap.blocks.november2017.label')}</div>
               <div className={s.point}/>
             </div>
             <div className={s.date}>{t('roadmap.blocks.november2017.date')}</div>
@@ -46,6 +45,7 @@ const Roadmap = (props) => {
           </div>
           <div className={s.block}>
             <div className={s.line}>
+              <div className={s.label}>{t('roadmap.blocks.december2017.label')}</div>
               <div className={s.point}/>
             </div>
             <div className={s.date}>{t('roadmap.blocks.december2017.date')}</div>
