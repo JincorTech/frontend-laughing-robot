@@ -137,46 +137,46 @@
     "title": "Roadmap",
     "subtitle": "So what’s ahead of us?",
     "blocks": {
-      "july2017": {
+      "1": {
         "date": "July 2017",
         "what": "Performing Closed Beta testing, launching a pre-ICO campaign."
       },
-      "august2017": {
+      "2": {
         "date": "August 2017",
         "label": "Presale",
         "what": "Issuing JCR tokens into the Ethereum blockchain."
       },
-      "october2017": {
+      "3": {
         "date": "October 2017",
         "what": "Preparing for Open Beta launch. Basic Employment Smart Contracts Templates Development."
       },
-      "november2017": {
+      "4": {
         "date": "November 2017",
         "label": "ICO",
         "what": "Invoicing & billing system implementation. Channel partner program launch. 200+ companies in Open Beta."
       },
-      "december2017": {
+      "5": {
         "date": "December 2017",
         "label": "ICO",
         "what": "Finishing up the crowdfunding campaign and distributing JCR tokens among supporters. Listing on exchange platforms. 1000+ companies in Open Beta."
       },
-      "january2018": {
+      "6": {
         "date": "February 2018",
         "what": "Japan Market Expansion and Local Partnerships. 2000+ companies in Open Beta."
       },
-      "febriary2018": {
+      "7": {
         "date": "March 2018",
         "what": "Corporate Identity Verification. Marketing Campaigns in Europe and Asia."
       },
-      "april2018": {
+      "8": {
         "date": "April 2018",
         "what": "Adding enterprise app integrations, B2B crypto payments. 5000+ companies in Open Beta."
       },
-      "q32018": {
+      "9": {
         "date": "Q3 2018",
         "what": "10000+ business customers in Open Beta. Enterprise multisig wallets, blockchain asset transactions, B2E (business-to-employee) payments etc."
       },
-      "q42018": {
+      "10": {
         "date": "Q4 2018",
         "what": "Enterprise smart contracts, decentralized arbitration system, blockchain-based corporate management."
       }
