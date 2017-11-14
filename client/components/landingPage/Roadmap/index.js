@@ -18,74 +18,74 @@ const Roadmap = (props) => {
             <div className={s.line}>
               <div className={s.active}/>
             </div>
-            <div className={s.date}>{t('roadmap.blocks.july2017.date')}</div>
-            <div className={s.what}>{t('roadmap.blocks.july2017.what')}</div>
+            <div className={s.date}>{t('roadmap.blocks.1.date')}</div>
+            <div className={s.what}>{t('roadmap.blocks.1.what')}</div>
           </div>
           <div className={s.block}>
             <div className={s.line}>
-              <div className={s.label}>{t('roadmap.blocks.august2017.label')}</div>
+              <div className={s.label}>{t('roadmap.blocks.2.label')}</div>
               <div className={s.active}/>
             </div>
-            <div className={s.date}>{t('roadmap.blocks.august2017.date')}</div>
-            <div className={s.what}>{t('roadmap.blocks.august2017.what')}</div>
+            <div className={s.date}>{t('roadmap.blocks.2.date')}</div>
+            <div className={s.what}>{t('roadmap.blocks.2.what')}</div>
           </div>
           <div className={s.block}>
             <div className={s.line}>
               <div className={s.active}/>
             </div>
-            <div className={s.date}>{t('roadmap.blocks.october2017.date')}</div>
-            <div className={s.what}>{t('roadmap.blocks.october2017.what')}</div>
+            <div className={s.date}>{t('roadmap.blocks.3.date')}</div>
+            <div className={s.what}>{t('roadmap.blocks.3.what')}</div>
           </div>
           <div className={s.block}>
             <div className={s.line}>
               <div className={s.point}/>
             </div>
-            <div className={s.date}>{t('roadmap.blocks.november2017.date')}</div>
-            <div className={s.what}>{t('roadmap.blocks.november2017.what')}</div>
+            <div className={s.date}>{t('roadmap.blocks.4.date')}</div>
+            <div className={s.what}>{t('roadmap.blocks.4.what')}</div>
           </div>
           <div className={s.block}>
             <div className={s.line}>
-              <div className={s.label}>{t('roadmap.blocks.december2017.label')}</div>
+              <div className={s.label}>{t('roadmap.blocks.5.label')}</div>
               <div className={s.point}/>
             </div>
-            <div className={s.date}>{t('roadmap.blocks.december2017.date')}</div>
-            <div className={s.what}>{t('roadmap.blocks.december2017.what')}</div>
+            <div className={s.date}>{t('roadmap.blocks.5.date')}</div>
+            <div className={s.what}>{t('roadmap.blocks.5.what')}</div>
           </div>
 
           <div className={s.block}>
             <div className={s.line}>
               <div className={s.point}/>
             </div>
-            <div className={s.date}>{t('roadmap.blocks.january2018.date')}</div>
-            <div className={s.what}>{t('roadmap.blocks.january2018.what')}</div>
+            <div className={s.date}>{t('roadmap.blocks.6.date')}</div>
+            <div className={s.what}>{t('roadmap.blocks.6.what')}</div>
           </div>
           <div className={s.block}>
             <div className={s.line}>
               <div className={s.point}/>
             </div>
-            <div className={s.date}>{t('roadmap.blocks.febriary2018.date')}</div>
-            <div className={s.what}>{t('roadmap.blocks.febriary2018.what')}</div>
+            <div className={s.date}>{t('roadmap.blocks.7.date')}</div>
+            <div className={s.what}>{t('roadmap.blocks.7.what')}</div>
           </div>
           <div className={s.block}>
             <div className={s.line}>
               <div className={s.point}/>
             </div>
-            <div className={s.date}>{t('roadmap.blocks.april2018.date')}</div>
-            <div className={s.what}>{t('roadmap.blocks.april2018.what')}</div>
+            <div className={s.date}>{t('roadmap.blocks.8.date')}</div>
+            <div className={s.what}>{t('roadmap.blocks.8.what')}</div>
           </div>
           <div className={s.block}>
             <div className={s.line}>
               <div className={s.point}/>
             </div>
-            <div className={s.date}>{t('roadmap.blocks.q32018.date')}</div>
-            <div className={s.what}>{t('roadmap.blocks.q32018.what')}</div>
+            <div className={s.date}>{t('roadmap.blocks.9.date')}</div>
+            <div className={s.what}>{t('roadmap.blocks.9.what')}</div>
           </div>
           <div className={s.block}>
             <div className={s.line}>
               <div className={s.point}/>
             </div>
-            <div className={s.date}>{t('roadmap.blocks.q42018.date')}</div>
-            <div className={s.what}>{t('roadmap.blocks.q42018.what')}</div>
+            <div className={s.date}>{t('roadmap.blocks.10.date')}</div>
+            <div className={s.what}>{t('roadmap.blocks.10.what')}</div>
           </div>
         </div>
       </div>
