@@ -1,4 +1,6 @@
 import React from 'react';
+import { connect } from 'react-redux';
+import { goBack } from 'react-router-redux';
 import { withRouter } from 'react-router-dom';
 import { translate, Interpolate } from 'react-i18next';
 
@@ -8,17 +10,28 @@ import SLink from '../../common/SLink';
 import s from './styles.scss';
 
 const Faq = (props) => {
-  const { t } = props;
+  const { t, goBack } = props;
+
+  const renderClose = () => {
+    if (props.history.location.key) {
+      return (
+        <button className={s.close} type="button" onClick={() => goBack()}>
+          <img src={require('../../../assets/images/common/closePopup.svg')}/>
+        </button>
+      );
+    } else {
+      return (
+        <SLink className={s.close} to="/">
+          <img src={require('../../../assets/images/common/closePopup.svg')}/>
+        </SLink>
+      );
+    }
+  };
 
   return (
     <div className={s.faq}>
       <div className={s.head}>
         <div className={s.title}>{t('faq.title')}</div>
-        <div className={s.close}>
-          <SLink href="/">
-            <img src={require('./images/close.svg')}/>
-          </SLink>
-        </div>
       </div>
       <div className={s.body}>
         <div className={s.section}>
@@ -142,9 +155,17 @@ const Faq = (props) => {
           </FaqBlock>
         </div>
       </div>
+
+      {renderClose()}
     </div>
   );
 };
 
 const WithRouterComponent = withRouter(Faq);
-export default translate()(WithRouterComponent);
+const TranslatedComponent = translate()(WithRouterComponent);
+export default connect(
+  null,
+  {
+    goBack
+  }
+)(TranslatedComponent);

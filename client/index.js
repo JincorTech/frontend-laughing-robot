@@ -8,6 +8,7 @@ import { AppContainer } from 'react-hot-loader';
 import { UserAgentProvider } from '@quentin-sommer/react-useragent';
 import createHistory from 'history/createBrowserHistory';
 
+import ScrollMemory from 'react-router-scroll-memory';
 import App from './containers/app/RootContainer';
 import configureStore from './redux/configureStore';
 import i18next from './utils/i18next/client';
@@ -26,6 +27,7 @@ require('./assets/favicons/favicon-32x32.png');
 require('./assets/favicons/favicon-16x16.png');
 require('./assets/favicons/manifest.json');
 require('./assets/favicons/safari-pinned-tab.svg');
+require('./assets/images/common/dropdownArrow.svg');
 
 // The root element of your app
 const rootElement = document.getElementById('app');
@@ -47,7 +49,10 @@ const render = (Component) => {
         <AppContainer>
           <UserAgentProvider ua={ua}>
             <ConnectedRouter history={history}>
-              <Component />
+              <div>
+                <ScrollMemory/>
+                <Component/>
+              </div>
             </ConnectedRouter>
           </UserAgentProvider>
         </AppContainer>

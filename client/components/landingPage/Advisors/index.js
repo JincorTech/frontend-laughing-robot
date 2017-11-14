@@ -4,6 +4,7 @@ import s from './styles.scss';
 
 import Slick from 'react-slick';
 import PersonCard from '../PersonCard';
+import CustomArrow from '../../common/CustomArrow';
 
 const Advisors = (props) => {
   const { t } = props;
@@ -13,62 +14,35 @@ const Advisors = (props) => {
     infinite: false,
     dotsClass: s.dots,
     speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToShow: 3,
+    slidesToScroll: 3,
     swipe: false,
     swipeToSlide: false,
+    nextArrow: <CustomArrow><img src={require('../../../assets/images/carousel/fwd.svg')}/></CustomArrow>,
+    prevArrow: <CustomArrow><img src={require('../../../assets/images/carousel/back.svg')}/></CustomArrow>,
     responsive: [
       {
-        breakpoint: 375,
+        breakpoint: 1200,
         settings: {
-          centerPadding: '30px',
           infinite: true,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          swipe: true,
-          swipeToSlide: true,
-          centerMode: true,
-          arrows: false
-        }
-      },
-      {
-        breakpoint: 414,
-        settings: {
-          centerPadding: '50px',
-          infinite: true,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          swipe: true,
-          swipeToSlide: true,
-          centerMode: true,
-          arrows: false
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          centerPadding: '70px',
-          infinite: true,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          swipe: true,
-          swipeToSlide: true,
-          centerMode: true,
-          arrows: false
-        }
-      },
-      {
-        breakpoint: 769,
-        settings: {
           slidesToShow: 2,
-          slidesToScroll: 2
+          slidesToScroll: 2,
+          swipe: true,
+          swipeToSlide: true,
+          centerMode: false,
+          arrows: false
         }
       },
       {
-        breakpoint: 1025,
+        breakpoint: 800,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3
+          infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          swipe: true,
+          swipeToSlide: true,
+          centerMode: false,
+          arrows: false
         }
       }
     ]
@@ -84,6 +58,26 @@ const Advisors = (props) => {
 
         <div className={s.slick}>
           <Slick {...settings}>
+            <div>
+              <div className={s.slickItem}>
+                <PersonCard
+                  name={t('advisors.members.michael.name')}
+                  role={t('advisors.members.michael.position')}
+                  about={t('advisors.members.michael.bio')}
+                  photoElement={<img src={require('../../../assets/images/photos/michael.jpg')}/>}
+                  socialNetworks={[
+                    {
+                      href: 'https://www.linkedin.com/in/michaelterpin/',
+                      icon: <img src={require('../../../assets/images/teamSocials/linkedin.svg')}/>
+                    },
+                    {
+                      href: 'https://twitter.com/michaelterpin',
+                      icon: <img src={require('../../../assets/images/teamSocials/twitter.svg')}/>
+                    }
+                  ]}/>
+              </div>
+            </div>
+
             <div>
               <div className={s.slickItem}>
                 <PersonCard

@@ -1,50 +1,54 @@
 .block {
-  margin: 10px 0;
-  padding: 8px 15px;
-  background-color: transparent;
-  transition: 0.1s linear background-color;
+  display: block;
+  padding: 15px 0;
+  border-bottom: 1px solid #e0e0e0;
 
-  &:hover {
-    background-color: #F8F8F8;
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    padding: 20px 0;
   }
 
-  &:last-child {
-    border: none;
+  @media only screen and (max-width: 480px) {
+    padding: 20px 0;
   }
-}
-
-.open {
-  composes: block;
-  background-color: #F8F8F8;
 }
 
 .title {
-  font: 500 18px/40px Roboto;
-  color: #444;
+  font: 500 20px/40px Roboto;
+  color: #111;
   cursor: pointer;
+  transition: 0.1s linear all;
+
+  &:hover {
+    color: #0080FF;
+  }
+
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    font: 500 18px/21px Roboto;
+  }
 
   @media only screen and (max-width: 480px) {
-    font: normal 16px/24px Roboto;
+    font: 500 18px/21px Roboto;
   }
 }
 
 .body {
-  font: normal 16px/24px Roboto;
-  color: #444;
-  padding: 5px 0;
+  font: 300 20px/32px Roboto;
+  color: #111;
+  margin-top: 10px;
 
-  & a {
-    font: bold 16px/24px Roboto;
-    color: #0080FF;
-    text-decoration: none;
-    cursor: pointer;
-
-    @media only screen and (max-width: 480px) {
-      font: normal 12px/18px Roboto;
-    }
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    font: 300 18px/28px Roboto;
+    margin-top: 20px;
   }
 
   @media only screen and (max-width: 480px) {
-    font: normal 12px/18px Roboto;
+    font: 300 18px/28px Roboto;
+    margin-top: 20px;
   }
 }

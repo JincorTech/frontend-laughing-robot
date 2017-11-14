@@ -7,22 +7,59 @@
   background-color: #ccc;
   color: #444;
   font: normal 20px Roboto;
-  border: solid 2px #ccc;
+  border: solid 1px #ccc;
   border-radius: 4px;
 
   &.primary {
     background-color: #0080FF;
     color: #fff;
-    border: solid 2px #0080FF;
+    border: solid 1px #0080FF;
   }
 
   &.secondary {
     background-color: #fff;
     color: #0080FF;
-    border: solid 2px #0080FF;
+    border: solid 1px #0080FF;
   }
 
-  &.rounded {
-    border-radius: 100px;
+  &.blue {
+    padding: 13px 20px;
+    font: 500 20px Roboto;
+    color: #fff;
+    background-color: #0080ff;
+    border: 1px solid transparent;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    transition: 0.2s linear all;
+
+    &:hover {
+      box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  &.outline {
+    padding: 13px 20px;
+    font: 500 20px Roboto;
+    color: #111;
+    background-color: #fff;
+    border: 1px solid #efefef;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    transition: 0.2s linear all;
+
+    &:hover {
+      box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  &.small {
+    padding: 9px 12px;
+    font: 500 14px/16px Roboto;
+    height: auto;
+  }
+
+  &:disabled {
+    border-color: #dbdfe4;
+    background-color: #dbdfe4;
+    pointer-events: none;
+    cursor: not-allowed;
   }
 }

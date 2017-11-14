@@ -1,148 +1,142 @@
+@use postcss-short;
 @use postcss-clearfix;
-@use postcss-inline-svg;
 
 .about {
   width: 100%;
-  padding: 80px 0;
-  background-color: #fafafa;
+  padding: 120px 0;
+  background-color: #fbfbfb;
+
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    padding: 50px 0;
+  }
 
   @media only screen and (max-width: 480px) {
-    padding: 40px 0;
+    padding: 50px 0;
   }
 }
 
 .container {
-  width: 1140px;
+  width: 1100px;
   margin: 0 auto;
   clear: fix;
 
-  @media only screen and (max-width: 1024px) {
+  @media only screen and (max-width: 1100px) {
     width: 100%;
-    padding: 0 20px;
-    box-sizing: border-box;
+  }
+
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    width: 100%;
   }
 
   @media only screen and (max-width: 480px) {
     width: 100%;
-    padding: 0;
   }
 }
 
-.what {
-  width: 700px;
-  float: left;
-  margin-right: 120px;
+.head {
+  margin-bottom: 60px;
 
-  @media only screen and (max-width: 1024px) {
-    width: 60%;
-    margin-right: 10%;
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    margin-bottom: 30px;
   }
 
   @media only screen and (max-width: 480px) {
-    width: 100%;
-    float: none;
-    margin: 0;
-  }
-}
-
-.resourses {
-  width: 320px;
-  float: right;
-
-  @media only screen and (max-width: 1024px) {
-    width: 30%;
-  }
-
-  @media only screen and (max-width: 480px) {
-    width: 100%;
-    float: none;
-    margin-top: 40px;
+    margin-bottom: 30px;
   }
 }
 
 .title {
-  font: bold 35px Roboto;
-  color: #444;
-  margin: 0 0 5px 0;
-  letter-spacing: -0.1px;
+  font: bold 64px/80px Roboto;
+  color: #111;
+  text-align: center;
 
-  @media only screen and (max-width: 480px) {
-    font: bold 30px Roboto;
+  @media only screen and (max-width: 1100px) {
     padding: 0 20px;
   }
-}
 
-.subtitle {
-  font: normal 20px Roboto;
-  color: #adadad;
-  margin: 0;
-  letter-spacing: -0.1px;
-
-  @media only screen and (max-width: 480px) {
-    font: normal 20px Roboto;
-    padding: 0 20px;
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    font: bold 36px/42px Roboto;
   }
-}
-
-.content {
-  margin-top: 50px;
 
   @media only screen and (max-width: 480px) {
-    margin-top: 40px;
+    font: bold 36px/42px Roboto;
   }
 }
 
 .text {
-  font: normal 16px/24px Roboto;
-  color: #444;
+  font: 300 28px/46px Roboto;
+  color: #111;
+  text-align: center;
+  margin-bottom: 80px;
+
+  @media only screen and (max-width: 1100px) {
+    padding: 0 20px;
+  }
+
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    text-align: left;
+    font: 300 18px/28px Roboto;
+    margin-bottom: 30px;
+    padding: 0 20px;
+  }
 
   @media only screen and (max-width: 480px) {
-    font: normal 14px/24px Roboto;
+    text-align: left;
+    font: 300 18px/28px Roboto;
+    margin-bottom: 30px;
     padding: 0 20px;
   }
 }
 
-.links {
-  margin: -9px 0;
+.button {
+  text-align: center;
+}
 
-  & a {
-    cursor: pointer;
-    position: relative;
-    font: normal 18px Roboto;
-    letter-spacing: -0.1px;
-    color: #0080FF;
+.buttonElement {
+  background-color: transparent;
+  font: 500 28px/46px Roboto;
+  color: #0080ff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: none;
+
+  & > img {
+    margin-right: 8px;
     display: inline-block;
-    margin: 9px 0;
-    padding: 0 25px 0 0;
-    text-decoration: none;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+  }
 
-    &::after {
-      content: '';
-      position: absolute;
-      top: 5px;
-      right: 10px;
-      display: block;
-      height: 11px;
-      width: 16px;
-      background-image: svg-load('./svg/linkArrow.svg');
-      opacity: 0;
-      transition: 0.1s linear all;
-    }
+  @media only screen
+  and (max-device-width: 812px)
+  and (orientation: landscape) {
+    font: 500 20px/24px Roboto;
 
-    &:hover {
-      &::after {
-        opacity: 1;
-        right: 0;
-      }
-    }
-
-    &.disabled {
-      color: #adadad;
-      pointer-events: none;
+    & > img {
+      width: 20px;
+      top: -1px;
     }
   }
 
   @media only screen and (max-width: 480px) {
-    padding: 0 20px;
+    font: 500 20px/24px Roboto;
+
+    & > img {
+      width: 20px;
+      top: -1px;
+    }
   }
 }
