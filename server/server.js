@@ -55,9 +55,9 @@ i18next
   .use(i18nextMiddleware.LanguageDetector)
   .use(Backend)
   .init({
-    whitelist: ['en', 'ru'],
+    whitelist: ['en', 'ru', 'pl'],
     fallbackLng: 'en',
-    preload: ['en', 'ru'],
+    preload: ['en'],
     ns: ['common'],
     defaultNS: 'common',
     debug: false,
@@ -71,7 +71,7 @@ i18next
       jsonIndent: 2
     }
   }, () => {
-    i18nextMiddleware.addRoute(i18next, '/:lng', ['en', 'ru'], app, 'get', handleRender);
+    i18nextMiddleware.addRoute(i18next, '/:lng', ['en', 'ru', 'pl'], app, 'get', handleRender);
   });
 
 app.use(i18nextMiddleware.handle(i18next));

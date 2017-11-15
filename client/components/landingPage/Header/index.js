@@ -17,6 +17,7 @@ const Header = (props) => {
   const { pathname } = location;
   const selectRu = () => changeLanguage({ lang: 'ru', pathname });
   const selectEn = () => changeLanguage({ lang: 'en', pathname });
+  const selectPl = () => changeLanguage({ lang: 'pl', pathname });
 
   const getCurrentLang = () => {
     switch (i18next.language) {
@@ -24,6 +25,8 @@ const Header = (props) => {
         return <a className={s.linkInner}>Рус <img src={require('../../../assets/images/common/dropdownArrow.svg')}/></a>;
       case 'en':
         return <a className={s.linkInner}>Eng <img src={require('../../../assets/images/common/dropdownArrow.svg')}/></a>;
+      case 'pl':
+        return <a className={s.linkInner}>Pol <img src={require('../../../assets/images/common/dropdownArrow.svg')}/></a>;
       default:
         return <a className={s.linkInner}>Eng <img src={require('../../../assets/images/common/dropdownArrow.svg')}/></a>;
     }
@@ -59,7 +62,8 @@ const Header = (props) => {
               button={getCurrentLang()}
               dropdown={[
                 <a className={s.ddLink} key="lang.header.en" onClick={() => selectEn()}>English</a>,
-                <a className={s.ddLink} key="lang.header.ru" onClick={() => selectRu()}>Русский</a>
+                <a className={s.ddLink} key="lang.header.ru" onClick={() => selectRu()}>Русский</a>,
+                <a className={s.ddLink} key="lang.header.pl" onClick={() => selectPl()}>Polski</a>
               ]}/>
           </div>
         </div>

@@ -5,7 +5,7 @@ import XHR from 'i18next-xhr-backend';
 
 export const config = {
   wait: true,
-  whitelist: ['en', 'ru'],
+  whitelist: ['en', 'ru', 'pl'],
   fallbackLng: 'en',
   ns: ['common'],
   defaultNS: 'common',
