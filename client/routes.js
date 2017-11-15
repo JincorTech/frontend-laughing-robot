@@ -17,7 +17,8 @@ const dupeRoutes = (routes) => {
     const empty = { ...route, path: `/${route.path}` };
     const ru = { ...route, path: `/ru/${route.path}` };
     const en = { ...route, path: `/en/${route.path}` };
-    return acc.concat(empty, en, ru);
+    const pl = { ...route, path: `/pl/${route.path}` };
+    return acc.concat(empty, en, ru, pl);
   }, []);
 };
 
