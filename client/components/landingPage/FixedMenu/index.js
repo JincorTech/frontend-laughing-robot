@@ -8,7 +8,7 @@ import i18next from '../../../utils/i18next/client';
 import { isBrowser } from '../../../utils/common';
 
 import { changeLanguage } from '../../../redux/modules/app/i18next';
-import { openSubscribe } from '../../../redux/modules/common/subscribe';
+// import { openSubscribe } from '../../../redux/modules/common/subscribe';
 
 import Scroll from 'react-scroll';
 // import Button from '../../common/Button';
@@ -62,7 +62,7 @@ class FixedMenu extends Component {
   render() {
     const { visible } = this.state;
 
-    const { changeLanguage, openSubscribe, location, t } = this.props;
+    const { changeLanguage, location, t } = this.props;
     const { pathname } = location;
     const selectRu = () => changeLanguage({ lang: 'ru', pathname });
     const selectEn = () => changeLanguage({ lang: 'en', pathname });
@@ -137,6 +137,6 @@ export default connect(
   () => ({}),
   {
     changeLanguage,
-    openSubscribe
+    // openSubscribe
   }
 )(TranslatedComponent);
