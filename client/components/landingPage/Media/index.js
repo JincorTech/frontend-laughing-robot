@@ -15,7 +15,7 @@ const Media = (props) => {
         <div className={s.logos}>
           <a
             href="http://irishtechnews.ie/business-showcase-jincor/"
-            taget="_blank"
+            target="_blank"
             rel="nofollow"
             className={s.logo}>
             <img src={require('../../../assets/images/media/irishtech.png')}/>

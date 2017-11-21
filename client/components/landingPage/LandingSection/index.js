@@ -1,14 +1,18 @@
 import React from 'react';
-import { connect } from 'react-redux';
+// import { connect } from 'react-redux';
 import { translate } from 'react-i18next';
 import s from './styles.scss';
 
-import { openSubscribe } from '../../../redux/modules/common/subscribe';
+// import { openSubscribe } from '../../../redux/modules/common/subscribe';
 
-import Button from '../../common/Button';
+// import Button from '../../common/Button';
 
 const LandingSection = (props) => {
-  const { openSubscribe, t } = props;
+  const { t } = props;
+
+  // <div className={s.button}>
+  //   <Button style="blue" onClick={() => openSubscribe()}>{t('landing.subscribeButton')}</Button>
+  // </div>
 
   return (
     <div className={s.landing}>
@@ -19,7 +23,7 @@ const LandingSection = (props) => {
 
         <div className={s.buttons}>
           <div className={s.button}>
-            <Button style="blue" onClick={() => openSubscribe()}>{t('landing.subscribeButton')}</Button>
+            <a className={s.primaryLink} href="https://contribute.jincor.com">{t('landing.contribute')}</a>
           </div>
           <div className={s.button}>
             <a className={s.link} href={t('links.socials.telegram.href')}>
@@ -34,9 +38,4 @@ const LandingSection = (props) => {
 };
 
 const TranslatedComponent = translate()(LandingSection);
-export default connect(
-  () => ({}),
-  {
-    openSubscribe
-  }
-)(TranslatedComponent);
+export default TranslatedComponent;
