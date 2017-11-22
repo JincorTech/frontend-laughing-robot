@@ -1,15 +1,9 @@
 import React from 'react';
 import { translate } from 'react-i18next';
+import { UserAgent } from '@quentin-sommer/react-useragent';
 import s from './styles.scss';
 
-// import SLink from '../../common/SLink';
-
-// <div className={s.button}>
-//   <SLink to="/video" className={s.buttonElement}>
-//     <img src={require('./svg/video.svg')}/>
-//     {t('about.video')}
-//   </SLink>
-// </div>
+import SLink from '../../common/SLink';
 
 const AboutSection = (props) => {
   const { t } = props;
@@ -24,6 +18,23 @@ const AboutSection = (props) => {
         <div className={s.body}>
           <div className={s.text}>{t('about.text')}</div>
         </div>
+
+        <UserAgent computer>
+          <div className={s.button}>
+            <SLink to="/video" className={s.buttonElement}>
+              <img src={require('./svg/video.svg')}/>
+              {t('about.video')}
+            </SLink>
+          </div>
+        </UserAgent>
+        <UserAgent mobile>
+          <div className={s.button}>
+            <a href="https://www.youtube.com/watch?v=zOAVmaUWBkI" target="_blank" className={s.buttonElement}>
+              <img src={require('./svg/video.svg')}/>
+              {t('about.video')}
+            </a>
+          </div>
+        </UserAgent>
       </div>
     </div>
   );
