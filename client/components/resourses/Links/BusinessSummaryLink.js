@@ -15,4 +15,3 @@ export const BusinessSummaryLink = (props) => {
 };
 
 export default translate()(BusinessSummaryLink);
-

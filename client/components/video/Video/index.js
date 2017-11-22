@@ -32,6 +32,7 @@ const Video = (props) => {
 
       <div className={s.video}>
         <iframe
+          src="https://www.youtube.com/embed/zOAVmaUWBkI"
           className={s.iframe}
           width="100%"
           height="100%"
