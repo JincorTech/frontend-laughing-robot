@@ -4,6 +4,7 @@ import { goBack } from 'react-router-redux';
 import { withRouter } from 'react-router-dom';
 import { translate, Interpolate } from 'react-i18next';
 
+import HelmetBase from '../../../components/common/HelmetBase';
 import FaqBlock from '../FaqBlock';
 import SLink from '../../common/SLink';
 
@@ -30,6 +31,10 @@ const Faq = (props) => {
 
   return (
     <div className={s.faq}>
+      <HelmetBase>
+        <title>Jincor FAQ</title>
+        <meta name="description" content={t('head.description')} />
+      </HelmetBase>
       <div className={s.head}>
         <div className={s.title}>{t('faq.title')}</div>
       </div>

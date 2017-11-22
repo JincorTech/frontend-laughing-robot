@@ -6,6 +6,7 @@ import { translate, Interpolate } from 'react-i18next';
 
 import s from './styles.scss';
 
+import HelmetBase from '../../../components/common/HelmetBase';
 import SLink from '../../common/SLink';
 
 const Cases = (props) => {
@@ -29,6 +30,10 @@ const Cases = (props) => {
 
   return (
     <div className={s.page}>
+      <HelmetBase>
+        <title>Jincor Use Cases</title>
+        <meta name="description" content={t('head.description')} />
+      </HelmetBase>
       <div className={s.container}>
         <div className={s.case}>
           <h1 className={s.title}>{t('cases.full.1.title')}</h1>

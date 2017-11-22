@@ -6,6 +6,7 @@ import { translate } from 'react-i18next';
 
 import s from './styles.scss';
 
+import HelmetBase from '../../../components/common/HelmetBase';
 import SLink from '../../common/SLink';
 
 const Video = (props) => {
@@ -29,6 +30,9 @@ const Video = (props) => {
 
   return (
     <div className={s.page}>
+      <HelmetBase>
+        <title>Jincor Video</title>
+      </HelmetBase>
 
       <div className={s.video}>
         <iframe
