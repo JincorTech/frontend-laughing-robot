@@ -21,7 +21,7 @@
         "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/business_summary_jincor_ru.pdf"
       },
       "tou": {
-        "label": "Пользовательское соглашение",
+        "label": "Terms & Conditions",
         "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/terms_of_use_jincor.pdf"
       },
       "disclaimer": {
@@ -35,6 +35,10 @@
       "guidelines": {
         "label": "Бренд-ресурсы",
         "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/brand_resources_jincor.pdf"
+      },
+      "agreement": {
+        "label": "Token Sale Agreement",
+        "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/token_sale_agreement_jincor.pdf"
       }
     },
     "socials": {
@@ -551,9 +555,10 @@
     "gotomain": "На главную страницу"
   },
   "tips": {
-    "touPropLabel": "Пользовательским соглашением",
+    "touPropLabel": "Терминами и условиями",
     "ppPropLabel": "Политикой конфиденциальности",
-    "form": "Я согласен с {{tou}} и {{pp}}"
+    "form": "Я согласен с {{tou}} и {{pp}}",
+    "beta": "Я согласен с {{pp}}"
   },
   "404": {
     "error": "Извините, мы не можем найти страницу, которую вы ищете",

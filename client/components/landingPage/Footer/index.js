@@ -10,6 +10,7 @@ import TermsOfUseLink from '../../resourses/Links/TermsOfUseLink';
 import PrivacyPolicyLink from '../../resourses/Links/PrivacyPolicyLink';
 import BusinessSummaryLink from '../../resourses/Links/BusinessSummaryLink';
 import BrandResourcesLink from '../../resourses/Links/BrandResourcesLink';
+import TokenAgreementLink from '../../resourses/Links/TokenAgreementLink';
 
 const Footer = (props) => {
   const { t } = props;
@@ -44,6 +45,7 @@ const Footer = (props) => {
             <div className={s.links}>
               <div className={s.link}><TermsOfUseLink/></div>
               <div className={s.link}><PrivacyPolicyLink/></div>
+              <div className={s.link}><TokenAgreementLink/></div>
             </div>
           </div>
         </div>
