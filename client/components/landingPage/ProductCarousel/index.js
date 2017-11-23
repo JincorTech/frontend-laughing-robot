@@ -66,6 +66,9 @@ const ProductCarousel = () => {
             <div className={s.slide}><img src={require('./images/jincor_pc_first.png')}/></div>
             <div className={s.slide}><img src={require('./images/jincor_pc_second.png')}/></div>
             <div className={s.slide}><img src={require('./images/jincor_pc_third.png')}/></div>
+            <div className={s.slide}><img src={require('./images/jincor_pc_fourth.png')}/></div>
+            <div className={s.slide}><img src={require('./images/jincor_pc_fifth.png')}/></div>
+            <div className={s.slide}><img src={require('./images/jincor_pc_sixth.png')}/></div>
           </Slick>
         </UserAgent>
         <UserAgent mobile>

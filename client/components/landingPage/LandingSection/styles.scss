@@ -44,7 +44,7 @@
 .inner {
   width: 100%;
   position: absolute;
-  top: 35%;
+  top: 38%;
   transform: translateY(-50%);
   margin: 0 auto;
 
@@ -207,4 +207,5 @@
   composes: link;
   background-color: #0080ff;
   color: #fff;
+  border: 1px solid #0080ff;
 }

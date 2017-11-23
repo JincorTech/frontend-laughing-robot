@@ -62,7 +62,7 @@
 }
 
 .contrib {
-  width: 180px;
+  width: 300px;
   text-align: right;
 }
 
@@ -89,6 +89,15 @@
   &:hover {
     box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
   }
+}
+
+.secondaryButton {
+  composes: button;
+
+  border: 1px solid #0080ff;
+  background-color: #fff;
+  color: #0080ff;
+  margin-right: 15px;
 }
 
 .telegramButton {

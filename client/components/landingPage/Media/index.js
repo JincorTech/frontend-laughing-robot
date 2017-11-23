@@ -14,25 +14,18 @@ const Media = (props) => {
 
         <div className={s.logos}>
           <a
-            href="http://irishtechnews.ie/business-showcase-jincor/"
+            href="https://www.entrepreneur.com/article/305075/"
             target="_blank"
             rel="nofollow"
             className={s.logo}>
-            <img src={require('../../../assets/images/media/irishtech.png')}/>
+            <img src={require('../../../assets/images/media/entrepreneur.png')}/>
           </a>
           <a
-            href="http://www.zerohedge.com/news/2017-10-10/can-lawyers-be-replaced-smart-contracts"
+            href="https://www.forbes.com/sites/rogeraitken/2017/11/21/smart-contracts-on-the-blockchain-can-businesses-reap-the-benefits/#d5f431010744"
             target="_blank"
             rel="nofollow"
             className={s.logo}>
-            <img src={require('../../../assets/images/media/zerohedge.png')}/>
-          </a>
-          <a
-            href="https://cointelegraph.com/news/smart-business-to-business-payments-could-explode-blockchain-adoption"
-            target="_blank"
-            rel="nofollow"
-            className={s.logo}>
-            <img src={require('../../../assets/images/media/cointelegraph.png')}/>
+            <img src={require('../../../assets/images/media/forbes.png')}/>
           </a>
           <a
             href="https://www.cio.com/article/3231220/internet/smart-contracts-are-winning-over-tech-startups.html"
@@ -42,11 +35,18 @@ const Media = (props) => {
             <img src={require('../../../assets/images/media/cio.png')}/>
           </a>
           <a
-            href="https://www.benzinga.com/news/contracts/17/10/10186829/are-smart-contracts-changing-how-we-do-business"
+            href="https://youtu.be/bI7qxga2djQ?t=3m27s"
             target="_blank"
             rel="nofollow"
             className={s.logo}>
-            <img src={require('../../../assets/images/media/benz.png')}/>
+            <img src={require('../../../assets/images/media/cnbc.png')}/>
+          </a>
+          <a
+            href="https://cointelegraph.com/news/smart-business-to-business-payments-could-explode-blockchain-adoption"
+            target="_blank"
+            rel="nofollow"
+            className={s.logo}>
+            <img src={require('../../../assets/images/media/cointelegraph.png')}/>
           </a>
         </div>
       </div>

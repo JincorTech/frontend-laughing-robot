@@ -100,7 +100,7 @@ class BetaWindow extends Component {
               onChange={this._handleEmailChange}/>
           </div>
           <div className={s.button}>
-            <Button disabled={!agree} type="submit" style="primary">{t('beta.accept')}</Button>
+            <Button disabled={!agree} type="submit" style="primary" size="small">{t('beta.accept')}</Button>
           </div>
           <div className={s.tip}>
             <Checkbox

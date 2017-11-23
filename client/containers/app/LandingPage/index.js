@@ -24,6 +24,7 @@ import JoinCommunity from '../../../components/landingPage/JoinCommunity';
 import Footer from '../../../components/landingPage/Footer';
 
 import SubscribeWindow from '../../../components/common/SubscribeWindow';
+import BetaWindow from '../../../components/common/BetaWindow';
 import Notifications from '../../../components/landingPage/Notifications';
 import MobileNavigation from '../../../components/common/MobileNavigation';
 
@@ -58,6 +59,7 @@ const LandingPage = (props) => {
         <Scroll.Element name="footerSection" id="footer"><Footer/></Scroll.Element>
 
         <SubscribeWindow/>
+        <BetaWindow/>
         <Notifications/>
         <UserAgent mobile><MobileNavigation/></UserAgent>
       </div>
