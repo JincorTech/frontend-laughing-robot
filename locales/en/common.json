@@ -21,7 +21,7 @@
         "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/business_summary_jincor.pdf"
       },
       "tou": {
-        "label": "Terms of Use",
+        "label": "Terms & Conditions",
         "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/terms_of_use_jincor.pdf"
       },
       "disclaimer": {
@@ -35,6 +35,10 @@
       "guidelines": {
         "label": "Brand Resources",
         "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/brand_resources_jincor.pdf"
+      },
+      "agreement": {
+        "label": "Token Sale Agreement",
+        "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/token_sale_agreement_jincor.pdf"
       }
     },
     "socials": {
@@ -552,9 +556,10 @@
     "gotomain": "Back to the main page"
   },
   "tips": {
-    "touPropLabel": "Terms of Use",
+    "touPropLabel": "Terms & Conditions",
     "ppPropLabel": "Privacy Policy",
-    "form": "I agree with the {{tou}} and {{pp}}"
+    "form": "I agree with the {{tou}} and {{pp}}",
+    "beta": "I agree with the {{pp}}"
   },
   "404": {
     "error": "Sorry, we can’t seem to find the page you are looking for :(",
