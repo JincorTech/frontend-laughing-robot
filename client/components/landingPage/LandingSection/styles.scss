@@ -44,7 +44,7 @@
 .inner {
   width: 100%;
   position: absolute;
-  top: 35%;
+  top: 38%;
   transform: translateY(-50%);
   margin: 0 auto;
 
@@ -201,4 +201,11 @@
   &:hover {
     box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
   }
+}
+
+.primaryLink {
+  composes: link;
+  background-color: #0080ff;
+  color: #fff;
+  border: 1px solid #0080ff;
 }

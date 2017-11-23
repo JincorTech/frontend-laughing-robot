@@ -9,7 +9,6 @@ import FormWindow from '../FormWindow';
 import TextInput from '../TextInput';
 import Button from '../Button';
 import PrivacyPolicyLink from '../../resourses/Links/PrivacyPolicyLink';
-import TermsOfUseLink from '../../resourses/Links/TermsOfUseLink';
 import Checkbox from '../Checkbox';
 
 class BetaWindow extends Component {
@@ -100,7 +99,7 @@ class BetaWindow extends Component {
               onChange={this._handleEmailChange}/>
           </div>
           <div className={s.button}>
-            <Button disabled={!agree} type="submit" style="primary">{t('beta.accept')}</Button>
+            <Button disabled={!agree} type="submit" style="primary" size="small">{t('beta.accept')}</Button>
           </div>
           <div className={s.tip}>
             <Checkbox
@@ -108,9 +107,8 @@ class BetaWindow extends Component {
               checked={agree}
               label={
                 <Interpolate
-                  i18nKey="tips.form"
+                  i18nKey="tips.beta"
                   useDangerouslySetInnerHTML={true}
-                  tou={<TermsOfUseLink propLabel={t('tips.touPropLabel')}/>}
                   pp={<PrivacyPolicyLink propLabel={t('tips.ppPropLabel')}/>}/>
               }/>
           </div>

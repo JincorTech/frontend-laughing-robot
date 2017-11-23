@@ -99,10 +99,12 @@
   font: 300 28px/46px Roboto;
   color: #111;
   text-align: center;
-  margin-bottom: 80px;
+  margin: 0 auto 80px;
+  width: 980px;
 
-  @media only screen and (max-width: 1100px) {
+  @media only screen and (max-width: 980px) {
     padding: 0 20px;
+    width: auto;
   }
 
   @media only screen

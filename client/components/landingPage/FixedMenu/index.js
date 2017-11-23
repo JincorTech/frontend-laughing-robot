@@ -8,10 +8,9 @@ import i18next from '../../../utils/i18next/client';
 import { isBrowser } from '../../../utils/common';
 
 import { changeLanguage } from '../../../redux/modules/app/i18next';
-import { openSubscribe } from '../../../redux/modules/common/subscribe';
+import { openBeta } from '../../../redux/modules/common/beta';
 
 import Scroll from 'react-scroll';
-// import Button from '../../common/Button';
 import SLink from '../../common/SLink';
 import WhitePaperLink from '../../resourses/Links/WhitePaperLink';
 import Dropdown from '../../common/Dropdown';
@@ -62,7 +61,7 @@ class FixedMenu extends Component {
   render() {
     const { visible } = this.state;
 
-    const { changeLanguage, openSubscribe, location, t } = this.props;
+    const { changeLanguage, location, openBeta, t } = this.props;
     const { pathname } = location;
     const selectRu = () => changeLanguage({ lang: 'ru', pathname });
     const selectEn = () => changeLanguage({ lang: 'en', pathname });
@@ -119,10 +118,8 @@ class FixedMenu extends Component {
 
           <div className={s.buttons}>
             <div className={s.contrib}>
-              <a className={s.telegramButton} href={t('links.socials.telegram.href')}>
-                <img src={require('../../../assets/images/common/telegramButton.svg')}/>
-              </a>
-              <a className={s.button} onClick={() => openSubscribe()}>{t('landing.subscribeButton')}</a>
+              <a className={s.secondaryButton} onClick={() => openBeta()}>{t('landing.betaButton')}</a>
+              <a className={s.button} href="https://contribute.jincor.com">{t('landing.contribute')}</a>
             </div>
           </div>
         </div>
@@ -137,6 +134,6 @@ export default connect(
   () => ({}),
   {
     changeLanguage,
-    openSubscribe
+    openBeta
   }
 )(TranslatedComponent);

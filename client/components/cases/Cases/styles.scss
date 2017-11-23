@@ -51,6 +51,15 @@
     margin: 30px 0 0;
   }
 
+  & a {
+    color: #0080ff;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
   @media only screen and (max-width: 480px) {
     margin: 30px 0;
 

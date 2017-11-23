@@ -21,7 +21,7 @@
         "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/business_summary_jincor.pdf"
       },
       "tou": {
-        "label": "Terms of Use",
+        "label": "Terms & Conditions",
         "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/terms_of_use_jincor.pdf"
       },
       "disclaimer": {
@@ -35,6 +35,10 @@
       "guidelines": {
         "label": "Brand Resources",
         "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/brand_resources_jincor.pdf"
+      },
+      "agreement": {
+        "label": "Token Sale Agreement",
+        "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/token_sale_agreement_jincor.pdf"
       }
     },
     "socials": {
@@ -81,7 +85,7 @@
     "subtitle": "Join to build the platform for genuinely simple smart contracts and cryptocurrency transactions for any business.",
     "contribute": "Contribute",
     "subscribeButton": "Subscribe",
-    "betaButton": "Request beta",
+    "betaButton": "Try beta",
     "telegramButton": "Telegram Us",
     "godown": "Explore the project"
   },
@@ -119,17 +123,17 @@
       "1": {
         "title": "Regulatory compliant crypto-asset transactions for business",
         "subtitle": "",
-        "text": "<p>A recent Cambridge University study estimates between 2.9 million and 5.8 million people now use cryptocurrency wallets worldwide in 2017. There are also more than 100,000 merchants, including giants like Microsoft, Paypal, DISH Network, Intuit, and Overstock, who trust bitcoin enough to accept it as a means of payment. And there is nothing amazing here: using cryptocurrency in business means lower transaction fees, high-speed processing and complete elimination of fraud. However, most companies are still unable to use it for intercorporate settlements — cryptocurrency transactions involve anonymity, which has nothing to do with taxation and accounting of organizations. At Jincor companies will be able to use verified digital wallets to carry out transparent and trackable b2b cryptocurrency payments, knowing exactly who they pay to with “know your customer” principle applied.</p>"
+        "text": "<p>A recent Cambridge University <a href='https://www.jbs.cam.ac.uk/fileadmin/user_upload/research/centres/alternative-finance/downloads/2017-global-cryptocurrency-benchmarking-study.pdf' rel='nofollow' target='_blank'>study</a> estimates between 2.9 million and 5.8 million people now use cryptocurrency wallets worldwide in 2017. There are also more than 100,000 merchants, including <a href='https://www.fool.com/investing/2017/07/06/5-brand-name-businesses-that-currently-accept-bitc.aspx' target='_blank' rel='nofollow'>giants</a> like Microsoft, Paypal, DISH Network, Intuit, and Overstock, who trust bitcoin enough to accept it as a means of payment. And there is nothing amazing here: using cryptocurrency in business means lower transaction fees, high-speed processing and complete elimination of fraud. However, most companies are still unable to use it for intercorporate settlements — cryptocurrency transactions involve anonymity, which has nothing to do with taxation and accounting of organizations. At Jincor companies will be able to use verified digital wallets to carry out transparent and trackable b2b cryptocurrency payments, knowing exactly who they pay to with “know your customer” principle applied.</p>"
       },
       "2": {
         "title": "Easy-to-use and legally binding smart contracts",
         "subtitle": "",
-        "text": "<p>Smart contracts are a great cost-saving tool for business, since they significantly cut accounting costs, raise trust between counterparties and eliminate human factor errors. According to a recent Accenture research, published at the beginning of 2017, investment banks alone could save up to $12 billion per year by adopting blockchain and smart contracts. But still, most small and medium businesses are unable to implement smart contracts due to their expensiveness and technological complexity. To address this issue, Jincor will provide corporate smart contracts templates, which will cut the cost of their implementation from today's approximate of $5,000-7,000 (just have a look at blockchain developers’ salaries and take into consideration that coding and proper security testing of a smart contract requires many working hours of a qualified professional) to roughly $100-500 per contract by removing the need to actually program them and make its creation genuinely easy even for users with no technical skills.</p>"
+        "text": "<p>Smart contracts are a great cost-saving tool for business, since they significantly cut accounting costs, raise trust between counterparties and eliminate human factor errors. According to a recent Accenture <a href='https://newsroom.accenture.com/news/blockchain-technology-could-reduce-investment-banks-infrastructure-costs-by-30-percent-according-to-accenture-report.htm' target='_blank' rel='nofollow'>research</a>, published at the beginning of 2017, investment banks alone could save up to $12 billion per year by adopting blockchain and smart contracts. But still, most small and medium businesses are unable to implement smart contracts due to their expensiveness and technological complexity. To address this issue, Jincor will provide corporate smart contracts templates, which will cut the cost of their implementation from today's approximate of $5,000-7,000 (just have a look at blockchain developers’ <a href='https://www.fnlondon.com/articles/blockchain-salaries-go-parabolic-you-can-make-a-fortune-20170605' target='_blank' rel='nofollow'>salaries</a> and take into consideration that coding and proper security testing of a smart contract requires many working hours of a qualified professional) to roughly $100-500 per contract by removing the need to actually program them and make its creation genuinely easy even for users with no technical skills.</p>"
       },
       "3": {
         "title": "Decentralised Arbitration system",
         "subtitle": "",
-        "text": "<p>Lack of proper legislative base in the field seems to be the most significant challenge preventing smart contracts and cryptocurrencies from wider adoption. According to the data from Bitlegal, which tracks evolving regulatory landscape of blockchain technologies around the world, at the moment there are only 62 countries explicitly allowing their usage, but even there smart contracts are not regulated by clear, widely-adopted and well-known rules. In practice, it means that if you have signed a smart contract with your business partner, and you are dissatisfied with some of his actions, there are virtually no means for you to uphold your rights, as the contract is performed automatically and there are no courts or some regulatory bodies at all. Jincor solves this problem by providing a decentralized arbitration system, where organizations will be able to file a claim related to smart contract performance and get an unbiased judgment of several arbitrators, randomly picked from the list of companies which have gained a good reputation while using the platform and dealing with other participants on similar matters.</p>"
+        "text": "<p>Lack of proper legislative base in the field seems to be the most significant challenge preventing smart contracts and cryptocurrencies from wider adoption. According to the <a href='http://bitlegal.io/list.php' target='_blank' rel='nofollow'>data</a> from Bitlegal, which tracks evolving regulatory landscape of blockchain technologies around the world, at the moment there are only 62 countries explicitly allowing their usage, but even there smart contracts are not regulated by clear, widely-adopted and well-known rules. In practice, it means that if you have signed a smart contract with your business partner, and you are dissatisfied with some of his actions, there are virtually no means for you to uphold your rights, as the contract is performed automatically and there are no courts or some regulatory bodies at all. Jincor solves this problem by providing a decentralized arbitration system, where organizations will be able to file a claim related to smart contract performance and get an unbiased judgment of several arbitrators, randomly picked from the list of companies which have gained a good reputation while using the platform and dealing with other participants on similar matters.</p>"
       }
     }
   },
@@ -158,15 +162,15 @@
       "5": {
         "date": "December 2017",
         "label": "ICO",
-        "what": "Finishing up the crowdfunding campaign and distributing JCR tokens among supporters. Listing on exchange platforms. 1000+ companies in Open Beta."
+        "what": "Running of the crowdfunding campaign, 500+ companies subscribed for Open Beta."
       },
       "6": {
         "date": "February 2018",
-        "what": "Japan Market Expansion and Local Partnerships. 2000+ companies in Open Beta."
+        "what": "Finishing up the crowdfunding campaign and distributing JCR tokens among supporters. 1000+ companies in Open Beta."
       },
       "7": {
         "date": "March 2018",
-        "what": "Corporate Identity Verification. Marketing Campaigns in Europe and Asia."
+        "what": "Listing on exchange platforms. Corporate Identity Verification. Marketing Campaigns in Europe and Asia."
       },
       "8": {
         "date": "April 2018",
@@ -329,6 +333,11 @@
         "name": "Marcus Killick OBE",
         "position": "Jurisdiction Advisor",
         "bio": "Marcus Killick (LLb Mphil) is the Non Executive Chairman of the Gibraltar Stock Exchange (GSX).  He is also Chief Executive Officer of ISOLAS LLP law firm and a non executive director of a number of other companies including the Gibraltar International Bank as well as a  Chairperson of the Commission of the Office of Fair Trading."
+      },
+      "king": {
+        "name": "Jason King",
+        "position": "Tech Advisor",
+        "bio": "Jason dedicates most of his time to his project Academy, aimed to build the future of the blockchain by educating the army of programmers on new technologies. He was one of the first in the industry to demonstrate the effect bitcoin could have on charity by founding Unsung.org, an app that aims to leverage the sharing economy to end hunger and food waste."
       },
       "simon": {
         "name": "Simon Cocking",
@@ -552,9 +561,10 @@
     "gotomain": "Back to the main page"
   },
   "tips": {
-    "touPropLabel": "Terms of Use",
+    "touPropLabel": "Terms & Conditions",
     "ppPropLabel": "Privacy Policy",
-    "form": "I agree with the {{tou}} and {{pp}}"
+    "form": "I agree with the {{tou}} and {{pp}}",
+    "beta": "I agree with the {{pp}}"
   },
   "404": {
     "error": "Sorry, we can’t seem to find the page you are looking for :(",

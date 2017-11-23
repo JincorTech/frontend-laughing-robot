@@ -44,18 +44,24 @@
   :global(.slick-prev),
   :global(.slick-next) {
     top: 50%;
-    transform: translateY(-50%);
   }
 
-  :global(.slick-slide) {
-    opacity: 0;
-    transform: scale(0.8);
-    transition: 0.3s linear all;
+  :global(.slick-prev) {
+    left: -140px;
   }
 
-  :global(.slick-active) {
-    opacity: 1;
-    transform: scale(1);
+  :global(.slick-next) {
+    right: -140px;
+  }
+
+  @media only screen and (max-width: 1450px) {
+    :global(.slick-prev) {
+      left: -65px;
+    }
+
+    :global(.slick-next) {
+      right: -65px;
+    }
   }
 
   :global(.slick-dots) {
