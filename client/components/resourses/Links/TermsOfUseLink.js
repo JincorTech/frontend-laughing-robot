@@ -10,7 +10,7 @@ export const TermsOfUseLink = (props) => {
       target="_blank"
       rel="nofollow"
       {...restProps}>
-      {t('links.resourses.tou.label')}
+      {propLabel ? propLabel : t('links.resourses.tou.label')}
     </a>
   );
 };
