@@ -6,7 +6,7 @@ export const WhitePaperLink = (props) => {
 
   return (
     <a
-      href={t('links.resourses.whitepaper.href')}
+      href="/whitepaper"
       target="_blank"
       rel="nofollow"
       {...restProps}>
