@@ -1,7 +1,5 @@
 import React from 'react';
 import { translate } from 'react-i18next';
-import SLink from '../../common/SLink';
-import { UserAgent } from '@quentin-sommer/react-useragent';
 
 export const TechPaperLink = (props) => {
   const {
@@ -11,24 +9,13 @@ export const TechPaperLink = (props) => {
   } = props;
 
   return (
-    <span>
-      <UserAgent computer>
-        <SLink
-          href="/technical-paper"
-          {...restProps}>
-          {t('links.resourses.techpaper.label')}
-        </SLink>
-      </UserAgent>
-      <UserAgent mobile>
-        <a
-          href={t('links.resourses.techpaper.href')}
-          target="_blank"
-          rel="nofollow"
-          {...restProps}>
-          {t('links.resourses.techpaper.label')}
-        </a>
-      </UserAgent>
-    </span>
+    <a
+      href="/technical-paper"
+      target="_blank"
+      rel="nofollow"
+      {...restProps}>
+      {t('links.resourses.techpaper.label')}
+    </a>
   );
 };
 
