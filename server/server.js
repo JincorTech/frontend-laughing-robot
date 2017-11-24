@@ -1,6 +1,7 @@
 import 'babel-polyfill';
 import path from 'path';
 import Express from 'express';
+import favicon from 'serve-favicon';
 import sm from 'sitemap';
 import i18next from 'i18next';
 import Backend from 'i18next-node-fs-backend';
@@ -11,6 +12,7 @@ import { Provider } from 'react-redux';
 import { StaticRouter, matchPath } from 'react-router';
 import { I18nextProvider } from 'react-i18next';
 import { UserAgentProvider } from '@quentin-sommer/react-useragent';
+import request from 'request';
 import render from './render';
 
 import routes from 'routes';
@@ -42,6 +44,7 @@ app.use(compression());
 
 // Use this middleware to serve up static files built into dist
 app.use('/dist', serveStatic(path.join(__dirname, '../dist')));
+app.use('/static', serveStatic(path.join(__dirname, '/static')));
 app.use('/locales', serveStatic(path.join(__dirname, '../locales')));
 
 // Sitemap
@@ -75,6 +78,99 @@ i18next
   });
 
 app.use(i18nextMiddleware.handle(i18next));
+
+app.use(favicon(__dirname + '/static/favicon.ico'));
+
+// whitepaper
+app.get('/whitepaper', (req, res) => {
+  res.setHeader('Content-Type', 'application/pdf');
+  res.setHeader('Content-Disposition', 'filename=whitepaper_jincor.pdf');
+  request('https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/whitepaper_jincor.pdf').pipe(res);
+});
+
+app.get('/:lang/whitepaper', (req, res) => {
+  res.setHeader('Content-Type', 'application/pdf');
+  res.setHeader('Content-Disposition', 'filename=whitepaper_jincor.pdf');
+  request('https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/whitepaper_jincor.pdf').pipe(res);
+});
+
+// tech paper
+app.get('/technical-paper', (req, res) => {
+  res.setHeader('Content-Type', 'application/pdf');
+  res.setHeader('Content-Disposition', 'filename=technical_paper_jincor.pdf');
+  request('https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/technical_paper_jincor.pdf').pipe(res);
+});
+
+app.get('/:lang/technical-paper', (req, res) => {
+  res.setHeader('Content-Type', 'application/pdf');
+  res.setHeader('Content-Disposition', 'filename=technical_paper_jincor.pdf');
+  request('https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/technical_paper_jincor.pdf').pipe(res);
+});
+
+// brand resources
+app.get('/brand-resources', (req, res) => {
+  res.setHeader('Content-Type', 'application/pdf');
+  res.setHeader('Content-Disposition', 'filename=brand_resources_jincor.pdf');
+  request('https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/brand_resources_jincor.pdf').pipe(res);
+});
+
+app.get('/:lang/brand-resources', (req, res) => {
+  res.setHeader('Content-Type', 'application/pdf');
+  res.setHeader('Content-Disposition', 'filename=brand_resources_jincor.pdf');
+  request('https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/brand_resources_jincor.pdf').pipe(res);
+});
+
+// terms & conditions
+app.get('/agreement', (req, res) => {
+  res.setHeader('Content-Type', 'application/pdf');
+  res.setHeader('Content-Disposition', 'filename=terms_conditions_jincor.pdf');
+  request('https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/terms_and_conditions_jincor.pdf').pipe(res);
+});
+
+app.get('/:lang/agreement', (req, res) => {
+  res.setHeader('Content-Type', 'application/pdf');
+  res.setHeader('Content-Disposition', 'filename=terms_conditions_jincor.pdf');
+  request('https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/terms_and_conditions_jincor.pdf').pipe(res);
+});
+
+// token sale agreement
+app.get('/token-sale-agreement', (req, res) => {
+  res.setHeader('Content-Type', 'application/pdf');
+  res.setHeader('Content-Disposition', 'filename=token_sale_agreement_jincor.pdf');
+  request('https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/token_sale_agreement_jincor.pdf').pipe(res);
+});
+
+app.get('/:lang/token-sale-agreement', (req, res) => {
+  res.setHeader('Content-Type', 'application/pdf');
+  res.setHeader('Content-Disposition', 'filename=token_sale_agreement_jincor.pdf');
+  request('https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/token_sale_agreement_jincor.pdf').pipe(res);
+});
+
+// business summary
+app.get('/business-summary', (req, res) => {
+  res.setHeader('Content-Type', 'application/pdf');
+  res.setHeader('Content-Disposition', 'filename=business_summary_jincor.pdf');
+  request('https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/business_summary_jincor.pdf').pipe(res);
+});
+
+app.get('/:lang/business-summary', (req, res) => {
+  res.setHeader('Content-Type', 'application/pdf');
+  res.setHeader('Content-Disposition', 'filename=business_summary_jincor.pdf');
+  request('https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/business_summary_jincor.pdf').pipe(res);
+});
+
+// privacy policy
+app.get('/privacy-policy', (req, res) => {
+  res.setHeader('Content-Type', 'application/pdf');
+  res.setHeader('Content-Disposition', 'filename=privacy_policy_jincor.pdf');
+  request('https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/privacy_policy_jincor.pdf').pipe(res);
+});
+
+app.get('/:lang/privacy-policy', (req, res) => {
+  res.setHeader('Content-Type', 'application/pdf');
+  res.setHeader('Content-Disposition', 'filename=privacy_policy_jincor.pdf');
+  request('https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/privacy_policy_jincor.pdf').pipe(res);
+});
 
 // This is fired every time the server side receives a request
 app.use(handleRender);
