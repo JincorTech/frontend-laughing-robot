@@ -10,7 +10,7 @@ export const PrivacyPolicyLink = (props) => {
       target="_blank"
       rel="nofollow"
       {...restProps}>
-      {t('links.resourses.privacy.label')}
+      {propLabel ? propLabel : t('links.resourses.privacy.label')}
     </a>
   );
 };
