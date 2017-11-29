@@ -5,7 +5,7 @@
   position: relative;
   background-image: url(./images/guys.png);
   background-repeat: no-repeat;
-  background-position: 50% 100%;
+  background-position: 50% calc(100% - 60px);
   background-size: 1440px;
 
   @media only screen and (max-height: 900px) {
@@ -208,4 +208,73 @@
   background-color: #0080ff;
   color: #fff;
   border: 1px solid #0080ff;
+}
+
+.pane {
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+  background-image: linear-gradient(272deg, #02b9ff, #01b9ff 1%, #0080ff);
+}
+
+.paneWrap {
+  position: relative;
+  height: 100%;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 480px;
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+}
+
+.pullRight {
+  position: absolute;
+  right: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  & a {
+    font: 400 18px/21px Roboto;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 480px) {
+    display: none;
+  }
+
+  @media only screen and (max-device-width: 812px) and (orientation: landscape) {
+    display: none;
+  }
+}
+
+.block {
+  display: inline-block;
+  margin: 0 20px;
+
+  @media only screen and (max-width: 480px) {
+    margin: 0 15px;
+  }
+
+  @media only screen and (max-device-width: 812px) and (orientation: landscape) {
+    margin: 0 15px;
+  }
+}
+
+.val {
+  font: 500 20px/24px Roboto;
+  color: #fff;
+}
+
+.label {
+  font: 300 14px/16px Roboto;
+  color: #fff;
+  margin-top: 2px;
 }

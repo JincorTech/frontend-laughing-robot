@@ -1,18 +1,9 @@
 import React from 'react';
-// import { connect } from 'react-redux';
 import { translate } from 'react-i18next';
 import s from './styles.scss';
 
-// import { openSubscribe } from '../../../redux/modules/common/subscribe';
-
-// import Button from '../../common/Button';
-
 const LandingSection = (props) => {
   const { t } = props;
-
-  // <div className={s.button}>
-  //   <Button style="blue" onClick={() => openSubscribe()}>{t('landing.subscribeButton')}</Button>
-  // </div>
 
   return (
     <div className={s.landing}>
@@ -30,6 +21,32 @@ const LandingSection = (props) => {
               <img className={s.telegramButton} src={require('../../../assets/images/common/telegramButton.svg')}/>
               {t('landing.telegramButton')}
             </a>
+          </div>
+        </div>
+      </div>
+
+      <div className={s.pane}>
+        <div className={s.paneWrap}>
+          <div className={s.center}>
+            <div className={s.block}>
+              <div className={s.val}>2</div>
+              <div className={s.label}>Days</div>
+            </div>
+            <div className={s.block}>
+              <div className={s.val}>5</div>
+              <div className={s.label}>Hours</div>
+            </div>
+            <div className={s.block}>
+              <div className={s.val}>15</div>
+              <div className={s.label}>Minutes</div>
+            </div>
+            <div className={s.block}>
+              <div className={s.val}>10</div>
+              <div className={s.label}>Seconds</div>
+            </div>
+          </div>
+          <div className={s.pullRight}>
+            <a href="https://www.youtube.com/watch?v=3lq5IoXqo2k" target="_blank" rel="nofollow">How to contribute?</a>
           </div>
         </div>
       </div>
