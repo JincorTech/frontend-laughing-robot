@@ -5,6 +5,7 @@ import s from './styles.scss';
 import WhitePaperLink from '../../resourses/Links/WhitePaperLink';
 import TechPaperLink from '../../resourses/Links/TechPaperLink';
 import BusinessSummaryLink from '../../resourses/Links/BusinessSummaryLink';
+import ContributionGuideLink from '../../resourses/Links/ContributionGuideLink';
 
 const Resources = (props) => {
   const { t } = props;
@@ -21,6 +22,7 @@ const Resources = (props) => {
           <div className={s.link}><WhitePaperLink className={s.linkComponent}/></div>
           <div className={s.link}><TechPaperLink className={s.linkComponent}/></div>
           <div className={s.link}><BusinessSummaryLink className={s.linkComponent}/></div>
+          <div className={s.link}><ContributionGuideLink className={s.linkComponent}/></div>
         </div>
       </div>
     </div>

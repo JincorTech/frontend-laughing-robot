@@ -39,6 +39,10 @@
       "agreement": {
         "label": "Token Sale Agreement",
         "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/token_sale_agreement_jincor.pdf"
+      },
+      "contribGuide": {
+        "label": "Contribution Guide",
+        "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/contribution_guide_jincor.pdf"
       }
     },
     "socials": {
