@@ -9,7 +9,7 @@ import HelmetBase from '../../../components/common/HelmetBase';
 import Header from '../../../components/landingPage/Header';
 import FixedMenu from '../../../components/landingPage/FixedMenu';
 import MobileHeader from '../../../components/landingPage/MobileHeader';
-import LandingSection from '../../../components/landingPage/LandingSection';
+import LandingSwitcher from '../../../components/landingPage/LandingSwitcher';
 import Media from '../../../components/landingPage/Media';
 import Resources from '../../../components/landingPage/Resources';
 import AboutSection from '../../../components/landingPage/AboutSection/';
@@ -45,7 +45,7 @@ const LandingPage = (props) => {
         <UserAgent computer><Header/></UserAgent>
         <UserAgent mobile><MobileHeader/></UserAgent>
         <UserAgent computer><FixedMenu/></UserAgent>
-        <Scroll.Element name="landingSection" id="landing"><LandingSection/></Scroll.Element>
+        <Scroll.Element name="landingSection" id="landing"><LandingSwitcher/></Scroll.Element>
         <Scroll.Element name="mediaSection" id="media"><Media/></Scroll.Element>
         <Scroll.Element name="resourcesSection" id="resources"><Resources/></Scroll.Element>
         <Scroll.Element name="aboutSection" id="about"><AboutSection/></Scroll.Element>

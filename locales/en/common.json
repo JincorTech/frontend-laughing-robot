@@ -86,12 +86,25 @@
   },
   "landing": {
     "title": "Jincor ICO starts on December, 1",
+    "titleIco": "Jincor ICO is live!",
     "subtitle": "Join to build the platform for genuinely simple smart contracts and cryptocurrency transactions for any business.",
     "contribute": "Contribute",
+    "contributeIco": "Contribute now",
     "subscribeButton": "Subscribe",
     "betaButton": "Try beta",
     "telegramButton": "Telegram Us",
-    "godown": "Explore the project"
+    "godown": "Explore the project",
+    "howto": "How to contribute?",
+    "raised": "Raised",
+    "contributors": "Contributors",
+    "sold": "Tokens Sold",
+    "days": "Days to go",
+    "timer": {
+      "day": "Days",
+      "hour": "Hours",
+      "minute": "Minutes",
+      "second": "Seconds"
+    }
   },
   "media": {
     "text": "Jincor is a secure, regulatory compliant and breezy-to-use platform, that will allow any business to work with smart contracts and cryptocurrency payments easily with no legal, technical, or operational complications and in a cost-efficient manner."

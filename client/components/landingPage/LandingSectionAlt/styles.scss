@@ -1,0 +1,280 @@
+.landing {
+  min-height: calc(100vh - 94px);
+  width: 100%;
+  height: auto;
+  position: relative;
+  background-image: url(./images/guys.png);
+  background-repeat: no-repeat;
+  background-position: 50% calc(100% - 60px);
+  background-size: 1440px;
+
+  @media only screen and (max-height: 900px) {
+    background-size: 1100px;
+  }
+
+  @media only screen and (max-height: 630px) {
+    min-height: auto;
+    padding-bottom: 300px;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    min-height: calc(100vh - 74px);
+  }
+
+  @media only screen and (max-device-width: 480px) {
+    min-height: calc(100vh - 94px);
+    height: auto;
+    padding: 50px 0 40px;
+    background-image: url(./images/guys_mobile.png);
+    background-size: 320px;
+  }
+
+  @media only screen and (max-device-height: 630px) {
+    min-height: auto;
+    height: auto;
+    padding: 50px 0 140px;
+  }
+
+  @media only screen and (max-device-width: 812px) and (orientation: landscape) {
+    background-image: url(./images/guys.png);
+    background-size: 812px;
+  }
+}
+
+.inner {
+  width: 100%;
+  position: absolute;
+  top: 38%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+
+  @media only screen and (max-height: 630px) {
+    position: static;
+    top: auto;
+    transform: none;
+    margin: 20px auto 0;
+  }
+
+  @media only screen and (max-device-width: 480px) {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+  }
+
+  @media only screen and (max-device-height: 630px) {
+    position: static;
+    top: auto;
+    transform: none;
+  }
+
+  @media only screen and (max-device-width: 812px) and (orientation: landscape) {
+    position: static;
+    top: auto;
+    transform: none;
+  }
+}
+
+.logo {
+  width: 88px;
+  margin: 0 auto;
+
+  & > img {
+    width: 100%;
+  }
+
+  @media only screen and (max-height: 900px) {
+    width: 60px;
+  }
+
+  @media only screen and (max-width: 480px) {
+    width: 30px;
+  }
+
+  @media only screen and (max-device-width: 812px) and (orientation: landscape) {
+    width: 30px;
+  }
+}
+
+.title {
+  margin-top: 60px;
+  margin-bottom: 25px;
+  font: bold 72px Roboto;
+  text-align: center;
+  color: #111;
+
+  @media only screen and (max-height: 900px) {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font: bold 56px/80px Roboto;
+  }
+
+  @media only screen and (max-width: 480px) {
+    font: bold 32px/38px Roboto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    padding: 0 20px;
+  }
+
+  @media only screen and (max-device-width: 812px) and (orientation: landscape) {
+    font: bold 32px/38px Roboto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 0 20px;
+  }
+}
+
+.description {
+  max-width: 900px;
+  margin: 0 auto;
+  font: 300 28px/46px Roboto;
+  text-align: center;
+  color: #111;
+
+  @media only screen and (max-height: 900px) {
+    font: 300 24px/40px Roboto;
+  }
+
+  @media only screen and (max-width: 480px) {
+    font: 300 16px/28px Roboto;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  @media only screen and (max-device-width: 812px) and (orientation: landscape) {
+    font: 300 16px/28px Roboto;
+    text-align: center;
+    padding: 0 20px;
+  }
+}
+
+.buttons {
+  margin-top: 25px;
+  text-align: center;
+
+  @media only screen and (max-width: 480px) {
+    width: 260px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+}
+
+.button {
+  display: inline-block;
+  margin: 0 15px;
+  width: 210px;
+
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+    margin: 7px 0;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+}
+
+.telegramButton {
+  vertical-align: middle;
+  margin-right: 7px;
+  position: relative;
+  top: -2px;
+}
+
+.link {
+  display: inline-block;
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
+  margin: 0;
+  outline: none;
+  border-radius: 4px;
+  padding: 13px 20px;
+  font: 500 20px Roboto;
+  color: #111;
+  background-color: #fff;
+  border: 1px solid #efefef;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  transition: 0.2s linear all;
+  text-decoration: none;
+  box-sizing: border-box;
+
+  &:hover {
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
+  }
+}
+
+.primaryLink {
+  composes: link;
+  background-color: #0080ff;
+  color: #fff;
+  border: 1px solid #0080ff;
+}
+
+.pane {
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+  width: 100%;
+  background-image: linear-gradient(272deg, #02b9ff, #01b9ff 1%, #0080ff);
+}
+
+.paneWrap {
+  position: relative;
+  height: 100%;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 480px;
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+}
+
+.pullRight {
+  position: absolute;
+  right: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  & a {
+    font: 400 18px/21px Roboto;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 480px) {
+    display: none;
+  }
+
+  @media only screen and (max-device-width: 812px) and (orientation: landscape) {
+    display: none;
+  }
+}
+
+.block {
+  display: inline-block;
+  margin: 0 20px;
+
+  @media only screen and (max-width: 480px) {
+    margin: 0 15px;
+  }
+
+  @media only screen and (max-device-width: 812px) and (orientation: landscape) {
+    margin: 0 15px;
+  }
+}
+
+.val {
+  font: 500 20px/24px Roboto;
+  color: #fff;
+}
+
+.label {
+  font: 300 14px/16px Roboto;
+  color: #fff;
+  margin-top: 2px;
+}
