@@ -4,10 +4,7 @@ import s from './styles.scss';
 
 import WhitePaperLink from '../../resourses/Links/WhitePaperLink';
 import TechPaperLink from '../../resourses/Links/TechPaperLink';
-import TermsOfUseLink from '../../resourses/Links/TermsOfUseLink';
-import PrivacyPolicyLink from '../../resourses/Links/PrivacyPolicyLink';
 import BusinessSummaryLink from '../../resourses/Links/BusinessSummaryLink';
-import TokenAgreementLink from '../../resourses/Links/TokenAgreementLink';
 
 const Resources = (props) => {
   const { t } = props;
@@ -24,9 +21,6 @@ const Resources = (props) => {
           <div className={s.link}><WhitePaperLink className={s.linkComponent}/></div>
           <div className={s.link}><TechPaperLink className={s.linkComponent}/></div>
           <div className={s.link}><BusinessSummaryLink className={s.linkComponent}/></div>
-          <div className={s.link}><TermsOfUseLink className={s.linkComponent}/></div>
-          <div className={s.link}><TokenAgreementLink className={s.linkComponent}/></div>
-          <div className={s.link}><PrivacyPolicyLink className={s.linkComponent}/></div>
         </div>
       </div>
     </div>

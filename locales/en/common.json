@@ -224,8 +224,27 @@
     "team": "Jincor team",
     "crowdsale": "Crowdsale"
   },
+  "legal": {
+    "title": "Legal",
+    "subtitle": "Full transparency.",
+    "text": "Jincor organizational structure includes a parent company incorporated in Cyprus (Jincor Ltd.), its 100% subsidiary operational company in Russia (OOO «Biznes-seti»), 100% subsidiary token sale operational company in Singapore (Jincor Pte. Ltd.) and also SPV for distribution of the option pool to key employees incorporated on British Virgin Islands (Jincor Special Ltd.).",
+    "blocks": {
+      "1": {
+        "val": "Singapore",
+        "label": "Jurisdiction"
+      },
+      "2": {
+        "val": "KYC",
+        "label": "Required verification"
+      },
+      "3": {
+        "val": "Utility",
+        "label": "JCR token"
+      }
+    }
+  },
   "team": {
-    "title": "Executive Team",
+    "title": "Project Team",
     "subtitle": "Who's making it real?",
     "members": {
       "vlad": {

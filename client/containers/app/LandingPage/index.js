@@ -18,6 +18,7 @@ import ProductCarousel from '../../../components/landingPage/ProductCarousel';
 import Roadmap from '../../../components/landingPage/Roadmap';
 import CrowdsaleSection from '../../../components/landingPage/CrowdsaleSection';
 import Distribution from '../../../components/landingPage/Distribution';
+import Legal from '../../../components/landingPage/Legal';
 import Team from '../../../components/landingPage/Team';
 import Advisors from '../../../components/landingPage/Advisors';
 import JoinCommunity from '../../../components/landingPage/JoinCommunity';
@@ -53,6 +54,7 @@ const LandingPage = (props) => {
         <Scroll.Element name="roadmapSection" id="roadmap"><Roadmap/></Scroll.Element>
         <Scroll.Element name="crowdsaleSection" id="crowdsale"><CrowdsaleSection/></Scroll.Element>
         <Scroll.Element name="distributionSection" id="distribution"><Distribution/></Scroll.Element>
+        <Scroll.Element name="legalSection" id="leagal"><Legal/></Scroll.Element>
         <Scroll.Element name="teamSection" id="team"><Team/></Scroll.Element>
         <Scroll.Element name="advisorsSection" id="advisors"><Advisors/></Scroll.Element>
         <Scroll.Element name="communitySection" id="community"><JoinCommunity/></Scroll.Element>
