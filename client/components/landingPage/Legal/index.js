@@ -6,7 +6,7 @@ import { UserAgent } from '@quentin-sommer/react-useragent';
 import TermsOfUseLink from '../../resourses/Links/TermsOfUseLink';
 import PrivacyPolicyLink from '../../resourses/Links/PrivacyPolicyLink';
 import TokenAgreementLink from '../../resourses/Links/TokenAgreementLink';
-import BusinessProfileLink from '../../resourses/Links/BusinessProfileLink';
+import BusinessProfileLink from '../../resourses/Links/BProfileLink';
 
 const Legal = (props) => {
   const { t } = props;
