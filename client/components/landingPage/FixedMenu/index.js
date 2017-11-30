@@ -61,7 +61,7 @@ class FixedMenu extends Component {
   render() {
     const { visible } = this.state;
 
-    const { changeLanguage, location, openBeta, t } = this.props;
+    const { changeLanguage, location, openBeta, utm, t } = this.props;
     const { pathname } = location;
     const selectRu = () => changeLanguage({ lang: 'ru', pathname });
     const selectEn = () => changeLanguage({ lang: 'en', pathname });
@@ -119,7 +119,7 @@ class FixedMenu extends Component {
           <div className={s.buttons}>
             <div className={s.contrib}>
               <a className={s.secondaryButton} onClick={() => openBeta()}>{t('landing.betaButton')}</a>
-              <a className={s.button} href="https://contribute.jincor.com">{t('landing.contribute')}</a>
+              <a className={s.button} href={`https://contribute.jincor.com/auth/signup${utm}`}>{t('landing.contribute')}</a>
             </div>
           </div>
         </div>

@@ -81,14 +81,18 @@ const Advisors = (props) => {
             <div>
               <div className={s.slickItem}>
                 <PersonCard
-                  name={t('advisors.members.marcus.name')}
-                  role={t('advisors.members.marcus.position')}
-                  about={t('advisors.members.marcus.bio')}
-                  photoElement={<img src={require('../../../assets/images/photos/marcus.jpg')}/>}
+                  name={t('advisors.members.titus.name')}
+                  role={t('advisors.members.titus.position')}
+                  about={t('advisors.members.titus.bio')}
+                  photoElement={<img src={require('../../../assets/images/photos/titus.jpg')}/>}
                   socialNetworks={[
                     {
-                      href: 'https://www.linkedin.com/in/marcus-killick-obe-85b8376/',
+                      href: 'https://www.linkedin.com/in/rxdxt/',
                       icon: <img src={require('../../../assets/images/teamSocials/linkedin.svg')}/>
+                    },
+                    {
+                      href: 'https://www.facebook.com/rxdxt/',
+                      icon: <img src={require('../../../assets/images/teamSocials/facebook.svg')}/>
                     }
                   ]}/>
               </div>
@@ -105,6 +109,22 @@ const Advisors = (props) => {
                     {
                       href: 'https://www.facebook.com/jason.king.10485/',
                       icon: <img src={require('../../../assets/images/teamSocials/facebook.svg')}/>
+                    }
+                  ]}/>
+              </div>
+            </div>
+
+            <div>
+              <div className={s.slickItem}>
+                <PersonCard
+                  name={t('advisors.members.marcus.name')}
+                  role={t('advisors.members.marcus.position')}
+                  about={t('advisors.members.marcus.bio')}
+                  photoElement={<img src={require('../../../assets/images/photos/marcus.jpg')}/>}
+                  socialNetworks={[
+                    {
+                      href: 'https://www.linkedin.com/in/marcus-killick-obe-85b8376/',
+                      icon: <img src={require('../../../assets/images/teamSocials/linkedin.svg')}/>
                     }
                   ]}/>
               </div>
