@@ -6,6 +6,7 @@ import { UserAgent } from '@quentin-sommer/react-useragent';
 import TermsOfUseLink from '../../resourses/Links/TermsOfUseLink';
 import PrivacyPolicyLink from '../../resourses/Links/PrivacyPolicyLink';
 import TokenAgreementLink from '../../resourses/Links/TokenAgreementLink';
+import BusinessProfileLink from '../../resourses/Links/BusinessProfileLink';
 
 const Legal = (props) => {
   const { t } = props;
@@ -44,6 +45,7 @@ const Legal = (props) => {
             <div className={s.link}><TermsOfUseLink className={s.linkComponent}/></div>
             <div className={s.link}><TokenAgreementLink className={s.linkComponent}/></div>
             <div className={s.link}><PrivacyPolicyLink className={s.linkComponent}/></div>
+            <div className={s.link}><BusinessProfileLink className={s.linkComponent}/></div>
           </div>
         </div>
       </div>

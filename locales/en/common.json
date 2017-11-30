@@ -43,6 +43,10 @@
       "contribGuide": {
         "label": "Contribution Guide",
         "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/contribution_guide_jincor.pdf"
+      },
+      "bProfile": {
+        "label": "Business Profile",
+        "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/business_profile_jincor.pdf"
       }
     },
     "socials": {
@@ -365,15 +369,20 @@
         "position": "Strategic ICO Advisor",
         "bio": "Michael is one of the most legendary characters in crypto environment. Some of his roles include Chairman and Co-founder of BitAngels, the first angel network for crypto startups, a partner at Flight VC and CEO of Transform Group. Terpin is also an investor and advisor to numerous media and technology companies."
       },
-      "marcus": {
-        "name": "Marcus Killick OBE",
-        "position": "Jurisdiction Advisor",
-        "bio": "Marcus Killick (LLb Mphil) is the Non Executive Chairman of the Gibraltar Stock Exchange (GSX).  He is also Chief Executive Officer of ISOLAS LLP law firm and a non executive director of a number of other companies including the Gibraltar International Bank as well as a  Chairperson of the Commission of the Office of Fair Trading."
+      "titus": {
+        "name": "Richard Titus",
+        "position": "Strategy Advisor",
+        "bio": "Richard is an experienced Blockchain Investor and is an active ICO Advisor. In addition to co-founding Ark Advisors, a company dedicated to advising on fundraising and go-to-market strategy, Richard has (co)-founded +11 firms including Razorfish, Schematic, and, most recent, Prompt.ly, that was started in 2013 and sold in 2016 to Breezeworks."
       },
       "king": {
         "name": "Jason King",
         "position": "Tech Advisor",
         "bio": "Jason dedicates most of his time to his project Academy, aimed to build the future of the blockchain by educating the army of programmers on new technologies. He was one of the first in the industry to demonstrate the effect bitcoin could have on charity by founding Unsung.org, an app that aims to leverage the sharing economy to end hunger and food waste."
+      },
+      "marcus": {
+        "name": "Marcus Killick OBE",
+        "position": "Jurisdiction Advisor",
+        "bio": "Marcus Killick (LLb Mphil) is the Non Executive Chairman of the Gibraltar Stock Exchange (GSX).  He is also Chief Executive Officer of ISOLAS LLP law firm and a non executive director of a number of other companies including the Gibraltar International Bank as well as a  Chairperson of the Commission of the Office of Fair Trading."
       },
       "simon": {
         "name": "Simon Cocking",
@@ -414,7 +423,7 @@
     },
     "jincor": {
       "title": "Jincor",
-      "text": "Jincor limited (Private company reg. № HE 366361) Pandoras street, 21, 2nd floor, flat 10 Larnaca, Cyprus 6042."
+      "text": "Jincor Pte. Ltd. (Private comapny reg. № 201734516Z) 176 Joo Chiat road #02-02 Singapore (427447)."
     }
   },
   "subscribe": {

@@ -185,6 +185,19 @@ app.get('/:lang/contribution-guide', (req, res) => {
   request('https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/contribution_guide_jincor.pdf').pipe(res);
 });
 
+// business profile
+app.get('/business-profile', (req, res) => {
+  res.setHeader('Content-Type', 'application/pdf');
+  res.setHeader('Content-Disposition', 'filename=business_profile_jincor.pdf');
+  request('https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/business_profile_jincor.pdf').pipe(res);
+});
+
+app.get('/:lang/business-profile', (req, res) => {
+  res.setHeader('Content-Type', 'application/pdf');
+  res.setHeader('Content-Disposition', 'filename=business_profile_jincor.pdf');
+  request('https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/business_profile_jincor.pdf').pipe(res);
+});
+
 // This is fired every time the server side receives a request
 app.use(handleRender);
 
