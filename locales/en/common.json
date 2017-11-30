@@ -39,6 +39,14 @@
       "agreement": {
         "label": "Token Sale Agreement",
         "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/token_sale_agreement_jincor.pdf"
+      },
+      "contribGuide": {
+        "label": "Contribution Guide",
+        "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/contribution_guide_jincor.pdf"
+      },
+      "bProfile": {
+        "label": "Business Profile",
+        "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/business_profile_jincor.pdf"
       }
     },
     "socials": {
@@ -81,13 +89,26 @@
     }
   },
   "landing": {
-    "title": "Jincor ICO starts on December 1",
+    "title": "Jincor ICO starts on December, 1",
+    "titleIco": "Jincor ICO is live!",
     "subtitle": "Join to build the platform for genuinely simple smart contracts and cryptocurrency transactions for any business.",
     "contribute": "Contribute",
+    "contributeIco": "Contribute now",
     "subscribeButton": "Subscribe",
     "betaButton": "Try beta",
     "telegramButton": "Telegram Us",
-    "godown": "Explore the project"
+    "godown": "Explore the project",
+    "howto": "How to contribute?",
+    "raised": "Raised",
+    "contributors": "Contributors",
+    "sold": "Tokens Sold",
+    "days": "Days to go",
+    "timer": {
+      "day": "Days",
+      "hour": "Hours",
+      "minute": "Minutes",
+      "second": "Seconds"
+    }
   },
   "media": {
     "text": "Jincor is a secure, regulatory compliant and breezy-to-use platform, that will allow any business to work with smart contracts and cryptocurrency payments easily with no legal, technical, or operational complications and in a cost-efficient manner."
@@ -224,8 +245,27 @@
     "team": "Jincor team",
     "crowdsale": "Crowdsale"
   },
+  "legal": {
+    "title": "Legal",
+    "subtitle": "Full transparency.",
+    "text": "Jincor organizational structure includes a parent company incorporated in Cyprus (Jincor Ltd.), its 100% subsidiary operational company in Russia (OOO «Biznes-seti»), 100% subsidiary token sale operational company in Singapore (Jincor Pte. Ltd.) and also SPV for distribution of the option pool to key employees incorporated on British Virgin Islands (Jincor Special Ltd.).",
+    "blocks": {
+      "1": {
+        "val": "Singapore",
+        "label": "Jurisdiction"
+      },
+      "2": {
+        "val": "KYC",
+        "label": "Required verification"
+      },
+      "3": {
+        "val": "Utility",
+        "label": "JCR token"
+      }
+    }
+  },
   "team": {
-    "title": "Executive Team",
+    "title": "Project Team",
     "subtitle": "Who's making it real?",
     "members": {
       "vlad": {
@@ -329,15 +369,20 @@
         "position": "Strategic ICO Advisor",
         "bio": "Michael is one of the most legendary characters in crypto environment. Some of his roles include Chairman and Co-founder of BitAngels, the first angel network for crypto startups, a partner at Flight VC and CEO of Transform Group. Terpin is also an investor and advisor to numerous media and technology companies."
       },
-      "marcus": {
-        "name": "Marcus Killick OBE",
-        "position": "Jurisdiction Advisor",
-        "bio": "Marcus Killick (LLb Mphil) is the Non Executive Chairman of the Gibraltar Stock Exchange (GSX).  He is also Chief Executive Officer of ISOLAS LLP law firm and a non executive director of a number of other companies including the Gibraltar International Bank as well as a  Chairperson of the Commission of the Office of Fair Trading."
+      "titus": {
+        "name": "Richard Titus",
+        "position": "Strategy Advisor",
+        "bio": "Richard is an experienced Blockchain Investor and is an active ICO Advisor. In addition to co-founding Ark Advisors, a company dedicated to advising on fundraising and go-to-market strategy, Richard has (co)-founded +11 firms including Razorfish, Schematic, and, most recent, Prompt.ly, that was started in 2013 and sold in 2016 to Breezeworks."
       },
       "king": {
         "name": "Jason King",
         "position": "Tech Advisor",
         "bio": "Jason dedicates most of his time to his project Academy, aimed to build the future of the blockchain by educating the army of programmers on new technologies. He was one of the first in the industry to demonstrate the effect bitcoin could have on charity by founding Unsung.org, an app that aims to leverage the sharing economy to end hunger and food waste."
+      },
+      "marcus": {
+        "name": "Marcus Killick OBE",
+        "position": "Jurisdiction Advisor",
+        "bio": "Marcus Killick (LLb Mphil) is the Non Executive Chairman of the Gibraltar Stock Exchange (GSX).  He is also Chief Executive Officer of ISOLAS LLP law firm and a non executive director of a number of other companies including the Gibraltar International Bank as well as a  Chairperson of the Commission of the Office of Fair Trading."
       },
       "simon": {
         "name": "Simon Cocking",
@@ -378,7 +423,7 @@
     },
     "jincor": {
       "title": "Jincor",
-      "text": "Jincor limited (Private company reg. № HE 366361) Pandoras street, 21, 2nd floor, flat 10 Larnaca, Cyprus 6042."
+      "text": "Jincor Pte. Ltd. (Private comapny reg. № 201734516Z) 176 Joo Chiat road #02-02 Singapore (427447)."
     }
   },
   "subscribe": {
@@ -488,7 +533,7 @@
       },
       "18": {
         "q": "When and where JCR token will be listed?",
-        "a": "Currently, we are negotiating with several most trustworthy and secure exchanges. Listing on exchanges is scheduled for January 2018, the announcement regarding listing plans will be made during the ICO."
+        "a": "Currently, we are negotiating with several most trustworthy and secure exchanges. Listing on exchanges is scheduled for Febriary 2018, the announcement regarding listing plans will be made during the ICO."
       },
       "19": {
         "q": "What are my risks when investing in you?",

@@ -1,18 +1,14 @@
 import React from 'react';
-// import { connect } from 'react-redux';
 import { translate } from 'react-i18next';
 import s from './styles.scss';
 
-// import { openSubscribe } from '../../../redux/modules/common/subscribe';
-
-// import Button from '../../common/Button';
-
 const LandingSection = (props) => {
-  const { t } = props;
+  const { t, countdown, utm } = props;
 
-  // <div className={s.button}>
-  //   <Button style="blue" onClick={() => openSubscribe()}>{t('landing.subscribeButton')}</Button>
-  // </div>
+  const seconds = Math.floor((countdown) % 60);
+  const minutes = Math.floor((countdown / 60) % 60);
+  const hours = Math.floor((countdown / (60 * 60)) % 24);
+  const days = Math.floor(countdown / (60 * 60 * 24));
 
   return (
     <div className={s.landing}>
@@ -23,12 +19,41 @@ const LandingSection = (props) => {
 
         <div className={s.buttons}>
           <div className={s.button}>
-            <a className={s.primaryLink} href="https://contribute.jincor.com">{t('landing.contribute')}</a>
+            <a className={s.primaryLink} href={`https://contribute.jincor.com/auth/signup${utm}`}>{t('landing.contribute')}</a>
           </div>
           <div className={s.button}>
             <a className={s.link} href={t('links.socials.telegram.href')}>
               <img className={s.telegramButton} src={require('../../../assets/images/common/telegramButton.svg')}/>
               {t('landing.telegramButton')}
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className={s.pane}>
+        <div className={s.paneWrap}>
+          <div className={s.center}>
+            {days >= 1 ? <div className={s.block}>
+              <div className={s.val}>{days}</div>
+              <div className={s.label}>{t('landing.timer.day')}</div>
+            </div> : null}
+            <div className={s.block}>
+              <div className={s.val}>{hours}</div>
+              <div className={s.label}>{t('landing.timer.hour')}</div>
+            </div>
+            <div className={s.block}>
+              <div className={s.val}>{minutes}</div>
+              <div className={s.label}>{t('landing.timer.minute')}</div>
+            </div>
+            <div className={s.block}>
+              <div className={s.val}>{seconds}</div>
+              <div className={s.label}>{t('landing.timer.second')}</div>
+            </div>
+          </div>
+          <div className={s.pullRight}>
+            <a href="https://www.youtube.com/watch?v=3lq5IoXqo2k" target="_blank" rel="nofollow">
+              <img src={require('./images/playVideo.svg')}/>
+              {t('landing.howto')}
             </a>
           </div>
         </div>
