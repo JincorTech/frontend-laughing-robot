@@ -30,7 +30,7 @@ import Notifications from '../../../components/landingPage/Notifications';
 import MobileNavigation from '../../../components/common/MobileNavigation';
 
 const LandingPage = (props) => {
-  const { t, isBetaOpen, isSubscribeOpen, isMobileNavOpen } = props;
+  const { t, location, isBetaOpen, isSubscribeOpen, isMobileNavOpen } = props;
 
   const isAnyPopupOpen = () => isBetaOpen || isSubscribeOpen || isMobileNavOpen;
 
@@ -44,8 +44,8 @@ const LandingPage = (props) => {
         </HelmetBase>
         <UserAgent computer><Header/></UserAgent>
         <UserAgent mobile><MobileHeader/></UserAgent>
-        <UserAgent computer><FixedMenu/></UserAgent>
-        <Scroll.Element name="landingSection" id="landing"><LandingSwitcher/></Scroll.Element>
+        <UserAgent computer><FixedMenu utm={location.search}/></UserAgent>
+        <Scroll.Element name="landingSection" id="landing"><LandingSwitcher utm={location.search}/></Scroll.Element>
         <Scroll.Element name="mediaSection" id="media"><Media/></Scroll.Element>
         <Scroll.Element name="resourcesSection" id="resources"><Resources/></Scroll.Element>
         <Scroll.Element name="aboutSection" id="about"><AboutSection/></Scroll.Element>

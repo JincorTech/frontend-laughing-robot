@@ -3,7 +3,7 @@ import { translate } from 'react-i18next';
 import s from './styles.scss';
 
 const LandingSection = (props) => {
-  const { t, countdown } = props;
+  const { t, countdown, utm } = props;
 
   const seconds = Math.floor((countdown) % 60);
   const minutes = Math.floor((countdown / 60) % 60);
@@ -19,7 +19,7 @@ const LandingSection = (props) => {
 
         <div className={s.buttons}>
           <div className={s.button}>
-            <a className={s.primaryLink} href="https://contribute.jincor.com">{t('landing.contribute')}</a>
+            <a className={s.primaryLink} href={`https://contribute.jincor.com/auth/signup${utm}`}>{t('landing.contribute')}</a>
           </div>
           <div className={s.button}>
             <a className={s.link} href={t('links.socials.telegram.href')}>

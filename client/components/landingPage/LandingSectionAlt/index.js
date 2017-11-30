@@ -3,7 +3,7 @@ import { translate } from 'react-i18next';
 import s from './styles.scss';
 
 const LandingSection = (props) => {
-  const { t } = props;
+  const { t, utm } = props;
 
   return (
     <div className={s.landing}>
@@ -14,7 +14,7 @@ const LandingSection = (props) => {
 
         <div className={s.buttons}>
           <div className={s.button}>
-            <a className={s.primaryLink} href="https://contribute.jincor.com">{t('landing.contributeIco')}</a>
+            <a className={s.primaryLink} href={`https://contribute.jincor.com/auth/signup${utm}`}>{t('landing.contributeIco')}</a>
           </div>
         </div>
       </div>

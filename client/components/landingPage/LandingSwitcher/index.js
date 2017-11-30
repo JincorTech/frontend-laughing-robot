@@ -44,8 +44,9 @@ class LandingSwitcher extends Component {
 
   render() {
     const { started, countdown } = this.state;
+    const { utm } = this.props;
 
-    return started ? <LandingSectionAlt/> : <LandingSection countdown={countdown}/>;
+    return started ? <LandingSectionAlt utm={utm}/> : <LandingSection utm={utm} countdown={countdown}/>;
   }
 }
 
