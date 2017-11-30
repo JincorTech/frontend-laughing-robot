@@ -22,8 +22,10 @@ class LandingSwitcher extends Component {
     const countdown = this._getCountdown();
     this.setState({ countdown });
 
-    if (countdown > -3000) {
+    if (countdown > 0) {
       setInterval(this._tick, 1000);
+    } else {
+      this.setState({ started: true });
     }
   }
 
