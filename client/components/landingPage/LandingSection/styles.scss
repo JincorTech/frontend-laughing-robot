@@ -244,6 +244,16 @@
     color: #fff;
     text-decoration: none;
     cursor: pointer;
+
+    & img {
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 12px;
+      height: 24px;
+      width: 24px;
+      position: relative;
+      top: -1px;
+    }
   }
 
   @media only screen and (max-width: 480px) {
