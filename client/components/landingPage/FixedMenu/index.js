@@ -8,7 +8,6 @@ import i18next from '../../../utils/i18next/client';
 import { isBrowser } from '../../../utils/common';
 
 import { changeLanguage } from '../../../redux/modules/app/i18next';
-import { openBeta } from '../../../redux/modules/common/beta';
 
 import Scroll from 'react-scroll';
 import SLink from '../../common/SLink';
@@ -61,7 +60,7 @@ class FixedMenu extends Component {
   render() {
     const { visible } = this.state;
 
-    const { changeLanguage, location, openBeta, utm, t } = this.props;
+    const { changeLanguage, location, utm, t } = this.props;
     const { pathname } = location;
     const selectZh = () => changeLanguage({ lang: 'zh', pathname });
     const selectEn = () => changeLanguage({ lang: 'en', pathname });
@@ -154,7 +153,7 @@ class FixedMenu extends Component {
 
           <div className={s.buttons}>
             <div className={s.contrib}>
-              <a className={s.secondaryButton} onClick={() => openBeta()}>{t('landing.betaButton')}</a>
+              <a className={s.secondaryButton} href="https://beta.jincor.com/">{t('landing.betaButton')}</a>
               <a className={s.button} href={`https://contribute.jincor.com/auth/signup${utm}`}>{t('landing.contribute')}</a>
             </div>
           </div>
@@ -169,7 +168,6 @@ const TranslatedComponent = translate()(WithRouterComponent);
 export default connect(
   () => ({}),
   {
-    changeLanguage,
-    openBeta
+    changeLanguage
   }
 )(TranslatedComponent);
