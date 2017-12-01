@@ -6,7 +6,6 @@ import s from './styles.scss';
 import i18next from '../../../utils/i18next/client';
 
 import { changeLanguage } from '../../../redux/modules/app/i18next';
-import { openBeta } from '../../../redux/modules/common/beta';
 
 import Scroll from 'react-scroll';
 import SLink from '../../common/SLink';
@@ -14,7 +13,7 @@ import WhitePaperLink from '../../resourses/Links/WhitePaperLink';
 import Dropdown from '../../common/Dropdown';
 
 const Header = (props) => {
-  const { changeLanguage, openBeta, location, t } = props;
+  const { changeLanguage, location, t } = props;
   const { pathname } = location;
   const selectZh = () => changeLanguage({ lang: 'zh', pathname });
   const selectEn = () => changeLanguage({ lang: 'en', pathname });
@@ -101,7 +100,7 @@ const Header = (props) => {
           </div>
 
           <div className={s.beta}>
-            <a className={s.secondaryButton} onClick={() => openBeta()}>{t('landing.betaButton')}</a>
+            <a className={s.secondaryButton} href="https://beta.jincor.com/">{t('landing.betaButton')}</a>
           </div>
         </div>
       </div>
@@ -114,7 +113,6 @@ const TranslatedComponent = translate()(WithRouterComponent);
 export default connect(
   () => ({}),
   {
-    changeLanguage,
-    openBeta
+    changeLanguage
   }
 )(TranslatedComponent);
