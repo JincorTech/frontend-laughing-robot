@@ -16,15 +16,42 @@ import Dropdown from '../../common/Dropdown';
 const Header = (props) => {
   const { changeLanguage, openBeta, location, t } = props;
   const { pathname } = location;
-  const selectRu = () => changeLanguage({ lang: 'ru', pathname });
+  const selectZh = () => changeLanguage({ lang: 'zh', pathname });
   const selectEn = () => changeLanguage({ lang: 'en', pathname });
+  const selectEs = () => changeLanguage({ lang: 'es', pathname });
+  const selectHi = () => changeLanguage({ lang: 'hi', pathname });
+  const selectIt = () => changeLanguage({ lang: 'it', pathname });
+  const selectJa = () => changeLanguage({ lang: 'ja', pathname });
+  const selectKo = () => changeLanguage({ lang: 'ko', pathname });
+  const selectPl = () => changeLanguage({ lang: 'pl', pathname });
+  const selectPt = () => changeLanguage({ lang: 'pt', pathname });
+  const selectRo = () => changeLanguage({ lang: 'ro', pathname });
+  const selectRu = () => changeLanguage({ lang: 'ru', pathname });
 
   const getCurrentLang = () => {
     switch (i18next.language) {
-      case 'ru':
-        return <a className={s.linkInner}>Рус <img src={require('../../../assets/images/common/dropdownArrow.svg')}/></a>;
+      case 'zh':
+        return <a className={s.linkInner}>Chi <img src={require('../../../assets/images/common/dropdownArrow.svg')}/></a>;
       case 'en':
         return <a className={s.linkInner}>Eng <img src={require('../../../assets/images/common/dropdownArrow.svg')}/></a>;
+      case 'es':
+        return <a className={s.linkInner}>Esp <img src={require('../../../assets/images/common/dropdownArrow.svg')}/></a>;
+      case 'hi':
+        return <a className={s.linkInner}>Hin <img src={require('../../../assets/images/common/dropdownArrow.svg')}/></a>;
+      case 'it':
+        return <a className={s.linkInner}>Ita <img src={require('../../../assets/images/common/dropdownArrow.svg')}/></a>;
+      case 'ja':
+        return <a className={s.linkInner}>Jpn <img src={require('../../../assets/images/common/dropdownArrow.svg')}/></a>;
+      case 'ko':
+        return <a className={s.linkInner}>Kor <img src={require('../../../assets/images/common/dropdownArrow.svg')}/></a>;
+      case 'pl':
+        return <a className={s.linkInner}>Pol <img src={require('../../../assets/images/common/dropdownArrow.svg')}/></a>;
+      case 'pt':
+        return <a className={s.linkInner}>Por <img src={require('../../../assets/images/common/dropdownArrow.svg')}/></a>;
+      case 'ro':
+        return <a className={s.linkInner}>Rum <img src={require('../../../assets/images/common/dropdownArrow.svg')}/></a>;
+      case 'ru':
+        return <a className={s.linkInner}>Rus <img src={require('../../../assets/images/common/dropdownArrow.svg')}/></a>;
       default:
         return <a className={s.linkInner}>Eng <img src={require('../../../assets/images/common/dropdownArrow.svg')}/></a>;
     }
@@ -60,7 +87,16 @@ const Header = (props) => {
               button={getCurrentLang()}
               dropdown={[
                 <a className={s.ddLink} key="lang.header.en" onClick={() => selectEn()}>English</a>,
-                <a className={s.ddLink} key="lang.header.ru" onClick={() => selectRu()}>Русский</a>
+                <a className={s.ddLink} key="lang.header.es" onClick={() => selectEs()}>Español</a>,
+                <a className={s.ddLink} key="lang.header.pt" onClick={() => selectPt()}>Portugues</a>,
+                <a className={s.ddLink} key="lang.header.ko" onClick={() => selectKo()}>한국어</a>,
+                <a className={s.ddLink} key="lang.header.ru" onClick={() => selectRu()}>Русский</a>,
+                <a className={s.ddLink} key="lang.header.zh" onClick={() => selectZh()}>中國</a>,
+                <a className={s.ddLink} key="lang.header.hi" onClick={() => selectHi()}>हिन्दी</a>,
+                <a className={s.ddLink} key="lang.header.ja" onClick={() => selectJa()}>日本語</a>,
+                <a className={s.ddLink} key="lang.header.it" onClick={() => selectIt()}>Italiano</a>,
+                <a className={s.ddLink} key="lang.header.pl" onClick={() => selectPl()}>Polonês</a>,
+                <a className={s.ddLink} key="lang.header.ro" onClick={() => selectRo()}>Românesc</a>
               ]}/>
           </div>
 

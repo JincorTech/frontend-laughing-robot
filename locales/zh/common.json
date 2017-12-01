@@ -1,0 +1,617 @@
+{
+	"lang": "zh",
+	"head": {
+		"title": "Jincor — 面向商业的智能合约及加密货币的支付",
+		"description": "作为为任何企业挥发智能合约及加密货币交易的潜在实力的第一大步",
+		"keywords": "区块链、加密货币、智能合约、智能合约区块链、区块链ICO",
+		"ogimage": "https://s3.eu-west-2.amazonaws.com/jincor-ico/landing_en.png"
+	},
+	"links": {
+		"resourses": {
+			"whitepaper": {
+				"label": "白皮书",
+				"href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/whitepaper_jincor.pdf"
+			},
+			"techpaper": {
+				"label": "技术文件",
+				"href": ""
+			},
+			"bsummary": {
+				"label": "商业简介",
+				"href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/business_summary_jincor.pdf"
+			},
+			"tou": {
+				"label": "使用条款",
+				"href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/terms_of_use_jincor.pdf"
+			},
+			"disclaimer": {
+				"label": "声明",
+				"href": ""
+			},
+			"privacy": {
+				"label": "隐私政策",
+				"href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/privacy_policy_jincor.pdf"
+			},
+			"guidelines": {
+				"label": "品牌资源",
+				"href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/brand_resources_jincor.pdf"
+			},
+			"agreement": {
+				"label": "Token Sale Agreement",
+				"href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/token_sale_agreement_jincor.pdf"
+			},
+			"contribGuide": {
+				"label": "贡献指南",
+				"href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/contribution_guide_jincor.pdf"
+			},
+  		"bProfile": {
+        "label": "Business Profile",
+        "href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/business_profile_jincor.pdf"
+      }
+		},
+		"socials": {
+			"telegram": {
+				"href": "http://t.me/jincorICOeng"
+			},
+			"reddit": {
+				"href": "https://www.reddit.com/r/Jincor/"
+			},
+			"medium": {
+				"href": "https://blog.jincor.com/"
+			},
+			"twitter": {
+				"href": "https://twitter.com/jincor_ico"
+			},
+			"facebook": {
+				"href": "https://www.facebook.com/jincorlimited"
+			},
+			"github": {
+				"href": "https://github.com/jincortech"
+			}
+		},
+		"nav": {
+			"vision": {
+				"label": "愿景"
+			},
+			"crowdsale": {
+				"label": "众筹"
+			},
+			"team": {
+				"label": "团队"
+			},
+			"community": {
+				"label": "联络"
+			},
+			"blog": {
+				"label": "部落格",
+				"href": "https://blog.jincor.com/"
+			}
+		}
+	},
+	"landing": {
+		"title": "Jincor ICO 于12月1日开始",
+		"titleIco": "Jincor ICO is live!",
+		"subtitle": "加入到包含面向商业的简约智能合约及加密货币交易的平台。",
+		"contribute": "投资",
+		"contributeIco": "Contribute now",
+		"subscribeButton": "订阅",
+		"betaButton": "申请beta版本",
+		"telegramButton": "电报",
+		"godown": "了解项目",
+		"howto": "How to contribute?",
+		"raised": "Raised",
+		"contributors": "Contributors",
+		"sold": "Tokens Sold",
+		"days": "Days to go",
+		"timer": {
+			"day": "Days",
+			"hour": "Hours",
+			"minute": "Minutes",
+			"second": "Seconds"
+		}
+		},
+		"media": {
+			"text": "Jincor是一个安全、兼容监管及易于使用的平台，允许任何商业简易并合算地使用智能合约及加密货币支付方案，而且不需要经过复杂的法律、技术或运营过程。"
+		},
+		"resources": {
+			"title": "资源",
+			"subtitle": "了解更多关于Jincor"
+		},
+		"about": {
+			"title": "Jincor是什么？",
+			"subtitle": "宏大愿景",
+			"text": "现有的方案一次只能解决一个问题，而我们的团队正打造一个有用、安全、兼容监管、并易于使用、基于私人区块链的产品。它将包含符合个别商业及所在国家立法的智能合约模板、简易加密货币支付集成、甚至是数码仲裁系统以为关系到智能合约表现的不清楚时间做出正确的判断。最后，Jincor旨在整合所有公司、员工及商业资产到一个统一的区块链生态系统，使得商业关系达到真正的快速、透明、效率并可靠。",
+			"video": "观看影片"
+		},
+		"cases": {
+			"title": "使用案例",
+			"more": "了解更多",
+			"preview": {
+				"1": {
+					"title": "合法的加密资产商业交易",
+					"text": "一个最近来自Cambridge University的研究指出。预计在2017年全球有介于290万到580万人使用加密货币钱包。也有着超过100,000零售商，包括例如Microsoft，PayPal，DISH Network，Intuit，及Overstock这些大型公司，他们都相信比特币足以作为一种支付方式。。。"
+				},
+				"2": {
+					"title": "具有法律约束力的智能合约",
+					"text": "对商业来说，智能合约是一个非常合算的工具，因为它们明显地降低了会计费用，增加与对手之间的信任，同时消除人为错误。依据最近来自Accenture的研究，在2017年初发布，单单投资银行可以通过智能合约及区块链的使用，每年节省高达$120亿。。。"
+				},
+				"3": {
+					"title": "去中心化仲裁系统",
+					"text": "实际立法基础的缺乏似乎是最明显将阻止智能合约及加密货币扩大采用率的挑战。根据来自Bitlegal的数据显示，全球只有62个国家为区块链技术进行监管。。。"
+				}
+			},
+			"full": {
+				"1": {
+					"title": "合法的加密资产商业交易",
+					"subtitle": "",
+					"text": "<p>一个最近来自Cambridge University的研究指出。预计在2017年全球有介于290万到580万人使用加密货币钱包。也有着超过100,000零售商，包括例如Microsoft，PayPal，DISH Network，Intuit，及Overstock这些大型公司，他们都相信比特币足以作为一种支付方式。而且这些都不足以为奇：在商业上使用加密货币意味着更低的交易费用、快速的处理速度及舞弊问题的消灭。但是，大部分的公司无法在企业间使用此技术 - 加密货币交易关系到匿名，对于企业的税收及会计完全没有帮助。在Jincor，公司将可以是哟个受认证的数码钱包进行透明且可侦查的b2b（商业对商业）加密货币支付，通过”了解您的客户”原则确切的知道钱付给了谁。</p>"
+				},
+				"2": {
+					"title": "易于使用并具有法律约束力的智能合约",
+					"subtitle": "",
+					"text": "<p>对商业来说，智能合约是一个非常合算的工具，因为它们明显地降低了会计费用，增加与对手之间的信任，同时消除人为错误。依据最近来自Accenture的研究，在2017年初发布，单单投资银行可以通过智能合约及区块链的使用，每年节省高达$120亿。但是，许多中小型企业依然因智能合约的昂贵及技术复杂而无法实现此技术。为了解决这个问题，Jincor将提供企业智能合约模板，这将降低实现所需的费用，从如今的$5,000 - $7,000（只需要看区块链开发者的薪水并考虑到智能合约编码及安全测试需要花费一位专业人士许多的工作时间），只需要去除确实的去编码的需要，并让无技术背景的用户来说都能简易地制作，便能将费用降低至每份合约$100-500</p>"
+				},
+				"3": {
+					"title": "去中心化仲裁系统",
+					"subtitle": "",
+					"text": "<p>实际立法基础的缺乏似乎是最明显将阻止智能合约及加密货币扩大采用率的挑战。根据来自Bitlegal的数据显示，全球只有62个国家为区块链技术进行监管，但智能合约依然不被清楚地，广为人知的规则控制。简单来说，这意味着若您与商业合伙人签了合约，而您对他的举动感到不满，您并无法维护您的权益，因为合约是全自动的，并没有法庭或监管组织参与其中。Jincor通过提供一个去中心化仲裁系统解决了此问题，让组织可以为智能合约的表现提出索赔，并得到一个来自多个仲裁人公正的裁决，这些仲裁人是从那些使用平台时表现出良好声誉的公司随机选出。</p>"
+				}
+			}
+		},
+		"roadmap": {
+			"title": "路线图",
+			"subtitle": "那我们的前方有什么？",
+			"blocks": {
+				"1": {
+					"date": "2017年7月",
+					"what": "做出封闭式Beta测试，启动预先ICO活动。"
+				},
+				"2": {
+					"date": "2017年8月",
+					"label": "预售",
+					"what": "发行JCR代币到以太坊区块链"
+				},
+				"3": {
+					"date": "2017年10月",
+					"what": "准备启动公开Beta。开发基本的智能合约雇佣模板。"
+				},
+				"4": {
+					"date": "2017年11月",
+					"label": "ICO",
+					"what": "实现发票及计费系统。频道合伙人活动开始。Open Beta有超过200间公司。"
+				},
+				"5": {
+					"date": "2017年12月",
+					"what": "举办众筹活动，超过500间公司参与了公开Beta。"
+				},
+				"6": {
+					"date": "2018年2月",
+					"what": "完成众筹活动并在支持者间分发JCR代币。日本市场扩展及建立本地合伙关系。超过1000间公司参与公开Beta。"
+				},
+				"7": {
+					"date": "2018年3月",
+					"what": "在交易平台上架。企业身份验证。在欧洲及亚洲开启营销活动。"
+				},
+				"8": {
+					"date": "2018年4月",
+					"what": "增加企业应用程序的集成，B2B加密支付。在公开Beta有超过5000间公司。"
+				},
+				"9": {
+					"date": "2018第三季度",
+					"what": "在公开Beta有超过10000间公司。企业多重签名钱包，区块链资产交易，B2E（商业对员工）支付等。"
+				},
+				"10": {
+					"date": "2018年第四季度",
+					"what": "企业智能合约，去中心化仲裁系统，基于区块链的企业管理。"
+				}
+			}
+		},
+		"crowdsale": {
+			"title": "众筹",
+			"subtitle": "Jincor的ICO一览。",
+			"text": "为了要完全释放Jincor生态系统的潜质，获得关键企业的参与并尽早接触各大全球市场，我们计划通过ICO活动筹获额外资金。我们已发行35,000,000 JVR代币，其中4%在8月的预先ICO售出，而76%则将在11月的ICO销售，以起始价$1 。因此，我们计划筹获的总资金为$2700万。JCR代币将作为Jincor商业模式的一部分，同时作为所有在平台上的服务的原生货币。",
+			"blocks": {
+				"1": {
+					"label": "代币",
+					"val": "JCR (ERC20)"
+				},
+				"2": {
+					"label": "平台",
+					"val": "以太坊"
+				},
+				"3": {
+					"label": "总供应量",
+					"val": "3500万 JCR"
+				},
+				"4": {
+					"label": "硬项",
+					"val": "$2660万"
+				},
+				"5": {
+					"label": "软项",
+					"val": "$250万"
+				},
+				"6": {
+					"label": "ICO 时间点",
+					"val": "12月1日 - 1月31日"
+				}
+			}
+		},
+		"distribution": {
+			"title": "代币分配",
+			"presale": "预售",
+			"incentives": "刺激",
+			"team": "Jincor团队",
+			"crowdsale": "众筹"
+		},
+		"legal": {
+			"title": "Legal",
+			"subtitle": "Full transparency.",
+			"text": "Jincor的组织结构包括一个纳入Cyprus（Jincor Ltd.）的子公司，它在俄罗斯100%附属业务（«Biznes-seti» LLC），在新加坡的100%代币销售附属业务（Jincor Pte. Ltd.）及位于British Virgin Islands负责分配期权池给主要雇员的SPV（Jincor Special Ltd.）。",
+			"blocks": {
+				"1": {
+					"val": "Singapore",
+					"label": "Jurisdiction"
+				},
+				"2": {
+					"val": "KYC",
+					"label": "Required verification"
+				},
+				"3": {
+					"val": "Utility",
+					"label": "JCR token"
+				}
+			}
+		},
+		"team": {
+			"title": "执行团队",
+			"subtitle": "是谁实现了它？",
+			"members": {
+				"vlad": {
+					"name": "Vlad Kirichenko",
+					"position": "首席执行官 & 联合创始人",
+					"bio": "Vlad是一位联合创始人，也是位技术宣传者。Vlad已从俄罗斯政府旗下的Financial University毕业，并持有金融学士学位，拥有超过5年的成功企业家经验。在Jincor，他专注于策略计划，商业开发及管理产品开发。"
+				},
+				"vagan": {
+					"name": "Vagan Abelyan",
+					"position": "首席运营官 & 联合创始人",
+					"bio": "Vagan是项目的联合创始人。他负责策略性问题，包括团队管理，拉拢投资者并与其谈判。Vagan自毕业于Financial University后便成了企业家。他在金融及企业管理有着丰富的专业知识。"
+				},
+				"andrey": {
+					"name": "Andrey Degtyaruk",
+					"position": "首席技术官 & 区块链专家",
+					"bio": "Andrey是一位热情的开发者，他也是一位技术团队里优秀的领导。Andrey拥有8年的商业开发经验，他也曾为俄罗斯及其他国家的新兴公司工作，这些公司包括Lifeboat Network，BrainySoft（Skolkovo）及一个国际商业孵化器Rocket Internet。他有着区块链技术的专业知识。"
+				},
+				"nastya": {
+					"name": "Anastasia Balashova",
+					"position": "营销主管",
+					"bio": "Anastasia负责公司里的营销策略。她将Jincor的复杂想法转换成简而易懂的故事。Anastasia在交际及营销有着深厚的经验。：她的历史有传统品牌 - Avon、SAP、DuPont、Evernote - 及区块链新兴公司，如KICKICO。"
+				},
+				"gega": {
+					"name": "George Paliani",
+					"position": "国际大使",
+					"bio": "George是Jincor在全球场面的主要代表人。他有着优良的谈判技术及资深的政府结构与咨询经纪人的经验。George精通6种语言 - 俄语、英语、西班牙语、德语、瑞典及格鲁吉亚的语言 - 他也获得了历史的博士学位。他是学术研究的作者及一位政治家。"
+				},
+				"aidar": {
+					"name": "Aidar Ibatullin",
+					"position": "前端工程师",
+					"bio": "Aidar是一位有经验的客户端服务程序开发者。他曾为Volkswagen、Bently、IMAX等的项目工作。在Jincor，Aidar负责关于产品的客户界面及信息页面。他对他的工作非常的热情，并且也顺应着前端开发的趋势。"
+				},
+				"artem": {
+					"name": "Artem Pikulin",
+					"position": "后端工程师",
+					"bio": "Artem是一位有天分的开发者，有着各种信息技术经验。他的长处是代码测试。在Jincor，Artem负责以多种语言开发多个微服务，同时也参与到ICO智能合约代码的编写。他喜爱他的工作，他也活跃于信息技术及区块链社区趋势的讨论。"
+				},
+				"alexandr_s": {
+					"name": "Alexandr Sedelnikov",
+					"position": "后端工程师",
+					"bio": "Alexander是一位有着超过8年经验的后端开发者，有着强大的技术及科学背景，其中包括在Intel及Parrallels的工作。在著名语言、框架及区块链技术有着相当的知识，这些知识将帮助他通过各种不同的结构建造设计良好并已文件化的程序。"
+				},
+				"alexandr_i": {
+					"name": "Alexandr Isaev",
+					"position": "前端工程师",
+					"bio": "Alexandr是位软件开发者，在企业部分有着超过5年的经验。他于来自Povolzhie的PSUTI以“计算软件及自动化系统”学士学位毕业。曾在多个俄罗斯及国外的大型商业性项目团队作为一名开发主管，也包括在Microsoft的一个职位。"
+				},
+				"alexandr_sh": {
+					"name": "Alexandr Shaikhanov",
+					"position": "后端工程师",
+					"bio": "Alexandr在企业级软件有着超过4年的经验。他毕业于Chelyabinskiy State University，并持有计算机科学的学士学位。Alenxandr参与了从游戏到金融解决方案的各种项目。他致力于阅读即将到来的科技并利用他的知识做出实际的实验。"
+				},
+				"khasan": {
+					"name": "Khasan Erkenov",
+					"position": "设计总监",
+					"bio": "Khasan是一位有经验的设计总监。McKinsey、Bauer及其他全球知名公司的项目的作者。热衷于区块链技术及手机产品。在Jincor，他负责产品的概念及设计。领导平面设计部门。"
+				},
+				"ivan": {
+					"name": "Ivan Krestov",
+					"position": "平面设计师",
+					"bio": "Ivan是一位有天分的设计师，在数码方面有着资深的经验。他曾为俄罗斯及美国的各大公司工作，也有着能够做出令人惊讶的项目所需的完整技术。Ivan因创新的科技及它们如何改变人们的生活受到启发。在Jincor他负责营销资源的设计及插图。"
+				},
+				"alexandra_s": {
+					"name": "Alexandra Samuilkina",
+					"position": "公关经理",
+					"bio": "Alexandra是一位在俄罗斯商业媒体的天才记者，他也专业于加密货币及区块链技术。拥有着来自Lomonosov Moscow State University的新闻学士学位。在Jincor她负责媒体报道及内容管理。"
+				},
+				"anton_a": {
+					"name": "Anton Atsekhovskyy",
+					"position": "数码营销",
+					"bio": "Anton - 超过7年的经验于数码营销。他相信营销值得他花费时间去增长专长及获取新技术。Anton的历史工作记录包括在信息技术、运输、交易等方面的项目。他在Jincor的责任是在社交媒体、搜索引擎及媒体市场宣传平台。"
+				},
+				"anton_l": {
+					"name": "Anton Lysakov",
+					"position": "社区管理人",
+					"bio": "Anton - 加密爱好者、投资者及宣传者。经验于管理B2B客服团队，为几百个来自全球的公司服务。有着来自Tomsk Polytechnic University的核物理学学士学位。在Jincor，他负责社区的管理及宣传项目的任务。"
+				},
+				"vlad_b": {
+					"name": "Vlad Belousov",
+					"position": "社区管理人",
+					"bio": "Vladislav是一位优秀的B2B客服专家。他经验于30个商业性项目的集成与维持。他毕业于Tomsk State University的系统控制及无线电电子。他与Anton Lysakov一同管理社区并宣传Jincor的目标。"
+				},
+				"inna": {
+					"name": "Inna Malakhova",
+					"position": "会计主管",
+					"bio": "Inna毕业于Plekhanov University及Presidential University，持有硕士学位。在会计及金融管理有着超过10年的经验。她负责Jincor的金融策划，资本管理，文件，金融及税务报告。Inna也有建立公司政策的技能，而且也实践于人力资源管理。"
+				},
+				"alexandra_se": {
+					"name": "Alexandra Anna Serebrennikova",
+					"position": "投资者关系",
+					"bio": "Alexandra Anna与投资者及潜在合伙人进行联络，并在国际舞台与George Paliani一同代表Jincor。她在Russian Presidential Academy获得了BA项目管理，精通三种语言并热衷于信息技术，同时也在加入Jincor之前在其他信息技术新兴公司工作。"
+				}
+			}
+		},
+		"advisors": {
+			"title": "咨询委员会",
+			"subtitle": "了解关于我们的相关知识的支持者。",
+			"members": {
+				"michael": {
+					"name": "Michael Terpin",
+					"position": "策略性ICO顾问",
+					"bio": "Michael是其中一位在加密圈最传奇的人物。他的一些职责包括BitAngels的主席及联合创始人，BitAngels是首个面向加密新兴公司的天使网络。他也是Flight VC的合伙人，及Transform Group的首席执行官。Terpin也是多个媒体及科技公司的投资者及顾问。"
+				},
+				"marcus": {
+					"name": "Marcus Killick OBE",
+					"position": "司法顾问",
+					"bio": "Marcus Killick （LLb Mphil）是Gibraltar Stock Exchange（GSX）的非执行主席。他也是ISOLAS LLP法律事务所的首席执行官及其他公司，包括Gibraltar International Bank的非执行董事。他也是Commission of the Office of Fair Trading的主席。"
+				},
+				"titus": {
+	        "name": "Richard Titus",
+	        "position": "Strategy Advisor",
+	        "bio": "理查德是一位经验丰富的区块链投资者，并且是活跃的ICO顾问。 除了联合创立方舟顾问公司（Ark Advisors），一家专门为筹款和上市策略提供建议的公司之外，Richard还有（共同）创立了11家公司，包括Razorfish，Schematic和最近的Prompt.ly，那是 于2013年开始，并于2016年出售给Breezeworks。"
+	      },
+				"king": {
+					"name": "Jason King",
+					"position": "Tech Advisor",
+					"bio": "Jason贡献出大部分的时间在他的学院项目Academy，通过教育程序员关于最新的科技，建立起区块链的未来。他曾以Unsung .org成为市场上其中一个最早证明出比特币可为慈善带来的改变，Unsung.org是一个专注于共享经济的应用程序，旨在消灭饥饿及食物浪费的问题。"
+				},
+				"simon": {
+					"name": "Simon Cocking",
+					"position": "媒体与国际合伙关系顾问",
+					"bio": "Simon是一位在Irish Tech News高级编辑，他也是Sunday Business Post、Irish Times及其他出版物的自由职业者。他是一位在各大活动的公众演讲者，这些活动包括TEDx、Web Summit等。凭着超过110,000为推特粉丝及11,000LinkedIn关联者，他也是其中一位关键的金融科技影响者。"
+				},
+				"stas": {
+					"name": "Stas Kolesnichenko",
+					"position": "法律顾问",
+					"bio": "Stas是一位策略开发及金融的专家。他在KPMG开始了他的事业，在Fast Lane Ventures及Viamedix的执行者，他也曾负责俄罗斯Dentsu Aegis Network的商业开。他在Tel Aviv University获得了策略管理及企业治理（HSE）硕士学位。"
+				},
+				"tomas": {
+					"name": "Tomas Kärner",
+					"position": "法律顾问",
+					"bio": "Tomas是一位世界级的专家，他作为商业及政府方面，包括IKEA、Swedish Trade及俄罗斯的Investment Council、MLB Advisory（咨询经纪人）的执行者，共有着超过20年的经验。他也在法律、策略性开发及政府关系有着丰富的经验。"
+				}
+			}
+		},
+		"community": {
+			"title": "参与我们不断成长的社区！",
+			"subtitle": "跟随我们并订阅最新关于即将到来的ICO的咨询。",
+			"button": "订阅"
+		},
+		"footer": {
+			"product": {
+				"title": "产品",
+				"faq": "常见问题",
+				"cases": "使用案例",
+				"crowdsale": "众筹",
+				"team": "执行团队",
+				"advisors": "咨询委员会"
+			},
+			"resourses": {
+				"title": "资源"
+			},
+			"legal": {
+				"title": "法律"
+			},
+			"jincor": {
+				"title": "Jincor",
+				"text": "Jincor limited (Private company reg. № HE 366361) Pandoras street, 21, 2nd floor, flat 10 Larnaca, Cyprus 6042."
+			}
+		},
+		"subscribe": {
+			"title": "获得更新",
+			"email": "电子邮件",
+			"accept": "订阅"
+		},
+		"beta": {
+			"title": "申请beta",
+			"name": "您的名字",
+			"company": "公司名字",
+			"position": "职位",
+			"email": "电子邮件",
+			"accept": "申请"
+		},
+		"window": {
+			"cancel": "取消"
+		},
+		"notifications": {
+			"emailEmpty": "请填入您的电子邮件",
+			"nameEmpty": "请让我们知道您的名字",
+			"companyEmpty": "您的公司是什么？",
+			"positionEmpty": "您的职位是什么？",
+			"emailIncorrect": "电子邮件有误",
+			"emailTaken": "电子邮件已被注册",
+			"success": "感谢您进行注册！",
+			"failure": "出了些问题"
+		},
+		"faq": {
+			"title": "常见问题",
+			"titles": {
+				"1": "普遍问题",
+				"2": "众筹",
+				"3": "加密货币支付",
+				"4": "智能合约",
+				"5": "仲裁系统",
+				"6": "ICO后"
+			},
+			"questions": {
+				"1": {
+					"q": "Jincor是什么？",
+					"a": "Jincor是一个平台，将允许任何商业在无法律、技术或运营的问题下，合算且简单地使用智能合约及加密货币支付。"
+				},
+				"2": {
+					"q": "你们解决了什么问题？",
+					"a": "Jincor解决了技术性障碍的问题，此障碍阻止了智能合约的大众化。Jincor也将去除使用加密货币的法律困难，让任何商业都能接触到区块链技术。目前，智能合约及加密货币的使用是非常复杂及昂贵的。一些最简单的基本的智能合约的开发费用介于$5 000 到 $10 000 （只需要看区块链开发者的薪水并考虑到智能合约编码及安全测试需要花费一位专业人士许多的工作时间）。我们计划通过去除编码的需要，并让无技术背景的用户来说都能简易地制作来降低费用到每份合约大约 $100-500。"
+				},
+				"3": {
+					"q": "你们如何解决这些问题？",
+					"a": "我们正在建立一个用于建立及签下智能合约的一个简单且直观的界面。我们的平台将提供一系列符合不同商业及国家的智能合约模板，让任何公司都能通过设置合适的参数及合约条款修改合约模板。它也将可以为合约应用加密货币钱包，并在几次点击下完成新的智能合约条款在私有区块链上的批准及发送。除此之外，我们的公司也将进行加密货币交易的法律帮助，就像银行在某些情况下帮助他们的客户。"
+				},
+				"4": {
+					"q": "它将如何运作？",
+					"a": "为了要完全释放Jincor平台的潜在用途，客户需要完成以下步骤：在完成注册后，每个公司可获得一个数码资料，这将需要由Jincor的合伙公司（银行、律师事务所）通过KYC系统进行认可。因此，一个受认可的数码资料将成为公司及它的商业在现实世界存在的证据。完成验证后，公司将可访问企业级加密货币、智能合约模板及平台上的其他功能。由于Jincor是一个企业间的环境，您可以轻松地找到新的商业合作伙伴，或邀请现有的到Jincor里。"
+				},
+				"5": {
+					"q": "你们的目标客户是谁？",
+					"a": "我们的目标主要是国际性的活动及由有兴趣改善公司商业运营的人组成的大型、小型或中型的商业。"
+				},
+				"6": {
+					"q": "Jincor将先把目标朝向哪个国家？",
+					"a": "目前已有超过200间来自全球各地的公司已申请访问到Jincor的公开Beta测试，此测试计划在11月启动。在ICO结束后，Jincor计划先在具有明显加密货币法律并对智能合约有兴趣的国家宣传并开发产品，这些国家包括东南亚（主要是日本及韩国）及欧洲。Jincor将在这两个地区同时工作，为它在那些地区的商业宣传及开发建立有利的条件。"
+				},
+				"7": {
+					"q": "已经完成了什么？",
+					"a": "到目前为止产品的核心及用户友好的界面已经开发完成。现在我们正面向植入更多的重要功能。计划是要允许我们的公开Beta测试者使用基本智能合约的建设器<br/>目前，Jincor有着以下功能：公司注册，发送邀请到雇员们，为他们在组织的职业定义，使用直接聊天或端到端受加密的公开及私有频道的企业级沟通，编辑公司公开资料，及使用内置以位置及市场搜索的方式开启新的商业联络。"
+				},
+				"8": {
+					"q": "你们花了多长时间开发你们的产品？",
+					"a": "概念在2016年1月诞生，而我们在2016年5月开始产品的开发。"
+				},
+				"9": {
+					"q": "Jincor的法律结构是什么？",
+					"a": "Jincor包括了一个成立于Cypris（Jincor Limited, reg № HE 366361）的母公司，及它在Moscow的100%附属运营公司（«Biznes-seti» LLC）。"
+				},
+				"10": {
+					"q": "我如何才能与你们联系？",
+					"a": "您可以在<a href='https://www.facebook.com/jincorlimited/' rel='nofollow' target='_blank'>Facebook</a>、<a href='https://twitter.com/jincor_ico' rel='nofollow' target='_blank'>Twitter</a>联系我们，或加入到<a href='http://t.me/jincorICOeng' rel='nofollow' target='_blank'>电报</a>社区里。"
+				},
+				"11": {
+					"q": "为什么你们需要进行ICO？",
+					"a": "我们举行ICO是为了要筹获资金，用以持续开发平台并尽早扩展到全球市场。"
+				},
+				"12": {
+					"q": "ICO什么时候开始？",
+					"a": "ICO在12月1日开始，并将持续8个星期，在1月31日结束。"
+				},
+				"13": {
+					"q": "我如何才能参与？",
+					"a": "代币的购买将在Jincor.com的众筹面板进行。在ICO时您将可以使用ETH或有可能可使用BTC来购买Jincor代币（JCR）。订阅我们的新闻以获取最新公布。"
+				},
+				"14": {
+					"q": "JCR代币带给我什么？",
+					"a": "在Jincor.com注册反映了Jincor生态系统的优势，那就是任何商业都能免除费用。但是，若公司想要使用数码验证、智能合约、企业级加密货币金融服务或仲裁系统，他们需要支付JCR代币。JCR的需求及价值将直接与我们的客户群有关。在2年后，我们计划拥有大约20,000商业于Jincor上注册，同时有着150的平均雇佣，及每月需求量为$750等值的JCR代币。我们没有计划在未来发行额外代币，而它的要求将直接依赖于我们的客户群成长。"
+				},
+				"15": {
+					"q": "JCR代币的价格是多少？",
+					"a": "ICO 价格：1 JCR = $1"
+				},
+				"16": {
+					"q": "ICO的软项及硬项是多少？",
+					"a": "ICO的软项为$2 500 000，而硬项则是$26 600 000"
+				},
+				"17": {
+					"q": "我多快能够获得我的JCR代币？",
+					"a": "JCR代币将在您发送ETH或BTC到我们的ICO智能合约后自动发送到您的钱包。发送JCR代币到其他钱包在ICO结束前（2018年1月31日）是禁止的。"
+				},
+				"18": {
+					"q": "什么时候在什么地方JCR代币将被上架？",
+					"a": "目前，我们正与多个最能信任及安全的交易所谈判。交易所的上架已计划在2018年1月，上架的计划将在ICO时发布。"
+				},
+				"19": {
+					"q": "我投资你们的风险是什么？",
+					"a": "投资于加密货币有着极高的风险 - 您有可能失去一部分甚至您所有的投资。请自行进行研究并自行做出您自己的结论。"
+				},
+				"20": {
+					"q": "有没有公司对加密货币感兴趣？",
+					"a": "加密货币现在已被大约100,000来自世界各地的组织日常性使用，包括Microsoft、Tesla, Amazon、WordPress、PayPal、Bloomberg 及 Square。以下为主要的优势：低交易费用、快速交易过程（最长10分钟），24/7金融服务访问，中介的去除（银行、中间商、SWIFT银行系统等）及其它优势。"
+				},
+				"21": {
+					"q": "目前使用加密货币的障碍有什么？",
+					"a": "其中一个主要的障碍是交易的匿名性质，这对于组织非常不适用，除此之外，公司需要金融工具、例如信用证、付款的手机、透支以及交易的法律帮助。直到现在，在加密界里并没有这样的产品。"
+				},
+				"22": {
+					"q": "若我的国家没有合法化加密货币，我可以在Jincor上使用加密货币支付吗？",
+					"a": "很不幸的，不能。在您的国家缺乏加密货币的合法性将使得会计及税务报告更加困难，甚至可能在无易中违法。"
+				},
+				"23": {
+					"q": "Jincor上使用了什么加密货币？",
+					"a": "在Jincor，组织将可以使用所有Jincor客户需要的大型高度流通的加密货币，例如BTC，ETH等。"
+				},
+				"24": {
+					"q": "我的公司可不可以在Jincor上一次性拥有多个加密货币钱包？",
+					"a": "可以，您将有此机会。"
+				},
+				"25": {
+					"q": "为什么我的公司需要使用智能合约？",
+					"a": "若商业拥有者想要每年节省几千元并与不择手段的商业合伙人及人为失误远离关系，答案是需要的。智能合约其实是一个区块链上自我执行的代码，自动植入各方的条约，可以在每当发生明确的因果逻辑时使用。试想像一下：您想要从新的商业合伙人订购一些商品，但总会有信任的问题 - 您在获得商品之前不想进行支付，而您的合伙人不想要在获得付款之前进行运输。万一发什么作弊时间怎么办？使用智能合约，签下自动进行、预制条约且无法破除的协议成了可能：一旦您收到货物，对方获得资金。就这么简单。不再会发生舞弊案件、不再需要大量纸上工作及例如银行、律师、中间商及公证员这些费用一般高昂的中介。您可以在<a href='https://blog.jincor.com/smart-contracts-ii-from-hype-to-reality-38c142d79da' rel='nofollow' target='_blank'>我们的文章</a>了解详情。"
+				},
+				"26": {
+					"q": "使用智能合约的法律效应是什么？",
+					"a": "数码文件的合法性在不同管辖区可能有所不同。但即使智能合约的合法性还没在您的国家定义，您依然可以在您的商业活动上使用它们，您只需要拥有这些合约的物理备份即可。"
+				},
+				"27": {
+					"q": "我可不可以制作基于现实世界行为的智能合约？",
+					"a": "目前有许多项目正想方设法为现实世界及数码环境建立连接，但我们预计这将花上好几年的时间才能实现。我们现在专注于可以在数码世界执行的智能合约的开发 - 例如，劳力及房地产合约，或关系到数码服务的企业合约。"
+				},
+				"28": {
+					"q": "是不是当使用智能合约时所有人都可以查看我的数据？",
+					"a": "不。我们完全了解商业对数据保密的需求，因此所有交易都将在私有企业级区块链上进行。这是我们基于Hyperledger技术的开发。"
+				},
+				"29": {
+					"q": "为什么需要这个？",
+					"a": "当合约的执行逻辑没有确切的清楚定义，条约各方有可能产生争执。这类似案件也发生在现实世界的行为及商品。线下，有着非常明显的监管机制来解决此问题：若任何一方对条约有不满，可以采取法律行动。这相似的模式也需要植入到数码司法权里。因此我们打造了Jincor仲裁，帮助解决关系到智能合约执行的争议。"
+				},
+				"30": {
+					"q": "它如何运作？",
+					"a": "诉讼将在一个匿名的数码房间进行，索赔人和被告将可提供证据及目击者声明。为了要去除有可能发生的偏差及贪污问题，仲裁不让各方知道。在审讯结束后失败的一方将获得承诺的要求。对法庭要求的无知将造成声誉及商业关系的损失，此损失与参与者的数码身份证关联。达到仲裁系统要求的其他原因是所有生态系统的参与者都可以访问到一个一致的数据库，包含所有曾发生过的仲裁诉讼的资料。因此，在与一方签下合约前可以查看各方的可依赖程度。"
+				},
+				"31": {
+					"q": "你们如何选出处理仲裁争议的法官？",
+					"a": "跟随着去中心化社区的原则，仲裁将基于他们的数码声誉、能力范围及在特别管辖区和经济方面的经验，由数学算法选出。仲裁费用将事先定义并由失败方在诉讼结束后支付。但是，在初期仲裁可以免费提供服务以提升声誉。"
+				},
+				"32": {
+					"q": "为什么我应该相信他们？",
+					"a": "智能合约的功能只能由Jincor平台认可的用户使用。而在区块链环境下，就像现实世界，低声誉将使人远离。因此，只有您可以选出哪个法官来解决您的问题及他或她的信誉应该有多少。"
+				},
+				"33": {
+					"q": "在ICO接受后你们的计划是什么？",
+					"a": "在ICO后我们计划专注于产品开发、全球市场扩展及为我们的客户设置法律支出系统。"
+				},
+				"34": {
+					"q": "你们的产品开发什么时候结束？",
+					"a": "产品开发是一个持续的过程。但加密货币、智能合约及仲裁系统的基本技术已计划最早在2018年植入。到目前为止，产品的核心及用户友好的界面已经开发完成，并正在开发以下功能：公司注册，发送邀请到雇员们，为他们在组织的职业定义，使用直接聊天或端到端受加密的公开及私有频道的企业级沟通，编辑公司公开资料，及使用内置以位置及市场搜索的方式开启新的商业联络。"
+				}
+			}
+		},
+		"pdf": {
+			"download": "下载",
+			"gotomain": "回到主页"
+		},
+		"tips": {
+			"touPropLabel": "使用条例",
+			"ppPropLabel": "隐私政策",
+			"form": "我答应{{tou}}及{{pp}}",
+			"beta": "I agree with the {{pp}}"
+		},
+		"404": {
+			"error": "抱歉，我们无法找到您正在寻找的页面 :(",
+			"action": "主页"
+		}
+	}
