@@ -7,7 +7,7 @@ import { push } from 'react-router-redux';
  * Overwrite URL and change language
  */
 
-const supportedLanguages = ['en', 'ru'];
+const supportedLanguages = ['en', 'ru', 'es', 'it', 'zh', 'hi', 'ja', 'pl', 'pt', 'ro', 'ko'];
 
 function* changeLanguageIterator({ payload }) {
   const { lang, pathname } = payload;

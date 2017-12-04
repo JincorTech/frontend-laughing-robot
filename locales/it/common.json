@@ -1,0 +1,619 @@
+{
+	"lang": "it",
+	"head": {
+		"title": "Jincor — smart contract e pagamenti in criptovaluta per il business",
+		"description": "Compiere il primo grande passo verso la liberazione del reale potere degli smart contract delle transazioni in criptovaluta per qualsiasi attività commerciale",
+		"keywords": "blockchain, cryptocurrency, smart contracts, smart contracts blockchain, blockchain ico",
+		"ogimage": "https://s3.eu-west-2.amazonaws.com/jincor-ico/landing_en.png"
+	},
+	"links": {
+		"resourses": {
+			"whitepaper": {
+				"label": "Whitepaper",
+				"href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/whitepaper_jincor.pdf"
+			},
+			"techpaper": {
+				"label": "Technical Paper",
+				"href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/technical_paper_jincor.pdf"
+			},
+			"bsummary": {
+				"label": "Business Summary",
+				"href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/business_summary_jincor.pdf"
+			},
+			"tou": {
+				"label": "Termini e Condizioni",
+				"href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/terms_of_use_jincor.pdf"
+			},
+			"disclaimer": {
+				"label": "Disclaimer",
+				"href": ""
+			},
+			"privacy": {
+				"label": "Privacy Policy",
+				"href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/privacy_policy_jincor.pdf"
+			},
+			"guidelines": {
+				"label": "Brand Resources",
+				"href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/brand_resources_jincor.pdf"
+			},
+			"agreement": {
+				"label": "Token Sale Agreement",
+				"href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/token_sale_agreement_jincor.pdf"
+			},
+			"contribGuide": {
+				"label": "Contribution Guide",
+				"href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/contribution_guide_jincor.pdf"
+			},
+			"bProfile": {
+				"label": "Business Profile",
+				"href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/business_profile_jincor.pdf"
+			}
+		},
+		"socials": {
+			"telegram": {
+				"href": "http://t.me/jincorICOeng"
+			},
+			"reddit": {
+				"href": "https://www.reddit.com/r/Jincor/"
+			},
+			"medium": {
+				"href": "https://blog.jincor.com/"
+			},
+			"twitter": {
+				"href": "https://twitter.com/jincor_ico"
+			},
+			"facebook": {
+				"href": "https://www.facebook.com/jincorlimited"
+			},
+			"github": {
+				"href": "https://github.com/jincortech"
+			}
+		},
+		"nav": {
+			"vision": {
+				"label": "Vision"
+			},
+			"crowdsale": {
+				"label": "Crowdsale"
+			},
+			"team": {
+				"label": "Team"
+			},
+			"community": {
+				"label": "Contact"
+			},
+			"blog": {
+				"label": "Blog",
+				"href": "https://blog.jincor.com/"
+			}
+		}
+	},
+	"landing": {
+		"title": "La ICO di Jincor inizia il giorno 1 dicembre",
+		"titleIco": "Jincor ICO is live!",
+		"subtitle": "Unisciti per costruire la piattaforma per smart contract estremamente semplici e transazioni in criptovaluta per qualsiasi azienda. Rimani sintonizzato.",
+		"contribute": "Contribute",
+		"contributeIco": "Contribute now",
+		"subscribeButton": "Iscriviti",
+		"betaButton": "Richiedi la Beta",
+		"telegramButton": "Telegram",
+		"statistics": "Jincor Open Beta Live Statistics",
+    "howto": "How to contribute?",
+    "companies": "companies",
+    "triedBeta": "Tried beta",
+    "countries": "countries",
+    "aroundTheWorld": "Around the world",
+    "days": "days",
+    "daysLeft": "Until ICO ends",
+		"timer": {
+			"day": "Days",
+			"hour": "Hours",
+			"minute": "Minutes",
+			"second": "Seconds"
+		}
+	},
+	"media": {
+		"text": "Jincor è una piattaforma sicura, conforme alle normative e con una piattaforma breezy-to-use, che permetterà a qualsiasi azienda di lavorare facilmente con smart contract e pagamenti in criptovaluta senza complicazioni legali, tecniche o operative e in modo efficiente dal punto di vista dei costi."
+	},
+	"resources": {
+		"title": "Resources",
+		"subtitle": "Scopri di più su Jincor."
+	},
+	"about": {
+		"title": "Cos'è Jincor?",
+		"subtitle": "La Grande Visione.",
+		"text": "Jincor è una piattaforma che permetterà a qualsiasi azienda di lavorare con smart contract e pagamenti in criptovaluta facilmente, senza complicazioni legali, tecniche o operative e in modo efficiente in termini di costi. Mentre le soluzioni esistenti offrono di risolvere un solo problema alla volta, il nostro team costruisce un prodotto utile, sicuro e facile da usare, che includerà un costruttore di smart contract, pagamenti in criptovaluta e persino un sistema di arbitrato digitale per elaborare le giuste valutazioni su questioni non chiare relative alle prestazioni degli smart contract. Alla fine, Jincor mira a integrare tutte le aziende, i dipendenti e le risorse aziendali in un ecosistema unificato basato sulla blockchain, che renderà le relazioni d'affari veramente trasparente, efficace e affidabile.",
+		"video": "Watch video"
+	},
+	"cases": {
+		"title": "Casi d'uso",
+		"more": "Learn more",
+		"preview": {
+			"1": {
+				"title": "Conformità normativa dei cripto-asset per le imprese",
+				"text": "Un recente <a href='https://www.jbs.cam.ac.uk/fileadmin/user_upload/research/centres/alternative-finance/downloads/2017-global-cryptocurrency-benchmarking-study.pdf' target='_blank'>studio</a> della Cambridge University stima che nel 2017 tra 2,9 milioni e 5,8 milioni di persone utilizzino portafogli di criptovaluta in tutto il mondo. Ci sono anche più di 100.000 commercianti, tra cui <a href='https://www.fool.com/investing/2017/07/06/5-brand-name-businesses-that-currently-accept-bitc.aspx' target='_blank'>giganti</a> come Microsoft, Paypal, DISH Network, Intuit, e Overstock, che si fidano abbastanza del Bitcoin per accettarlo come mezzo di pagamento…"
+			},
+			"2": {
+				"title": "Smart contract facili da usare e giuridicamente vincolanti",
+				"text": "Gli smart contract sono un ottimo strumento di risparmio per le imprese, in quanto riducono notevolmente i costi di contabilità, aumentano la fiducia tra le controparti ed eliminano gli errori del fattore umano. Secondo una recente <a href='https://newsroom.accenture.com/news/blockchain-technology-could-reduce-investment-banks-infrastructure-costs-by-30-percent-according-to-accenture-report.htm' target='_blank'>ricerca</a> di Accenture, pubblicata all'inizio del 2017, solo le banche di investimento potrebbero risparmiare fino a 12 miliardi di dollari all'anno adottando la blockchain e smart contract…"
+			},
+			"3": {
+				"title": "Sistema di arbitrato decentralizzato",
+				"text": "La mancanza di un'adeguata base legislativa in questo settore sembra essere la sfida più importante che impedisce una più ampia adozione degli smart contract e delle criptovalute. Secondo i <a href='http://bitlegal.io/list.php' target='_blank'>dati</a> di Bitlegal, il quale traccia il panorama normativo in evoluzione delle tecnologie blockchain in tutto il mondo, al momento ci sono solo 62 paesi che ne consentono esplicitamente l'utilizzo, ma anche lì gli smart contract non sono regolati da regole chiare, largamente adottate e ben note…"
+			}
+		},
+		"full": {
+			"1": {
+				"title": "Conformità normativa dei cripto-asset per le imprese",
+				"subtitle": "",
+				"text": "<p> Un recente <a href='https://www.jbs.cam.ac.uk/fileadmin/user_upload/research/centres/alternative-finance/downloads/2017-global-cryptocurrency-benchmarking-study.pdf' target='_blank'>studio</a> della Cambridge University stima che nel 2017 tra 2,9 milioni e 5,8 milioni di persone utilizzino portafogli di criptovaluta in tutto il mondo. Ci sono anche più di 100.000 commercianti, tra cui <a href='https://www.fool.com/investing/2017/07/06/5-brand-name-businesses-that-currently-accept-bitc.aspx' target='_blank'>giganti</a> come Microsoft, Paypal, DISH Network, Intuit, e Overstock, che si fidano abbastanza del Bitcoin per accettarlo come mezzo di pagamento. E fin qui non c'è nulla di sorprendente: utilizzare la criptovaluta nel business significa ridurre le spese di transazione, l'elaborazione ad alta velocità e la completa eliminazione delle frodi. Tuttavia, la maggior parte delle imprese non è ancora in grado di utilizzarla per gli accordi interaziendali - le transazioni in criptovalute implicano l'anonimato, che non ha nulla a che vedere con la tassazione e la contabilità delle organizzazioni. Presso Jincor le aziende saranno in grado di utilizzare portafogli digitali verificati per effettuare pagamenti in criptovaluta b2b trasparenti e tracciabili, sapendo esattamente a chi pagano con il principio applicato “conosci il tuo cliente.</p>"
+			},
+			"2": {
+				"title": "Smart contract facili da usare e giuridicamente vincolanti",
+				"subtitle": "",
+				"text": "<p> Gli smart contract sono un ottimo strumento di risparmio per le imprese, in quanto riducono notevolmente i costi di contabilità, aumentano la fiducia tra le controparti ed eliminano gli errori del fattore umano. Secondo una recente <a href='https://newsroom.accenture.com/news/blockchain-technology-could-reduce-investment-banks-infrastructure-costs-by-30-percent-according-to-accenture-report.htm' target='_blank'>ricerca</a> di Accenture, pubblicata all'inizio del 2017, solo le banche di investimento potrebbero risparmiare fino a 12 miliardi di dollari all'anno adottando la blockchain e smart contract. Tuttavia, la maggior parte delle piccole e medie imprese non è ancora in grado di implementare gli smart contract a causa della loro costosità e complessità tecnologica. Per affrontare questo problema, Jincor fornirà modelli di smart contract corporate, i quali taglieranno il costo della loro attuazione stimata ad oggi approssimativamente di $5.000-7.000 (basta dare un'occhiata ai <a href='https://www.fnlondon.com/articles/blockchain-salaries-go-parabolic-you-can-make-a-fortune-20170605' target ='_blank'>salari</a> degli sviluppatori blockchain e prendere in considerazione che la programmazione e il corretto test di sicurezza di uno smart contract richiede molte ore di lavoro di un professionista qualificato) per circa 100-500 dollari per contratto eliminando la necessità di programmarli realmente e rendendo la creazione di smart contract veramente facile anche per gli utenti senza competenze tecniche.</p>"
+			},
+			"3": {
+				"title": "Decentralised Arbitration system",
+				"subtitle": "",
+				"text": "<p> La mancanza di un'adeguata base legislativa in questo settore sembra essere la sfida più importante che impedisce una più ampia adozione degli smart contract e delle criptovalute. Secondo i <a href='http://bitlegal.io/list.php' target='_blank'>dati</a> di Bitlegal, il quale traccia il panorama normativo in evoluzione delle tecnologie blockchain in tutto il mondo, al momento ci sono solo 62 paesi che ne consentono esplicitamente l'utilizzo, ma anche lì gli smart contract non sono regolati da regole chiare, largamente adottate e ben note. In pratica, ciò significa che se avete firmato uno smart contract con il vostro partner commerciale e siete insoddisfatti di alcune delle sue azioni, non vi sono praticamente mezzi per far valere i vostri diritti, in quanto il contratto viene eseguito automaticamente e non ci sono tribunali o alcuni organismi di regolamentazione a tutti. Jincor risolve questo problema fornendo un sistema di arbitrato decentralizzato, dove le organizzazioni saranno in grado di presentare un reclamo relativo a prestazioni con smart contract e ottenere un giudizio imparziale di diversi arbitri, scelti casualmente dalla lista delle aziende che hanno guadagnato una buona reputazione durante l' uso della piattaforma, trattando con gli altri partecipanti su questioni simili.</p>"
+			}
+		}
+	},
+	"roadmap": {
+		"title": "Roadmap",
+		"subtitle": "Cosa c'è davanti a noi?",
+		"blocks": {
+			"1": {
+				"date": "Luglio 2017",
+				"what": "Esecuzione di beta test chiusi, lancio di una campagna ICO."
+			},
+			"2": {
+				"date": "Agosto 2017",
+				"label": "Presale",
+				"what": "Rilascio di token JCR sulla blockchain Ethereum."
+			},
+			"3": {
+				"date": "Ottobre 2017",
+				"what": "Lancio della Beta pubblica."
+			},
+			"4": {
+				"date": "Novembre 2017",
+				"label": "ICO",
+				"what": "Implementazione del sistema di fatturazione e fatturazione. Lancio del programma per i partner."
+			},
+			"5": {
+				"date": "Dicembre 2017",
+				"label": "ICO",
+				"what": "Esecuzione della campagna di crowdfunding, 500+ aziende hanno aderito all’Open Beta."
+			},
+			"6": {
+				"date": "Febbraio 2018",
+				"what": "Completamento della campagna di crowdfunding e distribuzione dei token JCR agli investitori. Espansione del mercato giapponese e partnership locali. Più di 1000 aziende in Open Beta."
+			},
+			"7": {
+				"date": "Marzo  2018",
+				"what": "Quotazione su piattaforme di scambio (exchange). Corporate Identity Verification. Campagne di marketing in Europa e Asia."
+			},
+			"8": {
+				"date": "Aprile  2018",
+				"what": "Aggiunta di integrazioni di applicazioni aziendali, pagamenti crittografici B2B. 5000+ aziende nella Open Beta."
+			},
+			"9": {
+				"date": "Q3 2018",
+				"what": "10000 + clienti commerciali.Portafogli multisig aziendali, transazioni di asset su blockchain, pagamenti B2E(business - to - employee) ecc."
+			},
+			"10": {
+				"date": "Q4 2018",
+				"what": "Smart contract aziendali, sistema di arbitrato decentralizzato, gestione aziendale basato su blockchain, emissione di azioni e transazioni azionarie, pagamento dividendi."
+			}
+		}
+	},
+	"crowdsale": {
+		"title": "Crowdsale",
+		"subtitle": "L'ICO di Jincor in sintesi.",
+		"text": "Per sfruttare appieno il potenziale dell'ecosistema Jincor, raggiungere una massa critica di operatori del settore e raggiungere il mercato globale il più presto possibile e saranno raccolti ulteriori finanziamenti organizzando una campagna ICO. Abbiamo emesso 35.000.000.000 di token JCR, il 4% dei quali sono stati venduti ad agosto nella fase di pre-ICO, e un altro 76% sarà messo in vendita durante l'ICO a novembre ad un prezzo iniziale di 1 dollaro. Così, l'importo totale del denaro che stiamo progettando di raccogliere arriva a 27 milioni di dollari. I token JCR giocheranno un ruolo fondamentale nel modello di business di Jincor e fungeranno da valuta nativa per tutti i servizi forniti dalla piattaforma.",
+		"blocks": {
+			"1": {
+				"label": "Token",
+				"val": "JCR (ERC20)"
+			},
+			"2": {
+				"label": "Piattaforma",
+				"val": "Ethereum"
+			},
+			"3": {
+				"label": "Totale token distributi",
+				"val": "35M JCR"
+			},
+			"4": {
+				"label": "Capitale massimo",
+				"val": "$26.6M"
+			},
+			"5": {
+				"label": "Capitale minimo",
+				"val": "$2.5M"
+			},
+			"6": {
+				"label": "Periodo dell'ICO",
+				"val": "Dec, 1 - Jan, 31"
+			}
+		}
+	},
+	"distribution": {
+		"title": "Distribuzione dei Token",
+		"presale": "Presale",
+		"incentives": "Incentives",
+		"team": "Team di Jincor",
+		"crowdsale": "Crowdsale"
+	},
+	"legal": {
+		"title": "Legal",
+		"subtitle": "Full transparency.",
+		"text": "La struttura organizzativa di Jincor comprende una società madre costituita a Cipro (Jincor Ltd.), la sua società operativa controllata al 100% in Russia (Biznes - seti LLC), società operativa controllata al 100% a Singapore (Jincor Pte. Ltd.) e anche SPV per la distribuzione del pool di opzioni a dipendenti chiave con sede nelle Isole Vergini Britanniche (Jincor Special Ltd.).",
+		"blocks": {
+			"1": {
+				"val": "Singapore",
+				"label": "Jurisdiction"
+			},
+			"2": {
+				"val": "KYC",
+				"label": "Required verification"
+			},
+			"3": {
+				"val": "Utility",
+				"label": "JCR token"
+			}
+		}
+	},
+	"team": {
+		"title": "Executive Team",
+		"subtitle": "Who's making it real?",
+		"members": {
+			"vlad": {
+				"name": "Vlad Kirichenko",
+				"position": "CEO & Co-Founder",
+				"bio": "Vlad è un co-fondatore e tech evangelist. Vlad si è laureato alla Financial University sotto il governo della Federazione Russa con una laurea in finanza e ha quasi cinque anni di esperienza imprenditoriale di successo. In Jincor si concentra sulla pianificazione strategica, lo sviluppo del business e gestisce anche lo sviluppo del prodotto."
+			},
+			"vagan": {
+				"name": "Vagan Abelyan",
+				"position": "COO & Co-Founder",
+				"bio": "Vagan è un co-fondatore del progetto. È responsabile delle questioni strategiche, tra cui la gestione del team, la guida delle partnership e la negoziazione con gli investitori. Vagan è stato un imprenditore dopo la laurea presso la Financial University sotto il governo della Russia. Ha una profonda esperienza nella finanza e nella gestione aziendale."
+			},
+			"andrey": {
+				"name": "Andrey Degtyaruk",
+				"position": "CTO & Blockchain Expert",
+				"bio": "Andrey è uno sviluppatore ed un eccellente leader del team tecnico. Andrey ha otto anni di esperienza nello sviluppo commerciale e ha lavorato con molte startup in Russia e nel mondo, tra cui Lifeboat Network, BrainySoft (Skolkovo) e un incubatore internazionale di imprese Rocket Internet. Ha una competenza nelle tecnologie basate su blockchain."
+			},
+			"nastya": {
+				"name": "Anastasia Balashova",
+				"position": "Head of Marketing",
+				"bio": "Anastasia è responsabile della strategia di marketing in azienda. Trasforma le idee complicate degli ingegneri di Jincor in storie facili da comprendere. Anastasia ha oltre 10 anni di esperienza nella comunicazione e nel marketing: nel suo portfolio sono presenti marchi tradizionali - Avon, SAP, DuPont, Evernote - e startup nel campo della blockchain, come KICKICO."
+			},
+			"gega": {
+				"name": "George Paliani",
+				"position": "International Ambassador",
+				"bio": "George è un rappresentante chiave di Jincor sulla scena internazionale. Ha ottime capacità di negoziazione e una vasta esperienza in strutture governative e agenzie di consulenza. George parla sei lingue - russo, inglese, spagnolo, tedesco, svedese e georgiano - e ha un dottorato di ricerca nella storia. Autore di studi accademici e politologo."
+			},
+			"aidar": {
+				"name": "Aidar Ibatullin",
+				"position": "Frontend Engineer",
+				"bio": "Aidar è uno sviluppatore esperto di applicazioni per il servizio clienti. In precedenza ha lavorato a progetti per Volkswagen, Bentley, IMAX e molti altri. In Jincor Aidar è responsabile dell'interfaccia client e delle pagine informative sul prodotto. E' molto appassionato del suo lavoro e segue tutte le nuove tendenze nello sviluppo del frontend."
+			},
+			"artem": {
+				"name": "Artem Pikulin",
+				"position": "Backend Engineer",
+				"bio": "Artem è uno sviluppatore di talento con varie esperienze IT. Il suo forte è il testing del codice. In Jincor Artem è responsabile dello sviluppo di diversi microservizi in diverse lingue e partecipa anche alla programmazione degli smart contract dell'ICO. Ama quello che sta facendo e partecipa attivamente alla discussione delle nuove tendenze nelle comunità IT e Blockchain."
+			},
+			"alexandr_s": {
+				"name": "Alexandr Sedelnikov",
+				"position": "Backend Engineer",
+				"bio": "Alexander è uno sviluppatore backend con oltre 8 anni di esperienza, con un solido background tecnico-scientifico, che include il lavoro per Intel e Parallels. Conoscenza approfondita dei linguaggi, dei framework e delle tecnologie a catena a blocchi lo aiuta a costruire facilmente applicazioni ben strutturate e documentate, utilizzando diversi approcci all'architettura."
+			},
+			"alexandr_i": {
+				"name": "Alexandr Isaev",
+				"position": "Frontend Engineer",
+				"bio": "Alexandr è uno sviluppatore di software con oltre 5 anni di esperienza nel settore enterprise. Si è laureato da PSUTI a Povolzhie con una laurea in Software di computer e sistemi automatizzati. In precedenza ha lavorato come team leader in molti progetti commerciali su larga scala in russo e squadre straniere, tra cui una posizione in Microsoft. "
+			},
+			"alexandr_sh": {
+				"name": "Alexandr Shaikhanov",
+				"position": "Backend Engineer",
+				"bio": "Alexandr è uno sviluppatore con oltre 4 anni di esperienza nel software enterprise. Laureatosi all' Università statale di Chelyabinskiy con una laurea in Informatica. Alexandr ha partecipato a molti progetti che hanno sviluppato qualsiasi cosa, dai giochi alle soluzioni finanziarie. Dedica tempo allo studio delle tecnologie emergenti e alla sperimentazione per utilizzare le conoscenze nella pratica."
+			},
+			"khasan": {
+				"name": "Khasan Erkenov",
+				"position": "Design Director",
+				"bio": "Khasan è un esperto design director per i prodotti digitali e concettuali e product designer. Autore di progetti per McKinsey, Bauer e alcune altre aziende di fama mondiale. Appassionato di tecnologie basate su blockchain e prodotti mobili. In Jincor è responsabile della progettazione concettuale e di prodotto. Dirige il reparto di progettazione grafica."
+			},
+			"ivan": {
+				"name": "Ivan Krestov",
+				"position": "Graphic Designer",
+				"bio": "Ivan è un designer di talento con un profondo background nel digitale. Ha lavorato per importanti aziende russe e americane e ha un set completo di competenze tecniche per creare progetti impressionanti. Ivan si ispira alle tecnologie innovative e come queste influenzano la vita delle persone. In Jincor è responsabile della progettazione di materiali di marketing e illustrazione."
+			},
+			"alexandra_s": {
+				"name": "Alexandra Samuilkina",
+				"position": "PR Manager",
+				"bio": "Alexandra è un giornalista di talento con molti anni di esperienza professionale nei principali media d' affari russi e specializzazione in criptovalute e tecnologie blockchain. Laureato in giornalismo presso l'Università Statale di Lomonosov Mosca. In Jincor è responsabile della copertura mediatica e della gestione dei contenuti."
+			},
+			"anton_a": {
+				"name": "Anton Atsekhovskyy",
+				"position": "Digital Marketing",
+				"bio": "Anton - digital-marketer con oltre 7 anni di esperienza. Egli crede che il marketing sia la sua vocazione e investe tempo per migliorare le qualifiche e acquisire nuove competenze. Il portfolio di Anton include progetti in IT, trasporti, istruzione e così via. Il suo ruolo in Jincor è quello di promuovere la piattaforma nei social media, nei motori di ricerca e nei media industriali."
+			},
+			"anton_l": {
+				"name": "Anton Lysakov",
+				"position": "Community Manager",
+				"bio": "Anton - appassionato di cripto, investitore ed evangelist. Ha un'esperienza nella gestione del team di supporto B2B, al servizio di diverse centinaia di aziende da tutto il mondo. Laureato in Fisica e Tecnologie Nucleari presso l' Università Politecnica di Tomsk. A Jincor è responsabile della gestione comunitaria e della diffusione della missione del progetto. "
+			},
+			"vlad_b": {
+				"name": "Vlad Belousov",
+				"position": "Community Manager",
+				"bio": "Vladislav è un grande specialista nel campo del supporto B2B. Ha un'esperienza di successo nella realizzazione e manutenzione di oltre 30 progetti commerciali. Si è laureato presso la Tomsk State University of Control Systems and Radio-electronics. Insieme ad Anton Lysakov, è responsabile della gestione della comunità e della diffusione della missione di Jincor."
+			},
+			"inna": {
+				"name": "Inna Malakhova",
+				"position": "Chief Accountant",
+				"bio": "Inna si è laureata alla Plekhanov University ed ha conseguito un master presso l'Accademia Presidenziale. Ha più di 10 anni di pratica nella gestione contabile e finanziaria. È responsabile della strategia finanziaria, del budgeting, della documentazione, della rendicontazione finanziaria e fiscale di Jincor. Anche Inna ha competenze molto forti nella creazione di politiche aziendali e nell’amministrazione delle risorse umane."
+			},
+			"alexandra_se": {
+				"name": "Alexandra Anna Serebrennikova",
+				"position": "Investor Relations",
+				"bio": "Alexandra Anna mantiene contatti con investitori e potenziali partner e rappresenta Jincor sulla scena internazionale insieme a George Paliani. Ha una laurea in Project Management presso l' Accademia Presidenziale Russa, parla tre lingue e ha una forte passione per l'IT e un'esperienza lavorativa per un paio di altre startup IT prima di entrare in Jincor."
+			}
+		}
+	},
+	"advisors": {
+		"title": "Advisory Board",
+		"subtitle": "Our knowledgeable supporters.",
+		"members": {
+			"michael": {
+				"name": "Michael Terpin",
+				"position": "Strategic ICO Advisor",
+				"bio": "Michael è uno dei personaggi più leggendari dell'ambiente cripto. Presidente e Co-fondatore di BitAngels, la prima rete di angel investor per startup nel campo delle crypto, partner di Flight VC e CEO di Transform Group. Terpin è anche un investitore e consulente per numerose aziende di media e tecnologia."
+			},
+			"titus": {
+				"name": "Richard Titus",
+				"position": "Strategy Advisor",
+				"bio": "Richard è un Blockchain Investor esperto ed è un consulente ICO attivo. Oltre alla co-fondatrice di Ark Advisors, una società dedicata a fornire consulenza sulla raccolta di fondi e sulla strategia del go-to-market, Richard ha (co) -fondato +11 aziende tra cui Razorfish, Schematic e, più recentemente, Prompt.ly, che era iniziato nel 2013 e venduto nel 2016 a Breezeworks"
+			},
+			"king": {
+				"name": "Jason King",
+				"position": "Tech Advisor",
+				"bio": "Jason dedica la maggior parte del suo tempo al suo progetto Academy, volto a costruire il futuro della blockchain educando l'esercito dei programmatori in merito alle nuove tecnologie. Egli è stato uno dei primi nel settore a dimostrare l'effetto che il bitcoin potrebbe avere sulle opere di carità fondando Unsung.org, un’applicazione che mira a sfruttare l'economia di condivisione per porre fine alla fame e allo spreco di cibo."
+			},
+			"marcus": {
+				"name": "Marcus Killick OBE",
+				"position": "Jurisdiction Advisor",
+				"bio": "Marcus Killick (LLb Mphil) è presidente non esecutivo della borsa valori di Gibilterra (GSX).  È anche Amministratore Delegato dello studio legale ISOLAS LLP e amministratore non esecutivo di numerose altre società, tra cui la Gibraltar International Bank e un presidente della Commissione dell'Office of Fair Trading."
+			},
+			"simon": {
+				"name": "Simon Cocking",
+				"position": "Media & Global Partnerships Advisor",
+				"bio": "Simon è redattore senior di Irish Tech News e freelance per Sunday Business Post, Irish Times e altre pubblicazioni. È un ottimo relatore pubblico in occasione di eventi come TEDx, Web Summit, Dublin Tech Summit e molto altro ancora. È anche un business mentor e influencer nel campo fintech con oltre 110.000 follower su Twitter e 11.000 collegamenti LinkedIn, ed è stato nominato su 8 liste di influencer Twitter globali negli ultimi 12 mesi."
+			},
+			"stas": {
+				"name": "Stas Kolesnichenko",
+				"position": "Legal Advisor",
+				"bio": "Stas è un esperto in sviluppo strategico e finanza. Ha iniziato la sua carriera in KPMG, ha ricoperto posizioni dirigenziali in fondi Fast Lane Ventures e Viamedix ed è stato responsabile dello sviluppo del business in Dentsu Aegis Network in Russia. Laurea MBA presso l'Università di Tel Aviv, Master in Gestione Strategica e Corporate Governance (HSE)."
+			},
+			"tomas": {
+				"name": "Tomas Kärner",
+				"position": "Legal Advisor",
+				"bio": "Tomas è un esperto di livello mondiale e professionista affermato con oltre 20 anni di esperienza in posizioni dirigenziali in settori commerciali e governativi, tra cui IKEA, Swedish Trade and Investment Council in Russia e un' agenzia di consulenza MLB Advisory. Ha forti competenze e vasta esperienza in diritto, sviluppo strategico e GR."
+			}
+		}
+	},
+	"community": {
+		"title": "Unisciti alla nostra community!",
+		"subtitle": "Seguici e iscriviti per ricevere gli ultimi aggiornamenti sulla prossima ICO.",
+		"button": "Iscriviti"
+	},
+	"footer": {
+		"product": {
+			"title": "Prodotto",
+			"faq": "FAQ",
+			"cases": "Casi d'uso",
+			"crowdsale": "Crowdsale",
+			"team": "Executive team",
+			"advisors": "Advisory board"
+		},
+		"resourses": {
+			"title": "Risorse"
+		},
+		"legal": {
+			"title": "Legal"
+		},
+		"jincor": {
+			"title": "Jincor",
+			"text": "Jincor limited (Private company reg. № HE 366361) Pandoras street, 21, 2nd floor, flat 10 Larnaca, Cyprus 6042."
+		}
+	},
+	"subscribe": {
+		"title": "Ricevi gli aggiornamenti",
+		"email": "e-mail",
+		"accept": "Iscriviti"
+	},
+	"beta": {
+		"title": "Richiedi l'accesso alla Beta",
+		"name": "Il tuo nome",
+		"company": "Nome dell'azienda",
+		"position": "Posizione",
+		"email": "e-mail",
+		"accept": "Invia"
+	},
+	"window": {
+		"cancel": "Cancel"
+	},
+	"notifications": {
+		"emailEmpty": "Inserisci il tuo indirizzo e-mail",
+		"nameEmpty": "Indica il tuo nome",
+		"companyEmpty": "Qual è la tua azienda?",
+		"positionEmpty": "Qual è la tua posizione?",
+		"emailIncorrect": "L'indirizzo e-mail non è corretto",
+		"emailTaken": "L'indirizzo e-mail risulta essere già presente",
+		"success": "Grazie per esserti iscritto!",
+		"failure": "Si è verificato un errore"
+	},
+	"faq": {
+		"title": "Frequently Asked Questions",
+		"titles": {
+			"1": "Domande generali",
+			"2": "Crowdsale",
+			"3": "Pagamenti in criptovaluta",
+			"4": "Smart contracts",
+			"5": "Sitema di arbitrato",
+			"6": "Post ICO"
+		},
+		"questions": {
+			"1": {
+				"q": "1. Cos'è Jincor?",
+				"a": "Jincor è una piattaforma, che permetterà a qualsiasi azienda di lavorare con smart contract e pagamenti in criptovaluta facilmente senza complicazioni legali, tecniche o operative e in modo efficiente in termini di costi."
+			},
+			"2": {
+				"q": "2. Quale problema risolvete?",
+				"a": "Jincor risolve il problema delle barriere tecnologiche che ostacolano l'integrazione di massa degli smart contract e rimuove le difficoltà legali per l'uso di criptovalute, rendendo la tecnologia blockchain accessibile a qualsiasi azienda. Al momento l'integrazione degli smart contract e criptovalute è un processo molto complesso e costoso. I costi di sviluppo per alcuni dei contratti più semplici e semplici variano da 5.000 a 10.000 dollari (basta dare un'occhiata agli stipendi degli sviluppatori blockchain e prendere in considerazione il fatto che la programmazionne e i test di sicurezza adeguati di uno smart contract richiedono molte ore lavorative di un professionista qualificato). Abbiamo in programma di ridurre i costi a circa $100-500 per contratto eliminando la necessità di programmarli e rendere la creazione di smart contract veramente facile anche per gli utenti senza competenze tecniche."
+			},
+			"3": {
+				"q": "3. Come li risolvete?",
+				"a": "Prevediamo di fornire alle organizzazioni un'interfaccia semplice e intuitiva per la creazione e la firma degli smart contract. La nostra piattaforma lavorerà per l'utente finale come costruttore, dove le organizzazioni saranno in grado di impostare parametri appropriati e termini di accordo, allegare i loro portafogli in criptovaluta e scrivere lo smart contract ad una catena di blocco privato in due click. Inoltre, la nostra società fornirà supporto legale per le transazioni in criptovaluta, analogamente a come le banche in alcuni casi assisteranno i loro clienti."
+			},
+			"4": {
+				"q": "4. Come funzionerà?",
+				"a": "Il processo di lavoro su Jincor è il seguente: al momento della registrazione ogni azienda riceve una tessera digitale, che dovrà verificare attraverso le aziende partner di Jincor (banche, studi legali) attraverso il sistema KYC, significa legare la tua tessera ad un'azienda del mondo reale. Dopo la verifica, l'azienda ha accesso ai criptoportafogli aziendali e ai modelli di smart contract. Dal momento che Jincor è un ambiente intercorporate, si può facilmente trovare un nuovo partner commerciale, o invitare uno esistente a Jincor."
+			},
+			"5": {
+				"q": "5. Chi è il vostro target?",
+				"a": "Il nostro target di clientela è la piccola e media impresa, rivolta principalmente alle attività internazionali."
+			},
+			"6": {
+				"q": "6. Quali sono i paesi che Jincor sarà disponibile inizialmente?",
+				"a": "Attualmente, più di 150 aziende provenienti da tutto il mondo hanno chiesto l'accesso al beta test Jincor, che dovrebbe iniziare in ottobre. Dopo il successo del completamento di ICO, Jincor ha piani di sviluppare e promuovere il prodotto verso i paesi in cui le iniziative legislative sono il più fedele possibile alle criptovalute, e il mercato e le imprese sono sufficientemente innovativi per iniziare a utilizzare gli strumenti e le capacità degli smart contract. Innanzi tutto, ci riferiamo ai mercati del sud-est asiatico (principalmente Giappone e Corea del Sud) ed europeo. Jincor lavorerà simultaneamente in entrambe le direzioni, creando condizioni favorevoli per il business e la promozione."
+			},
+			"7": {
+				"q": "7. Cos'è stato già fatto?",
+				"a": "Attualmente, Jincor ha le seguenti caratteristiche: registrazione dell'azienda, invio di inviti ai dipendenti, definizione dei loro ruoli funzionali all'interno dell'organizzazione, messaggistica aziendale in chat diretta o end-to-end tramite l'utilizzo di canali criptati pubblici e privati, editing del profilo pubblico dell'azienda e la creazione di nuovi contatti di business con la nostra ricerca integrata per località e industria. Finora sono stati sviluppati il nucleo e l'interfaccia molto user-friendly, stiamo lavorando per implementare ulteriori funzioni essenziali: il piano è quello di permettere ai nostri beta-tester aperti di utilizzare il costruttore di smart contract base."
+			},
+			"8": {
+				"q": "8. Da quanto tempo state sviluppando il vostro prodotto?",
+				"a": "Il concept è nato nel gennaio 2016 e abbiamo iniziato lo sviluppo del prodotto nel maggio 2016."
+			},
+			"9": {
+				"q": "9. Qual è la struttura legale di Jincor?",
+				"a": "Jincor comprende una società madre costituita a Cipro (Jincor Limited, reg? HE 366361) e la sua società operativa controllata al 100% a Mosca (Biznes-seti LLC)."
+			},
+			"10": {
+				"q": "10. Come posso contattarvi?",
+				"a": "Potete contattarci su <a href='https://www.facebook.com/jincorlimited/' rel='nofollow' target='_blank' >Facebook</a>, <a href='https://twitter.com/jincor_ico' rel='nofollow' target='_blank' >Twitter</a>, oppure unirvi alla nostra comunità di <a href='http://t.me/jincorICOeng' rel='nofollow'target=' _blank' >Telegram</a>."
+			},
+			"11": {
+				"q": "11. Perchè avete bisogno di una ICO?",
+				"a": "Faremo una ICO al fine di raccogliere fondi per l'ulteriore sviluppo della piattaforma, raggiungere il pareggio e arrivare al mercato globale il più presto possibile."
+			},
+			"12": {
+				"q": "12. Quando inizia la ICO?",
+				"a": "L'ICO inizierà il 15 novembre e durerà 6 settimane, fino al 30 dicembre."
+			},
+			"13": {
+				"q": "13. Come posso partecipare?",
+				"a": "L'acquisto di Tokens sarà disponibile su Jincor.com nella Crowdfunding Dashboard. Durante l'ICO sarete in grado di acquistare i Jincor Tokens (JCR) utilizzando ETH o BTC."
+			},
+			"14": {
+				"q": "14. Cosa ottengo con i token JCR?",
+				"a": "JCR è un token, che sarà utilizzato come mezzo di pagamento per i servizi a pagamento come un costruttore di smart contract, servizi finanziari aziendali di criptovalute o sistema di arbitraggio nella nostra piattaforma. La domanda dipenderà direttamente dalla crescita della nostra clientela."
+			},
+			"15": {
+				"q": "15. Qual è il prezzo di un token JCR?",
+				"a": "Prezzo durante l'ICO: 1 JCR = 1 dollaro."
+			},
+			"16": {
+				"q": "16. Qual è il capitale minimo e massimo dell'ICO?",
+				"a": "Il capitale minimo durante l'ICO è di 2.500.000 di dollari, il capitale massimo è di 26.600.000 di dollari."
+			},
+			"17": {
+				"q": "17. Quanto velocemente riceverò i miei token JCR?",
+				"a": "I token JCR vengono inviati automaticamente al vostro portafoglio subito dopo il trasferimento di ETH o BTC al nostro contratto smart contract dell'ICO. Il trasferimento dei token JCR ad altri portafogli è vietato fino alla fine del periodo dell'ICO (30 dicembre 2017)."
+			},
+			"18": {
+				"q": "18. Quando e su quali mercati di scambio sarà disponibile il vostro token?",
+				"a": "L'elenco degli scambi (exchange), sui quali verrà elencato il gettone JCR, sarà annunciato prima o durante l'ICO. Stiamo già negoziando con diversi scambi. Il collocamento in borsa è previsto per dicembre 2016."
+			},
+			"19": {
+				"q": "19. Quali sono i miei rischi nell'investire in voi?",
+				"a": "Investire in criptovalute comporta rischi elevati - si può perdere in tutto o in parte il vostro investimento. Fate sempre la vostra ricerca e traete le vostre conclusioni."
+			},
+			"20": {
+				"q": "20. C'è un reale interesse da parte delle aziende nell'utilizzo della criptovaluta?",
+				"a": "Le criptovalute sono ora utilizzate quotidianamente da ben 100.000 organizzazioni in tutto il mondo, tra cui giganti come Microsoft, Tesla, Amazon, WordPress, PayPal, Bloomberg e Square. Ecco i vantaggi principali: bassi costi di transazione, alta velocità di elaborazione delle transazioni (dieci minuti al massimo), accesso 24 ore su 24, 7 giorni su 7 al servizio finanziario, eliminazione degli agenti (banche, broker, sistema bancario SWIFT e altri) e altri vantaggi."
+			},
+			"21": {
+				"q": "21. Quali sono gli ostacoli nell'uso della criptovaluta al momento?",
+				"a": "Uno dei motivi principali è l'anonimato delle transazioni, che è assolutamente inappropriato per le organizzazioni. Inoltre, le imprese hanno bisogno di strumenti finanziari quali lettere di credito, incassi, scoperti di conto corrente e supporto legale per le transazioni. Fino ad ora, non esiste un tale prodotto nel mondo delle criptovalute."
+			},
+			"22": {
+				"q": "22. Posso utilizzare i pagamenti in criptovaluta su Jincor se il mio paese non ha legalizzato la criptovaluta?",
+				"a": "Purtroppo no. L' assenza di uno status legale di criptovaluta nel vostro paese creerà difficoltà nel mantenere la contabilità e la rendicontazione fiscale, e può portare a violazioni involontarie della legge."
+			},
+			"23": {
+				"q": "23. Quali criptovalute sono utilizzate in Jincor?",
+				"a": "In Jincor, le organizzazioni saranno in grado di utilizzare tutte le principali criptovalute altamente liquide, compresi BTC, ETH e altri, che saranno richiesti dai clienti Jincor."
+			},
+			"24": {
+				"q": "24. La mia azienda può avere diversi portafogli in criptovaluta su Jincor contemporaneamente?",
+				"a": "Sì, ci sarà questa opportunità."
+			},
+			"25": {
+				"q": "25. Perché la mia azienda dovrebbe utilizzare smart contract?",
+				"a": "Se il proprietario vuole risparmiare migliaia di dollari all'anno e sbarazzarsi di molti problemi legati a partner commerciali senza scrupoli e ad errori del fattore umano, la risposta è certamente sì. Gli smart contract, che sono in realtà un codice autoeseguibile sulla blockchain che automaticamente implementa i termini di un accordo tra le parti, possono essere utilizzati ogni volta che vi è una chiara logica di causa-concentrazione. Immaginate questo: volete ordinare alcuni prodotti da un nuovo partner commerciale, ma c'è sempre una trappola di sfiducia - non si vuole pagare fino a quando ottenere la vostra merce, e il vostro partner non vuole spedirla fino a ottenere il pagamento anticipato. Cosa succede se è un imbroglio? Con gli smart contract è possibile firmare un accordo automaticamente eseguito e infrangibile con determinati termini predefiniti: non appena si riceve la consegna, la controparte riceve i fondi. Semplice come questo. Non più frodi, massicce quantità di pratiche burocratiche, ma anche intermediari come banche, avvocati, mediatori e notai, che di solito sono associati a costi significativi. Si può leggere di più su questo nel <a href='https://blog.jincor.com/smart-contracts-ii-from-hype-to-reality-38c142d79da' rel='nofollow' target='_blank' >nostro articolo</a>."
+			},
+			"26": {
+				"q": "26. Qual è l'effetto giuridico degli smart contract?",
+				"a": "La validità giuridica dei documenti digitali può variare nelle diverse giurisdizioni. Ma anche se lo status giuridico dei contratti intelligenti non è ancora definito nel vostro paese, potete comunque utilizzarli nelle vostre attività commerciali - dovrete solo avere copie cartacee di tali contratti."
+			},
+			"27": {
+				"q": "27. Posso creare smart contract la cui esecuzione dipende dalle azioni nel mondo reale?",
+				"a": "Al momento molti progetti si sforzano di creare legami tra l'ambiente digitale e il mondo reale, ma stimiamo che ci vorranno ancora parecchi anni per sviluppare questa possibilità. Ora ci concentriamo sullo sviluppo di smart contract che possono essere pienamente eseguiti nel mondo digitale - ad esempio, contratti di lavoro e di proprietà o contratti aziendali relativi ai servizi digitali."
+			},
+			"28": {
+				"q": "28. Salterà fuori che quando si utilizzano gli smart contract tutti vedranno i miei dati?",
+				"a": "No. Comprendiamo perfettamente i requisiti di business per la riservatezza dei dati, quindi tutte le transazioni saranno effettuate in una blockchain privata. Questo è il nostro sviluppo basato sulle tecnologie Hyperledger."
+			},
+			"29": {
+				"q": "29. Perché è necessario?",
+				"a": "Nel caso in cui la logica di esecuzione di un contratto non sia sufficientemente chiara, le parti dell'accordo possono essere finire in una controversia. Ciò vale in particolare per i casi relativi alle azioni e ai beni del mondo reale. Offline, esistono chiari meccanismi di regolamentazione per tali questioni: se le parti hanno controversie relative all'esecuzione del contratto, possono sempre adire le vie legali. Anche all'interno della giurisdizione digitale dovrebbero essere applicati modelli simili. Proprio per questo motivo abbiamo creato Jincor Arbitrage, che aiuta a risolvere le controversie relative all'esecuzione degli smart contract."
+			},
+			"30": {
+				"q": "30. Come funziona?",
+				"a": "Il procedimento si svolgerà in una sala digitale anonima, nella quale l'attore e il convenuto potranno presentare imputazioni, fornire prove e testimonianze. Al fine di escludere eventuali pregiudizi e elementi di corruzione, le parti in causa non conoscono gli arbitri. Alla fine del processo, la parte sconfitta otterrà un requisito di impegno. L' ignoranza dei requisiti di tribunale si tradurrà in perdita di reputazione e relazioni d'affari, che sono associati con un ID digitale del partecipante. Un ulteriore motivo per soddisfare i requisiti del sistema arbitrale sarà il fatto che tutti i partecipanti all'ecosistema avranno accesso a una banca dati unificata, che conterrà informazioni su tutti i procedimenti arbitrali precedenti. Pertanto, prima della firma di un contratto, le parti saranno in grado di valutare reciprocamente l' affidabilità."
+			},
+			"31": {
+				"q": "31. Come vengono scelti i giudici per gestire le controversie arbitrali?",
+				"a": "Seguendo i principi della società decentrata, gli arbitri saranno scelti mediante algoritmi matematici, che tengono conto della loro reputazione digitale, della loro sfera di competenza ed esperienza pratica in specifiche giurisdizioni e settori economici. Gli onorari degli arbitri saranno previamente definiti e pagati dalla parte soccombente al termine del procedimento. Tuttavia, nei primi stadi gli arbitri possono offrire il loro servizio gratuitamente per aumentare la reputazione."
+			},
+			"32": {
+				"q": "32. Perché dovrei avere fiducia?",
+				"a": "Nella giurisdizione Jincor gli smart contract saranno disponibili solo per gli utenti verificati. Nell'ambiente blockchain, proprio come nel mondo reale, una cattiva reputazione chiuderà molte porte e impedirà il futuro sviluppo dell'organizzazione."
+			},
+			"33": {
+				"q": "33. Qual è il vostro piano dopo l'ICO?",
+				"a": "Dopo l'ICO intendiamo concentrarci sullo sviluppo del prodotto, l'apertura al mercato globale e all'assistenza legale ai nostri clienti."
+			},
+			"34": {
+				"q": "34. Quando il prodotto sarà completamente pronto?",
+				"a": "Lo sviluppo del prodotto è un'attività costante. Se parliamo dell'implementazione delle tecnologie di base per gli accordi in criptovaluta, gli smart contract e il sistema di arbitrato, allora, secondo la nostra road map, questa funzionalità sarà disponibile già nel 2018. La funzionalità disponibile è già descritta nella domanda n. 7."
+			}
+		}
+	},
+	"pdf": {
+		"download": "Download",
+		"gotomain": "Pagina principale"
+	},
+	"tips": {
+		"touPropLabel": "Terms of Use",
+		"ppPropLabel": "Privacy Policy",
+		"form": "I agree with the {{tou}} and {{pp}}"
+	},
+	"404": {
+		"error": "Siamo spiacenti, non possiamo trovare la pagina che stai cercando :(",
+		"action": "Pagina principale"
+	}
+}

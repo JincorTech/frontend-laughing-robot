@@ -1,0 +1,620 @@
+{
+	"lang": "ro",
+	"head": {
+		"title": "Jincor-contracte inteligente și plăti în criptomonede pentru afaceri",
+		"description": "Faceți primul pas important catre dezlănțuirea puterii reale a contractelor inteligente și a tranzacțiilor cu criptomonede pentru orice afacere",
+		"keywords": "blockchain, cryptocurrency, smart contracts, smart contracts blockchain, blockchain ico",
+		"ogimage": "https://s3.eu-west-2.amazonaws.com/jincor-ico/landing_en.png"
+	},
+	"links": {
+		"resourses": {
+			"whitepaper": {
+				"label": "Whitepaper",
+				"href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/whitepaper_jincor.pdf"
+			},
+			"techpaper": {
+				"label": "Cartea Tehnică",
+				"href": ""
+			},
+			"bsummary": {
+				"label": "Rezumat Business",
+				"href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/business_summary_jincor.pdf"
+			},
+			"tou": {
+				"label": "Termeni de Utilizare",
+				"href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/terms_of_use_jincor.pdf"
+			},
+			"disclaimer": {
+				"label": "Act de renunțare",
+				"href": ""
+			},
+			"privacy": {
+				"label": "Politica de confidențialitate",
+				"href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/privacy_policy_jincor.pdf"
+			},
+			"guidelines": {
+				"label": "Brand Resources",
+				"href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/brand_resources_jincor.pdf"
+			},
+			"agreement": {
+				"label": "Token Sale Agreement",
+				"href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/token_sale_agreement_jincor.pdf"
+			},
+			"contribGuide": {
+				"label": "Contribution Guide",
+				"href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/contribution_guide_jincor.pdf"
+			},
+			"bProfile": {
+				"label": "Business Profile",
+				"href": "https://s3.eu-west-2.amazonaws.com/jincor-ico/docs/business_profile_jincor.pdf"
+			}
+		},
+		"socials": {
+			"telegram": {
+				"href": "http://t.me/jincorICOeng"
+			},
+			"reddit": {
+				"href": "https://www.reddit.com/r/Jincor/"
+			},
+			"medium": {
+				"href": "https://blog.jincor.com/"
+			},
+			"twitter": {
+				"href": "https://twitter.com/jincor_ico"
+			},
+			"facebook": {
+				"href": "https://www.facebook.com/jincorlimited"
+			},
+			"github": {
+				"href": "https://github.com/jincortech"
+			}
+		},
+		"nav": {
+			"vision": {
+				"label": "Viziune"
+			},
+			"crowdsale": {
+				"label": "Crowdsale"
+			},
+			"team": {
+				"label": "Echipa"
+			},
+			"community": {
+				"label": "Contact"
+			},
+			"blog": {
+				"label": "Blog",
+				"href": "https://blog.jincor.com/"
+			}
+		}
+	},
+	"landing": {
+		"title": "ICO-ul Jincor începe pe 1 decembrie",
+		"titleIco": "Jincor ICO is live!",
+		"subtitle": "Alăturați-vă construirii platformei pentru contracte simple cu adevărat inteligente și tranzacții cu criptomonede pentru orice afacere.",
+		"contribute": "Contribuie",
+		"contributeIco": "Contribute now",
+		"subscribeButton": "Înscrie-te",
+		"betaButton": "Cere beta",
+		"telegramButton": "Telegram",
+		"statistics": "Jincor Open Beta Live Statistics",
+    "howto": "How to contribute?",
+    "companies": "companies",
+    "triedBeta": "Tried beta",
+    "countries": "countries",
+    "aroundTheWorld": "Around the world",
+    "days": "days",
+    "daysLeft": "Until ICO ends",
+		"timer": {
+			"day": "Days",
+			"hour": "Hours",
+			"minute": "Minutes",
+			"second": "Seconds"
+		}
+	},
+	"media": {
+		"text": "Jincor este o platformă ușor de utilizat, sigură, compatibilă cu normele de reglementare care va permite oricărei afaceri să lucreze cu contracte inteligente și cu plăți prin criptomonede, fără complicații juridice, tehnice sau operaționale și într-un mod eficient din punct de vedere al costurilor."
+	},
+	"resources": {
+		"title": "Resurse",
+		"subtitle": "Află mai multe despre Jincor."
+	},
+	"about": {
+		"title": "Ce este Jincor?",
+		"subtitle": "Viziunea noastră.",
+		"text": "În timp ce soluțiile existente oferă soluții pentru rezolvarea unei singure probleme, echipa noastră se pregătește să construiască un produs util, sigur, compatibil cu reglementările in vigoare bazându-se pe un blockchain privat. Acesta va include șabloane de contracte inteligente, aplicabile în anumite domenii ale legislației țărilor in domeniul afacerilor , integrare ușoară a plăților cu criptomonede și chiar un sistem de arbitraj digital pentru elaborarea judecății corecte in  privința  aspectelor neclare legate de performanța contractelor inteligente. În cele din urmă, Jincor își propune să integreze toate companiile, angajații și bunurile afacerii într-un ecosistem de tip blockchain, care va face relațiile de afaceri cu adevărat rapide, transparente, eficiente și fiabile.",
+		"video": "Urmăreste clipul video"
+	},
+	"cases": {
+		"title": "Cazuri de utilizare",
+		"more": " Află mai multe",
+		"preview": {
+			"1": {
+				"title": "Tranzacțiile cripto pentru afaceri",
+				"text": "Un studiu recent realizat de Universitatea Cambridge estimează că între 2,9 milioane și 5,8 milioane de oameni din toata lumea utilizează acum in 2017 portofele cripto. Există, de asemenea, peste 100 000 de comercianți, inclusiv giganți precum Microsoft, Paypal, DISH Network, Intuit și Overstock care folosesc Bitcoin ca mijloc de plată…"
+			},
+			"2": {
+				"title": "Contractele inteligente din punct de vedere legal",
+				"text": "Contractele inteligente reprezintă un instrument de economisire a costurilor pentru întreprinderi, deoarece reduc semnificativ costurile de contabilitate, sporesc încrederea între părti și elimină erorile factorilor umani. Potrivit unei cercetări recente realizate de Accenture, publicată la începutul anului 2017, băncile de investiții ar putea economisi până la 12 miliarde de dolari pe an…"
+			},
+			"3": {
+				"title": "Sistemul de arbitraj descentralizat",
+				"text": "Lipsa unei baze legislative adecvate în domeniu pare a fi cea mai importantă provocare care împiedică adoptarea la o scară mai mare a contractelor inteligente și a criptomonedelor. Potrivit datelor de la Bitlegal, care urmărește evoluția peisajului de reglementare a tehnologiilor de tip blockchain din întreaga lume, în prezent există doar 62 de țări…"
+			}
+		},
+		"full": {
+			"1": {
+				"title": "Cadrul legislativ pentru tranzacţiile cu cripto active pentru afaceri",
+				"subtitle": "",
+				"text": "Un studiu recent realizat de Universitatea Cambridge estimează că între 2,9 milioane și 5,8 milioane de oameni din toata lumea utilizează acum in 2017 portofele cripto. Există, de asemenea, peste 100 000 de comercianți, inclusiv giganți precum Microsoft, Paypal, DISH Network, Intuit și Overstock care folosesc Bitcoin ca mijloc de plată. Nu este nimic uimitor aici: utilizarea criptomonedelor în afaceri înseamnă taxe mai mici pentru procesarea tranzacțiilor, procesarea de mare viteză și eliminarea completă a fraudei. Cu toate acestea, majoritatea companiilor nu sunt încă în măsură să o utilizeze pentru decontările intercorporative - tranzacțiile cu criptomonede implică anonimatul, care nu are nimic de-a face cu impozitarea și contabilitatea organizațiilor. La Jincor, companiile vor putea să folosească portofele digitale verificate pentru a efectua plăți transparente de tip b2b cu criptomonede, cunoscând cu exactitate pe cine plătesc mergând pe principiul cunoașteți clientul."
+			},
+			"2": {
+				"title": "Contracte inteligente legale și ușor de utilizat",
+				"subtitle": "",
+				"text": "<p>Contractele inteligente reprezintă un instrument de economisire a costurilor pentru întreprinderi, deoarece reduc semnificativ costurile de contabilitate, sporesc încrederea între părti și elimină erorile factorilor umani. Potrivit unei cercetări recente realizate de Accenture, publicată la începutul anului 2017, băncile de investiții ar putea economisi până la 12 miliarde de dolari pe an. Cu toate acestea, majoritatea companiilor mici și mijlocii nu sunt în măsură să implementeze contracte inteligente din cauza costurilor excesive și a complexității tehnologice. Jincor va furniza sabloane de contracte inteligente pentru rezolvarea aceastei probleme, vom furniza șabloane de contracte inteligente corporative, care vor reduce costul implementării lor de la aproximativ 5.000-7.000 de dolari (aruncați doar o privire la salariile dezvoltatorilor de blockchain și luați în considerare faptul că testarea și contractele inteligente necesită mai multe ore de lucru ale unui profesionist calificat) la aproximativ 100-500 USD pe contract prin eliminarea necesității de a le programa și  aducând la crearea lor cu ușurință chiar și pentru utilizatorii fără abilități tehnice.</p>"
+			},
+			"3": {
+				"title": "Sistemul de arbitraj descentralizat",
+				"subtitle": "",
+				"text": "<p>Lipsa unei baze legislative adecvate în domeniu pare a fi cea mai importantă provocare care împiedică adoptarea la o scară mai mare a contractelor inteligente și a criptomonedelor. Potrivit datelor de la Bitlegal, care urmărește evoluția peisajului de reglementare a tehnologiilor de tip blockchain din întreaga lume, în prezent există doar 62 de țări care permit în mod explicit utilizarea lor, dar chiar și acolo, contractele inteligente nu sunt reglementate de reguli clare, adoptate si recunoscute global. În practică, înseamnă că, dacă ați semnat un contract inteligent cu partenerul dvs. de afaceri și sunteți nemulțumit de unele dintre acțiunile sale, nu există practic nici un mijloc pentru a vă menține drepturile, deoarece contractul este efectuat în mod automat și nu există instanțe sau organisme de reglementare. Jincor rezolvă această problemă prin furnizarea unui sistem de arbitraj descentralizat, în care organizațiile vor putea să depună o plângere referitoare la performanța contractului inteligent și să obțină o judecată imparțială cu ajutorul mai multor arbitri aleși în mod aleatoriu de pe lista companiilor care au dobândit o bună reputație în timpul utilizării platformei și de a se ocupa de alți participanți cu probleme similare.</p>"
+			}
+		}
+	},
+	"roadmap": {
+		"title": "Roadmap",
+		"subtitle": "Ce ne rezervă viitorul?",
+		"blocks": {
+			"1": {
+				"date": "Iulie 2017",
+				"what": "Efectuarea testelor beta închise, lansarea unei campanii pre-ICO."
+			},
+			"2": {
+				"date": "August 2017",
+				"label": "Pre-Vânzare",
+				"what": "Emiterea tokenurilor JCT pe blockchain-ul Ethereum."
+			},
+			"3": {
+				"date": "Octombrie 2017",
+				"what": "Pregătirea pentru lansarea Open Beta. Dezvoltarea de bază a șabloanelor pentru Contractele Inteligente."
+			},
+			"4": {
+				"date": "Noiembrie 2017",
+				"label": "ICO",
+				"what": "Facturarea și implementarea sistemului de facturare. Lansarea programului de parteneriat al canalului. Peste 200 de companii in Open Beta."
+			},
+			"5": {
+				"date": "Decembrie 2017",
+				"label": "ICO",
+				"what": "Desfășurarea campaniei de strângere de fonduri, peste 500 de companii s-au înscris la Open Beta."
+			},
+			"6": {
+				"date": "Februarie 2018",
+				"what": "Încheierea campaniei de strângere de fonduri și distribuirea token-urilor JCR participanților. Expansiunea către Piața Japoneză și Parteneriate Locale. Peste 1000 de companii în Open Beta."
+			},
+			"7": {
+				"date": "March 2018",
+				"what": "Listarea pe platforma de schimb. Verificarea Identității Corporate. Campanii de Marketin în Europa și Asia."
+			},
+			"8": {
+				"date": "Aprilie 2018",
+				"what": "Adăugarea integrarii aplicațiilor enterprise, plăți cripto B2B. Peste 5000 de companii in Open Beta."
+			},
+			"9": {
+				"date": "Q3 2018",
+				"what": "Peste 10000 de clienti business in Open Beta. Portofele entreprise multisig, tranzactionarea activelor pe blockchain, B2E (business-to-employee) plati etc."
+			},
+			"10": {
+				"date": "Q4 2018",
+				"what": "Contracte inteligente Entreprise, sistem de arbitraj descentralizat, management corporativ pe blockchain."
+			}
+		}
+	},
+	"crowdsale": {
+		"title": "Crowdsale",
+		"subtitle": "ICO-ul Jincor dintr-o privire.",
+		"text": "Vom crește fondurile suplimentare prin desfășurarea unei campanii ICO pentru a dezlănțui pe deplin potențialul ecosistemului Jincor, pentru a obține o masă critică de întreprinderi implicate și pentru a ajunge cât mai curând la mai multe piețe globale. Am emis 35.000.000 de tokenuri JCR, dintre care 4% au fost vândute la pre-ICO în august, iar 76% vor fi puse în vânzare în cursul lunii decembrie la un preț de pornire de 1 USD. Astfel, suma totală de bani pe care intenționăm să o strângem ajunge la 27 milioane USD. Tokenurile JCR vor avea un rol important în modelul de afaceri al lui Jincor și vor acționa ca monedă nativă pentru toate serviciile furnizate de platformă.",
+		"blocks": {
+			"1": {
+				"label": "Token",
+				"val": "JCR (ERC20)"
+			},
+			"2": {
+				"label": "Platformă",
+				"val": "Ethereum"
+			},
+			"3": {
+				"label": "Rezervă totală",
+				"val": "35M JCR"
+			},
+			"4": {
+				"label": "Hard cap",
+				"val": "$26.6M"
+			},
+			"5": {
+				"label": "Soft cap",
+				"val": "$2.5M"
+			},
+			"6": {
+				"label": "Interval ICO",
+				"val": "1 Decembrie – 31 Ianuarie"
+			}
+		}
+	},
+	"distribution": {
+		"title": "Distribuția Token-urilor",
+		"presale": "Pre-vânzare",
+		"incentives": "Stimulente",
+		"team": "Echipa Jincor",
+		"crowdsale": "Crowdsale"
+	},
+	"legal": {
+		"title": "Legal",
+		"subtitle": "Full transparency.",
+		"text": "Structura organizațională Jincor include o companie mamă incorporată în Cipru (Jincor Ltd.), este o companie subsidiară 100% operațională în Russia («Biznes-seti» LLC), subsidiară 100% operațională pe vânzare de token-uri în Singapore (Jincor Pte. Ltd.) și de asemenea SPV pentru distribuția bazinului de opțiuni către angajați cheie, incorporată în Insulele Virgine Britanice (Jincor Special Ltd.)",
+		"blocks": {
+			"1": {
+				"val": "Singapore",
+				"label": "Jurisdiction"
+			},
+			"2": {
+				"val": "KYC",
+				"label": "Required verification"
+			},
+			"3": {
+				"val": "Utility",
+				"label": "JCR token"
+			}
+		}
+	},
+	"team": {
+		"title": "Echipa Executivă",
+		"subtitle": "Cine transformă acest proiect in realitate?",
+		"members": {
+			"vlad": {
+				"name": "Vlad Kirichenko",
+				"position": "CEO & Co-Fondator",
+				"bio": "Vlad este co-fondator și tech evanghelist. Vlad este absolvent al Universității Financiare din cadrul Guvernului Federației Ruse cu o diplomă de licență în finanțe și are aproape cinci ani de experiență antreprenorială de succes. În Jincor se concentrează pe planificarea strategică, dezvoltarea afacerilor și gestionează de asemenea dezvoltarea produsului."
+			},
+			"vagan": {
+				"name": "Vagan Abelyan",
+				"position": "COO & Co-Fondator",
+				"bio": "Vagan este co-fondatorul proiectului. El este responsabil pentru întrebările strategice, inclusiv managementul echipei, conducerea parteneriatelor și negocierea cu investitorii. Vagan a fost antreprenor inca de la absolvirea Universității Financiare din cadrul Guvernului Rusiei. Are o experiență remarcabilă în domeniul finanțelor și al managementului corporativ."
+			},
+			"andrey": {
+				"name": "Andrey Degtyaruk",
+				"position": "CTO & Blockchain Expert",
+				"bio": "Andrey este un dezvoltator entuziast și un excelent lider al echipei tehnologice. Andrey are opt ani de experiență în dezvoltarea comercială și a colaborat cu multe companii în Rusia și la nivel global, inclusiv Lifeboat Network, BrainySoft (Skolkovo) și un incubator internațional de afaceri Rocket Internet. Are o expertiză în tehnologiile blockchain."
+			},
+			"nastya": {
+				"name": "Anastasia Balashova",
+				"position": "Head of Marketing",
+				"bio": "Anastasia este responsabilă pentru strategia de marketing din cadrul companiei. Ea transformă ideile complicate ale inginerilor Jincor în povești ușor de înțeles. Anastasia are peste 10 ani de experiență în domeniul comunicațiilor și marketingului: în portofoliul său se află atât brandurile tradiționale - Avon, SAP, DuPont, Evernote -, cât și start-upuri pe blockchain, cum ar fi KICKICO."
+			},
+			"gega": {
+				"name": "George Paliani",
+				"position": "International Ambassador",
+				"bio": "George este un reprezentant cheie al Jincor în scena internațională. Are excelente abilități de negociere și o vastă experiență în structurile guvernamentale și agențiile de consultanță. George vorbește șase limbi - rusă, engleză, spaniolă, germană, suedeză și georgiană - și are o diplomă de doctorat in istorie. Autor al studiilor universitare și politolog."
+			},
+			"aidar": {
+				"name": "Aidar Ibatullin",
+				"position": "Frontend Engineer",
+				"bio": "Aidar este un dezvoltator experimentat de aplicații de servicii pentru clienți. Anterior a lucrat la proiectele pentru Volkswagen, Bentley, IMAX și multe altele. În Jincor, Aidar este responsabil pentru interfața clientului și paginile de informații despre produs. Este foarte pasionat de locul de muncă și urmează tendințele cele mai noi în dezvoltarea frontend-urilor."
+			},
+			"artem": {
+				"name": "Artem Pikulin",
+				"position": "Backend Engineer",
+				"bio": "Artem este un dezvoltator talentat cu o experiență impresionantă in IT. Punctul său forte este testarea codului. În Jincor, Artem se ocupă de dezvoltarea mai multor microservicii în diferite limbi și, de asemenea, participă la codificarea inteligentă a contractelor ICO. El iubește ceea ce face și participă activ la discuția despre noile tendințe în comunitățile IT și Blockchain."
+			},
+			"alexandr_s": {
+				"name": "Alexandr Sedelnikov",
+				"position": "Backend Engineer",
+				"bio": "Alexander este un dezvoltator de backend cu o experiență de peste 8 ani, cu un fundal tehnic și științific puternic, care include lucrul pentru Intel și Parallels. Cunoașterea considerabilă a limbajelor populare, a cadrelor și a tehnologiilor de blockchain îi ajută să creeze cu ușurință aplicații bine structurate și documentate, folosind diferite abordări arhitecturale."
+			},
+			"alexandr_i": {
+				"name": "Alexandr Isaev",
+				"position": "Frontend Engineer",
+				"bio": "Alexandr este un dezvoltator de software cu o experiență de peste 5 ani în domeniul întreprinderilor. A absolvit cursurile PSUTI din Povolzhie cu licență în Software de calcul și sisteme automate. A lucrat anterior ca dezvoltator principal în numeroase proiecte comerciale la scară largă în echipe rusești și străine, incluzând o poziție în Microsoft. "
+			},
+			"alexandr_sh": {
+				"name": "Alexandr Shaikhanov",
+				"position": "Backend Engineer",
+				"bio": "Alexandr este un dezvoltator cu o experiență de peste 4 ani în software-ul întreprinderii. A absolvit Universitatea de Stat din Chelyabinskiy cu o diplomă în Informatică. Alexandr a participat la numeroase proiecte care dezvoltă ceva de la jocuri la soluții financiare. El dedică timp studierii tehnologiilor viitoare și experimentarea utilizării cunoștințelor în practică."
+			},
+			"khasan": {
+				"name": "Khasan Erkenov",
+				"position": "Design Director",
+				"bio": "Khasan este un director de design experimentat pentru produse digitale și designer conceptual și de produs. Autor de proiecte pentru McKinsey, Bauer și alte companii de renume mondial. Pasionat de tehnologiile blockchain și de produsele mobile. În Jincor este responsabil pentru proiectarea designului produselor. Controleză departamentul de design grafic."
+			},
+			"ivan": {
+				"name": "Ivan Krestov",
+				"position": "Graphic Designer",
+				"bio": "Ivan este un designer talentat, cu un background profund în domeniul digital. El a lucrat pentru marile companii rusești și americane și are o pregătire tehnică completă pentru crearea de proiecte minunate. Ivan este inspirat de tehnologiile inovatoare și de modul în care influențează viața oamenilor. În Jincor este responsabil pentru proiectarea materialelor de marketing și a ilustrațiilor."
+			},
+			"alexandra_s": {
+				"name": "Alexandra Samuilkina",
+				"position": "PR Manager",
+				"bio": "Alexandra este un jurnalist talentat, cu mulți ani de experiență profesională în mass-media rusă și specializare în criptomonede și tehnologii de tip blockchain. Are o diplomă de licență în jurnalism de la Universitatea de Stat din Lomonosov din Moscova. În Jincor, ea este responsabilă de acoperirea media și de gestionarea conținutului."
+			},
+			"anton_a": {
+				"name": "Anton Atsekhovskyy",
+				"position": "Digital Marketing",
+				"bio": "Anton - marketer digital cu o experiență de peste 7 ani. El consideră că marketingul este chemarea lui și investește timp pentru a-și îmbunătăți calificarea și a dobândi noi abilități. Portofoliul lui Anton include proiecte în IT, transport, educație etc. Rolul său în Jincor este de a promova platforma în social media, motoarele de căutare și media din industrie."
+			},
+			"anton_l": {
+				"name": "Anton Lysakov",
+				"position": "Community Manager",
+				"bio": "Anton - entuziast, investitor și evanghelist. Are experiență în gestionarea echipei de suport B2B, care deservește câteva sute de companii din întreaga lume. Are o diplomă de licență în domeniul fizicii și tehnologiilor nucleare de la Universitatea Politehnică din Tomsk. În Jincor este responsabil pentru gestionarea comunității și răspândirea misiunii proiectului. "
+			},
+			"vlad_b": {
+				"name": "Vlad Belousov",
+				"position": "Community Manager",
+				"bio": "Vladislav este un mare specialist în domeniul suportului B2B. Are o experiență de implementare și întreținere cu succes a mai mult de 30 de proiecte comerciale. A absolvit Universitatea Tomsk de Stat de Sisteme de Control și Radio-electronice. Împreună cu Anton Lysakov, el este responsabil de managementul comunității și răspândirea misiunii lui Jincor."
+			},
+			"inna": {
+				"name": "Inna Malakhova",
+				"position": "Chief Accountant",
+				"bio": "Inna a absolvit Universitatea Plekhanov și Academia prezidențială cu diplomă de master. Are mai mult de 10 ani de practică în gestiunea contabilă și financiară. Ea este responsabilă pentru strategia financiară, completarea bugetului, documentare, raportare financiară și fiscală în Jincor. De asemenea, Inna are abilități foarte puternice în crearea politicilor companiei și are o practică foarte mare în administrarea resurselor umane."
+			},
+			"alexandra_se": {
+				"name": "Alexandra Anna Serebrennikova",
+				"position": "Investor Relations",
+				"bio": "Alexandra Anna menține legătura cu investitorii și potențialii parteneri și reprezintă Jincor pe scena internațională împreună cu George Paliani. Are o diplomă de licență în managementul de proiect la Academia Prezidențială din Rusia, vorbeste în trei limbi și are o pasiune puternică pentru IT, precum și o experiență de lucru pentru câteva alte companii de IT înainte de a se alătura companiei Jincor."
+			}
+		}
+	},
+	"advisors": {
+		"title": "Consultanți",
+		"subtitle": "Cei care ne sfătuiesc.",
+		"members": {
+			"michael": {
+				"name": "Michael Terpin",
+				"position": "Strategic ICO Advisor",
+				"bio": "Michael este unul dintre personajele legendare din mediul cripto. Printre rolurile sale se numără cel de președinte și de co-fondator al BitAngels, partener la Flight VC și CEO al Transform Group. Terpin este, de asemenea, un investitor și consilier al multor companii media și tehnologice."
+			},
+			"marcus": {
+				"name": "Marcus Killick OBE",
+				"position": "Jurisdiction Adviser",
+				"bio": "Marcus Killick (LLb Mphil) este administratorul neexecutiv al Bursei de Valori din Gibraltar (GSX). El este, de asemenea, Chief Executive Officer al firmei de avocatură ISOLAS LLP și administrator neexecutiv al altor companii, inclusiv Banca Internațională Gibraltar, precum și președinte al Commission of the Office of Fair Trading."
+			},
+			"titus": {
+        "name": "Richard Titus",
+        "position": "Strategy Advisor",
+        "bio": "Richard este un investitor Blockchain cu experiență și este un consilier ICO activ. În plus față de co-fondatorii Ark Advisors, o companie dedicată consultării strategiilor de strângere de fonduri și a strategiilor go-to-market, Richard a co-fondat +11 firme, inclusiv Razorfish, Schematic și, mai recent, Prompt.ly, a început în 2013 și a fost vândut în 2016 companiei Breezeworks."
+      },
+			"king": {
+				"name": "Jason King",
+				"position": "Tech Advisor",
+				"bio": "Jason iși dedică majoritatea timpului sau proiectului Academiei care își dorește să construiască viitorul blockchain-ului prin educarea armatei de programatori în tehnologii noi. A fost printre primii din industrie care a demonstrat posibilele efecte ale Bitcoin asupra carității prin finanțarea Unsung.org, o aplicație menită să îmbunătățească economia de share pentru estomparea sărăciei și foametei la nivel global."
+			},
+			"simon": {
+				"name": "Simon Cocking",
+				"position": "Media & Global Partnerships Advisor",
+				"bio": "Simon este un editor senior la Irish Tech News și, de asemenea, freelancer pentru Sunday Business Post, Irish Times și alte publicații. El este un vorbitor public la evenimente precum TEDx, Web Summit și multe altele. El este, de asemenea, unul dintre factorii de decizie cu peste 110.000 de adepți pe Twitter și 11.000 de conexiuni LinkedIn."
+			},
+			"stas": {
+				"name": "Stas Kolesnichenko",
+				"position": "Legal Advisor",
+				"bio": "Stas este expert în dezvoltarea strategică și finanțe. A început cariera la KPMG, a deținut funcții executive în fondurile Fast Lane Ventures și Viamedix și a fost responsabil pentru dezvoltarea afacerii în Rețeaua Dentsu Aegis din Rusia. Are o diplomă de MBA de la Universitatea din Tel Aviv, Master of Management Strategic și Guvernare Corporativă (HSE)."
+			},
+			"tomas": {
+				"name": "Tomas Kärner",
+				"position": "Legal Advisor",
+				"bio": "Tomas este un expert de clasă mondială și are o experiență profesională de peste 20 de ani în funcții executive în sectoare comerciale și guvernamentale, printre care IKEA, Consiliul Suedez pentru Comerț și Investiții din Rusia și o agenție de consultanță MLB Advisory. Are abilități puternice și o vastă experiență în domeniul dreptului, dezvoltării strategice și al GR."
+			}
+		}
+	},
+	"community": {
+		"title": "Alăturați-vă comunității noastre!",
+		"subtitle": " Urmați-ne și abonați-vă pentru cele mai recente informații legate de ICO.",
+		"button": "Subscribe"
+	},
+	"footer": {
+		"product": {
+			"title": "Produs",
+			"faq": "FAQ",
+			"cases": "Cazuri de utilizare",
+			"crowdsale": "Crowdsale",
+			"team": "Echipa Executiva",
+			"advisors": "Consultanți"
+		},
+		"resourses": {
+			"title": "Resurse"
+		},
+		"legal": {
+			"title": "Juridic"
+		},
+		"jincor": {
+			"title": "Jincor",
+			"text": "Jincor, platforma pentru contracte simple cu adevărat inteligente și tranzacții cu criptomonede pentru orice afacere."
+		}
+	},
+	"subscribe": {
+		"title": "Obține acualizări",
+		"email": "e-mail",
+		"accept": "Subscribe"
+	},
+	"beta": {
+		"title": "Cere beta",
+		"name": "Numele tău",
+		"company": "Numele companiei",
+		"position": "Poziție",
+		"email": "e-mail",
+		"accept": "Aplică"
+	},
+	"window": {
+		"cancel": "Anulează"
+	},
+	"notifications": {
+		"emailEmpty": "Completează adresa ta de e-mail",
+		"nameEmpty": "Spune-ne numele tău",
+		"companyEmpty": "Care este compania ta?",
+		"positionEmpty": "Ce poziție ocupi?",
+		"emailIncorrect": "Acest E-mail nu este corect",
+		"emailTaken": "Acest E-mail este deja inscris",
+		"success": "Vă mulțumim pentru inregistrare!",
+		"failure": "Ceva a decurs greșit"
+	},
+	"faq": {
+		"title": "Intrebări Frecvente",
+		"titles": {
+			"1": "Intrebări Generale",
+			"2": "Crowdsale",
+			"3": "Plăți in criptomonede",
+			"4": "Contracte Inteligente",
+			"5": "Sisteme de Arbitraj",
+			"6": "Post ICO"
+		},
+		"questions": {
+			"1": {
+				"q": "Ce este Jincor?",
+				"a": "Jincor este o platformă care va permite oricărui business să lucreze ușor cu contracte inteligente și cu plăți de tip cryptocurrency fără complicații juridice, tehnice sau operaționale și într-un mod eficient din punct de vedere al costurilor."
+			},
+			"2": {
+				"q": "Ce problemă rezolvați?",
+				"a": "Jincor rezolvă problema barierelor tehnologice care stau in calea integrării în masă a contractelor inteligente și elimină dificultățile legale pentru utilizarea criptomonedelor, făcând tehnologia blockchain accesibilă oricărei afaceri. În prezent, integrarea contractelor inteligente și a criptomonedelor este un proces foarte complex și costisitor. Costurile de dezvoltare pentru unele dintre cele mai simple contracte inteligente și cele mai elementare variază de la 5 000 $ la 10 000 $ (trebuie doar să aruncați o privire la salariile dezvoltatorilor de blockchain și să luați în considerare faptul că doar codarea și testarea corespunzătoare a unui contract inteligent necesită multe ore de lucru intr-un mod profesional). Planificăm reducerea costurilor la aproximativ 100-500 USD per contract prin eliminarea nevoii de programare a acestora și crearea de contracte inteligente cu ușurință chiar și pentru utilizatorii fără abilități tehnice."
+			},
+			"3": {
+				"q": "Cum o veți rezolva?",
+				"a": "Construim o interfață simplă și intuitivă pentru crearea și semnarea contractelor inteligente. Platforma noastră va oferi o bibliotecă de șabloane de contracte inteligente, aplicabile în diverse domenii de afaceri și în legislația țărilor, prin urmare orice companie poate să o modifice prin stabilirea unor parametri adecvați și termeni contractuali. Vom oferi deasemenea alocarea de portofele cripto pentru un contract și finalizarea acestuia prin aprobarea și trimiterea noilor termeni contractuali inteligenți către un blockchain privat din mai multe clickuri. În plus, compania noastră va efectua asistența juridică pentru tranzacțiile cu criptomonede, similar cu modul în care băncile își susțin clienții în anumite cazuri."
+			},
+			"4": {
+				"q": "Cum va funcționa?",
+				"a": "Pentru a utiliza platforma Jincor la capacitate maximă, clientul trebuie să parcurgă următorii pași: la înregistrare, fiecare companie obține un profil digital, care trebuie verificat de către companiile partenere Jincor (bănci, firme de avocatură) prin sistemul KYC. Astfel, un profil digital verificat va fi o dovadă că firma și afacerile sale există în lumea reală. După verificare, compania primește acces la portofelele de criptomonede de întreprindere, șabloane inteligente de contracte și alte caracteristici ale platformei. Din moment ce Jincor este un mediu intercorporate, puteți găsi cu ușurință un nou partener de afaceri sau puteți invita unul existent la Jincor."
+			},
+			"5": {
+				"q": "Ce profil de client doriți?",
+				"a": "Clienții pe care ii căutam reprezintă o afacere mare, mică sau medie, destinată în primul rând activităților internaționale și gestionată de persoane interesate să îmbunătățească în mod constant cele mai importante operațiuni de afaceri ale companiei."
+			},
+			"6": {
+				"q": "Pe ce țari se va focusa Jincor?",
+				"a": "În prezent, peste 200 de companii din întreaga lume au solicitat acces să testeze Jincor Open Beta, programat să înceapă în noiembrie. După ICO, Jincor intenționează să promoveze și să dezvolte produsul în țări cu un statut juridic clar pentru criptomonede și de interes pentru contractele inteligente pe primul loc, cum ar fi Asia de Sud-Est (în special Japonia și Coreea de Sud) și Europa. Jincor va lucra simultan în ambele regiuni, creând condiții favorabile pentru promovarea și dezvoltarea afacerii în aceste regiuni."
+			},
+			"7": {
+				"q": "Ce am făcut deja?",
+				"a": "Până acum, a fost dezvoltat un produs și o interfață foarte ușor de utilizat. Acum lucrăm la implementarea altor funcții esențiale. Planul este de a permite testerilor nostri care participă in Open Beta să utilizeze constructorul de contracte inteligente de bază.<br/> În prezent, Jincor are următoarele caracteristici: înregistrarea companiei, trimiterea de invitații angajaților, definirea funcțiilor în cadrul organizației, chat-uri sau canale publice și private criptate end-to-end, editarea profilului public al companiei și stabilirea de noi contacte de afaceri cu căutarea noastră încorporată în funcție de locație și industrie."
+			},
+			"8": {
+				"q": "De cât timp ați dezvoltat produsul?",
+				"a": "Conceptul s-a născut în Ianuarie 2016 și am început dezvoltarea produsului în Mai 2016."
+			},
+			"9": {
+				"q": "Care este structura juridică a lui Jincor?",
+				"a": "Jincor include o societate-mamă înființată în Cipru (Jincor Limited, reg. HE HE 366361) și compania de exploatare subsidiară de 100% din Moscova (Biznes - seti LLC)."
+			},
+			"10": {
+				"q": "Cum putem fi contactați?",
+				"a": "Ne puteți contacta la <a href='https://www.facebook.com/jincorlimited/' rel='nofollow' target='_blank'>Facebook</a>, <a href='https://twitter.com/jincor_ico' rel='nofollow' target='_blank'>Twitter</a>,sau să vă alăturați comunității noastre<a href='http://t.me/jincorICOeng' rel='nofollow' target='_blank'>Telegram</a>."
+			},
+			"11": {
+				"q": "De ce aveți nevoie de ICO?",
+				"a": "Administrăm ICO-ul pentru a strânge fonduri pentru dezvoltarea ulterioară a platformei și pentru a ne extinde pe piețele globale cât mai curând posibil."
+			},
+			"12": {
+				"q": "Când incepe ICO-ul?",
+				"a": "ICO-ul se lansează pe 1 Decembrie și se va incheia pe 1 Ianuarie 2018."
+			},
+			"13": {
+				"q": "Cum pot participa?",
+				"a": "Achiziționarea de tokenuri va fi disponibilă pe Jincor.com în secțiunea de Crowdfunding. În timpul ICO-ului veți putea achiziționa Jincor Tokens (JCR) folosind ETH și, eventual, BTC. Înscrieți-vă la newsletterul nostru pentru a primi informații suplimentare."
+			},
+			"14": {
+				"q": " Cum primesc tokenuri JCR?",
+				"a": "Înregistrarea la Jincor.com și evaluarea avantajelor ecosistemului Jincor sunt gratuite pentru orice afacere. Cu toate acestea, în cazul în care companiile doresc să utilizeze verificarea digitală, contractele inteligente, serviciile financiare de tip cripto sau sistemul de arbitraj, acestea vor fi facturate în tokenuri JCR. Cererea pentru JCR și valoarea sa va depinde direct de creșterea bazei noastre de clienți. Peste 2 ani planificăm să avem în jur de 20 000 de companii înregistrate în Jincor cu 150 de angajări în medie și echivalentul a 750 de $ in tokenuri JCR necesare pe lună. Nu intenționăm să emitem tokenuri suplimentare în viitor, în timp ce cererea pentru aceasta va depinde direct de creșterea bazei noastre de clienți."
+			},
+			"15": {
+				"q": "Care este prețul Tokenului JCR?",
+				"a": "Prețul ICO-ului: 1 JCR = $1."
+			},
+			"16": {
+				"q": "Care este plafonul minim si cel maxim in ICO?",
+				"a": "Plafonul minim in ICO este $2 500 000, iar cel maxim este $26 600 000."
+			},
+			"17": {
+				"q": "Cât de repede voi primi token-urile JCR?",
+				"a": "Token-urile JCR vor fi trimise automat în portofelul dvs. imediat după transferul de succes de ETH sau BTC către contractul nostru inteligent. Transferul token-urilor JCR către alte portofele este interzis până la sfârșitul perioadei ICO-ului (31 ianuarie 2018)."
+			},
+			"18": {
+				"q": "Când și unde va fi listat tokenul JCR?",
+				"a": "În prezent, negociem cu câteva exchange-uri de incredere. Listarea pe exchange-uri este programată pentru Ianuarie 2018, anunțul privind planurile de listare va fi făcut în timpul ICO-ului."
+			},
+			"19": {
+				"q": "Care sunt riscurile mele atunci când investesc în voi?",
+				"a": "Investițiile în criptomonede implică riscuri ridicate - este posibil să pierdeți o parte sau toate investițiile. Faceți întotdeauna propriile cercetări și trageți propriile concluzii."
+			},
+			"20": {
+				"q": "Există un interes real din partea companiilor în utilizarea criptomonedelor?",
+				"a": "Criptomonedele sunt acum utilizate zilnic de către mai mult de 100.000 de organizații din întreaga lume, inclusiv giganți precum Microsoft, Tesla, Amazon, WordPress, PayPal, Bloomberg și Square. Iată avantajele cheie: costuri reduse ale tranzacțiilor, viteză mare de procesare a tranzacțiilor (maximum zece minute), acces 24/7 la servicii financiare, eliminarea agenților (bănci, brokeri, sistemul bancar SWIFT și altele)."
+			},
+			"21": {
+				"q": "Care sunt acum obstacolele în utilizarea criptomonedelor?",
+				"a": "Unul dintre motivele principale este anonimitatea tranzacțiilor, ceea ce este absolut inadecvat pentru organizații. În plus, companiile au nevoie de instrumente financiare, cum ar fi scrisorile de credit, colectarea plăților, descoperirea de cont și de asistență juridică pentru tranzacții. Până în prezent, nu există un astfel de produs în lumea cripto."
+			},
+			"22": {
+				"q": "Pot să folosesc plăți de tipul cripto cu Jincor dacă țara mea nu a legalizat criptomonedele?",
+				"a": "Din pacate, nu. Absența unui statut juridic pentru criptomonede în țara dvs. va crea dificultăți în gestionarea rapoartelor contabile și fiscale și poate duce la încălcări neintenționate ale legii."
+			},
+			"23": {
+				"q": "Ce criptomonede sunt folosite in Jincor?",
+				"a": "În Jincor, organizațiile vor fi capabile să utilizeze toate criptomonedele majore extrem de lichide, inclusiv BTC, ETH și altele, care vor fi solicitate de clienții Jincor."
+			},
+			"24": {
+				"q": " Poate compania mea să aibă mai multe portofele de cripto pe Jincor in acelasi timp?",
+				"a": " Da, veți beneficia de această oportunitate."
+			},
+			"25": {
+				"q": " De ce este necesar ca firma mea să folosească contracte inteligențe?",
+				"a": "Dacă proprietarul afacerii dorește să salveze mii de dolari pe an și să scape de multe probleme legate de partenerii de afaceri lipsiți de scrupule și de greșelile factorilor umani, răspunsul este cu siguranță da. Contractele inteligente, care sunt, de fapt, un cod de auto-execuție pe blockchain care implementează automat termenii unui acord între părți, pot fi folosite de fiecare dată când există o logică clară a cauzei și a consecințelor. Imaginați-vă acest lucru: doriți să comandați niște bunuri de la un partener de afaceri nou, dar există întotdeauna o capcană de neîncredere - nu doriți să plătiți până când vă achiziționați bunurile, iar partenerul dvs. nu dorește să-l livreze până la plata anticipată. Și dacă este unul fals? Cu contracte inteligente, este posibil să semnați un acord în mod automat și de neîntemeiat cu anumiți termeni predefiniți: de îndată ce primiți livrarea, contrapartea dvs. primește fondurile. Simplu ca buna ziua. Fără fraudă, cantități mari de documente și intermediari precum băncile, avocații, brokerii și notarii, care de obicei sunt asociate cu costuri semnificative. Puteți citi mai multe în <a href='https://blog.jincor.com/smart-contracts-ii-from-hype-to-reality-38c142d79da' rel='nofollow' target='_blank'>our article</a>."
+			},
+			"26": {
+				"q": "Care este efectul juridic al contractelor inteligente?",
+				"a": "Valabilitatea legală a documentelor digitale poate varia în diferite jurisdicții. Dar chiar dacă statutul juridic al contractelor inteligente nu este încă definit în țara dvs., puteți să-i utilizați în continuare în activitățile dvs. de afaceri - va trebui doar să aveți copii tipărite ale unor astfel de contracte."
+			},
+			"27": {
+				"q": "Pot face contracte inteligente a caror execuție depinde de acțiunile din lumea reală?",
+				"a": "În prezent, multe proiecte depun eforturi pentru a crea legături între mediul digital și lumea reală, dar estimăm că va dura mai mulți ani pentru a dezvolta această posibilitate. In acest moment suntem axați pe dezvoltarea de contracte inteligente care pot fi pe deplin realizate în lumea digitală - de exemplu, contracte de muncă și de proprietate sau contracte corporative legate de servicii digitale."
+			},
+			"28": {
+				"q": "Se pare că atunci când folosesc contracte inteligente, toată lumea îmi va vedea datele?",
+				"a": "Nu. Înțelegem perfect cerințele de afaceri pentru confidențialitatea datelor, astfel încât toate tranzacțiile vor fi efectuate într-un Blockchain Business privat. Pentru aceasta vom folosi tehnologii bazate pe Hyperledger."
+			},
+			"29": {
+				"q": "De ce este nevoie de aceasta?",
+				"a": "În cazul în care logica executării unui contract nu este definită suficient de clar, părțile din acord pot fi atrase intr-un litigiu. Acest lucru este valabil în special în cazurile legate de acțiunile și bunurile din lumea reală. Offline, există mecanisme de reglementare clare pentru astfel de probleme: în cazul în care părțile au litigii legate de performanța contractului, pot lua întotdeauna măsuri juridice. Modelele similare ar trebui implementate și în jurisdicția digitală. Din acest motiv, am creat Jincor Arbitrage, care ajută la soluționarea litigiilor legate de executarea contractelor inteligente."
+			},
+			"30": {
+				"q": "Cum functioneazã?",
+				"a": "Procesul va avea loc într-o cameră digitală anonimă, unde reclamantul și inculpatul vor putea să acuze, să aducă dovezi și declarații de martor. Pentru a exclude posibilele elemente de părtinire și corupție, arbitrii vor rămâne necunoscuți părților la un litigiu. La finalul procesului, partidul învins va primi o cerință de angajament. Necunoașterea cerințelor instanței va duce la pierderea reputației și a relațiilor de afaceri, care sunt asociate cu un ID digital al participantului. Un motiv suplimentar pentru satisfacerea cerințelor sistemului de arbitraj va fi faptul că toți participanții la ecosistem vor avea acces la o bază de date unificată, care va conține informații despre toate procedurile de arbitraj anterioare. Astfel, înainte de semnarea unui contract, părțile vor putea să-și evalueze reciproc fiabilitatea."
+			},
+			"31": {
+				"q": "Cum alegeți judecătorii care se ocupă de disputele de arbitraj?",
+				"a": "În conformitate cu principiile societății descentralizate, arbitrii vor fi aleși prin algoritmi matematici care se referă la reputația lor digitală, sfera de competență și experiența practică în jurisdicția specifică și sectorul economic. Taxele arbitrilor vor fi definite în avans și vor fi plătite de către partea care a pierdut la sfârșitul procedurii. Totuși, în stadiile incipiente, arbitrii își pot oferi serviciul gratuit pentru a-și mări reputația."
+			},
+			"32": {
+				"q": "De ce ar trebui să am încredere în ei?",
+				"a": "Funcționalitatea contractelor inteligente va fi disponibilă numai utilizatorilor verificați ai platformei Jincor. Și în mediul blockchain, ca și în lumea reală, o reputație proastă va închide multe uși. Prin urmare, doar tu esti responsabil pentru alegerea judecătorului care vă va rezolva cazul și cât de reputabil ar trebui să fie."
+			},
+			"33": {
+				"q": "Care este planul dvs. după terminarea ICO-ului?",
+				"a": "După ICO intenționăm să ne concentrăm pe dezvoltarea produselor, extinderea pe piețele globale și stabilirea sistemului de asistență juridică pentru clienții noștri."
+			},
+			"34": {
+				"q": "Când va fi finalizată dezvoltarea produsului dvs.?",
+				"a": "Dezvoltarea produselor este un proces continuu. Însă punerea în aplicare a tehnologiilor de bază pentru decontările criptomonedelor, contractele inteligente și sistemul de arbitraj este programată să fie disponibilă încă din 2018. Până în prezent, nucleul produsului și interfața foarte ușor de utilizat au fost dezvoltate, iar platforma are următoarele caracteristici: înregistrarea companiei, trimiterea de invitații către angajați, definirea funcțiilor în cadrul organizației, mesagerie corporativă în chat-uri directe sau canale publice și private criptate end-to-end, editarea profilului public al companiei și stabilirea de noi contacte de afaceri cu partenerii noștri construiți, în căutarea după locație și industrie."
+			}
+		}
+	},
+	"pdf": {
+		"download": "Descarcă",
+		"gotomain": "Înapoi la pagina principală"
+	},
+	"tips": {
+		"touPropLabel": "Termeni de Utilizare",
+		"ppPropLabel": "Politica de confidențialitate",
+		"form": "Sunt de acord cu {{tou}} și {{pp}}",
+		"beta": "I agree with the {{pp}}"
+	},
+	"404": {
+		"error": "Ne pare rău, nu putem găsi pagina pe care o căutați :(",
+		"action": "Pagina Principală"
+	}
+}
