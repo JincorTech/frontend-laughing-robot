@@ -24,13 +24,8 @@ const MobileNavigation = (props) => {
   } = props;
   const { pathname } = location;
 
-  const selectRu = () => {
-    changeLanguage({ lang: 'ru', pathname });
-    closeNavigation();
-  };
-
-  const selectEn = () => {
-    changeLanguage({ lang: 'en', pathname });
+  const selectLang = (lang) => {
+    changeLanguage({ lang, pathname });
     closeNavigation();
   };
 
@@ -38,10 +33,28 @@ const MobileNavigation = (props) => {
 
   const getCurrentLang = () => {
     switch (i18next.language) {
-      case 'ru':
-        return <a>Рус</a>;
+      case 'zh':
+        return <a>Chi</a>;
       case 'en':
         return <a>Eng</a>;
+      case 'es':
+        return <a>Esp</a>;
+      case 'hi':
+        return <a>Hin</a>;
+      case 'it':
+        return <a>Ita</a>;
+      case 'ja':
+        return <a>Jpn</a>;
+      case 'ko':
+        return <a>Kor</a>;
+      case 'pl':
+        return <a>Pol</a>;
+      case 'pt':
+        return <a>Por</a>;
+      case 'ro':
+        return <a>Rum</a>;
+      case 'ru':
+        return <a>Rus</a>;
       default:
         return <a>Eng</a>;
     }
@@ -113,8 +126,17 @@ const MobileNavigation = (props) => {
 
   const renderLangs = () => (
     <div className={s.menu}>
-      <div className={s.link} onClick={() => selectEn()}><a>English</a></div>
-      <div className={s.link} onClick={() => selectRu()}><a>Русский</a></div>
+      <div className={s.link} onClick={() => selectLang('en')}><a>English</a></div>
+      <div className={s.link} onClick={() => selectLang('es')}><a>Español</a></div>
+      <div className={s.link} onClick={() => selectLang('pt')}><a>Portugues</a></div>
+      <div className={s.link} onClick={() => selectLang('ko')}><a>한국어</a></div>
+      <div className={s.link} onClick={() => selectLang('ru')}><a>Русский</a></div>
+      <div className={s.link} onClick={() => selectLang('zh')}><a>中國</a></div>
+      <div className={s.link} onClick={() => selectLang('hi')}><a>हिन्दी</a></div>
+      <div className={s.link} onClick={() => selectLang('ja')}><a>日本語</a></div>
+      <div className={s.link} onClick={() => selectLang('it')}><a>Italiano</a></div>
+      <div className={s.link} onClick={() => selectLang('pl')}><a>Polonês</a></div>
+      <div className={s.link} onClick={() => selectLang('ro')}><a>Românesc</a></div>
     </div>
   );
 

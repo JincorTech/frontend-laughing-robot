@@ -163,7 +163,7 @@
 .button {
   display: inline-block;
   margin: 0 15px;
-  width: 210px;
+  width: 240px;
 
   @media only screen and (max-width: 480px) {
     width: 100%;
@@ -233,6 +233,19 @@
   transform: translateY(-50%);
 }
 
+.pullLeft {
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+  font: 400 18px/21px Roboto;
+  color: #fff;
+
+  @media only screen and (max-width: 1050px) {
+    display: none;
+  }
+}
+
 .pullRight {
   position: absolute;
   right: 50px;
@@ -256,11 +269,7 @@
     }
   }
 
-  @media only screen and (max-width: 480px) {
-    display: none;
-  }
-
-  @media only screen and (max-device-width: 812px) and (orientation: landscape) {
+  @media only screen and (max-width: 1050px) {
     display: none;
   }
 }
@@ -270,21 +279,37 @@
   margin: 0 20px;
 
   @media only screen and (max-width: 480px) {
-    margin: 0 15px;
+    margin: 0 10px;
   }
 
   @media only screen and (max-device-width: 812px) and (orientation: landscape) {
-    margin: 0 15px;
+    margin: 0 10px;
   }
 }
 
 .val {
   font: 500 20px/24px Roboto;
   color: #fff;
+
+  @media only screen and (max-width: 480px) {
+    font: 500 16px/24px Roboto;
+  }
+
+  @media only screen and (max-device-width: 812px) and (orientation: landscape) {
+    font: 500 16px/24px Roboto;
+  }
 }
 
 .label {
   font: 300 14px/16px Roboto;
   color: #fff;
   margin-top: 2px;
+
+  @media only screen and (max-width: 480px) {
+    font: 300 10px/16px Roboto;
+  }
+
+  @media only screen and (max-device-width: 812px) and (orientation: landscape) {
+    font: 300 10px/16px Roboto;
+  }
 }
