@@ -14,9 +14,6 @@ class LandingSection extends Component {
     const {
       t,
       utm,
-      jcrTokensSold,
-      ethCollected,
-      contributionsCount,
       daysLeft
     } = this.props;
 
@@ -36,22 +33,21 @@ class LandingSection extends Component {
 
         <div className={s.pane}>
           <div className={s.paneWrap}>
+            <div className={s.pullLeft}>
+              {t('landing.statistics')}
+            </div>
             <div className={s.center}>
               <div className={s.block}>
-                <div className={s.val}>{Number(ethCollected).toFixed()}</div>
-                <div className={s.label}>{t('landing.raised')}</div>
+                <div className={s.val}>{Number(38)} {t('landing.companies')}</div>
+                <div className={s.label}>{t('landing.triedBeta')}</div>
               </div>
               <div className={s.block}>
-                <div className={s.val}>{contributionsCount}</div>
-                <div className={s.label}>{t('landing.contributors')}</div>
+                <div className={s.val}>{Number(9)} {t('landing.countries')}</div>
+                <div className={s.label}>{t('landing.aroundTheWorld')}</div>
               </div>
               <div className={s.block}>
-                <div className={s.val}>{Number(jcrTokensSold).toFixed()}</div>
-                <div className={s.label}>{t('landing.sold')}</div>
-              </div>
-              <div className={s.block}>
-                <div className={s.val}>{daysLeft}</div>
-                <div className={s.label}>{t('landing.days')}</div>
+                <div className={s.val}>{Number(daysLeft)} {t('landing.days')}</div>
+                <div className={s.label}>{t('landing.daysLeft')}</div>
               </div>
             </div>
             <div className={s.pullRight}>
