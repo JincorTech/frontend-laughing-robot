@@ -9,6 +9,8 @@ const initialState = from({
   jcrTokensSold: '',
   ethCollected: '',
   contributionsCount: 0,
+  countryCount: 0,
+  companyCount: 0,
   daysLeft: 0
 });
 
