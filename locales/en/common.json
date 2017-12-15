@@ -100,7 +100,7 @@
     "statistics": "Jincor Open Beta Live Statistics",
     "howto": "How to contribute?",
     "companies": "companies",
-    "triedBeta": "Tried beta",
+    "triedBeta": "Tried open beta",
     "countries": "countries",
     "aroundTheWorld": "Around the world",
     "days": "days",
@@ -491,7 +491,7 @@
       },
       "7": {
         "q": "What has already been done?",
-        "a": "So far the core a product and the very user-friendly interface have been developed. Now we are working toward implementing further essential functions. The plan is to allow our Open Beta testers to use the constructor of basic smart contracts.<br/>Currently, Jincor has the following features: company registration, sending invitations to employees, defining their functional roles within the organization, corporate messaging in direct chats or end-to-end encrypted public and private channels, editing of company’s public profile, and establishing new business contacts with our built-in search by location and industry."
+        "a": "So far the core a product and the very user-friendly interface have been developed. Now we are working toward implementing further essential functions. The plan is to allow our Open Beta testers to use the constructor of basic smart contracts.<br/>Currently, Jincor has the following features: company registration, sending invitations to employees, defining their functional roles within the organization, corporate messaging in direct chats or end-to-end encrypted public and private channels, editing of company’s public profile, and establishing new business contacts with our built-in search by location and industry. You can find and try actual product beta version <a href='https://beta.jincor.com' rel='nofollow' target='_blank'>here</a>"
       },
       "8": {
         "q": "How long have you been developing your product?",
@@ -499,7 +499,7 @@
       },
       "9": {
         "q": "What is Jincor’s legal structure?",
-        "a": "Jincor includes a parent company incorporated in Cyprus (Jincor Limited, reg № HE 366361) and its 100% subsidiary operational company in Moscow («Biznes-seti» LLC)."
+        "a": "Jincor includes a parent company incorporated in Cyprus (Jincor Limited, reg № HE 366361) and its 100% subsidiary operational company in Moscow («Biznes-seti» LLC). ICO jurisdiction choice  — Singapore. <a href ='https://jincor.com/business-profile' rel='nofollow' target='_blank'>Singapore company (Jincor Pte. Ltd.)</a> is a 100% subsidiary of the parent company Jincor Ltd. incorporated in Cyprus."
       },
       "10": {
         "q": "How can I get in touch with you?",
@@ -531,7 +531,7 @@
       },
       "17": {
         "q": "How quickly will I get my JCR tokens?",
-        "a": "JCR tokens will be sent automatically to your wallet right after the successful transfer of ETH or BTC to our ICO smart-contract. Transfer of JCR tokens to other wallets is prohibited until the end of the ICO period (January 31st, 2018)."
+        "a": "JCR tokens will be sent automatically to your wallet right after the successful transfer of ETH or BTC to our ICO smart-contract. JCR tokens will be untransferable to other wallets for 45 days of lockdown period after the end of the ICO campaign (January 31, 2018 or when we reach the hard cap)."
       },
       "18": {
         "q": "When and where JCR token will be listed?",

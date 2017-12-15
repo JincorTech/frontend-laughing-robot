@@ -14,7 +14,9 @@ class LandingSection extends Component {
     const {
       t,
       utm,
-      daysLeft
+      daysLeft,
+      countryCount,
+      companyCount
     } = this.props;
 
     return (
@@ -38,11 +40,11 @@ class LandingSection extends Component {
             </div>
             <div className={s.center}>
               <div className={s.block}>
-                <div className={s.val}>{Number(38)} {t('landing.companies')}</div>
+                <div className={s.val}>{Number(companyCount)} {t('landing.companies')}</div>
                 <div className={s.label}>{t('landing.triedBeta')}</div>
               </div>
               <div className={s.block}>
-                <div className={s.val}>{Number(9)} {t('landing.countries')}</div>
+                <div className={s.val}>{Number(countryCount)} {t('landing.countries')}</div>
                 <div className={s.label}>{t('landing.aroundTheWorld')}</div>
               </div>
               <div className={s.block}>
