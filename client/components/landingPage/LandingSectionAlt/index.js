@@ -13,8 +13,6 @@ class LandingSection extends Component {
   render() {
     const {
       t,
-      utm,
-      daysLeft,
       countryCount,
       companyCount
     } = this.props;
@@ -25,12 +23,6 @@ class LandingSection extends Component {
           <div className={s.logo}><img src={require('../../../assets/images/logo.svg')}/></div>
           <h1 className={s.title}>{t('landing.titleIco')}</h1>
           <h3 className={s.description}>{t('landing.subtitle')}</h3>
-
-          <div className={s.buttons}>
-            <div className={s.button}>
-              <a className={s.primaryLink} href={`https://contribute.jincor.com/auth/signup${utm}`}>{t('landing.contributeIco')}</a>
-            </div>
-          </div>
         </div>
 
         <div className={s.pane}>
@@ -48,7 +40,7 @@ class LandingSection extends Component {
                 <div className={s.label}>{t('landing.aroundTheWorld')}</div>
               </div>
               <div className={s.block}>
-                <div className={s.val}>{Number(daysLeft)} {t('landing.days')}</div>
+                <div className={s.val}>0 {t('landing.days')}</div>
                 <div className={s.label}>{t('landing.daysLeft')}</div>
               </div>
             </div>

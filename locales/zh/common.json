@@ -89,9 +89,9 @@
 		}
 	},
 	"landing": {
-		"title": "Jincor ICO 于12月1日开始",
-		"titleIco": "Jincor ICO is live!",
-		"subtitle": "加入到包含面向商业的简约智能合约及加密货币交易的平台。",
+		"title": "Jincor ICO is closed!",
+    "titleIco": "Jincor ICO is closed!",
+    "subtitle": "Thanks everyone for your support and stay tuned for more updates on the project",
 		"contribute": "投资",
 		"contributeIco": "Contribute now",
 		"subscribeButton": "订阅",

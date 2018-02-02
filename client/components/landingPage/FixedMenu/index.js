@@ -60,7 +60,7 @@ class FixedMenu extends Component {
   render() {
     const { visible } = this.state;
 
-    const { changeLanguage, location, utm, t } = this.props;
+    const { changeLanguage, location, t } = this.props;
     const { pathname } = location;
     const selectZh = () => changeLanguage({ lang: 'zh', pathname });
     const selectEn = () => changeLanguage({ lang: 'en', pathname });
@@ -154,7 +154,6 @@ class FixedMenu extends Component {
           <div className={s.buttons}>
             <div className={s.contrib}>
               <a className={s.secondaryButton} href="https://beta.jincor.com/">{t('landing.betaButton')}</a>
-              <a className={s.button} href={`https://contribute.jincor.com/auth/signup${utm}`}>{t('landing.contribute')}</a>
             </div>
           </div>
         </div>
