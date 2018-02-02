@@ -45,9 +45,8 @@ class LandingSection extends Component {
               </div>
             </div>
             <div className={s.pullRight}>
-              <a href="https://www.youtube.com/watch?v=3lq5IoXqo2k" target="_blank" rel="nofollow">
-                <img src={require('./images/playVideo.svg')}/>
-                {t('landing.howto')}
+              <a className={s.icoDash} href="https://contribute.jincor.com/auth/signup">
+                ICO Dashboard
               </a>
             </div>
           </div>
