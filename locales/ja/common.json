@@ -89,8 +89,9 @@
 		}
 	},
 	"landing": {
-		"title": "Jincor のICO は12月1日に開始します。",
-		"subtitle": "あらゆるビジネスに対する真にシンプルなスマートコントラクトと暗号化取引のためのプラットフォームを構築するために参加する.",
+		"title": "Jincor ICO is closed!",
+    "titleIco": "Jincor ICO is closed!",
+    "subtitle": "Thanks everyone for your support and stay tuned for more updates on the project",
 		"contribute": "寄付する",
 		"subscribeButton": "購読する",
 		"betaButton": "ベータ版を試す",
