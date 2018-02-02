@@ -90,9 +90,9 @@
 		}
 	},
 	"landing": {
-		"title": "12월 1일 Jincor의 ICO가 시작합니다.",
-		"titleIco": "Jincor ICO 진행중!",
-		"subtitle": "모든 비즈니스를 위한 진정한 단순화된 스마트컨트렉트 및 암호화폐 트렌젝션 플랫폼을 구축하세요. 지금 가입하세요. ",
+		"title": "Jincor ICO is closed!",
+    "titleIco": "Jincor ICO is closed!",
+    "subtitle": "Thanks everyone for your support and stay tuned for more updates on the project",
 		"contribute": "모금",
 		"contributeIco": "지금 투자하기",
 		"subscribeButton": "구독",
