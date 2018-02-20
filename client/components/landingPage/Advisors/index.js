@@ -81,26 +81,6 @@ const Advisors = (props) => {
             <div>
               <div className={s.slickItem}>
                 <PersonCard
-                  name={t('advisors.members.titus.name')}
-                  role={t('advisors.members.titus.position')}
-                  about={t('advisors.members.titus.bio')}
-                  photoElement={<img src={require('../../../assets/images/photos/titus.jpg')}/>}
-                  socialNetworks={[
-                    {
-                      href: 'https://www.linkedin.com/in/rxdxt/',
-                      icon: <img src={require('../../../assets/images/teamSocials/linkedin.svg')}/>
-                    },
-                    {
-                      href: 'https://www.facebook.com/rxdxt/',
-                      icon: <img src={require('../../../assets/images/teamSocials/facebook.svg')}/>
-                    }
-                  ]}/>
-              </div>
-            </div>
-
-            <div>
-              <div className={s.slickItem}>
-                <PersonCard
                   name={t('advisors.members.king.name')}
                   role={t('advisors.members.king.position')}
                   about={t('advisors.members.king.bio')}

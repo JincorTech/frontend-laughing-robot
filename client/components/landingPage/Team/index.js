@@ -113,26 +113,6 @@ const Team = (props) => {
       <div>
         <div className={s.slickItem}>
           <PersonCard
-            name={t('team.members.nastya.name')}
-            role={t('team.members.nastya.position')}
-            about={t('team.members.nastya.bio')}
-            photoElement={<img src={require('../../../assets/images/photos/anastasia.jpg')}/>}
-            socialNetworks={[
-              {
-                href: 'https://www.linkedin.com/in/ana-balashova/',
-                icon: <img src={require('../../../assets/images/teamSocials/linkedin.svg')}/>
-              },
-              {
-                href: 'https://www.facebook.com/mukopu3a/',
-                icon: <img src={require('../../../assets/images/teamSocials/facebook.svg')}/>
-              }
-            ]}/>
-        </div>
-      </div>
-
-      <div>
-        <div className={s.slickItem}>
-          <PersonCard
             name={t('team.members.gega.name')}
             role={t('team.members.gega.position')}
             about={t('team.members.gega.bio')}
@@ -284,22 +264,6 @@ const Team = (props) => {
             socialNetworks={[
               {
                 href: 'http://facebook.com/alexandra.samuilkina',
-                icon: <img src={require('../../../assets/images/teamSocials/facebook.svg')}/>
-              }
-            ]}/>
-        </div>
-      </div>
-
-      <div>
-        <div className={s.slickItem}>
-          <PersonCard
-            name={t('team.members.anton_a.name')}
-            role={t('team.members.anton_a.position')}
-            about={t('team.members.anton_a.bio')}
-            photoElement={<img src={require('../../../assets/images/photos/anton_a.jpg')}/>}
-            socialNetworks={[
-              {
-                href: 'https://www.facebook.com/anton.atsekhovskyy',
                 icon: <img src={require('../../../assets/images/teamSocials/facebook.svg')}/>
               }
             ]}/>
