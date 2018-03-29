@@ -153,7 +153,7 @@ class FixedMenu extends Component {
 
           <div className={s.buttons}>
             <div className={s.contrib}>
-              <a className={s.secondaryButton} href="https://beta.jincor.com/">{t('landing.betaButton')}</a>
+              <a className={s.secondaryButton} href="https://contribute.jincor.com/auth/signup">ICO Dashboard</a>
             </div>
           </div>
         </div>
