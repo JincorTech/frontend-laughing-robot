@@ -100,7 +100,7 @@ const Header = (props) => {
           </div>
 
           <div className={s.beta}>
-            <a className={s.secondaryButton} href="https://beta.jincor.com/">{t('landing.betaButton')}</a>
+            <a className={s.secondaryButton} href="https://contribute.jincor.com/auth/signup">ICO Dashboard</a>
           </div>
         </div>
       </div>
